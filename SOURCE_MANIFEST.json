@@ -28,14 +28,14 @@
       "sha256": "1570224de0be42b002a6ff70d6b4a57eada11cd94079de01ad313ac249d131a2"
     },
     {
-      "bytes": 6282,
+      "bytes": 7094,
       "path": "README.md",
-      "sha256": "f2703e7ea633324ecd274d1241fd973dff067995955c2630c4e901b051d9d553"
+      "sha256": "47c9ce423ad8ded7bacb736708e7c5a8599aa849b7b17698526ca9e2b1ebd578"
     },
     {
-      "bytes": 4478,
+      "bytes": 6244,
       "path": "STATUS.md",
-      "sha256": "b2bf52e6c93d6a3aa44e9d0f596dc439d5d7f6f92d5c3dcdedbf7079d88b3bac"
+      "sha256": "bc1475136826a340a48607ec9ac91d7cf7718e36fc9e95b74d5109936faefa8f"
     },
     {
       "bytes": 5028,
@@ -141,6 +141,11 @@
       "bytes": 177462,
       "path": "data/class52.recovered-screening-ledger.json",
       "sha256": "eaf5e8f666ec46165a446bba52f79fce9749ba43dfd82d24eff15795efcccef9"
+    },
+    {
+      "bytes": 6450,
+      "path": "docs/SOLVER_FREE_PILOT_SCREENING_V0.1.0.md",
+      "sha256": "4f3f4973393b3c6209c69763ba632f76519cd2206588ca97dc3b80485fdf2845"
     },
     {
       "bytes": 5610,
@@ -295,7 +300,72 @@
     {
       "bytes": 718,
       "path": "pyproject.toml",
-      "sha256": "38692af86658a301469656c3591f55ac0e139a360111ae36f7f920bb9c3b2dfe"
+      "sha256": "305a2afde4f08f8e2c86a9ff2ef50d2b0306bf50310e22508632698e1ad647d9"
+    },
+    {
+      "bytes": 1216,
+      "path": "results/pilot-screening-v0.1.0/SHA256SUMS",
+      "sha256": "5202b0e664e2ddef7860a488afecad623e7cca42e06d2217d4ea648d4ff9cecb"
+    },
+    {
+      "bytes": 704092,
+      "path": "results/pilot-screening-v0.1.0/classes/class04/degree-profiles.jsonl.gz",
+      "sha256": "58868716d16be2b346eb968fd20ad3c1deccc28607213f33e86491b5ca1b45c3"
+    },
+    {
+      "bytes": 190981,
+      "path": "results/pilot-screening-v0.1.0/classes/class04/exact-minimum-sets.jsonl.gz",
+      "sha256": "e93f69f1cc0f76f6cb08c84054a2b8c0d99127c4c31c172793eaf42e30795546"
+    },
+    {
+      "bytes": 156938,
+      "path": "results/pilot-screening-v0.1.0/classes/class04.screening.manifest.json",
+      "sha256": "205d6d14da012a1a8694fc640151b50f7cd0d73fb941430e72299241e9bced52"
+    },
+    {
+      "bytes": 1304627,
+      "path": "results/pilot-screening-v0.1.0/classes/class59/degree-profiles.jsonl.gz",
+      "sha256": "16d690f448d5235fa0218bd540dd32d7de24e1e0282ae0e1a9f9ff7c37c3cbaf"
+    },
+    {
+      "bytes": 338125,
+      "path": "results/pilot-screening-v0.1.0/classes/class59/exact-minimum-sets.jsonl.gz",
+      "sha256": "ea012437c213d174e6e5c86eacc457ec4ddadec7fc95019143bb1c1992ef8648"
+    },
+    {
+      "bytes": 273054,
+      "path": "results/pilot-screening-v0.1.0/classes/class59.screening.manifest.json",
+      "sha256": "c05255cdac2932b9b0423a6cb0e04bd3f621955406f5ac85aafa9ae7bd270668"
+    },
+    {
+      "bytes": 16859,
+      "path": "results/pilot-screening-v0.1.0/classes/class68/degree-profiles.jsonl.gz",
+      "sha256": "4a33cb95a6eaf6f073299825068cf8e80fc47c28b197185ae28ac3f49be327a6"
+    },
+    {
+      "bytes": 9030,
+      "path": "results/pilot-screening-v0.1.0/classes/class68/exact-minimum-sets.jsonl.gz",
+      "sha256": "a21e8d19b54050572b989defb5030fe9f0e6291cb9b3a10ba4f13bb406825d6f"
+    },
+    {
+      "bytes": 13428,
+      "path": "results/pilot-screening-v0.1.0/classes/class68.screening.manifest.json",
+      "sha256": "d5a20f382e811cc80d4f3715d0658816be7e081321b87ac994037cbf7c50d626"
+    },
+    {
+      "bytes": 523,
+      "path": "results/pilot-screening-v0.1.0/ranking.csv",
+      "sha256": "e63834596f5186930b4d688b4187f8769b359573543da6c31112ead40a69f65a"
+    },
+    {
+      "bytes": 3580,
+      "path": "results/pilot-screening-v0.1.0/ranking.json",
+      "sha256": "33d6533b78f9d7f53e7b593b296333163093a248a087eb2a6178505720233177"
+    },
+    {
+      "bytes": 5091,
+      "path": "results/pilot-screening-v0.1.0/screening.manifest.json",
+      "sha256": "04b00c4026be1f29057ff8a2d1c6ce9d5d4dfdd95c28d05ce2c0acb21d2f5f32"
     },
     {
       "bytes": 13572,
@@ -1060,12 +1130,17 @@
     {
       "bytes": 91,
       "path": "src/horizonlink/__init__.py",
-      "sha256": "d9e89b7a4289497dcddb4fe321f20d4b4430b5652be7257781ce298b1307167e"
+      "sha256": "1dc5b50f054248a0ecb3f3394e73e9826207e5a86023a37b97227d83719f173f"
     },
     {
       "bytes": 91,
       "path": "src/horizonlink/__main__.py",
       "sha256": "35950cebdc072a0f922ceb7d344d9d77a0a3aaa6b788bb2ad17b7938632ae714"
+    },
+    {
+      "bytes": 44524,
+      "path": "src/horizonlink/arithmetic_screening.py",
+      "sha256": "942e39288de7034ce6af0ec2df95f64b210384927a2940361df1fe57dfcc506b"
     },
     {
       "bytes": 8647,
@@ -1083,14 +1158,14 @@
       "sha256": "8f6d6ac87d22a2df1d0d7b5dc54b331bd52daf70948141a14cbf325954c775bb"
     },
     {
-      "bytes": 37693,
+      "bytes": 37771,
       "path": "src/horizonlink/census.py",
-      "sha256": "f089942fc2452d9a1e2fcb2edf33af82e973d6d4364dbbebfeb7973cd1032fb5"
+      "sha256": "9dce6e33b1d89b41f62a9f5d054f71d102c3ef885404f52931304c27aa084fa9"
     },
     {
-      "bytes": 21935,
+      "bytes": 24237,
       "path": "src/horizonlink/cli.py",
-      "sha256": "25b177a90e803c0d9facb53f4fdcfe9d9e23538d3549d3c33f0c3c605fe64c64"
+      "sha256": "daa82eef4de8b8dea020aa9939c32d2ca5bc21f0d27f387a083cd594a314f940"
     },
     {
       "bytes": 26834,
@@ -1223,6 +1298,11 @@
       "sha256": "975dff19b2d13281624deb64abf893fc3f48825656afc3f22c0893d25c38b142"
     },
     {
+      "bytes": 15599,
+      "path": "tests/test_arithmetic_screening.py",
+      "sha256": "62e73cbf2bfacf24e53684a70aff2238dc0a2e12441156e750ce28f3ad14d86a"
+    },
+    {
       "bytes": 7430,
       "path": "tests/test_candidate_screening.py",
       "sha256": "979eb871184ed83b63ec4f52c99449c901b720640cc3245e73e12daa401d53f5"
@@ -1268,9 +1348,9 @@
       "sha256": "07b2bdde98aac46227dc02727cac30343db65ebf0b929631dbfd43a2d60f77a8"
     },
     {
-      "bytes": 9191,
+      "bytes": 9324,
       "path": "tests/test_structural_census.py",
-      "sha256": "0a3596b3a15edb0eb46102a375134ba72b097f425c0282d3226cb55b8754b8d4"
+      "sha256": "6d1b76f5ff27e49ddf3c409f8d25be21cab6e572a8d93fbff35a3871dacff190"
     }
   ],
   "manifest_path": "SOURCE_MANIFEST.json",
@@ -1279,7 +1359,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 252,
-    "total_bytes": 9669972
+    "file_count": 268,
+    "total_bytes": 12759180
   }
 }

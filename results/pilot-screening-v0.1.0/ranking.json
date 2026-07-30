@@ -1,0 +1,107 @@
+{
+  "classes": [
+    {
+      "automorphism_group_order": 240,
+      "candidate_minimum_point_orbit_count": 12,
+      "class_index": 68,
+      "class_manifest": {
+        "bytes": 13428,
+        "path": "classes/class68.screening.manifest.json",
+        "sha256": "d5a20f382e811cc80d4f3715d0658816be7e081321b87ac994037cbf7c50d626"
+      },
+      "discarded_profile_count_by_direct_arithmetic": 4,
+      "pilot_position": 1,
+      "prior_structural_ordinal_position": 1,
+      "proof_status": "NOT_STARTED",
+      "residual_four_set_count": 285,
+      "retained_profile_count_after_solver_free_screening": 751,
+      "root_lp_status": "NOT_STARTED",
+      "solver_status": "NOT_STARTED",
+      "unscreened_degree_profile_orbit_count": 755
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 4,
+      "class_manifest": {
+        "bytes": 156938,
+        "path": "classes/class04.screening.manifest.json",
+        "sha256": "205d6d14da012a1a8694fc640151b50f7cd0d73fb941430e72299241e9bced52"
+      },
+      "discarded_profile_count_by_direct_arithmetic": 54,
+      "pilot_position": 2,
+      "prior_structural_ordinal_position": 33,
+      "proof_status": "NOT_STARTED",
+      "residual_four_set_count": 277,
+      "retained_profile_count_after_solver_free_screening": 39564,
+      "root_lp_status": "NOT_STARTED",
+      "solver_status": "NOT_STARTED",
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 59,
+      "class_manifest": {
+        "bytes": 273054,
+        "path": "classes/class59.screening.manifest.json",
+        "sha256": "c05255cdac2932b9b0423a6cb0e04bd3f621955406f5ac85aafa9ae7bd270668"
+      },
+      "discarded_profile_count_by_direct_arithmetic": 78,
+      "pilot_position": 3,
+      "prior_structural_ordinal_position": 66,
+      "proof_status": "NOT_STARTED",
+      "residual_four_set_count": 279,
+      "retained_profile_count_after_solver_free_screening": 75504,
+      "root_lp_status": "NOT_STARTED",
+      "solver_status": "NOT_STARTED",
+      "unscreened_degree_profile_orbit_count": 75582
+    }
+  ],
+  "method": {
+    "id": "solver-free-retained-profile-lexicographic-pilot-v1",
+    "limitations": [
+      "Retained means only that the implemented arithmetic screens found no contradiction; it does not mean SAT.",
+      "Root LP, solver runtime, and proof-size metrics remain NOT_STARTED.",
+      "This ranking compares only the requested pilot classes."
+    ],
+    "ordered_key": [
+      {
+        "direction": "ascending",
+        "field": "retained_profile_count_after_solver_free_screening"
+      },
+      {
+        "direction": "ascending",
+        "field": "candidate_minimum_point_orbit_count"
+      },
+      {
+        "direction": "ascending",
+        "field": "residual_four_set_count"
+      },
+      {
+        "direction": "descending",
+        "field": "automorphism_group_order"
+      },
+      {
+        "direction": "ascending",
+        "field": "class_index",
+        "role": "deterministic tie-break only"
+      }
+    ]
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.6.0"
+  },
+  "schema_version": "horizonmath.solver-free-pilot-ranking.v1",
+  "scope": {
+    "formulas_generated": false,
+    "profile_representatives_materialized": true,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "solver_free_arithmetic_screening_completed": true,
+    "solver_run": false,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED"
+}

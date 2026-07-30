@@ -1,0 +1,4 @@
+pilot_position,class_index,prior_structural_ordinal_position,automorphism_group_order,residual_four_set_count,candidate_minimum_point_orbit_count,unscreened_degree_profile_orbit_count,discarded_profile_count_by_direct_arithmetic,retained_profile_count_after_solver_free_screening,root_lp_status,solver_status,proof_status
+1,68,1,240,285,12,755,4,751,NOT_STARTED,NOT_STARTED,NOT_STARTED
+2,4,33,2,277,279,39618,54,39564,NOT_STARTED,NOT_STARTED,NOT_STARTED
+3,59,66,1,279,495,75582,78,75504,NOT_STARTED,NOT_STARTED,NOT_STARTED

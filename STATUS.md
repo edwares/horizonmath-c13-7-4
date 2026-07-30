@@ -73,6 +73,35 @@ historical 107 profiles are not competing results: 107 is the count after the
 historical candidate/case screening that this census deliberately does not
 run.
 
+### Solver-free three-class pilot screening
+
+The v0.6.0 pipeline has materialized every symmetry-reduced degree-profile
+representative for the provisional pilot classes 68, 4, and 59. It retained
+all candidate four-set orbits because no solver-free candidate contradiction
+was asserted. It then:
+
+- recorded every exact minimum-set orbit;
+- discarded the unique 12-point exact-minimum-set orbit in each class because
+  eight positive excess units cannot be placed outside a 12-point minimum set;
+- materialized every remaining profile orbit;
+- checked the screening decision on every member of every profile orbit;
+- discarded a profile only when some extension degree exceeded the 14
+  available extension blocks;
+- audited every corrected pair-multiplicity interval and found no empty
+  interval among the remaining profiles.
+
+| Class | Candidate orbits | Exact-set orbits | Unscreened profiles | Direct arithmetic discards | Retained profiles |
+|---:|---:|---:|---:|---:|---:|
+| 68 | 12 | 88 | 755 | 4 | 751 |
+| 4 | 279 | 2,123 | 39,618 | 54 | 39,564 |
+| 59 | 495 | 3,797 | 75,582 | 78 | 75,504 |
+| **Total** | **786** | **6,008** | **115,955** | **136** | **115,819** |
+
+The direct screen removes about 0.12% of the profile orbits. A retained profile
+has not been shown feasible; it merely survived the implemented arithmetic
+checks. This result strengthens the case for beginning with class 68, but it is
+not a measured solver- or proof-difficulty result.
+
 ## Status ledger
 
 | Item | Status |
@@ -83,6 +112,10 @@ run.
 | All-68 structural census | `ENUMERATED` 68/68 |
 | Solver-free structural ranking | `ENUMERATED`; 23 tie groups |
 | Provisional three-class pilot | Classes 68 / 4 / 59; structural preselection only |
+| Pilot exact minimum sets | `ENUMERATED` 6,008 orbits |
+| Pilot degree profiles | `ENUMERATED` 115,955 orbits |
+| Pilot direct arithmetic screening | `ENUMERATED`; 136 discarded, 115,819 retained |
+| Pilot formulas / root LP / solver / proof | `NOT_STARTED` |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
 | Published class-52 terminal instances | `VERIFIED_UNSAT` 30/30 |
@@ -97,13 +130,13 @@ run.
 
 Before launching proof-scale work on another class:
 
-1. materialize exact profile representatives for the provisional classes 68,
-   4, and 59;
-2. run and audit every inexpensive mathematical screen, with no silent
-   disappearances;
-3. refine the provisional ranking with retained-profile and formula-size
-   metrics;
-4. inspect root LP feasibility only after formula generation is audited;
-5. authorize bounded pilot solver runs separately.
+1. generate and audit the 12 candidate-orbit formulas for class 68 only;
+2. compare their row semantics against the generalized historical
+   candidate-screen construction;
+3. try direct containment contradictions before invoking an LP;
+4. inspect exact root-LP feasibility only for unresolved class-68 candidate
+   formulas;
+5. authorize any solver run separately and preserve its status without
+   promotion.
 
-No all-67 solver campaign is authorized.
+No class-4, class-59, or all-67 solver campaign is authorized.

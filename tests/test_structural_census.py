@@ -5,9 +5,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from horizonlink import __version__
 from horizonlink.canonical import sha256_file
-from horizonlink.census import CensusError, generate_structural_census
+from horizonlink.census import (
+    STRUCTURAL_CENSUS_PRODUCER_VERSION,
+    CensusError,
+    generate_structural_census,
+)
 from horizonlink.input import load_link
 from horizonlink.profiles import (
     compute_unscreened_degree_profile_orbit_census,
@@ -85,8 +88,14 @@ class StructuralCensusTests(unittest.TestCase):
     def test_all_68_classes_are_accounted_for_without_solver_runs(
         self,
     ) -> None:
-        self.assertEqual(self.census["producer"]["version"], __version__)
-        self.assertEqual(self.ranking["producer"]["version"], __version__)
+        self.assertEqual(
+            self.census["producer"]["version"],
+            STRUCTURAL_CENSUS_PRODUCER_VERSION,
+        )
+        self.assertEqual(
+            self.ranking["producer"]["version"],
+            STRUCTURAL_CENSUS_PRODUCER_VERSION,
+        )
         self.assertEqual(self.census["status"], "ENUMERATED")
         self.assertEqual(
             self.census["summary"]["enumerated_class_count"], 68

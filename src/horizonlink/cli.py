@@ -8,6 +8,10 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from horizonlink.arithmetic_screening import (
+    ArithmeticScreeningError,
+    generate_solver_free_profile_screening,
+)
 from horizonlink.candidate_screening import (
     generate_candidate_screening_corpus,
 )
@@ -231,6 +235,51 @@ def _structural_census(args: argparse.Namespace) -> int:
                     "difficult_low_symmetry"
                 ]["class_index"],
             },
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0
+
+
+def _screen_profiles(args: argparse.Namespace) -> int:
+    try:
+        manifest, ranking = generate_solver_free_profile_screening(
+            args.structural_census_directory,
+            args.class_index,
+            args.output_directory,
+        )
+    except (
+        ArithmeticScreeningError,
+        OSError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    _print_summary(
+        {
+            "status": manifest["status"],
+            "classes_enumerated": manifest["summary"][
+                "enumerated_class_count"
+            ],
+            "class_indices": manifest["summary"]["class_indices"],
+            "unscreened_profiles": manifest["summary"][
+                "unscreened_profile_orbit_count"
+            ],
+            "discarded_by_direct_arithmetic": manifest["summary"][
+                "discarded_profile_count_by_direct_arithmetic"
+            ],
+            "retained_profiles": manifest["summary"][
+                "retained_profile_count_after_solver_free_screening"
+            ],
+            "pilot_order": [
+                row["class_index"] for row in ranking["classes"]
+            ],
+            "solver_run": manifest["scope_guardrails"][
+                "solver_run"
+            ],
             "output_directory": str(args.output_directory),
         }
     )
@@ -499,6 +548,34 @@ def build_parser() -> argparse.ArgumentParser:
         required=True,
     )
     census.set_defaults(func=_structural_census)
+
+    profile_screening = subparsers.add_parser(
+        "screen-profiles",
+        help=(
+            "materialize exact profile orbits and apply only direct "
+            "solver-free arithmetic screens"
+        ),
+    )
+    profile_screening.add_argument(
+        "--structural-census-directory",
+        type=Path,
+        required=True,
+    )
+    profile_screening.add_argument(
+        "--class-index",
+        type=int,
+        action="append",
+        required=True,
+        help=(
+            "audited project class index; repeat to screen multiple classes"
+        ),
+    )
+    profile_screening.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    profile_screening.set_defaults(func=_screen_profiles)
 
     formulas = subparsers.add_parser(
         "generate-formulas",

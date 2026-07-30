@@ -8,7 +8,6 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from horizonlink import __version__
 from horizonlink.canonical import (
     compact_json_bytes,
     pretty_json_bytes,
@@ -31,6 +30,7 @@ CLASS_CENSUS_SCHEMA_VERSION = (
 CENSUS_SCHEMA_VERSION = "horizonmath.structural-census.v1"
 RANKING_SCHEMA_VERSION = "horizonmath.structural-ranking.v1"
 EXPECTED_CLASS_COUNT = 68
+STRUCTURAL_CENSUS_PRODUCER_VERSION = "0.5.0"
 NUMBERING_LOGICAL_PATH = (
     "catalog_audit/build/authoritative/numbering.manifest.json"
 )
@@ -445,7 +445,7 @@ def _build_class_record(
         "schema_version": CLASS_CENSUS_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": STRUCTURAL_CENSUS_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "class_index": entry["class_index"],
@@ -651,7 +651,7 @@ def _build_ranking(
         "schema_version": RANKING_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": STRUCTURAL_CENSUS_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "input": {
@@ -989,7 +989,7 @@ def generate_structural_census(
         "schema_version": CENSUS_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": STRUCTURAL_CENSUS_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "input": {

@@ -22,6 +22,8 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Project numbering | Classes 1–67 are project-local Figure 1 completion classes; class 68 is Figure 6 |
 | Solver-free structural census | 68/68 links validated and enumerated; complete automorphism data, candidate four-set orbit representatives, and exact unscreened profile-orbit counts preserved |
 | Structural pre-ranking | 68 classes ranked in 23 structural tie groups; provisional pilot classes 68 / 4 / 59 |
+| Solver-free pilot screening | 115,955 profile orbits materialized across classes 68 / 4 / 59; 136 direct arithmetic contradictions discarded; 115,819 retained |
+| Refined pilot order | Class 68 / class 4 / class 59; no LP or solver metrics used |
 | Class-52 structural regression | Group order 36, 26 four-set orbits, 107 profiles, `70 / 17 / 20`, 20 retained profiles |
 | Class-52 formula regression | 30/30 regenerated native OPBs byte-identical to the recovered formulas |
 | Published class-52 certificates | 30/30 `VERIFIED_UNSAT` with VeriPB `--requireUnsat` |
@@ -68,6 +70,7 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `provenance/classification/` | Published-theorem and exact-template provenance bridge |
 | `docs/pipeline/` | Preserved phase reports for the recovered v0.4.0 pipeline |
 | `results/structural-census-v0.1.0/` | Audited solver-free 68-class census, ranking, canonical inputs, and checksums |
+| `results/pilot-screening-v0.1.0/` | Every exact-set and profile-orbit representative for pilot classes 68 / 4 / 59, with solver-free screening decisions |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
 
@@ -141,14 +144,31 @@ diff -qr \
   build/structural-census
 ```
 
+Reproduce the solver-free pilot profile screening:
+
+```bash
+horizonlink screen-profiles \
+  --structural-census-directory \
+    results/structural-census-v0.1.0 \
+  --class-index 68 \
+  --class-index 4 \
+  --class-index 59 \
+  --output-directory build/pilot-screening
+
+diff -qr \
+  results/pilot-screening-v0.1.0 \
+  build/pilot-screening
+```
+
 Verify that the checked-in source tree matches its integrity manifest:
 
 ```bash
 python scripts/build_source_manifest.py --check
 ```
 
-The solver-free structural gate is complete. The next bounded stage is to
-materialize and audit exact profile representatives and mathematical screening
-for the provisional three-class pilot—class 68, class 4, and class 59—before
-any LP or solver run is authorized. The present ranking is a structural
-pre-ranking, not a measured solver- or proof-difficulty result.
+The solver-free structural and pilot-profile gates are complete. The arithmetic
+screen is intentionally narrow and retained 115,819 profile orbits, so emitting
+terminal formulas for all retained profiles would be wasteful. The next bounded
+stage is to generate and audit the 12 candidate-orbit formulas for class 68
+only, then attempt proof methods in the prescribed order. No class-4 or
+class-59 solver campaign is authorized yet.

@@ -1,0 +1,154 @@
+{
+  "algorithm": {
+    "candidate_rule": "Retain every candidate four-set orbit because no solver-free candidate contradiction is asserted.",
+    "exact_minimum_set_rule": "Discard exactly when the closed-form positive-composition count is zero.",
+    "id": "all-profile-orbits-direct-arithmetic-screening-v1",
+    "profile_rules_in_order": [
+      "EXTENSION_POINT_DEGREE_EXCEEDS_BLOCK_COUNT",
+      "CORRECTED_PAIR_INTERVAL_EMPTY",
+      "PASSED_SOLVER_FREE_ARITHMETIC_SCREENS"
+    ]
+  },
+  "classes": [
+    {
+      "class_index": 4,
+      "class_manifest": {
+        "bytes": 156938,
+        "path": "classes/class04.screening.manifest.json",
+        "sha256": "205d6d14da012a1a8694fc640151b50f7cd0d73fb941430e72299241e9bced52"
+      },
+      "ranking_metrics": {
+        "automorphism_group_order": 2,
+        "candidate_minimum_point_orbit_count": 279,
+        "discarded_profile_count_by_direct_arithmetic": 54,
+        "residual_four_set_count": 277,
+        "retained_profile_count_after_solver_free_screening": 39564,
+        "unscreened_degree_profile_orbit_count": 39618
+      },
+      "status": "ENUMERATED"
+    },
+    {
+      "class_index": 59,
+      "class_manifest": {
+        "bytes": 273054,
+        "path": "classes/class59.screening.manifest.json",
+        "sha256": "c05255cdac2932b9b0423a6cb0e04bd3f621955406f5ac85aafa9ae7bd270668"
+      },
+      "ranking_metrics": {
+        "automorphism_group_order": 1,
+        "candidate_minimum_point_orbit_count": 495,
+        "discarded_profile_count_by_direct_arithmetic": 78,
+        "residual_four_set_count": 279,
+        "retained_profile_count_after_solver_free_screening": 75504,
+        "unscreened_degree_profile_orbit_count": 75582
+      },
+      "status": "ENUMERATED"
+    },
+    {
+      "class_index": 68,
+      "class_manifest": {
+        "bytes": 13428,
+        "path": "classes/class68.screening.manifest.json",
+        "sha256": "d5a20f382e811cc80d4f3715d0658816be7e081321b87ac994037cbf7c50d626"
+      },
+      "ranking_metrics": {
+        "automorphism_group_order": 240,
+        "candidate_minimum_point_orbit_count": 12,
+        "discarded_profile_count_by_direct_arithmetic": 4,
+        "residual_four_set_count": 285,
+        "retained_profile_count_after_solver_free_screening": 751,
+        "unscreened_degree_profile_orbit_count": 755
+      },
+      "status": "ENUMERATED"
+    }
+  ],
+  "input": {
+    "class_indices": [
+      4,
+      59,
+      68
+    ],
+    "matches_provisional_three_class_pilot": true,
+    "provisional_three_class_pilot_indices": [
+      4,
+      59,
+      68
+    ],
+    "structural_census": {
+      "all_checks_passed": true,
+      "census_manifest_sha256": "6954eefecdad34d27abc4715a2b1934a18e33dae7f306e34e28e4d651cd2b18f",
+      "checkpoint_checksums": {
+        "all_recorded_hashes_match": true,
+        "every_checkpoint_file_accounted_for": true,
+        "recorded_file_count": 139,
+        "sha256sums_sha256": "86ec09c20b888ceffe88c70c5f4013e5dcddda94e12d55b348a05dfc712a553e",
+        "status": "PASS"
+      },
+      "checks": {
+        "all_68_classes_accounted_for": true,
+        "census_schema_supported": true,
+        "census_status_enumerated": true,
+        "checkpoint_declares_no_solver_run": true,
+        "ranking_has_68_classes": true,
+        "ranking_schema_supported": true,
+        "ranking_status_enumerated": true
+      },
+      "ranking_sha256": "27a0269c4656a188f56db40aeb25f23d04c0fb9357d32851219f37e7c47dd886"
+    }
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.6.0"
+  },
+  "ranking": {
+    "csv": {
+      "bytes": 523,
+      "path": "ranking.csv",
+      "sha256": "e63834596f5186930b4d688b4187f8769b359573543da6c31112ead40a69f65a"
+    },
+    "json": {
+      "bytes": 3580,
+      "path": "ranking.json",
+      "sha256": "33d6533b78f9d7f53e7b593b296333163093a248a087eb2a6178505720233177"
+    }
+  },
+  "schema_version": "horizonmath.solver-free-profile-screening.v1",
+  "scope_guardrails": {
+    "C_13_7_4_equals_30_claimed": false,
+    "all_generated_profile_orbits_recorded": true,
+    "all_requested_classes_accounted_for": true,
+    "another_class_eliminated": false,
+    "formulas_generated": false,
+    "proof_generated": false,
+    "retained_profiles_claimed_sat": false,
+    "root_lp_run": false,
+    "solver_run": false,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "arithmetic_screening": "ENUMERATED",
+    "candidate_orbits": "ENUMERATED",
+    "degree_profiles": "ENUMERATED",
+    "exact_minimum_sets": "ENUMERATED",
+    "formulas": "NOT_STARTED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "structural_checkpoint_audit": "ENUMERATED",
+    "verification": "NOT_STARTED"
+  },
+  "summary": {
+    "all_requested_classes_accounted_for": true,
+    "class_indices": [
+      4,
+      59,
+      68
+    ],
+    "discarded_profile_count_by_direct_arithmetic": 136,
+    "enumerated_class_count": 3,
+    "requested_class_count": 3,
+    "retained_profile_count_after_solver_free_screening": 115819,
+    "unscreened_profile_orbit_count": 115955
+  }
+}
