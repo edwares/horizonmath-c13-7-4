@@ -5,6 +5,9 @@
     ".pytest_cache",
     "__pycache__"
   ],
+  "excluded_directory_suffixes": [
+    ".egg-info"
+  ],
   "excluded_root_directories": [
     "build"
   ],
@@ -325,9 +328,9 @@
       "sha256": "3272610c7b0d115827c67883189ce4ed1a5c23b24dc85f0570d845ce6383ba53"
     },
     {
-      "bytes": 3259,
+      "bytes": 3565,
       "path": "scripts/build_source_manifest.py",
-      "sha256": "cf154227f681670ec46cf36deec6f785e9e8af9f5eac130def5d3a19823b5052"
+      "sha256": "ab12fb03e5e86ed65f8796dc8d48e2d6386cccb6ede55c339f9b8b754d4437bb"
     },
     {
       "bytes": 7255,
@@ -545,6 +548,11 @@
       "sha256": "e9734e6f658e0d8da4ccf4db14cf6a8069b30f90527223faaef9f5dafd39c374"
     },
     {
+      "bytes": 1428,
+      "path": "tests/test_source_manifest.py",
+      "sha256": "495b5dd2d437c3faf49ee068df569b5730b1de52717cce6ae6f3c17442e99680"
+    },
+    {
       "bytes": 5045,
       "path": "tests/test_split_farkas.py",
       "sha256": "07b2bdde98aac46227dc02727cac30343db65ebf0b929631dbfd43a2d60f77a8"
@@ -556,7 +564,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 108,
-    "total_bytes": 2657538
+    "file_count": 109,
+    "total_bytes": 2659272
   }
 }

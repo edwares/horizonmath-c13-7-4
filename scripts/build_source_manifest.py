@@ -18,6 +18,7 @@ EXCLUDED_DIRECTORY_NAMES = {
     ".pytest_cache",
     "__pycache__",
 }
+EXCLUDED_DIRECTORY_SUFFIXES = {".egg-info"}
 EXCLUDED_ROOT_DIRECTORIES = {"build"}
 
 
@@ -40,7 +41,14 @@ def build_manifest(root: Path, output: Path) -> dict[str, Any]:
             continue
         if relative.parts[0] in EXCLUDED_ROOT_DIRECTORIES:
             continue
-        if any(part in EXCLUDED_DIRECTORY_NAMES for part in relative.parts):
+        if any(
+            part in EXCLUDED_DIRECTORY_NAMES
+            or any(
+                part.endswith(suffix)
+                for suffix in EXCLUDED_DIRECTORY_SUFFIXES
+            )
+            for part in relative.parts
+        ):
             continue
         files.append(
             {
@@ -56,6 +64,9 @@ def build_manifest(root: Path, output: Path) -> dict[str, Any]:
         "manifest_path": output_relative.as_posix(),
         "manifest_self_included": False,
         "excluded_directory_names": sorted(EXCLUDED_DIRECTORY_NAMES),
+        "excluded_directory_suffixes": sorted(
+            EXCLUDED_DIRECTORY_SUFFIXES
+        ),
         "excluded_root_directories": sorted(EXCLUDED_ROOT_DIRECTORIES),
         "summary": {
             "file_count": len(files),
