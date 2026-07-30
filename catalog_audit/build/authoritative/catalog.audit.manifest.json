@@ -1,0 +1,2090 @@
+{
+  "checks": {
+    "completion_counts_sum_to_expected": true,
+    "every_completion_is_valid_cover": true,
+    "expected_completion_count_enumerated": true,
+    "explicit_numbering_has_68_entries": true,
+    "fig6_nonisomorphic_to_every_first_template_class": true,
+    "fig6_valid_cover": true,
+    "first_template_representatives_pairwise_nonisomorphic": true,
+    "historical_prefix_counts_exact": true,
+    "historical_representative_order_and_labels_exact": true,
+    "no_new_first_template_class_after_archived_early_stop": true
+  },
+  "claim_authorization": {
+    "analyze_another_link_class": false,
+    "claim_C_13_7_4_equals_30": false,
+    "global_68_class_exhaustiveness": false,
+    "project_numbering_map_1_through_68": true,
+    "recovered_template_catalog_consistency": true,
+    "two_template_exhaustiveness": false
+  },
+  "enumeration": {
+    "classes_first_seen_after_archived_prefix": [],
+    "discovered_first_template_class_count": 67,
+    "enumerated_completion_count": 21952,
+    "expected_completion_count": 21952,
+    "first_occurrences": [
+      1,
+      2,
+      4,
+      6,
+      14,
+      17,
+      29,
+      30,
+      31,
+      32,
+      34,
+      37,
+      40,
+      85,
+      86,
+      88,
+      89,
+      90,
+      92,
+      94,
+      95,
+      96,
+      98,
+      99,
+      100,
+      101,
+      102,
+      107,
+      108,
+      110,
+      112,
+      141,
+      142,
+      144,
+      146,
+      147,
+      148,
+      150,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      163,
+      165,
+      617,
+      618,
+      630,
+      647,
+      2440,
+      2441,
+      2447,
+      2448,
+      2470,
+      2474,
+      2475,
+      2476,
+      2479,
+      2480,
+      2482,
+      2614,
+      2616,
+      2622,
+      2676,
+      2681
+    ],
+    "full_class_counts": [
+      72,
+      288,
+      144,
+      288,
+      72,
+      144,
+      288,
+      144,
+      288,
+      288,
+      576,
+      144,
+      288,
+      288,
+      576,
+      288,
+      288,
+      576,
+      576,
+      288,
+      288,
+      576,
+      288,
+      576,
+      576,
+      576,
+      576,
+      144,
+      288,
+      576,
+      288,
+      288,
+      576,
+      576,
+      288,
+      288,
+      576,
+      576,
+      288,
+      288,
+      288,
+      576,
+      576,
+      576,
+      576,
+      144,
+      288,
+      24,
+      288,
+      24,
+      96,
+      16,
+      288,
+      144,
+      288,
+      288,
+      144,
+      96,
+      576,
+      576,
+      576,
+      288,
+      48,
+      288,
+      288,
+      96,
+      96
+    ],
+    "invalid_completion_count": 0
+  },
+  "environment": {
+    "classifier_dependencies": [
+      "Python standard library"
+    ],
+    "platform": "Linux-6.12.13-x86_64-with-glibc2.39",
+    "python_implementation": "CPython",
+    "python_version": "3.12.13"
+  },
+  "historical_comparison": {
+    "archived_first_template_class_count": 67,
+    "archived_prefix_completion_count": 2681,
+    "archived_prefix_counts": [
+      18,
+      72,
+      24,
+      48,
+      18,
+      24,
+      72,
+      36,
+      72,
+      48,
+      96,
+      36,
+      48,
+      51,
+      102,
+      33,
+      29,
+      58,
+      102,
+      31,
+      31,
+      55,
+      51,
+      62,
+      55,
+      62,
+      55,
+      27,
+      54,
+      106,
+      53,
+      50,
+      100,
+      56,
+      32,
+      28,
+      100,
+      53,
+      30,
+      30,
+      50,
+      60,
+      53,
+      60,
+      53,
+      26,
+      52,
+      6,
+      72,
+      6,
+      24,
+      1,
+      12,
+      7,
+      8,
+      10,
+      5,
+      4,
+      12,
+      14,
+      17,
+      9,
+      1,
+      5,
+      4,
+      1,
+      1
+    ],
+    "discovery_to_historical_class": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "fig6_first_template_matches": [],
+    "pairwise_first_template_collisions": [],
+    "recomputed_prefix_counts": [
+      18,
+      72,
+      24,
+      48,
+      18,
+      24,
+      72,
+      36,
+      72,
+      48,
+      96,
+      36,
+      48,
+      51,
+      102,
+      33,
+      29,
+      58,
+      102,
+      31,
+      31,
+      55,
+      51,
+      62,
+      55,
+      62,
+      55,
+      27,
+      54,
+      106,
+      53,
+      50,
+      100,
+      56,
+      32,
+      28,
+      100,
+      53,
+      30,
+      30,
+      50,
+      60,
+      53,
+      60,
+      53,
+      26,
+      52,
+      6,
+      72,
+      6,
+      24,
+      1,
+      12,
+      7,
+      8,
+      10,
+      5,
+      4,
+      12,
+      14,
+      17,
+      9,
+      1,
+      5,
+      4,
+      1,
+      1
+    ],
+    "rows": [
+      {
+        "discovered_class_index": 1,
+        "discovered_labeled_hash": "4ffb146ea3def05657852a689d0e41ebd6abeb95fbf2f725b14237211ef98229",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "first_occurrence": 1,
+        "full_count": 72,
+        "historical_class_index": 1,
+        "historical_labeled_hash": "4ffb146ea3def05657852a689d0e41ebd6abeb95fbf2f725b14237211ef98229",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 18
+      },
+      {
+        "discovered_class_index": 2,
+        "discovered_labeled_hash": "fa86a56da2677128fef5ed0a4b9c70a0f31adeefe225d48f1597007ceb0ff035",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "first_occurrence": 2,
+        "full_count": 288,
+        "historical_class_index": 2,
+        "historical_labeled_hash": "fa86a56da2677128fef5ed0a4b9c70a0f31adeefe225d48f1597007ceb0ff035",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 72
+      },
+      {
+        "discovered_class_index": 3,
+        "discovered_labeled_hash": "a20abb026cad3986934a3cf0626a1927841977febe1d82874534ffa706b67cee",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "first_occurrence": 4,
+        "full_count": 144,
+        "historical_class_index": 3,
+        "historical_labeled_hash": "a20abb026cad3986934a3cf0626a1927841977febe1d82874534ffa706b67cee",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 24
+      },
+      {
+        "discovered_class_index": 4,
+        "discovered_labeled_hash": "c4d76b3a6222d931b674e56dbce48a3f9d9654dbb1d6a15f219522311a1b5c57",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "first_occurrence": 6,
+        "full_count": 288,
+        "historical_class_index": 4,
+        "historical_labeled_hash": "c4d76b3a6222d931b674e56dbce48a3f9d9654dbb1d6a15f219522311a1b5c57",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 48
+      },
+      {
+        "discovered_class_index": 5,
+        "discovered_labeled_hash": "2d473d58d0e62169d26fae5d9a5ed28094f9301dbb431389f9970cafef71d774",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "first_occurrence": 14,
+        "full_count": 72,
+        "historical_class_index": 5,
+        "historical_labeled_hash": "2d473d58d0e62169d26fae5d9a5ed28094f9301dbb431389f9970cafef71d774",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 18
+      },
+      {
+        "discovered_class_index": 6,
+        "discovered_labeled_hash": "fd41517f6f7866d1c89bff58714ea939e19bfa03c7a7a8c07dd86ad819db5e43",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "first_occurrence": 17,
+        "full_count": 144,
+        "historical_class_index": 6,
+        "historical_labeled_hash": "fd41517f6f7866d1c89bff58714ea939e19bfa03c7a7a8c07dd86ad819db5e43",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 24
+      },
+      {
+        "discovered_class_index": 7,
+        "discovered_labeled_hash": "44906a2b3ac649eb11ab80fc859b52e564c13d9e70cd3d54952203efe06debc1",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "first_occurrence": 29,
+        "full_count": 288,
+        "historical_class_index": 7,
+        "historical_labeled_hash": "44906a2b3ac649eb11ab80fc859b52e564c13d9e70cd3d54952203efe06debc1",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 72
+      },
+      {
+        "discovered_class_index": 8,
+        "discovered_labeled_hash": "4a452ec0318a3f494933554d65f3b11d57978eddd3a9d987fe6b8550797e2a31",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "first_occurrence": 30,
+        "full_count": 144,
+        "historical_class_index": 8,
+        "historical_labeled_hash": "4a452ec0318a3f494933554d65f3b11d57978eddd3a9d987fe6b8550797e2a31",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 36
+      },
+      {
+        "discovered_class_index": 9,
+        "discovered_labeled_hash": "91c1d502987e84ea356398e7f184042d8bc07bc263b06283259e29e50c6ecd6e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "first_occurrence": 31,
+        "full_count": 288,
+        "historical_class_index": 9,
+        "historical_labeled_hash": "91c1d502987e84ea356398e7f184042d8bc07bc263b06283259e29e50c6ecd6e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 72
+      },
+      {
+        "discovered_class_index": 10,
+        "discovered_labeled_hash": "35b0fa54c5b45ee86f0ae4fd46eb825d51c886b89e4f8478a99b422366e6048e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "first_occurrence": 32,
+        "full_count": 288,
+        "historical_class_index": 10,
+        "historical_labeled_hash": "35b0fa54c5b45ee86f0ae4fd46eb825d51c886b89e4f8478a99b422366e6048e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 48
+      },
+      {
+        "discovered_class_index": 11,
+        "discovered_labeled_hash": "c75afbf4e1fa16715ac901b472e12e6eceece278295033c01ab054699fbd408e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "first_occurrence": 34,
+        "full_count": 576,
+        "historical_class_index": 11,
+        "historical_labeled_hash": "c75afbf4e1fa16715ac901b472e12e6eceece278295033c01ab054699fbd408e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 96
+      },
+      {
+        "discovered_class_index": 12,
+        "discovered_labeled_hash": "04b58304602288e4c48be0927b81da0094c0742431c0cbfb4f4ebcb9c4b611ed",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "first_occurrence": 37,
+        "full_count": 144,
+        "historical_class_index": 12,
+        "historical_labeled_hash": "04b58304602288e4c48be0927b81da0094c0742431c0cbfb4f4ebcb9c4b611ed",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 36
+      },
+      {
+        "discovered_class_index": 13,
+        "discovered_labeled_hash": "fed9f9fae2c79bce4fa311f728d11689ad1bef1427c07f2967b0c55f3ae06edb",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 40,
+        "full_count": 288,
+        "historical_class_index": 13,
+        "historical_labeled_hash": "fed9f9fae2c79bce4fa311f728d11689ad1bef1427c07f2967b0c55f3ae06edb",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 48
+      },
+      {
+        "discovered_class_index": 14,
+        "discovered_labeled_hash": "ca61193c60609e8d69498bc4d74f0d08cc1f69fe34189cf813a1ce4276b92781",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "first_occurrence": 85,
+        "full_count": 288,
+        "historical_class_index": 14,
+        "historical_labeled_hash": "ca61193c60609e8d69498bc4d74f0d08cc1f69fe34189cf813a1ce4276b92781",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 51
+      },
+      {
+        "discovered_class_index": 15,
+        "discovered_labeled_hash": "2ecade50fe9992e06fd328692841b99ebf6d8eaadb971b5bf23a63197c08f0e6",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "first_occurrence": 86,
+        "full_count": 576,
+        "historical_class_index": 15,
+        "historical_labeled_hash": "2ecade50fe9992e06fd328692841b99ebf6d8eaadb971b5bf23a63197c08f0e6",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 102
+      },
+      {
+        "discovered_class_index": 16,
+        "discovered_labeled_hash": "57caf460bcf0ab5f1f785517a6586130839d3a10c6ca58357b71cee08b9e6273",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "first_occurrence": 88,
+        "full_count": 288,
+        "historical_class_index": 16,
+        "historical_labeled_hash": "57caf460bcf0ab5f1f785517a6586130839d3a10c6ca58357b71cee08b9e6273",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 33
+      },
+      {
+        "discovered_class_index": 17,
+        "discovered_labeled_hash": "24dc3ac6aa1640ebd82ab682c568d1615997ee9b0bea09efeb11de152e9822b4",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "first_occurrence": 89,
+        "full_count": 288,
+        "historical_class_index": 17,
+        "historical_labeled_hash": "24dc3ac6aa1640ebd82ab682c568d1615997ee9b0bea09efeb11de152e9822b4",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 29
+      },
+      {
+        "discovered_class_index": 18,
+        "discovered_labeled_hash": "e81c0c714f2892b3030c9efb8a56589da127054bd939faa2a235e06b0346bf1a",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "first_occurrence": 90,
+        "full_count": 576,
+        "historical_class_index": 18,
+        "historical_labeled_hash": "e81c0c714f2892b3030c9efb8a56589da127054bd939faa2a235e06b0346bf1a",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 58
+      },
+      {
+        "discovered_class_index": 19,
+        "discovered_labeled_hash": "d4103000db54e4031e027a71e7ff2212b7ddc70bd306e7a169f9ec98ee0da51e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "first_occurrence": 92,
+        "full_count": 576,
+        "historical_class_index": 19,
+        "historical_labeled_hash": "d4103000db54e4031e027a71e7ff2212b7ddc70bd306e7a169f9ec98ee0da51e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 102
+      },
+      {
+        "discovered_class_index": 20,
+        "discovered_labeled_hash": "55bf11b15e2fe13be71731e452dffbf45f8d47adfb7479906e0c94f51d24a214",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "first_occurrence": 94,
+        "full_count": 288,
+        "historical_class_index": 20,
+        "historical_labeled_hash": "55bf11b15e2fe13be71731e452dffbf45f8d47adfb7479906e0c94f51d24a214",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 31
+      },
+      {
+        "discovered_class_index": 21,
+        "discovered_labeled_hash": "19deda6704350d9d9845f5a53ac3f1b228013e0cc5ff9b5267c566842f759f6e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "first_occurrence": 95,
+        "full_count": 288,
+        "historical_class_index": 21,
+        "historical_labeled_hash": "19deda6704350d9d9845f5a53ac3f1b228013e0cc5ff9b5267c566842f759f6e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 31
+      },
+      {
+        "discovered_class_index": 22,
+        "discovered_labeled_hash": "41de8a961ff38a9871cca9ce2e2185f8f61a7389344f8688b7288444e7e2f92e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 96,
+        "full_count": 576,
+        "historical_class_index": 22,
+        "historical_labeled_hash": "41de8a961ff38a9871cca9ce2e2185f8f61a7389344f8688b7288444e7e2f92e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 55
+      },
+      {
+        "discovered_class_index": 23,
+        "discovered_labeled_hash": "9550079a5a991bb4f3bde45cb73484fdb38f0703fe74755f7404dbd233b46776",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "first_occurrence": 98,
+        "full_count": 288,
+        "historical_class_index": 23,
+        "historical_labeled_hash": "9550079a5a991bb4f3bde45cb73484fdb38f0703fe74755f7404dbd233b46776",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 51
+      },
+      {
+        "discovered_class_index": 24,
+        "discovered_labeled_hash": "d34e2fa5077ee9870f5007a9e65a30a2eddde8dc15c1d92823b3bb2754b4ccc5",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "first_occurrence": 99,
+        "full_count": 576,
+        "historical_class_index": 24,
+        "historical_labeled_hash": "d34e2fa5077ee9870f5007a9e65a30a2eddde8dc15c1d92823b3bb2754b4ccc5",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 62
+      },
+      {
+        "discovered_class_index": 25,
+        "discovered_labeled_hash": "a9aaf080e7723005b6fd3c5563f9dd9ea61e745598df08597d2a3145e00c50aa",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "first_occurrence": 100,
+        "full_count": 576,
+        "historical_class_index": 25,
+        "historical_labeled_hash": "a9aaf080e7723005b6fd3c5563f9dd9ea61e745598df08597d2a3145e00c50aa",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 55
+      },
+      {
+        "discovered_class_index": 26,
+        "discovered_labeled_hash": "756c424412866befa866c259fe4e7da6595413fcd3b805f4d9d57f0c8647f3a2",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "first_occurrence": 101,
+        "full_count": 576,
+        "historical_class_index": 26,
+        "historical_labeled_hash": "756c424412866befa866c259fe4e7da6595413fcd3b805f4d9d57f0c8647f3a2",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 62
+      },
+      {
+        "discovered_class_index": 27,
+        "discovered_labeled_hash": "4512afd42e9a25eb8068872f90d0c92996255ed09a349b042052faef94e8e848",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "first_occurrence": 102,
+        "full_count": 576,
+        "historical_class_index": 27,
+        "historical_labeled_hash": "4512afd42e9a25eb8068872f90d0c92996255ed09a349b042052faef94e8e848",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 55
+      },
+      {
+        "discovered_class_index": 28,
+        "discovered_labeled_hash": "a70093e5a78c3bb71554dd330a265545ee66bc8516e770ccf9572838f5316c59",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "first_occurrence": 107,
+        "full_count": 144,
+        "historical_class_index": 28,
+        "historical_labeled_hash": "a70093e5a78c3bb71554dd330a265545ee66bc8516e770ccf9572838f5316c59",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 27
+      },
+      {
+        "discovered_class_index": 29,
+        "discovered_labeled_hash": "ac770214c743962eca4a880dcfda49d5bf910d30b63fa3a4c6fbb9a216b830b3",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "first_occurrence": 108,
+        "full_count": 288,
+        "historical_class_index": 29,
+        "historical_labeled_hash": "ac770214c743962eca4a880dcfda49d5bf910d30b63fa3a4c6fbb9a216b830b3",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 54
+      },
+      {
+        "discovered_class_index": 30,
+        "discovered_labeled_hash": "2a4acd73e800290d5d4d6a457d70d3dae172a0b38b0a43da2dcfe3c1385661fb",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "first_occurrence": 110,
+        "full_count": 576,
+        "historical_class_index": 30,
+        "historical_labeled_hash": "2a4acd73e800290d5d4d6a457d70d3dae172a0b38b0a43da2dcfe3c1385661fb",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 106
+      },
+      {
+        "discovered_class_index": 31,
+        "discovered_labeled_hash": "b7368086e3ddbeef657c25f9ef791c6d459f95c2cb96aa9425162c996d580b6f",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "first_occurrence": 112,
+        "full_count": 288,
+        "historical_class_index": 31,
+        "historical_labeled_hash": "b7368086e3ddbeef657c25f9ef791c6d459f95c2cb96aa9425162c996d580b6f",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 53
+      },
+      {
+        "discovered_class_index": 32,
+        "discovered_labeled_hash": "2c05084a23e405291fffe7f05dce84f5448b798f30a0fc872debad3bdaee19e4",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "first_occurrence": 141,
+        "full_count": 288,
+        "historical_class_index": 32,
+        "historical_labeled_hash": "2c05084a23e405291fffe7f05dce84f5448b798f30a0fc872debad3bdaee19e4",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 50
+      },
+      {
+        "discovered_class_index": 33,
+        "discovered_labeled_hash": "3ab719dd0977f875b9dda4b51c1d760d38e208a4c7a268f93b1be38bed88ef4d",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "first_occurrence": 142,
+        "full_count": 576,
+        "historical_class_index": 33,
+        "historical_labeled_hash": "3ab719dd0977f875b9dda4b51c1d760d38e208a4c7a268f93b1be38bed88ef4d",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 100
+      },
+      {
+        "discovered_class_index": 34,
+        "discovered_labeled_hash": "c548dc9189d420c2545f023b4e80bbc02aaf7deb2b100cb63b786ef540c321c3",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "first_occurrence": 144,
+        "full_count": 576,
+        "historical_class_index": 34,
+        "historical_labeled_hash": "c548dc9189d420c2545f023b4e80bbc02aaf7deb2b100cb63b786ef540c321c3",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 56
+      },
+      {
+        "discovered_class_index": 35,
+        "discovered_labeled_hash": "b7e6b8ea4185c4babb0b44f9ac8f96eb3129fd8d9545da8a35b1e4cf36ea3c22",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "first_occurrence": 146,
+        "full_count": 288,
+        "historical_class_index": 35,
+        "historical_labeled_hash": "b7e6b8ea4185c4babb0b44f9ac8f96eb3129fd8d9545da8a35b1e4cf36ea3c22",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 32
+      },
+      {
+        "discovered_class_index": 36,
+        "discovered_labeled_hash": "2c8cc676c0469604f421607d179776d9b49763f595db7238b7fcaab8cff3013e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "first_occurrence": 147,
+        "full_count": 288,
+        "historical_class_index": 36,
+        "historical_labeled_hash": "2c8cc676c0469604f421607d179776d9b49763f595db7238b7fcaab8cff3013e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 28
+      },
+      {
+        "discovered_class_index": 37,
+        "discovered_labeled_hash": "42328ec7835e9ac612c2a312487f5edecc092f89f7ff652aaa1c0bfc7971f2eb",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "first_occurrence": 148,
+        "full_count": 576,
+        "historical_class_index": 37,
+        "historical_labeled_hash": "42328ec7835e9ac612c2a312487f5edecc092f89f7ff652aaa1c0bfc7971f2eb",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 100
+      },
+      {
+        "discovered_class_index": 38,
+        "discovered_labeled_hash": "007368f7aa303bb4fae085c38aaf13ab756d554bc3aa4edc15acdbcf433177c4",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "first_occurrence": 150,
+        "full_count": 576,
+        "historical_class_index": 38,
+        "historical_labeled_hash": "007368f7aa303bb4fae085c38aaf13ab756d554bc3aa4edc15acdbcf433177c4",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 53
+      },
+      {
+        "discovered_class_index": 39,
+        "discovered_labeled_hash": "342925a4f774cb42af21a2a458ef51f5b5d88cecdf6e2300e97deba20d56ca18",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 152,
+        "full_count": 288,
+        "historical_class_index": 39,
+        "historical_labeled_hash": "342925a4f774cb42af21a2a458ef51f5b5d88cecdf6e2300e97deba20d56ca18",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 30
+      },
+      {
+        "discovered_class_index": 40,
+        "discovered_labeled_hash": "cabd53ca82f0f74fb45130c6d842630eadaf5ec1461a22476225cbfeab154113",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            7
+          ]
+        ],
+        "first_occurrence": 153,
+        "full_count": 288,
+        "historical_class_index": 40,
+        "historical_labeled_hash": "cabd53ca82f0f74fb45130c6d842630eadaf5ec1461a22476225cbfeab154113",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 30
+      },
+      {
+        "discovered_class_index": 41,
+        "discovered_labeled_hash": "a3e747527a6ded63bff8029a85e880f13f30c60afa09ced35bc1163804cd4a72",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "first_occurrence": 154,
+        "full_count": 288,
+        "historical_class_index": 41,
+        "historical_labeled_hash": "a3e747527a6ded63bff8029a85e880f13f30c60afa09ced35bc1163804cd4a72",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 50
+      },
+      {
+        "discovered_class_index": 42,
+        "discovered_labeled_hash": "21187e4adfe0e87c4bb28f364640e4b317b53a8400a10dd72d063a6efed2fd94",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "first_occurrence": 155,
+        "full_count": 576,
+        "historical_class_index": 42,
+        "historical_labeled_hash": "21187e4adfe0e87c4bb28f364640e4b317b53a8400a10dd72d063a6efed2fd94",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 60
+      },
+      {
+        "discovered_class_index": 43,
+        "discovered_labeled_hash": "d2ff7f8c6e429904d6de8d21905f4e796fd5b32531d4a3a4ba89ba814b5fb56c",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "first_occurrence": 156,
+        "full_count": 576,
+        "historical_class_index": 43,
+        "historical_labeled_hash": "d2ff7f8c6e429904d6de8d21905f4e796fd5b32531d4a3a4ba89ba814b5fb56c",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 53
+      },
+      {
+        "discovered_class_index": 44,
+        "discovered_labeled_hash": "aea475e928bac0d81349298b2d34faf24cb54c3a180ebec830ec7def6bf15e11",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "first_occurrence": 157,
+        "full_count": 576,
+        "historical_class_index": 44,
+        "historical_labeled_hash": "aea475e928bac0d81349298b2d34faf24cb54c3a180ebec830ec7def6bf15e11",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 60
+      },
+      {
+        "discovered_class_index": 45,
+        "discovered_labeled_hash": "2ba46aa3968f426ed035fdada32b9733a2f3092a73c8d8f3f503963b9d14a543",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "first_occurrence": 158,
+        "full_count": 576,
+        "historical_class_index": 45,
+        "historical_labeled_hash": "2ba46aa3968f426ed035fdada32b9733a2f3092a73c8d8f3f503963b9d14a543",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 53
+      },
+      {
+        "discovered_class_index": 46,
+        "discovered_labeled_hash": "9c151a8b806b34a125c984d7117ed6c9da966df951bc45f3bbe32550c871e7f4",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "first_occurrence": 163,
+        "full_count": 144,
+        "historical_class_index": 46,
+        "historical_labeled_hash": "9c151a8b806b34a125c984d7117ed6c9da966df951bc45f3bbe32550c871e7f4",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 26
+      },
+      {
+        "discovered_class_index": 47,
+        "discovered_labeled_hash": "8af3e099098b0867e7f386e8bb9e50e61b70c17d71aee7f527d4550afb8263a7",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "first_occurrence": 165,
+        "full_count": 288,
+        "historical_class_index": 47,
+        "historical_labeled_hash": "8af3e099098b0867e7f386e8bb9e50e61b70c17d71aee7f527d4550afb8263a7",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 52
+      },
+      {
+        "discovered_class_index": 48,
+        "discovered_labeled_hash": "6b47ebd0b176172b5717d4d4ff31c9b9414bf51defc9a1792529b9fa0aa19261",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "first_occurrence": 617,
+        "full_count": 24,
+        "historical_class_index": 48,
+        "historical_labeled_hash": "6b47ebd0b176172b5717d4d4ff31c9b9414bf51defc9a1792529b9fa0aa19261",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 6
+      },
+      {
+        "discovered_class_index": 49,
+        "discovered_labeled_hash": "58044e6c4f169d468139288a9f1e78c436334ce574ab87871f1b86604a4aadf1",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "first_occurrence": 618,
+        "full_count": 288,
+        "historical_class_index": 49,
+        "historical_labeled_hash": "58044e6c4f169d468139288a9f1e78c436334ce574ab87871f1b86604a4aadf1",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 72
+      },
+      {
+        "discovered_class_index": 50,
+        "discovered_labeled_hash": "8a8f530bf3503bb4e500e7ed64110052ff4a8be1ae68de4de4bd0ff751e29d42",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "first_occurrence": 630,
+        "full_count": 24,
+        "historical_class_index": 50,
+        "historical_labeled_hash": "8a8f530bf3503bb4e500e7ed64110052ff4a8be1ae68de4de4bd0ff751e29d42",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 6
+      },
+      {
+        "discovered_class_index": 51,
+        "discovered_labeled_hash": "33ad496a4e8b4724f39776662dcce6174a93591b9aeec6c158567fe42a2d456e",
+        "first_choices": [
+          [
+            4,
+            5
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "first_occurrence": 647,
+        "full_count": 96,
+        "historical_class_index": 51,
+        "historical_labeled_hash": "33ad496a4e8b4724f39776662dcce6174a93591b9aeec6c158567fe42a2d456e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 24
+      },
+      {
+        "discovered_class_index": 52,
+        "discovered_labeled_hash": "034d4c7cd44947c6fe2e8d562850611670af399f5d850b2c141990152a6af571",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "first_occurrence": 2440,
+        "full_count": 16,
+        "historical_class_index": 52,
+        "historical_labeled_hash": "034d4c7cd44947c6fe2e8d562850611670af399f5d850b2c141990152a6af571",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 1
+      },
+      {
+        "discovered_class_index": 53,
+        "discovered_labeled_hash": "55db1b2d184288cb3003a1b0ead3a374367f2ce0e0345a0e3fefdf627240f01b",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "first_occurrence": 2441,
+        "full_count": 288,
+        "historical_class_index": 53,
+        "historical_labeled_hash": "55db1b2d184288cb3003a1b0ead3a374367f2ce0e0345a0e3fefdf627240f01b",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 12
+      },
+      {
+        "discovered_class_index": 54,
+        "discovered_labeled_hash": "62eefac50e3f7edd3e8b1c3371d8ff06d66dbfcaf6ee9d6846a5ac591710dfe4",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "first_occurrence": 2447,
+        "full_count": 144,
+        "historical_class_index": 54,
+        "historical_labeled_hash": "62eefac50e3f7edd3e8b1c3371d8ff06d66dbfcaf6ee9d6846a5ac591710dfe4",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 7
+      },
+      {
+        "discovered_class_index": 55,
+        "discovered_labeled_hash": "6adec1ed7922088ea1966410b5db24cd6f07d79d92a1a3310bbf584413aea3eb",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 2448,
+        "full_count": 288,
+        "historical_class_index": 55,
+        "historical_labeled_hash": "6adec1ed7922088ea1966410b5db24cd6f07d79d92a1a3310bbf584413aea3eb",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 8
+      },
+      {
+        "discovered_class_index": 56,
+        "discovered_labeled_hash": "5a55b76ee68d6bd6eb3ea2d33ab53d1c84e93110a12f2cc9a0a316a8f6fc7ddb",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "first_occurrence": 2470,
+        "full_count": 288,
+        "historical_class_index": 56,
+        "historical_labeled_hash": "5a55b76ee68d6bd6eb3ea2d33ab53d1c84e93110a12f2cc9a0a316a8f6fc7ddb",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 10
+      },
+      {
+        "discovered_class_index": 57,
+        "discovered_labeled_hash": "b725a4b769d04dcc4c341b29c381cc96eabdc021bad0945c10b47ba39d545857",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "first_occurrence": 2474,
+        "full_count": 144,
+        "historical_class_index": 57,
+        "historical_labeled_hash": "b725a4b769d04dcc4c341b29c381cc96eabdc021bad0945c10b47ba39d545857",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 5
+      },
+      {
+        "discovered_class_index": 58,
+        "discovered_labeled_hash": "3d8d40b29e1545d5af20a6aebe0976cb802f46237eba1abdb45b67d79ba31add",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "first_occurrence": 2475,
+        "full_count": 96,
+        "historical_class_index": 58,
+        "historical_labeled_hash": "3d8d40b29e1545d5af20a6aebe0976cb802f46237eba1abdb45b67d79ba31add",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 4
+      },
+      {
+        "discovered_class_index": 59,
+        "discovered_labeled_hash": "35196a95af310593da518a25589e655c77bbd668f47ae1c6f69d4ca8f55c1a5c",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 2476,
+        "full_count": 576,
+        "historical_class_index": 59,
+        "historical_labeled_hash": "35196a95af310593da518a25589e655c77bbd668f47ae1c6f69d4ca8f55c1a5c",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 12
+      },
+      {
+        "discovered_class_index": 60,
+        "discovered_labeled_hash": "00a1dc9ae3abe89538c4c0bcc0f81075a9fecb445ae00cc2bf64e3b0bceabf1a",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "first_occurrence": 2479,
+        "full_count": 576,
+        "historical_class_index": 60,
+        "historical_labeled_hash": "00a1dc9ae3abe89538c4c0bcc0f81075a9fecb445ae00cc2bf64e3b0bceabf1a",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 14
+      },
+      {
+        "discovered_class_index": 61,
+        "discovered_labeled_hash": "38e0776958f8396ff511c10c95be20c2c9664b4cdbd0ceda2225128e3c2be66e",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "first_occurrence": 2480,
+        "full_count": 576,
+        "historical_class_index": 61,
+        "historical_labeled_hash": "38e0776958f8396ff511c10c95be20c2c9664b4cdbd0ceda2225128e3c2be66e",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 17
+      },
+      {
+        "discovered_class_index": 62,
+        "discovered_labeled_hash": "185f1cca0e4e7bee48dcd1af0b3a773c6fd75678340ed55357b6bdf9fffcffa0",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "first_occurrence": 2482,
+        "full_count": 288,
+        "historical_class_index": 62,
+        "historical_labeled_hash": "185f1cca0e4e7bee48dcd1af0b3a773c6fd75678340ed55357b6bdf9fffcffa0",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 9
+      },
+      {
+        "discovered_class_index": 63,
+        "discovered_labeled_hash": "673f483fdd46712d91634761b0021736a90073ce418cb9b2344403babd17d8ff",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "first_occurrence": 2614,
+        "full_count": 48,
+        "historical_class_index": 63,
+        "historical_labeled_hash": "673f483fdd46712d91634761b0021736a90073ce418cb9b2344403babd17d8ff",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 1
+      },
+      {
+        "discovered_class_index": 64,
+        "discovered_labeled_hash": "c354f2ef0ed504d82bb07961d289d2db83d875b00d7c55c3bd21dcd7a05e3246",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "first_occurrence": 2616,
+        "full_count": 288,
+        "historical_class_index": 64,
+        "historical_labeled_hash": "c354f2ef0ed504d82bb07961d289d2db83d875b00d7c55c3bd21dcd7a05e3246",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 5
+      },
+      {
+        "discovered_class_index": 65,
+        "discovered_labeled_hash": "648123c379341539c61559365b787c33dc32145e7494b93979e9d9991234f266",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "first_occurrence": 2622,
+        "full_count": 288,
+        "historical_class_index": 65,
+        "historical_labeled_hash": "648123c379341539c61559365b787c33dc32145e7494b93979e9d9991234f266",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 4
+      },
+      {
+        "discovered_class_index": 66,
+        "discovered_labeled_hash": "105a4d001360d0d318377a1a72ea37e0416f62d3c42862296267f7ea85ee15dd",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "first_occurrence": 2676,
+        "full_count": 96,
+        "historical_class_index": 66,
+        "historical_labeled_hash": "105a4d001360d0d318377a1a72ea37e0416f62d3c42862296267f7ea85ee15dd",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 1
+      },
+      {
+        "discovered_class_index": 67,
+        "discovered_labeled_hash": "559dea83ee6f0930b46d54a51bf8522bd1342f1303aa6eb2a4005b21d1bdb3ec",
+        "first_choices": [
+          [
+            4,
+            8
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        "first_occurrence": 2681,
+        "full_count": 96,
+        "historical_class_index": 67,
+        "historical_labeled_hash": "559dea83ee6f0930b46d54a51bf8522bd1342f1303aa6eb2a4005b21d1bdb3ec",
+        "historical_match_count": 1,
+        "labeled_representative_identical": true,
+        "prefix_count": 1
+      }
+    ]
+  },
+  "input": {
+    "path": "catalog-input.json",
+    "sha256": "6b91c12518cb72444a0341e88d8157766b07832da5bd0c7ce39a0973c5dd53ab",
+    "source_archive": "HorizonMath_C13_7_4_sat_bundle.zip",
+    "source_archive_sha256": "06ae94d3fd8a7e7f91d8022bd8f0a05a87775ef65eca1bd8cb6460c3cbca18e1"
+  },
+  "outputs": {
+    "completion_ledger": {
+      "path": "completion-ledger.jsonl",
+      "rows": 21952,
+      "sha256": "f085043dd3c460857f24c3adbe976b2720fe4b7ab1c00f8ebf94e420b61ddcf7"
+    },
+    "numbering_manifest": {
+      "entries": 68,
+      "path": "numbering.manifest.json",
+      "sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c"
+    }
+  },
+  "schema_version": "horizonmath.link-catalog-audit.v1",
+  "status": "PASS",
+  "unresolved_provenance": [
+    "A proof or authoritative source that the recovered two templates exhaust all minimum C(12,6,3) covers.",
+    "An independently audited literature-to-project 1-through-68 numbering map.",
+    "The original NetworkX version or a dependency lock for the archived classifier."
+  ]
+}

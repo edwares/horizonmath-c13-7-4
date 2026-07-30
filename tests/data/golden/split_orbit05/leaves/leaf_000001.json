@@ -1,0 +1,3956 @@
+{
+  "assignments": {
+    "512": 0
+  },
+  "assumption_multipliers": [
+    {
+      "kind": "assume0",
+      "multiplier": 15241091885978417590727264,
+      "variable": 512
+    }
+  ],
+  "clause_literals_after_division": [
+    "x512"
+  ],
+  "depth": 1,
+  "exact_checks": {
+    "all_support_multipliers_strictly_positive": true,
+    "all_variable_coefficients_cancel_with_assumptions": true,
+    "at_least_one_assumption_multiplier": true,
+    "contradiction_margin_strictly_positive": true,
+    "division_and_saturation_yield_path_clause": true,
+    "every_assumption_matches_leaf_path": true,
+    "global_cut_coefficients_equal_weighted_clause": true,
+    "global_cut_rhs_equal_weighted_clause": true
+  },
+  "exact_margin": 1744891360777902948471112,
+  "floating_support": {
+    "reported_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "reported_status": 0,
+    "support_size": 779
+  },
+  "formal_status": "EXACT_ARITHMETIC_CHECKED_NOT_YET_VERIFIED",
+  "global_bound_multipliers": [
+    {
+      "kind": "lower",
+      "multiplier": 5288030728967131098270967,
+      "variable": 2
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17537693637863406151074537,
+      "variable": 3
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2597927101635720282674614,
+      "variable": 4
+    },
+    {
+      "kind": "lower",
+      "multiplier": 861482748659478709557921,
+      "variable": 5
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3132697850076923807041836,
+      "variable": 6
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12208689869634214409032416,
+      "variable": 8
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7435269883266104405893647,
+      "variable": 9
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2025443636674662894733647,
+      "variable": 10
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5703202717178672382990801,
+      "variable": 11
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17877949371305077519744631,
+      "variable": 12
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6779758555695706199563975,
+      "variable": 13
+    },
+    {
+      "kind": "lower",
+      "multiplier": 834279250876879976439823,
+      "variable": 14
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6002060488380840118710811,
+      "variable": 15
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17375464235784915146177250,
+      "variable": 16
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19960732520994138831812877,
+      "variable": 17
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16883600487031281190492751,
+      "variable": 18
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2568479416074772565700954,
+      "variable": 19
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1634213587373844569254067,
+      "variable": 20
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3870819145036477632621343,
+      "variable": 21
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2749123979103784096929131,
+      "variable": 23
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11146872758530458906834784,
+      "variable": 24
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4581208014156459653577652,
+      "variable": 25
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8161206951311714623818647,
+      "variable": 26
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3986564698030283973247327,
+      "variable": 27
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2635622070103371678310728,
+      "variable": 28
+    },
+    {
+      "kind": "lower",
+      "multiplier": 757617278855581944670221,
+      "variable": 29
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1878974076994318322060564,
+      "variable": 30
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2504590688144530495530242,
+      "variable": 32
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2775244525293550386845880,
+      "variable": 33
+    },
+    {
+      "kind": "lower",
+      "multiplier": 414347854329813705075756,
+      "variable": 34
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4596815358795360329930519,
+      "variable": 36
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4644539351675180189046211,
+      "variable": 38
+    },
+    {
+      "kind": "lower",
+      "multiplier": 92800738057177818569285,
+      "variable": 39
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4342771256446732291273948,
+      "variable": 40
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4117309627339993836119036,
+      "variable": 41
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2080056926095711808184850,
+      "variable": 43
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3931260408669731359596329,
+      "variable": 44
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4936244941583810412557069,
+      "variable": 45
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1601766043754750118285388,
+      "variable": 46
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3561740596602547592049164,
+      "variable": 47
+    },
+    {
+      "kind": "lower",
+      "multiplier": 360730600183120951891747,
+      "variable": 48
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3643295273504515733652862,
+      "variable": 49
+    },
+    {
+      "kind": "lower",
+      "multiplier": 241948385400704756665245,
+      "variable": 50
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12336539683714823504995205,
+      "variable": 58
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2376039347989357989781328,
+      "variable": 59
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10650350732243455621221103,
+      "variable": 62
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7113863514422358788823511,
+      "variable": 63
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1460787866691594806172756,
+      "variable": 64
+    },
+    {
+      "kind": "lower",
+      "multiplier": 771588880531044225049151,
+      "variable": 65
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12904790751081329238121137,
+      "variable": 66
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13603135842238417311749011,
+      "variable": 67
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2959806417584146691927913,
+      "variable": 68
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2892963332752724640228296,
+      "variable": 69
+    },
+    {
+      "kind": "lower",
+      "multiplier": 940277656432346398944840,
+      "variable": 71
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8611582238651738102160197,
+      "variable": 72
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4274429597095777151226123,
+      "variable": 73
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4532285047282333419975164,
+      "variable": 74
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1752622333590288987593444,
+      "variable": 75
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10581280325113548530990154,
+      "variable": 76
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17781141680757909441812178,
+      "variable": 77
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1899686838447720918895596,
+      "variable": 78
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3466703752167911018077266,
+      "variable": 79
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4225783084143771009482144,
+      "variable": 81
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5849864273014396383452936,
+      "variable": 82
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5964873958234220801325974,
+      "variable": 83
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4916465627759051124747845,
+      "variable": 85
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16364441014724404701469801,
+      "variable": 88
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4216771308545259693295098,
+      "variable": 89
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7558319676858375425602505,
+      "variable": 90
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4337981546458437715917132,
+      "variable": 91
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5131358000304421557517150,
+      "variable": 92
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3597714683905925159891437,
+      "variable": 93
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3830904452624546125547059,
+      "variable": 94
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8497123475132108225861472,
+      "variable": 95
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5172123953398149295155540,
+      "variable": 96
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4967994861398260839172239,
+      "variable": 97
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6386247755189187535409816,
+      "variable": 98
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7018143929554032410763266,
+      "variable": 100
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10565785009996813570872305,
+      "variable": 101
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3975427727942588558743500,
+      "variable": 102
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3576143573609697186510296,
+      "variable": 103
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3338545543561316033895288,
+      "variable": 104
+    },
+    {
+      "kind": "lower",
+      "multiplier": 439335843248917053803436,
+      "variable": 105
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3352188183423174832511867,
+      "variable": 106
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4679143829422508940739659,
+      "variable": 107
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3643589411075184688321325,
+      "variable": 109
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3343442794534206840273662,
+      "variable": 110
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4279308105906265760446459,
+      "variable": 111
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4426534170605015558254243,
+      "variable": 112
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8289110249489528741037685,
+      "variable": 113
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6894607990383004626731217,
+      "variable": 114
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3094093046956358695625600,
+      "variable": 115
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5966266635764427173445719,
+      "variable": 116
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15444752628404000778357283,
+      "variable": 117
+    },
+    {
+      "kind": "lower",
+      "multiplier": 492416097583018691695445,
+      "variable": 119
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4620076043466804270306483,
+      "variable": 120
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2088828519664139421713003,
+      "variable": 123
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2018464836652653947252776,
+      "variable": 125
+    },
+    {
+      "kind": "lower",
+      "multiplier": 407200414299041863339624,
+      "variable": 126
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4333349642881862454891899,
+      "variable": 127
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4905739230012858210658811,
+      "variable": 128
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6169651967140648799539294,
+      "variable": 129
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1338345025654545199627304,
+      "variable": 131
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19301425441970620979276692,
+      "variable": 132
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11013529488805069684913393,
+      "variable": 133
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11800487629511926704001289,
+      "variable": 135
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18312570981171727968435474,
+      "variable": 136
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4749450315054640910725691,
+      "variable": 137
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11421769452007396101535966,
+      "variable": 138
+    },
+    {
+      "kind": "lower",
+      "multiplier": 473316367393205182338894,
+      "variable": 140
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1915951268065887894226985,
+      "variable": 142
+    },
+    {
+      "kind": "lower",
+      "multiplier": 971835169454346535092189,
+      "variable": 143
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6499718504890508063348808,
+      "variable": 145
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3140111636066483931269128,
+      "variable": 146
+    },
+    {
+      "kind": "lower",
+      "multiplier": 209270455870072609174903,
+      "variable": 147
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3704446021770683420173294,
+      "variable": 150
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12926059925371892094893435,
+      "variable": 152
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1343525852827929387345552,
+      "variable": 153
+    },
+    {
+      "kind": "lower",
+      "multiplier": 20386066454731898414401159,
+      "variable": 154
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6141580070918042715569553,
+      "variable": 156
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7291908046602879140202555,
+      "variable": 157
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10105116748526340706779958,
+      "variable": 158
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13841454686958838064429132,
+      "variable": 159
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9432319114756920792294522,
+      "variable": 160
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2679625530318633606538274,
+      "variable": 161
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3563207273010475040557305,
+      "variable": 162
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6301942185370816904377095,
+      "variable": 163
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10679435491797242836886026,
+      "variable": 164
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4815270622729317871633526,
+      "variable": 165
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8896360632561649120321062,
+      "variable": 166
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8701188081441138705624195,
+      "variable": 167
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18174979385786912144406043,
+      "variable": 169
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10574575858765527317427296,
+      "variable": 170
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11565981990642561818575436,
+      "variable": 171
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7294354225115457628180790,
+      "variable": 172
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5337185389738929404729348,
+      "variable": 173
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6553405410026206488071168,
+      "variable": 174
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5580770339793010333788046,
+      "variable": 175
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7851277779032878303555333,
+      "variable": 177
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6812655389443982038400589,
+      "variable": 178
+    },
+    {
+      "kind": "lower",
+      "multiplier": 806723814972305385425906,
+      "variable": 179
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2895552334636444807138909,
+      "variable": 180
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7433777533105634457132543,
+      "variable": 181
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6435454619274279229986612,
+      "variable": 183
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2862547577863697009921596,
+      "variable": 184
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7323568107008211853518101,
+      "variable": 185
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3518230432168870389699431,
+      "variable": 186
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13004403475753085341566832,
+      "variable": 187
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5774152249720969586238203,
+      "variable": 188
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7133356102442142579265434,
+      "variable": 191
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3658230077954691601693015,
+      "variable": 192
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3789303610603133699860218,
+      "variable": 193
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6653372226654499553824617,
+      "variable": 194
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5491078288052377662620352,
+      "variable": 195
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3344267651864544415256851,
+      "variable": 196
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12150897142754705618757320,
+      "variable": 197
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2982848254093283500708314,
+      "variable": 198
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2422794584880575603332066,
+      "variable": 199
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3095015686316519162185859,
+      "variable": 200
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13255858363825730797861761,
+      "variable": 201
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9312826248274554261280969,
+      "variable": 202
+    },
+    {
+      "kind": "lower",
+      "multiplier": 208390116005818102786791,
+      "variable": 205
+    },
+    {
+      "kind": "lower",
+      "multiplier": 526058090721155649653653,
+      "variable": 206
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16091462664956543203218367,
+      "variable": 207
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7759763666338986139812102,
+      "variable": 209
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2301702301913218960406554,
+      "variable": 210
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2768005323905895123452165,
+      "variable": 211
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14154952000452618122682074,
+      "variable": 213
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10506795722932846672700927,
+      "variable": 214
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1620411454587876603523565,
+      "variable": 216
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4125129812496652721840294,
+      "variable": 218
+    },
+    {
+      "kind": "lower",
+      "multiplier": 200424969752096158848657,
+      "variable": 221
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8984667037563974221225243,
+      "variable": 222
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7869966369975692434962291,
+      "variable": 223
+    },
+    {
+      "kind": "lower",
+      "multiplier": 583827641192081304159033,
+      "variable": 224
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2444307185445796027868999,
+      "variable": 225
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1813323333608635568278235,
+      "variable": 226
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1455455077610883214518845,
+      "variable": 227
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5257451833949484071476408,
+      "variable": 228
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4144566613780420270612350,
+      "variable": 230
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13182744047551343399273248,
+      "variable": 231
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7784713155103996604205611,
+      "variable": 233
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1342180359588017378209466,
+      "variable": 234
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13804371022345668400331385,
+      "variable": 237
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3046867111304420861976556,
+      "variable": 238
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3446450131764935492467171,
+      "variable": 240
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5860870418319571701648660,
+      "variable": 241
+    },
+    {
+      "kind": "lower",
+      "multiplier": 639234566228429249511133,
+      "variable": 246
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2734527993254127811824192,
+      "variable": 247
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13993996083600520699172969,
+      "variable": 249
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10015710452311388385324593,
+      "variable": 250
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1924102966430389448238922,
+      "variable": 252
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4004689072865541789280801,
+      "variable": 254
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1999573758456626358743913,
+      "variable": 255
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7744551529541891647985877,
+      "variable": 256
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10031057684086697205088230,
+      "variable": 258
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5222841687497634290918935,
+      "variable": 259
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11329814897190131983165358,
+      "variable": 261
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5268360501791461507089375,
+      "variable": 263
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4444916116248210162241426,
+      "variable": 264
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3739698589864876391291384,
+      "variable": 265
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4988688766867670340222204,
+      "variable": 266
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5527500484618158264339175,
+      "variable": 267
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18790581989177263672391195,
+      "variable": 268
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9518393457932463105957549,
+      "variable": 270
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9249867212740079049256896,
+      "variable": 271
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1205570577709488956470239,
+      "variable": 272
+    },
+    {
+      "kind": "lower",
+      "multiplier": 24690163640950186952886780,
+      "variable": 273
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14462220588546637195328651,
+      "variable": 274
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9437998129370034007811942,
+      "variable": 275
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10339969387861144952567243,
+      "variable": 277
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1997055499579475743256669,
+      "variable": 278
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15584587538178076392913208,
+      "variable": 279
+    },
+    {
+      "kind": "lower",
+      "multiplier": 24567442618075650878393855,
+      "variable": 280
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8127994824740870262733271,
+      "variable": 282
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12854372885079787799738874,
+      "variable": 283
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11141236732945935423772893,
+      "variable": 284
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7811095712156266426569980,
+      "variable": 285
+    },
+    {
+      "kind": "lower",
+      "multiplier": 26693361087171106903246488,
+      "variable": 286
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10812257043801898749761141,
+      "variable": 287
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4010737627036824780671043,
+      "variable": 288
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13317639003220342180638751,
+      "variable": 289
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8194781018488414900809270,
+      "variable": 290
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2963087685915747530307734,
+      "variable": 291
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8169117111539268011527032,
+      "variable": 292
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11260528501585509589808817,
+      "variable": 293
+    },
+    {
+      "kind": "lower",
+      "multiplier": 24996457786085871447364314,
+      "variable": 295
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7879663450778292120712228,
+      "variable": 296
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1580677702965204580336452,
+      "variable": 297
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4794526831128254925259590,
+      "variable": 298
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6847185987467756773613438,
+      "variable": 300
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10417155619092831772895359,
+      "variable": 301
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18680172688774939882230902,
+      "variable": 302
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3894119458516016150413927,
+      "variable": 303
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5127843999020776011833472,
+      "variable": 304
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3971422010790180449364752,
+      "variable": 305
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10881568941868354101051412,
+      "variable": 307
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4925315857847810473896384,
+      "variable": 308
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13222953307449737249130128,
+      "variable": 309
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9405357651008328872444210,
+      "variable": 310
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12168647322756059310197541,
+      "variable": 311
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4936233588467694860757780,
+      "variable": 312
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1932950697799056536881217,
+      "variable": 313
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14420843188680403137988392,
+      "variable": 314
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6972036794033815395206917,
+      "variable": 316
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6191324063102761969244958,
+      "variable": 319
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5559064148210195958048338,
+      "variable": 320
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5425807194699479816496326,
+      "variable": 321
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5982631623599637696601021,
+      "variable": 322
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12272640669808855000669967,
+      "variable": 323
+    },
+    {
+      "kind": "lower",
+      "multiplier": 514793028997878869897138,
+      "variable": 324
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1785022339014644046458224,
+      "variable": 326
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5899291016051447632322063,
+      "variable": 327
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15362803157255011794764673,
+      "variable": 328
+    },
+    {
+      "kind": "lower",
+      "multiplier": 137687356384946206265842,
+      "variable": 329
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8827670991196933504033081,
+      "variable": 330
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1353193397664797300120035,
+      "variable": 332
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3574186262786572353568429,
+      "variable": 333
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7788945853794796099874890,
+      "variable": 335
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12541585485277708211847077,
+      "variable": 337
+    },
+    {
+      "kind": "lower",
+      "multiplier": 696840537053301693213029,
+      "variable": 338
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6832536955202429527045043,
+      "variable": 339
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2432106484199069437361029,
+      "variable": 340
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6995282378604271686872304,
+      "variable": 342
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18671194957922676979048912,
+      "variable": 344
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13512349397454445663471212,
+      "variable": 345
+    },
+    {
+      "kind": "lower",
+      "multiplier": 182399389103095928002231,
+      "variable": 346
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7184625435708994587326447,
+      "variable": 348
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16721856800683797119669951,
+      "variable": 349
+    },
+    {
+      "kind": "lower",
+      "multiplier": 20296704024652306385837936,
+      "variable": 351
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4645881144013070621566686,
+      "variable": 352
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6824385506578639003743224,
+      "variable": 354
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14769466910383708179440186,
+      "variable": 355
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8037795303915559513477711,
+      "variable": 356
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19460263997826343075471567,
+      "variable": 357
+    },
+    {
+      "kind": "lower",
+      "multiplier": 760320712383804184812725,
+      "variable": 358
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3160434840873925874513548,
+      "variable": 359
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1156073287758254945731685,
+      "variable": 360
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5426688283835898790505867,
+      "variable": 361
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6682472081818010258719960,
+      "variable": 362
+    },
+    {
+      "kind": "lower",
+      "multiplier": 750605312969302923555461,
+      "variable": 363
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10785361136556346746380089,
+      "variable": 364
+    },
+    {
+      "kind": "lower",
+      "multiplier": 607783069346840422005432,
+      "variable": 366
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3474118529429486745293312,
+      "variable": 367
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12950932109686066218896795,
+      "variable": 369
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9705115300605745576942785,
+      "variable": 371
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5652489512422645909058913,
+      "variable": 372
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1819785270158494176258741,
+      "variable": 373
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8520186966130082400407918,
+      "variable": 375
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1520927023915657301715699,
+      "variable": 377
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4759714095182503462543454,
+      "variable": 378
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15797121174321675416679748,
+      "variable": 379
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4529786572132048750819885,
+      "variable": 380
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6798416632232536200700184,
+      "variable": 381
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6378062291626457346750852,
+      "variable": 382
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5373726236972843140338540,
+      "variable": 384
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8013435116440838450087133,
+      "variable": 386
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11218865230251645308267483,
+      "variable": 389
+    },
+    {
+      "kind": "lower",
+      "multiplier": 421210619388322147585640,
+      "variable": 390
+    },
+    {
+      "kind": "lower",
+      "multiplier": 22589422461696437099166843,
+      "variable": 391
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12435363535690325156765983,
+      "variable": 393
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6751141049477397299795668,
+      "variable": 394
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5983272601004187311298067,
+      "variable": 396
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2838479585487509193719264,
+      "variable": 397
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3611391413507480961785740,
+      "variable": 398
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14581409053691955956944842,
+      "variable": 400
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19523223251517790367880449,
+      "variable": 401
+    },
+    {
+      "kind": "lower",
+      "multiplier": 881106680049842404296733,
+      "variable": 403
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6712538718094039691503145,
+      "variable": 404
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4813617694733802096265868,
+      "variable": 405
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1212033206720888657462728,
+      "variable": 406
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13282334840379310401299122,
+      "variable": 407
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1186072792631296472482587,
+      "variable": 408
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17208088578586186404725305,
+      "variable": 410
+    },
+    {
+      "kind": "lower",
+      "multiplier": 24440483451073646900204493,
+      "variable": 411
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7794523576747774849790479,
+      "variable": 412
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19487288366264752717912790,
+      "variable": 413
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4781219026225754362424022,
+      "variable": 414
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10033020196974847150404750,
+      "variable": 415
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16917352543255277526420962,
+      "variable": 417
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5109252139395255018408703,
+      "variable": 418
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19510655409177575596627459,
+      "variable": 420
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1736316062782898468282855,
+      "variable": 421
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1059169687625546368670720,
+      "variable": 422
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11649963507158106326694100,
+      "variable": 423
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1739112916442056492061068,
+      "variable": 424
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7202526427496105772287316,
+      "variable": 425
+    },
+    {
+      "kind": "lower",
+      "multiplier": 480380732982122993556722,
+      "variable": 426
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7779996802032349294467656,
+      "variable": 427
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4831772680224710952231377,
+      "variable": 428
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8559493285599981279870240,
+      "variable": 429
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7235257521625889878790351,
+      "variable": 431
+    },
+    {
+      "kind": "lower",
+      "multiplier": 644795438979177510024156,
+      "variable": 432
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5463807403431390949276581,
+      "variable": 433
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4385834544573663699875502,
+      "variable": 434
+    },
+    {
+      "kind": "lower",
+      "multiplier": 17891982382484681238882868,
+      "variable": 435
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18394227115289446484107784,
+      "variable": 436
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19963793185421836834353356,
+      "variable": 437
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6929076966916651928750350,
+      "variable": 438
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10045435405912666607076611,
+      "variable": 439
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6832008054910459364089820,
+      "variable": 440
+    },
+    {
+      "kind": "lower",
+      "multiplier": 22474533464437830783782115,
+      "variable": 441
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14057479402697545684908924,
+      "variable": 442
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13095027212202771040432871,
+      "variable": 443
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11406822953569321960648187,
+      "variable": 444
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9244871180678374683027026,
+      "variable": 445
+    },
+    {
+      "kind": "lower",
+      "multiplier": 25440753707900926873017225,
+      "variable": 446
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11300693322324420576712881,
+      "variable": 447
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11930345429769115113900680,
+      "variable": 448
+    },
+    {
+      "kind": "lower",
+      "multiplier": 20383441724235354996511445,
+      "variable": 449
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9098642099687354923511165,
+      "variable": 450
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12166374790490077360657747,
+      "variable": 451
+    },
+    {
+      "kind": "lower",
+      "multiplier": 22469621767911415003278823,
+      "variable": 452
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6971104209816863441449641,
+      "variable": 453
+    },
+    {
+      "kind": "lower",
+      "multiplier": 23918884934888420947423148,
+      "variable": 454
+    },
+    {
+      "kind": "lower",
+      "multiplier": 24356807861267202391781645,
+      "variable": 455
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7999032067412803611208051,
+      "variable": 456
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4641862055859893615450786,
+      "variable": 457
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5512865852798808521039652,
+      "variable": 458
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6423282651988232835882986,
+      "variable": 459
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11990700097854383518238407,
+      "variable": 460
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9975631764396589005196061,
+      "variable": 461
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8711290428652314221371213,
+      "variable": 462
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2505587792350952895791583,
+      "variable": 464
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9178918463251668290561424,
+      "variable": 465
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11479145921040479311063837,
+      "variable": 467
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6953500605536880518430964,
+      "variable": 468
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4875900073395374029713549,
+      "variable": 469
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12313440289897907225371816,
+      "variable": 470
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1704340607050757094026610,
+      "variable": 472
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5373096471236108878254826,
+      "variable": 473
+    },
+    {
+      "kind": "lower",
+      "multiplier": 764160350619619462826105,
+      "variable": 474
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2716538501273806740743816,
+      "variable": 475
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5042531746524521839941271,
+      "variable": 477
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10402830271838468701976297,
+      "variable": 479
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1891643669651766247155703,
+      "variable": 481
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11029305409152053642667253,
+      "variable": 482
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7178565731561541106868198,
+      "variable": 484
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3983638638788053115455059,
+      "variable": 485
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18555748627103242213152579,
+      "variable": 486
+    },
+    {
+      "kind": "lower",
+      "multiplier": 555838539720000039439215,
+      "variable": 487
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5838609192100872703199106,
+      "variable": 488
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5022763804833080940058325,
+      "variable": 489
+    },
+    {
+      "kind": "lower",
+      "multiplier": 322537773832143500390929,
+      "variable": 490
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10444937749564991912450726,
+      "variable": 491
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2866865862531325530113658,
+      "variable": 493
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6165071662639433015470625,
+      "variable": 494
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7082716018909845912687191,
+      "variable": 495
+    },
+    {
+      "kind": "lower",
+      "multiplier": 878963141980010470936508,
+      "variable": 496
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6222777108160972687652802,
+      "variable": 497
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3648354726935713847052641,
+      "variable": 498
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7300055693050410294624040,
+      "variable": 502
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3558926587763542560394604,
+      "variable": 503
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14616243280396818094585345,
+      "variable": 504
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10967888553461104247532704,
+      "variable": 506
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5768824498898373013312656,
+      "variable": 507
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10930309865615184885515512,
+      "variable": 509
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5466493313866860200453487,
+      "variable": 516
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4752373117095296602154861,
+      "variable": 518
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1680290707103739315378303,
+      "variable": 519
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4038085610604784568889004,
+      "variable": 520
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12860676906605221996596465,
+      "variable": 525
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1914078598711832421242358,
+      "variable": 526
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6338584943234014792405264,
+      "variable": 528
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2902571314356472194536751,
+      "variable": 530
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6002612390506466119176711,
+      "variable": 532
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6537178414704695605373023,
+      "variable": 533
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7931961399278190174663812,
+      "variable": 534
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1838660507978270495568591,
+      "variable": 535
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1005564918742951764154988,
+      "variable": 536
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9699605250506802814038891,
+      "variable": 537
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5746881048347594304242397,
+      "variable": 538
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10210523390295537918471117,
+      "variable": 539
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10789723056396469470027806,
+      "variable": 541
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6375469303934059770408345,
+      "variable": 542
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9954498395567045936941786,
+      "variable": 543
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12718496558234284025487847,
+      "variable": 544
+    },
+    {
+      "kind": "lower",
+      "multiplier": 21158934762976177578040964,
+      "variable": 546
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1628262943872716944739551,
+      "variable": 547
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10140337845248122433821789,
+      "variable": 548
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9833868587175556571996005,
+      "variable": 549
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3242435965104003126796384,
+      "variable": 550
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4695589537928749753725322,
+      "variable": 551
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11267731821943899128560148,
+      "variable": 552
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14465621489344653421798713,
+      "variable": 553
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6787275153777584732379412,
+      "variable": 554
+    },
+    {
+      "kind": "lower",
+      "multiplier": 852976561708520167521266,
+      "variable": 555
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12778890703903804854829200,
+      "variable": 556
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7039859667771281817937769,
+      "variable": 557
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1964273564904753176515527,
+      "variable": 558
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8979614433121240670557331,
+      "variable": 559
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11970956555827131354244632,
+      "variable": 560
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3203201048312375946195973,
+      "variable": 561
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3853750676047167484334900,
+      "variable": 562
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15843572399645153084924350,
+      "variable": 563
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2468868220445715450827967,
+      "variable": 564
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13447225045213661416023096,
+      "variable": 566
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10068185063195020188675302,
+      "variable": 567
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9522148178331354751231549,
+      "variable": 568
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11336183405316994363155041,
+      "variable": 569
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13693978308818039616665742,
+      "variable": 570
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9329827275996134132641456,
+      "variable": 573
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1564872561848073141680768,
+      "variable": 574
+    },
+    {
+      "kind": "lower",
+      "multiplier": 16633371190253907032261089,
+      "variable": 575
+    },
+    {
+      "kind": "lower",
+      "multiplier": 18335876573410833595743816,
+      "variable": 576
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4201983276975358120807984,
+      "variable": 577
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10113247886957641578893792,
+      "variable": 578
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9241156257590486986942015,
+      "variable": 580
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7213353334719704899748503,
+      "variable": 582
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10332483225861829660449210,
+      "variable": 583
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10113604927504575199591211,
+      "variable": 584
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13695897950170050991098608,
+      "variable": 585
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3311732582700917840975784,
+      "variable": 586
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4394953770817826072246381,
+      "variable": 587
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7213353334719704899748503,
+      "variable": 588
+    },
+    {
+      "kind": "lower",
+      "multiplier": 245537894044673026103519,
+      "variable": 589
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4585313799480979426124803,
+      "variable": 590
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5135910327219415059284107,
+      "variable": 591
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4487640279607834270913655,
+      "variable": 592
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4641245992125637290985390,
+      "variable": 593
+    },
+    {
+      "kind": "lower",
+      "multiplier": 538951366762559502741765,
+      "variable": 594
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7072157648111015776267622,
+      "variable": 595
+    },
+    {
+      "kind": "lower",
+      "multiplier": 307589154938869322675522,
+      "variable": 596
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15149401345176862243685875,
+      "variable": 597
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4167724708720114103611091,
+      "variable": 598
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7641767064674305223669226,
+      "variable": 599
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8689353582214659141263484,
+      "variable": 600
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9191762553398819860570364,
+      "variable": 601
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9775575344203579609394340,
+      "variable": 602
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11025209098980357902915355,
+      "variable": 604
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3323879875942852514387100,
+      "variable": 605
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6805440904624939916843866,
+      "variable": 606
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3978260832812414366904265,
+      "variable": 607
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2300903535217119229874835,
+      "variable": 608
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5263994759260549961949696,
+      "variable": 609
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4076301540259455390542215,
+      "variable": 611
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7894954519582806296692002,
+      "variable": 612
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14149048810219814006886342,
+      "variable": 613
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5069961822869334930925513,
+      "variable": 614
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2695518386988734286261844,
+      "variable": 615
+    },
+    {
+      "kind": "lower",
+      "multiplier": 19564724234240930433288902,
+      "variable": 616
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7106939707293480797512210,
+      "variable": 618
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4679523803477019009631555,
+      "variable": 619
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9069579273562386240941767,
+      "variable": 620
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4884299407989786619161997,
+      "variable": 621
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8045381817650710614119532,
+      "variable": 622
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8593624702673145029182339,
+      "variable": 623
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9044839524569036434984860,
+      "variable": 625
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5418181102470901257199273,
+      "variable": 626
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5377114193417619290186488,
+      "variable": 629
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2335991069404189776133355,
+      "variable": 630
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13307367844072656628661652,
+      "variable": 631
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9029357221780286262495899,
+      "variable": 632
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5199064054562731234220048,
+      "variable": 633
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8085444964086859491700280,
+      "variable": 634
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12341197333740480911581975,
+      "variable": 636
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5185550411848922812554991,
+      "variable": 638
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7551294547522195323800960,
+      "variable": 639
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11176330588355581120994161,
+      "variable": 640
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11342029605082147988769814,
+      "variable": 641
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7122005554195522238657600,
+      "variable": 642
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6990879285895811025784619,
+      "variable": 643
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10313394410869698824388463,
+      "variable": 644
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3344343186593191047700956,
+      "variable": 645
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2534924235965041334959288,
+      "variable": 646
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1746564063660344216624164,
+      "variable": 647
+    },
+    {
+      "kind": "lower",
+      "multiplier": 321969035767733066286765,
+      "variable": 649
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2206532984977641580757108,
+      "variable": 650
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10946896461656408989049311,
+      "variable": 652
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5112874990430162256181264,
+      "variable": 653
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6835601053130169019848508,
+      "variable": 655
+    },
+    {
+      "kind": "lower",
+      "multiplier": 849621185821537563237120,
+      "variable": 657
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4539672844904448504359353,
+      "variable": 658
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3677640150927367500537837,
+      "variable": 659
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4884402267513908773907460,
+      "variable": 660
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6433142146941037436962026,
+      "variable": 661
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4891625580000411012230339,
+      "variable": 663
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4800741484856346570858040,
+      "variable": 664
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2403483161321592812360148,
+      "variable": 665
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3625036040833385797193201,
+      "variable": 667
+    },
+    {
+      "kind": "lower",
+      "multiplier": 13875916749099880797888952,
+      "variable": 668
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3641568015348973822791643,
+      "variable": 670
+    },
+    {
+      "kind": "lower",
+      "multiplier": 200146523912057245494671,
+      "variable": 671
+    },
+    {
+      "kind": "lower",
+      "multiplier": 10012631805693537242092021,
+      "variable": 672
+    },
+    {
+      "kind": "lower",
+      "multiplier": 607412206411197438513525,
+      "variable": 673
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3458789855972627129615299,
+      "variable": 674
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3470135311357799147534590,
+      "variable": 675
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4138488056042107825987397,
+      "variable": 676
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3945058934968427581233390,
+      "variable": 678
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4186946231354563199207271,
+      "variable": 679
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7833438174587776343684402,
+      "variable": 680
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8822001326685196363177326,
+      "variable": 681
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9541969486571121193884960,
+      "variable": 682
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2115374634760247493186825,
+      "variable": 684
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4938688443856729683718979,
+      "variable": 685
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8454275931862029725557663,
+      "variable": 686
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8607547202828981709763832,
+      "variable": 687
+    },
+    {
+      "kind": "lower",
+      "multiplier": 15131838462357199490515565,
+      "variable": 688
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5048651967932480271591294,
+      "variable": 691
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12103035805760534644357261,
+      "variable": 692
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6911814900702382334127507,
+      "variable": 693
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8270772590934233293923306,
+      "variable": 694
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8370406951344912756477265,
+      "variable": 695
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8458415481728432934782324,
+      "variable": 696
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6948575483062039257511483,
+      "variable": 697
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4372069237491501918113024,
+      "variable": 698
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3785511325588252828377308,
+      "variable": 699
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3255038183408055378370438,
+      "variable": 700
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5454056819593399131994751,
+      "variable": 701
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2119235385616518609425238,
+      "variable": 704
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8373709559299312815093099,
+      "variable": 705
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9329730718426381001327992,
+      "variable": 706
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5180797017027634153917946,
+      "variable": 707
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7844988651888044420151420,
+      "variable": 708
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6954630428354327332208928,
+      "variable": 709
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5250913505888983158860893,
+      "variable": 710
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8582016692805604297582408,
+      "variable": 711
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2884412249449186506656328,
+      "variable": 712
+    },
+    {
+      "kind": "lower",
+      "multiplier": 11674632227598352115578967,
+      "variable": 714
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7371275748592365517010616,
+      "variable": 715
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6954630428354327332208928,
+      "variable": 716
+    },
+    {
+      "kind": "lower",
+      "multiplier": 14005523456267171156590244,
+      "variable": 723
+    },
+    {
+      "kind": "lower",
+      "multiplier": 8445140992263275016739045,
+      "variable": 724
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7273141256481442831658715,
+      "variable": 725
+    },
+    {
+      "kind": "lower",
+      "multiplier": 249270194396843278353016,
+      "variable": 726
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1515415852799609843236289,
+      "variable": 729
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2676937901382195274855036,
+      "variable": 732
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1058195339325989198792597,
+      "variable": 734
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5462418119346138348149765,
+      "variable": 735
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6036850048025778395888316,
+      "variable": 737
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3846074296354967481764135,
+      "variable": 738
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2133572063644932701426246,
+      "variable": 739
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1752604151612458444460779,
+      "variable": 741
+    },
+    {
+      "kind": "lower",
+      "multiplier": 12839460571318116587136204,
+      "variable": 742
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3633510094725944446421304,
+      "variable": 743
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6207337953227859154175526,
+      "variable": 744
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2802587317258644463491025,
+      "variable": 746
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4676731607693479664496308,
+      "variable": 749
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6234993569840787751233866,
+      "variable": 750
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2241452327759906503887339,
+      "variable": 751
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7023871062084599553305699,
+      "variable": 752
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4443709639018937233941406,
+      "variable": 754
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3692767875167978414584184,
+      "variable": 756
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4538653975606054603148932,
+      "variable": 760
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3308122192025264201256082,
+      "variable": 761
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3532689471892423171623103,
+      "variable": 764
+    },
+    {
+      "kind": "lower",
+      "multiplier": 437557069195505663954596,
+      "variable": 765
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2097626502340269157338644,
+      "variable": 766
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5941077703250150709319580,
+      "variable": 768
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6075415263816189212007304,
+      "variable": 769
+    },
+    {
+      "kind": "lower",
+      "multiplier": 9074817483384284859013721,
+      "variable": 770
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3822170598751647313535419,
+      "variable": 771
+    },
+    {
+      "kind": "lower",
+      "multiplier": 3292355301056505796115440,
+      "variable": 772
+    },
+    {
+      "kind": "lower",
+      "multiplier": 6329395133464051440065798,
+      "variable": 773
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4338113166151087434894992,
+      "variable": 777
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7793139200561792495510575,
+      "variable": 778
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2731297125351582912365408,
+      "variable": 779
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4435014047816927085713443,
+      "variable": 782
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5508879291487836585441872,
+      "variable": 784
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2819627644458997159489660,
+      "variable": 785
+    },
+    {
+      "kind": "lower",
+      "multiplier": 2549647120473673675547790,
+      "variable": 786
+    },
+    {
+      "kind": "lower",
+      "multiplier": 7751804718333028190887080,
+      "variable": 789
+    },
+    {
+      "kind": "lower",
+      "multiplier": 5224841180442769500631123,
+      "variable": 790
+    },
+    {
+      "kind": "lower",
+      "multiplier": 1282536532234837742760310,
+      "variable": 791
+    },
+    {
+      "kind": "lower",
+      "multiplier": 4504254681547199306810214,
+      "variable": 792
+    }
+  ],
+  "global_cut_linear_form": {
+    "nonzero_coefficients": [
+      {
+        "coefficient": 15241091885978417590727264,
+        "variable": 512
+      }
+    ],
+    "rhs": 1744891360777902948471112
+  },
+  "leaf_id": 1,
+  "maximum_multiplier": 34821698692026748453488873,
+  "minimum_multiplier": 7326226782337478194521,
+  "nullspace": {
+    "column_count": 779,
+    "engine": "SymPy DomainMatrix exact integer nullspace over ZZ",
+    "equation_count": 784,
+    "nonzero_equation_count": 784,
+    "nullspace_dimension": 1,
+    "rank": 778
+  },
+  "row_multipliers": [
+    {
+      "multiplier": 1818417581498601107827515,
+      "row_id_1based": 1,
+      "row_index_0based": 0
+    },
+    {
+      "multiplier": 474269698597948632757385,
+      "row_id_1based": 3,
+      "row_index_0based": 2
+    },
+    {
+      "multiplier": 3437891666371422567114260,
+      "row_id_1based": 4,
+      "row_index_0based": 3
+    },
+    {
+      "multiplier": 2177979946272970039316013,
+      "row_id_1based": 5,
+      "row_index_0based": 4
+    },
+    {
+      "multiplier": 306807289332654850119708,
+      "row_id_1based": 7,
+      "row_index_0based": 6
+    },
+    {
+      "multiplier": 2718073665069397491942635,
+      "row_id_1based": 8,
+      "row_index_0based": 7
+    },
+    {
+      "multiplier": 3116018635508119561330512,
+      "row_id_1based": 11,
+      "row_index_0based": 10
+    },
+    {
+      "multiplier": 8123909739214757074183803,
+      "row_id_1based": 13,
+      "row_index_0based": 12
+    },
+    {
+      "multiplier": 5172438765357581434032699,
+      "row_id_1based": 14,
+      "row_index_0based": 13
+    },
+    {
+      "multiplier": 2873098540375550122531542,
+      "row_id_1based": 15,
+      "row_index_0based": 14
+    },
+    {
+      "multiplier": 2802500305066817347471503,
+      "row_id_1based": 16,
+      "row_index_0based": 15
+    },
+    {
+      "multiplier": 3042111276702035086853043,
+      "row_id_1based": 17,
+      "row_index_0based": 16
+    },
+    {
+      "multiplier": 3847261103005956229406141,
+      "row_id_1based": 18,
+      "row_index_0based": 17
+    },
+    {
+      "multiplier": 937410179400289268310721,
+      "row_id_1based": 21,
+      "row_index_0based": 20
+    },
+    {
+      "multiplier": 855623506193133099097648,
+      "row_id_1based": 22,
+      "row_index_0based": 21
+    },
+    {
+      "multiplier": 3518977915437879018065173,
+      "row_id_1based": 23,
+      "row_index_0based": 22
+    },
+    {
+      "multiplier": 3331994663926429128641514,
+      "row_id_1based": 25,
+      "row_index_0based": 24
+    },
+    {
+      "multiplier": 5973797802038045295308645,
+      "row_id_1based": 26,
+      "row_index_0based": 25
+    },
+    {
+      "multiplier": 2700940271087519523168136,
+      "row_id_1based": 27,
+      "row_index_0based": 26
+    },
+    {
+      "multiplier": 5135543890602120067874077,
+      "row_id_1based": 28,
+      "row_index_0based": 27
+    },
+    {
+      "multiplier": 1721773363456510700808850,
+      "row_id_1based": 29,
+      "row_index_0based": 28
+    },
+    {
+      "multiplier": 1745603574294190013923528,
+      "row_id_1based": 30,
+      "row_index_0based": 29
+    },
+    {
+      "multiplier": 5199616690828591713659436,
+      "row_id_1based": 35,
+      "row_index_0based": 34
+    },
+    {
+      "multiplier": 5998011228975224252928338,
+      "row_id_1based": 36,
+      "row_index_0based": 35
+    },
+    {
+      "multiplier": 3697601564299652758327725,
+      "row_id_1based": 37,
+      "row_index_0based": 36
+    },
+    {
+      "multiplier": 5263788205322433343201285,
+      "row_id_1based": 38,
+      "row_index_0based": 37
+    },
+    {
+      "multiplier": 4243243040914830292996584,
+      "row_id_1based": 39,
+      "row_index_0based": 38
+    },
+    {
+      "multiplier": 2337493372280325034885268,
+      "row_id_1based": 40,
+      "row_index_0based": 39
+    },
+    {
+      "multiplier": 1907900196219879067556621,
+      "row_id_1based": 42,
+      "row_index_0based": 41
+    },
+    {
+      "multiplier": 3106086528920833357461652,
+      "row_id_1based": 45,
+      "row_index_0based": 44
+    },
+    {
+      "multiplier": 4006606319439101564102486,
+      "row_id_1based": 47,
+      "row_index_0based": 46
+    },
+    {
+      "multiplier": 2058952151027617859114189,
+      "row_id_1based": 48,
+      "row_index_0based": 47
+    },
+    {
+      "multiplier": 2586405866140409729210444,
+      "row_id_1based": 49,
+      "row_index_0based": 48
+    },
+    {
+      "multiplier": 3551165195848797786457555,
+      "row_id_1based": 50,
+      "row_index_0based": 49
+    },
+    {
+      "multiplier": 6114584081034796890331988,
+      "row_id_1based": 51,
+      "row_index_0based": 50
+    },
+    {
+      "multiplier": 6511465980452228516269509,
+      "row_id_1based": 52,
+      "row_index_0based": 51
+    },
+    {
+      "multiplier": 2907178907278428165422322,
+      "row_id_1based": 53,
+      "row_index_0based": 52
+    },
+    {
+      "multiplier": 4532783698422047585705517,
+      "row_id_1based": 54,
+      "row_index_0based": 53
+    },
+    {
+      "multiplier": 250985392661636974046535,
+      "row_id_1based": 55,
+      "row_index_0based": 54
+    },
+    {
+      "multiplier": 3450603506201010239784758,
+      "row_id_1based": 56,
+      "row_index_0based": 55
+    },
+    {
+      "multiplier": 1672617507198910756088127,
+      "row_id_1based": 58,
+      "row_index_0based": 57
+    },
+    {
+      "multiplier": 4348174864534627568372099,
+      "row_id_1based": 63,
+      "row_index_0based": 62
+    },
+    {
+      "multiplier": 2449112619053170842642976,
+      "row_id_1based": 64,
+      "row_index_0based": 63
+    },
+    {
+      "multiplier": 3389089170721333836208920,
+      "row_id_1based": 65,
+      "row_index_0based": 64
+    },
+    {
+      "multiplier": 429472549810989495770835,
+      "row_id_1based": 66,
+      "row_index_0based": 65
+    },
+    {
+      "multiplier": 6177517832343750243159470,
+      "row_id_1based": 67,
+      "row_index_0based": 66
+    },
+    {
+      "multiplier": 5163740782607189810989412,
+      "row_id_1based": 68,
+      "row_index_0based": 67
+    },
+    {
+      "multiplier": 2086403413086202834134429,
+      "row_id_1based": 69,
+      "row_index_0based": 68
+    },
+    {
+      "multiplier": 2426297344381143382112202,
+      "row_id_1based": 71,
+      "row_index_0based": 70
+    },
+    {
+      "multiplier": 2771611590368683384458380,
+      "row_id_1based": 72,
+      "row_index_0based": 71
+    },
+    {
+      "multiplier": 3124125994459247858043534,
+      "row_id_1based": 73,
+      "row_index_0based": 72
+    },
+    {
+      "multiplier": 2291962016569243236463068,
+      "row_id_1based": 75,
+      "row_index_0based": 74
+    },
+    {
+      "multiplier": 3128723655739477027360971,
+      "row_id_1based": 76,
+      "row_index_0based": 75
+    },
+    {
+      "multiplier": 2706177837227556781450527,
+      "row_id_1based": 77,
+      "row_index_0based": 76
+    },
+    {
+      "multiplier": 5328596216429421540512996,
+      "row_id_1based": 78,
+      "row_index_0based": 77
+    },
+    {
+      "multiplier": 484910151426534419105187,
+      "row_id_1based": 79,
+      "row_index_0based": 78
+    },
+    {
+      "multiplier": 3080093438613343525718847,
+      "row_id_1based": 82,
+      "row_index_0based": 81
+    },
+    {
+      "multiplier": 1771913215650594635351465,
+      "row_id_1based": 84,
+      "row_index_0based": 83
+    },
+    {
+      "multiplier": 1949286403005959526387988,
+      "row_id_1based": 91,
+      "row_index_0based": 90
+    },
+    {
+      "multiplier": 2318441065769027587652760,
+      "row_id_1based": 92,
+      "row_index_0based": 91
+    },
+    {
+      "multiplier": 1900198829778093207731813,
+      "row_id_1based": 93,
+      "row_index_0based": 92
+    },
+    {
+      "multiplier": 2884412249449186506656328,
+      "row_id_1based": 97,
+      "row_index_0based": 96
+    },
+    {
+      "multiplier": 498540388793686556706032,
+      "row_id_1based": 98,
+      "row_index_0based": 97
+    },
+    {
+      "multiplier": 4166373249204380509614696,
+      "row_id_1based": 99,
+      "row_index_0based": 98
+    },
+    {
+      "multiplier": 5127843999020776011833472,
+      "row_id_1based": 101,
+      "row_index_0based": 100
+    },
+    {
+      "multiplier": 536119076639605918723224,
+      "row_id_1based": 103,
+      "row_index_0based": 102
+    },
+    {
+      "multiplier": 2039732336113961338384133,
+      "row_id_1based": 106,
+      "row_index_0based": 105
+    },
+    {
+      "multiplier": 1653304872964948727047868,
+      "row_id_1based": 107,
+      "row_index_0based": 106
+    },
+    {
+      "multiplier": 3198186130230458153818708,
+      "row_id_1based": 108,
+      "row_index_0based": 107
+    },
+    {
+      "multiplier": 2563921999510388005916736,
+      "row_id_1based": 111,
+      "row_index_0based": 110
+    },
+    {
+      "multiplier": 5448334248959574512573064,
+      "row_id_1based": 112,
+      "row_index_0based": 111
+    },
+    {
+      "multiplier": 3317307754979240255371474,
+      "row_id_1based": 113,
+      "row_index_0based": 112
+    },
+    {
+      "multiplier": 2670752082823320839496600,
+      "row_id_1based": 114,
+      "row_index_0based": 113
+    },
+    {
+      "multiplier": 2563921999510388005916736,
+      "row_id_1based": 115,
+      "row_index_0based": 114
+    },
+    {
+      "multiplier": 4030921575878223525378128,
+      "row_id_1based": 121,
+      "row_index_0based": 120
+    },
+    {
+      "multiplier": 2619167807878234981378391,
+      "row_id_1based": 125,
+      "row_index_0based": 124
+    },
+    {
+      "multiplier": 5483673013690952997258709,
+      "row_id_1based": 128,
+      "row_index_0based": 127
+    },
+    {
+      "multiplier": 1344227370776787560876303,
+      "row_id_1based": 132,
+      "row_index_0based": 131
+    },
+    {
+      "multiplier": 4878573804623932733480456,
+      "row_id_1based": 135,
+      "row_index_0based": 134
+    },
+    {
+      "multiplier": 3774662943723626786488528,
+      "row_id_1based": 137,
+      "row_index_0based": 136
+    },
+    {
+      "multiplier": 2884412249449186506656328,
+      "row_id_1based": 142,
+      "row_index_0based": 141
+    },
+    {
+      "multiplier": 5946874637753261069279096,
+      "row_id_1based": 145,
+      "row_index_0based": 144
+    },
+    {
+      "multiplier": 3774662943723626786488528,
+      "row_id_1based": 148,
+      "row_index_0based": 147
+    },
+    {
+      "multiplier": 2027802922870782087193512,
+      "row_id_1based": 149,
+      "row_index_0based": 148
+    },
+    {
+      "multiplier": 2899894552237936679145289,
+      "row_id_1based": 151,
+      "row_index_0based": 150
+    },
+    {
+      "multiplier": 648094943000671248133944,
+      "row_id_1based": 153,
+      "row_index_0based": 152
+    },
+    {
+      "multiplier": 2075854022745225009589091,
+      "row_id_1based": 154,
+      "row_index_0based": 153
+    },
+    {
+      "multiplier": 2565802934397734427238013,
+      "row_id_1based": 168,
+      "row_index_0based": 167
+    },
+    {
+      "multiplier": 1249829965722193406563054,
+      "row_id_1based": 169,
+      "row_index_0based": 168
+    },
+    {
+      "multiplier": 3263281067922588217870570,
+      "row_id_1based": 170,
+      "row_index_0based": 169
+    },
+    {
+      "multiplier": 1842085603704870744060012,
+      "row_id_1based": 172,
+      "row_index_0based": 171
+    },
+    {
+      "multiplier": 421917435549791552321010,
+      "row_id_1based": 174,
+      "row_index_0based": 173
+    },
+    {
+      "multiplier": 374073695166723902527976,
+      "row_id_1based": 175,
+      "row_index_0based": 174
+    },
+    {
+      "multiplier": 3138270383725194472143964,
+      "row_id_1based": 177,
+      "row_index_0based": 176
+    },
+    {
+      "multiplier": 3833278833534583335886707,
+      "row_id_1based": 178,
+      "row_index_0based": 177
+    },
+    {
+      "multiplier": 5448334248959574512573064,
+      "row_id_1based": 191,
+      "row_index_0based": 190
+    },
+    {
+      "multiplier": 2736713022847479025593133,
+      "row_id_1based": 200,
+      "row_index_0based": 199
+    },
+    {
+      "multiplier": 2361928427187769218627163,
+      "row_id_1based": 202,
+      "row_index_0based": 201
+    },
+    {
+      "multiplier": 513818092536760296342657,
+      "row_id_1based": 204,
+      "row_index_0based": 203
+    },
+    {
+      "multiplier": 4540354627701813447343562,
+      "row_id_1based": 205,
+      "row_index_0based": 204
+    },
+    {
+      "multiplier": 521186882333310387055123,
+      "row_id_1based": 209,
+      "row_index_0based": 208
+    },
+    {
+      "multiplier": 2148581417979558418419303,
+      "row_id_1based": 210,
+      "row_index_0based": 209
+    },
+    {
+      "multiplier": 1979932120355972114695132,
+      "row_id_1based": 211,
+      "row_index_0based": 210
+    },
+    {
+      "multiplier": 1575536813125025040732635,
+      "row_id_1based": 213,
+      "row_index_0based": 212
+    },
+    {
+      "multiplier": 1816111416319858170857688,
+      "row_id_1based": 214,
+      "row_index_0based": 213
+    },
+    {
+      "multiplier": 1566841221923014892504672,
+      "row_id_1based": 221,
+      "row_index_0based": 220
+    },
+    {
+      "multiplier": 5199064054562731234220048,
+      "row_id_1based": 224,
+      "row_index_0based": 223
+    },
+    {
+      "multiplier": 2327199564954188291226400,
+      "row_id_1based": 232,
+      "row_index_0based": 231
+    },
+    {
+      "multiplier": 621054129054432709545416,
+      "row_id_1based": 234,
+      "row_index_0based": 233
+    },
+    {
+      "multiplier": 58083398850056877745995,
+      "row_id_1based": 236,
+      "row_index_0based": 235
+    },
+    {
+      "multiplier": 2237702523096190805315870,
+      "row_id_1based": 238,
+      "row_index_0based": 237
+    },
+    {
+      "multiplier": 2229043558793699917204600,
+      "row_id_1based": 239,
+      "row_index_0based": 238
+    },
+    {
+      "multiplier": 227603625832889782686911,
+      "row_id_1based": 240,
+      "row_index_0based": 239
+    },
+    {
+      "multiplier": 1455057501459107333330048,
+      "row_id_1based": 241,
+      "row_index_0based": 240
+    },
+    {
+      "multiplier": 708873058423557692325197,
+      "row_id_1based": 242,
+      "row_index_0based": 241
+    },
+    {
+      "multiplier": 2066404014443023267294013,
+      "row_id_1based": 243,
+      "row_index_0based": 242
+    },
+    {
+      "multiplier": 4045317183600942572654564,
+      "row_id_1based": 244,
+      "row_index_0based": 243
+    },
+    {
+      "multiplier": 1001601579418664778068522,
+      "row_id_1based": 245,
+      "row_index_0based": 244
+    },
+    {
+      "multiplier": 2289947440602768275882865,
+      "row_id_1based": 246,
+      "row_index_0based": 245
+    },
+    {
+      "multiplier": 1528395419412053969441958,
+      "row_id_1based": 247,
+      "row_index_0based": 246
+    },
+    {
+      "multiplier": 2411319346224720251609532,
+      "row_id_1based": 248,
+      "row_index_0based": 247
+    },
+    {
+      "multiplier": 2097572222113111309509728,
+      "row_id_1based": 249,
+      "row_index_0based": 248
+    },
+    {
+      "multiplier": 3517708654976179876838154,
+      "row_id_1based": 250,
+      "row_index_0based": 249
+    },
+    {
+      "multiplier": 1580850579135638922895960,
+      "row_id_1based": 251,
+      "row_index_0based": 250
+    },
+    {
+      "multiplier": 773954563707088900525612,
+      "row_id_1based": 252,
+      "row_index_0based": 251
+    },
+    {
+      "multiplier": 755354415543794000278642,
+      "row_id_1based": 256,
+      "row_index_0based": 255
+    },
+    {
+      "multiplier": 1506296179394752819635864,
+      "row_id_1based": 269,
+      "row_index_0based": 268
+    },
+    {
+      "multiplier": 224442708898835624787788,
+      "row_id_1based": 273,
+      "row_index_0based": 272
+    },
+    {
+      "multiplier": 3133682443846029785009344,
+      "row_id_1based": 275,
+      "row_index_0based": 274
+    },
+    {
+      "multiplier": 34821698692026748453488873,
+      "row_id_1based": 281,
+      "row_index_0based": 280
+    },
+    {
+      "multiplier": 21579676829212432383132528,
+      "row_id_1based": 283,
+      "row_index_0based": 282
+    },
+    {
+      "multiplier": 22271742793019588733709014,
+      "row_id_1based": 287,
+      "row_index_0based": 286
+    },
+    {
+      "multiplier": 18730874607534223487669488,
+      "row_id_1based": 290,
+      "row_index_0based": 289
+    },
+    {
+      "multiplier": 13060726267503086412343611,
+      "row_id_1based": 296,
+      "row_index_0based": 295
+    },
+    {
+      "multiplier": 310431108115722491685848,
+      "row_id_1based": 309,
+      "row_index_0based": 308
+    },
+    {
+      "multiplier": 6351572433517799929399757,
+      "row_id_1based": 335,
+      "row_index_0based": 334
+    },
+    {
+      "multiplier": 1061724650585946933084388,
+      "row_id_1based": 336,
+      "row_index_0based": 335
+    },
+    {
+      "multiplier": 682805842563708163924898,
+      "row_id_1based": 362,
+      "row_index_0based": 361
+    },
+    {
+      "multiplier": 1074103960496834823902610,
+      "row_id_1based": 374,
+      "row_index_0based": 373
+    },
+    {
+      "multiplier": 3467492228310080281847362,
+      "row_id_1based": 375,
+      "row_index_0based": 374
+    },
+    {
+      "multiplier": 874288537715532152801175,
+      "row_id_1based": 376,
+      "row_index_0based": 375
+    },
+    {
+      "multiplier": 1825548672370586151643924,
+      "row_id_1based": 379,
+      "row_index_0based": 378
+    },
+    {
+      "multiplier": 2125853828263135121818184,
+      "row_id_1based": 383,
+      "row_index_0based": 382
+    },
+    {
+      "multiplier": 3572543958471120697100123,
+      "row_id_1based": 384,
+      "row_index_0based": 383
+    },
+    {
+      "multiplier": 4194539659480475923364424,
+      "row_id_1based": 388,
+      "row_index_0based": 387
+    },
+    {
+      "multiplier": 6453982693129975695837824,
+      "row_id_1based": 392,
+      "row_index_0based": 391
+    },
+    {
+      "multiplier": 1064201960248363463025334,
+      "row_id_1based": 396,
+      "row_index_0based": 395
+    },
+    {
+      "multiplier": 1140216657859253426219546,
+      "row_id_1based": 397,
+      "row_index_0based": 396
+    },
+    {
+      "multiplier": 2461853474604899123619372,
+      "row_id_1based": 398,
+      "row_index_0based": 397
+    },
+    {
+      "multiplier": 7196115775004086310410690,
+      "row_id_1based": 401,
+      "row_index_0based": 400
+    },
+    {
+      "multiplier": 4170555060777594469013845,
+      "row_id_1based": 402,
+      "row_index_0based": 401
+    },
+    {
+      "multiplier": 9152084302329013815087540,
+      "row_id_1based": 403,
+      "row_index_0based": 402
+    },
+    {
+      "multiplier": 7200924671117428229083682,
+      "row_id_1based": 406,
+      "row_index_0based": 405
+    },
+    {
+      "multiplier": 10113247886957641578893792,
+      "row_id_1based": 413,
+      "row_index_0based": 412
+    },
+    {
+      "multiplier": 927657884852731394515138,
+      "row_id_1based": 430,
+      "row_index_0based": 429
+    },
+    {
+      "multiplier": 7326226782337478194521,
+      "row_id_1based": 431,
+      "row_index_0based": 430
+    },
+    {
+      "multiplier": 3262710949183616289083058,
+      "row_id_1based": 433,
+      "row_index_0based": 432
+    },
+    {
+      "multiplier": 5093040338162359879813098,
+      "row_id_1based": 434,
+      "row_index_0based": 433
+    },
+    {
+      "multiplier": 8219682591630677590083207,
+      "row_id_1based": 435,
+      "row_index_0based": 434
+    },
+    {
+      "multiplier": 8902506942744402798322000,
+      "row_id_1based": 438,
+      "row_index_0based": 437
+    },
+    {
+      "multiplier": 6308182285457684724444346,
+      "row_id_1based": 442,
+      "row_index_0based": 441
+    },
+    {
+      "multiplier": 1448176690618264963789484,
+      "row_id_1based": 463,
+      "row_index_0based": 462
+    },
+    {
+      "multiplier": 1104720207356671874055533,
+      "row_id_1based": 466,
+      "row_index_0based": 465
+    },
+    {
+      "multiplier": 112857395024969541744684,
+      "row_id_1based": 467,
+      "row_index_0based": 466
+    },
+    {
+      "multiplier": 3133682443846029785009344,
+      "row_id_1based": 475,
+      "row_index_0based": 474
+    },
+    {
+      "multiplier": 4252118535681694435790622,
+      "row_id_1based": 490,
+      "row_index_0based": 489
+    },
+    {
+      "multiplier": 771182732479159566891802,
+      "row_id_1based": 511,
+      "row_index_0based": 510
+    },
+    {
+      "multiplier": 1036417601547749007048823,
+      "row_id_1based": 514,
+      "row_index_0based": 513
+    },
+    {
+      "multiplier": 870885615126377842602380,
+      "row_id_1based": 518,
+      "row_index_0based": 517
+    },
+    {
+      "multiplier": 2957864067470459180982666,
+      "row_id_1based": 519,
+      "row_index_0based": 518
+    },
+    {
+      "multiplier": 7015175470882589405077736,
+      "row_id_1based": 531,
+      "row_index_0based": 530
+    },
+    {
+      "multiplier": 1539819256094770621429055,
+      "row_id_1based": 550,
+      "row_index_0based": 549
+    },
+    {
+      "multiplier": 51849451326251924640845,
+      "row_id_1based": 551,
+      "row_index_0based": 550
+    }
+  ],
+  "schema_version": "horizonmath.exact-split-leaf-farkas.v1",
+  "weighted_clause": [
+    {
+      "literal": "x512",
+      "path_value": 0,
+      "variable": 512,
+      "weight_before_division": 15241091885978417590727264
+    }
+  ]
+}

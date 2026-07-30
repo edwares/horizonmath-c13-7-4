@@ -1,0 +1,10 @@
+[project]
+name = "horizonmath-link-catalog-audit"
+version = "0.1.0"
+description = "Deterministic no-early-stop audit of the recovered C(12,6,3) link catalog"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

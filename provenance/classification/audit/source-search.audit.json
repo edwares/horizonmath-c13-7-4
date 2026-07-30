@@ -1,0 +1,67 @@
+{
+  "schema": "horizonmath.classification_source_search_audit",
+  "schema_version": "1",
+  "audit_date_utc": "2026-07-29",
+  "scope": "Locate the authoritative two-template classification source and any public per-isomorphism-class representatives, numbering, supplemental data, or original enumeration code for minimum C(12,6,3) covers.",
+  "authoritative_source": {
+    "authors": [
+      "Daniel M. Gordon",
+      "Oren Patashnik",
+      "John Petro",
+      "Herbert Taylor"
+    ],
+    "title_as_printed": "Minimum (12, 6, 3) Covers",
+    "author_publications_page_link_text": "C(12,6,3)=15",
+    "journal": "Ars Combinatorica",
+    "volume": 40,
+    "year": 1995,
+    "pages": "161-177",
+    "author_publications_page": "https://www.dmgordon.org/publications/",
+    "author_hosted_pdf": "https://www.dmgordon.org/papers/c-12-6-3.pdf",
+    "downloaded_pdf_sha256": "6da3d15935e5eb8eca9e533c60ffb08db48cb335a94f88c007bd449729f8cf79",
+    "status": "LOCATED_AND_HASHED"
+  },
+  "locations_checked": [
+    {
+      "location": "Author publications index",
+      "url": "https://www.dmgordon.org/publications/",
+      "result": "The journal citation links directly to the author-hosted paper. No supplemental-data or source-code link is attached to the entry."
+    },
+    {
+      "location": "Author-hosted primary paper",
+      "url": "https://www.dmgordon.org/papers/c-12-6-3.pdf",
+      "result": "The complete 15-page paper contains the two templates, the analytic classification theorem, and a reported count of 67 nonisomorphic Figure 1 completions. It does not contain a numbered list of those 67 representatives or enumeration source code."
+    },
+    {
+      "location": "La Jolla Covering Repository C(12,6,3) entry",
+      "url": "https://ljcr.dmgordon.org/cover/show_cover.php?k=6&t=3&v=12",
+      "retrieved_body_size_bytes": 498,
+      "retrieved_body_sha256": "f221ec9327c07972eaa9f1f0c3ac843aa6f583268a1e29dd084886546850a38e",
+      "result": "The entry publishes one 15-block lex covering, not all 68 isomorphism classes and not a numbering map."
+    },
+    {
+      "location": "ResearchGate author-uploaded copy/index record",
+      "url": "https://www.researchgate.net/publication/237802493_Minimum_12_6_3_Covers",
+      "result": "Duplicate bibliographic/full-text route; no distinct representative list, supplement, or source code was located."
+    },
+    {
+      "location": "Targeted web and GitHub searches",
+      "queries": [
+        "\"67 nonisomorphic completions\" covering",
+        "\"Figure 1 has exactly 67 nonisomorphic completions\"",
+        "\"C(12,6,3)\" representatives covering",
+        "site:dmgordon.org \"C(12,6,3)=15\" 68",
+        "site:github.com \"C(12,6,3)\" covering 68",
+        "site:github.com \"FIG1_FULL\" \"FIG6\" covering"
+      ],
+      "result": "No public per-class representative list, individual literature numbering, supplement, or original enumeration program was located in this defined search."
+    }
+  ],
+  "negative_result_discipline": {
+    "per_class_representative_list": "NOT_LOCATED_IN_DEFINED_SEARCH",
+    "individual_literature_numbering_1_through_68": "NOT_PRESENT_IN_PRIMARY_PAPER_AND_NOT_LOCATED_ELSEWHERE",
+    "original_1994_enumeration_source_code": "NOT_LOCATED_IN_DEFINED_SEARCH",
+    "interpretation": "These are bounded search results, not a claim that such materials never existed."
+  },
+  "status": "PASS"
+}

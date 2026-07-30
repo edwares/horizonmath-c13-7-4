@@ -1,0 +1,67 @@
+{
+  "schema": "horizonmath.classification_provenance_phase_manifest",
+  "schema_version": "1",
+  "release_version": "0.1.0",
+  "audit_date_utc": "2026-07-29",
+  "phase": "Authoritative minimum-C(12,6,3) classification source, exact paper-template extraction, and literature-to-project catalog bridge",
+  "primary_source": {
+    "title_as_printed": "Minimum (12, 6, 3) Covers",
+    "authors": [
+      "Daniel M. Gordon",
+      "Oren Patashnik",
+      "John Petro",
+      "Herbert Taylor"
+    ],
+    "author_hosted_url": "https://www.dmgordon.org/papers/c-12-6-3.pdf",
+    "pdf_sha256": "6da3d15935e5eb8eca9e533c60ffb08db48cb335a94f88c007bd449729f8cf79",
+    "pdf_in_release_zip": false
+  },
+  "upstream_checkpoints": [
+    {
+      "artifact": "HorizonMath_horizonlink_frontend_v0.4.0.zip",
+      "sha256": "1eb19f63c94f303e9a275d5c82444cfc34ff3ce47f48f7063361310858dac4de"
+    },
+    {
+      "artifact": "HorizonMath_link_catalog_audit_v0.1.0.zip",
+      "sha256": "b9541b92e25e27b1e343e46c96daa878945acfa3c8b74eb5753e10c10dd08cdd"
+    }
+  ],
+  "audited_inputs": {
+    "recovered_link_extension_source_sha256": "3c607dbef8e7029f134cf6ad749a04515e7bb81052e441826dada33bb8238d00",
+    "catalog_input_sha256": "6b91c12518cb72444a0341e88d8157766b07832da5bd0c7ce39a0973c5dd53ab",
+    "catalog_audit_manifest_sha256": "087cb62e9bb6b1b6d18d0df6b928ed59c60aa613459ebf1e6062a520e412ebeb",
+    "catalog_independent_audit_sha256": "3c010126ae92f44edd0403acab51ef8af6f02b1ae21bc41945fb7bc42a7d011c",
+    "numbering_manifest_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+    "bundle_numbering_audit_sha256": "774da7c6ff807c37029aa3e580894ebd7bf74c8494eeeae58c89b2db93262dcf"
+  },
+  "outputs": {
+    "paper_templates_sha256": "f6df63a9ea977482c9fba70268bba2d7d1f867f042d468b3ac4e77af82fd0892",
+    "paper_template_comparison_audit_sha256": "4a270ce9369a967048c7f6a1459283c861caa72d915e8a7c6d0ff052e4c8a7f7",
+    "classification_provenance_audit_sha256": "4158592d9737bb3fb1f91b65f0b9379e763b56054e1b26b5b65838af1f6476b2",
+    "literature_to_project_class_map_sha256": "469d1385ab00850fe98a6831b97529a5ca82218efd31bb8d3db1d8a28c5f2497",
+    "source_search_audit_sha256": "21daa8463c6a0bb06903986aa47d423fa5de83d9d8742e75d01b04ed93fc7d44"
+  },
+  "results": {
+    "paper_template_comparisons_passed": 3,
+    "paper_template_comparisons_total": 3,
+    "classification_bridge_checks_passed": 18,
+    "classification_bridge_checks_total": 18,
+    "figure1_completion_count": 21952,
+    "figure1_isomorphism_class_count": 67,
+    "figure6_isomorphism_class_count": 1,
+    "project_class_count": 68,
+    "overall_status": "PASS"
+  },
+  "claim_boundary": {
+    "authoritative_classification_source": "AUDITED",
+    "published_templates_equal_recovered_templates": "AUDITED",
+    "global_68_class_catalog_exhaustiveness": "AUDITED_AGAINST_PUBLISHED_THEOREM",
+    "project_numbering_1_through_68": "AUDITED",
+    "published_individual_numbering_1_through_67": "NOT_PRESENT_IN_PRIMARY_SOURCE",
+    "formal_machine_verification_of_theorem_5_9": "NOT_PERFORMED",
+    "another_link_class_profile_or_formula_analysis": "NOT_PERFORMED",
+    "new_solver_or_proof_run": "NOT_PERFORMED",
+    "claim_C_13_7_4_equals_30": "NOT_AUTHORIZED"
+  },
+  "status": "PASS"
+}

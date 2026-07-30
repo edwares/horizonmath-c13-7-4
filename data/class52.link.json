@@ -1,0 +1,69 @@
+{
+  "schema_version": "horizonmath.link-input.v1",
+  "parameters": {
+    "v": 12,
+    "k": 6,
+    "t": 3,
+    "block_count": 15
+  },
+  "point_labels": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "blocks": [
+    [0, 1, 2, 3, 4, 8],
+    [0, 1, 4, 5, 8, 9],
+    [0, 1, 6, 7, 10, 11],
+    [0, 2, 4, 6, 8, 10],
+    [0, 2, 5, 7, 9, 11],
+    [0, 3, 4, 7, 8, 11],
+    [0, 3, 5, 6, 9, 10],
+    [0, 4, 5, 6, 7, 8],
+    [0, 4, 8, 9, 10, 11],
+    [1, 2, 4, 7, 9, 10],
+    [1, 2, 5, 6, 8, 11],
+    [1, 3, 4, 6, 9, 11],
+    [1, 3, 5, 7, 8, 10],
+    [2, 3, 4, 5, 10, 11],
+    [2, 3, 6, 7, 8, 9]
+  ],
+  "identity": {
+    "representative_id": "class52-pb-bundle-representatives-51",
+    "class_index": 52,
+    "numbering_source": {
+      "status": "AUDITED",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9; catalog_audit/build/authoritative/numbering.manifest.json",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[51]",
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "notes": "Project class 52 is representatives[51]. The 1-through-68 numbering is project-local; the primary paper classifies the Figure 1 and Figure 6 families but does not number the 67 Figure 1 isomorphism classes individually."
+    }
+  },
+  "provenance": {
+    "source_artifacts": [
+      {
+        "name": "HorizonMath_C13_7_4_class52_pb_bundle(2).zip",
+        "uri": null,
+        "sha256": "7a59e48afd3895e15f267913d65a7ef058f68e1551c418ee647d1488b67c49bb"
+      },
+      {
+        "name": "results_link_classes.json",
+        "uri": null,
+        "sha256": "464e8777d7096114cd8598ce9a36cc7773d569089ae5b29f66422840021b494e"
+      },
+      {
+        "name": "portable_corrected_model.py",
+        "uri": null,
+        "sha256": "c858068feeb92dc1efa86c7cd1042c199f806bc634adb7873a98d1ef3d607d90"
+      },
+      {
+        "name": "catalog_audit/build/authoritative/numbering.manifest.json",
+        "uri": null,
+        "sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c"
+      },
+      {
+        "name": "Minimum (12, 6, 3) Covers",
+        "uri": "https://www.dmgordon.org/papers/c-12-6-3.pdf",
+        "sha256": "6da3d15935e5eb8eca9e533c60ffb08db48cb335a94f88c007bd449729f8cf79"
+      }
+    ],
+    "extraction_rule": "Read representatives[51], sort every block increasingly, then sort the 15 blocks lexicographically.",
+    "notes": "The complete 68-entry catalog, project numbering, published-family bridge, and exact Figure 1/Figure 6 template comparison are preserved under catalog_audit/ and provenance/classification/."
+  }
+}

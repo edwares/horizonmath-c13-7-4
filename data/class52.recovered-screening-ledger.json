@@ -1,0 +1,7070 @@
+{
+  "candidate_orbit_screening": [
+    {
+      "disposition": "DISCARDED",
+      "orbit": 0,
+      "representative": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 1,
+      "representative": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 2,
+      "representative": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 3,
+      "representative": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 4,
+      "representative": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 5,
+      "representative": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 6,
+      "representative": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 7,
+      "representative": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 8,
+      "representative": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 9,
+      "representative": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 10,
+      "representative": [
+        0,
+        1,
+        5,
+        9
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 11,
+      "representative": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 12,
+      "representative": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 13,
+      "representative": [
+        0,
+        1,
+        6,
+        10
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 14,
+      "representative": [
+        0,
+        1,
+        6,
+        11
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 15,
+      "representative": [
+        0,
+        4,
+        9,
+        10
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 16,
+      "representative": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 17,
+      "representative": [
+        0,
+        5,
+        6,
+        9
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "DISCARDED",
+      "orbit": 18,
+      "representative": [
+        0,
+        5,
+        6,
+        11
+      ],
+      "rule": "historical full-minimum-points screen; individual result artifact is absent, and exclusion is recovered only as the complement of HARD4",
+      "status": "SOLVER_UNSAT_UNVERIFIED_SOURCE_RECORD"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 19,
+      "representative": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 20,
+      "representative": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 21,
+      "representative": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 22,
+      "representative": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 23,
+      "representative": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 24,
+      "representative": [
+        1,
+        2,
+        5,
+        11
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    },
+    {
+      "disposition": "RETAINED",
+      "orbit": 25,
+      "representative": [
+        1,
+        2,
+        7,
+        11
+      ],
+      "rule": "orbit id occurs in recovered HARD4 source constant",
+      "status": "ENUMERATED"
+    }
+  ],
+  "canonical_labeled_link_sha256": "034d4c7cd44947c6fe2e8d562850611670af399f5d850b2c141990152a6af571",
+  "class_index": 52,
+  "degree_budget": {
+    "excess": 8,
+    "extension_degree_sum": 98,
+    "link_point_degrees": [
+      9,
+      7,
+      7,
+      7,
+      9,
+      7,
+      7,
+      7,
+      9,
+      7,
+      7,
+      7
+    ],
+    "minimum_extension_degrees": [
+      6,
+      8,
+      8,
+      8,
+      6,
+      8,
+      8,
+      8,
+      6,
+      8,
+      8,
+      8
+    ]
+  },
+  "degree_profile_screening": [
+    {
+      "case_id": 4,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_04/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "a1b1d5459c9cddc89b2130fac246908e849b2ac39af6e69f74f2182df6230e97"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        9,
+        7,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_18/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "99ed1e17ecadd6855d2ccfea0c1bf4c50fb2d99aa09583d302527ed0e4211864"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_18/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5be4e91027514e7a7492a6f96230afc6c3c216d0383e5b6f575f5136f61d9d87"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_18/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7105364031bbd7f15b9f34bf764388e5cbc671a98843461292059c8d718902a0"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_18/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "69d9ad7bb476ec11af79f49956ae0d9b21511aff45ae1fd8b5daa7100a9d8845"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_18/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "3b4a8678b7d35d24331a4e6d137f54ca99f525184ee6c518856bb2aa6aef0e83"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_18/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d448686d76eade594854fc40e25fa691fcf54acd35fe47ada1a2fa8e091fb5a5"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "3692157e5c4d8900704d944383a6af000706c433cb0d1b762b2ea686d9217de3"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        11,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "db637ee065c33026353ab8f2a65e6c17253bdf11437d89ba0f15617095b1b0d5"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_19_profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "968183c250dc071c3ec570505790b3f51fab5de3efa367a7c8c2cc0e7495cc00"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 2,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ece2f0df03013b4aed589f6bf0068b21c4aade0e8d4b6312806c572caf6fbd37"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_19/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "879be209f2311dffe6198b6c3901f38fa0faff8804a755b044e6419bacde738d"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        3,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "409b15908c57174c3440eb6474059123595987203af716af959fb863b1d128d3"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        11,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_006.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ebd8f3774a2f317670d4371b80c1d739c2eeb0d4f518831d2a10eeb7faeddacf"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        7,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 6,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_19_profile_007.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "60425620d668590a4c69e1ddc99fb500b0fe8caff04c5aeb35f7605f5c358e6f"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 7,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_008.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ea90c85c59ee1a8bbcc6999b90d49a7ab3501ba2e2cf00afa8208b898fe708b5"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        10,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 8,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_19/profile_009.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "1efdcedea623e3677574956b85bbd8be067375986a249cca744a1f8c586ac63f"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 9,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_010.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "95abdf1cb8427056c28625e24507561a60a2fb4e38c6bbbcca247c45aee8d6ae"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 10,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_19_profile_011.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ea6f955d680812881a4b3d327a72b2d23b2c9cf4bfc5ac846965af1c652ed3db"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 11,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 19,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_19/profile_012.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "0191864cf7b45f98fbdd9d1dff2888abe6b7270d46f9be3ffc8dbe6baef462c9"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 12,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        3,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_20/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "c3394d0798dc08f9cb685f64cb627839a9a8bc5442a35528ff1e34e5a7ab8fe5"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8,
+        7,
+        11,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_20/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "a4c53ebc5f84b366f1d4e62b100291646463e5533487cab15c47eb8c38caa7c9"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8,
+        8,
+        10,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_20/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "66248f932783c7bddacbf898cce534bde128e67342b26d7b6045be2f31063e74"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_20/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "6f45db2f78e80b31d8389fb17cc08680ace6c7e2eae505c4e24b568934c75a3a"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        10,
+        8,
+        7,
+        10,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_20/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "bdef235416ce9416e6d3b9e13b6b44e39b59dcf521b487b85d2c41ddb386cda9"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        10,
+        8,
+        8,
+        9,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 20,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_20/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "85dcbe7afe8e100821eb3d084ce9f60d1871600df05ba0aebee236d1c75bc0ac"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        4
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "8bf0a347ee6a4251243168a3c8f5dab91089358872a1becab7e74bea5125af8c"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        12
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "339e849e56be6542fb6838e5ee3af1fb38c7151e58f446a48f8b9961ac743507"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        10,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "02bf9aee1d780a0d0f2f5853f9f145b636c27a9d79deba04558a7383ba21797e"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "f450567028e57796c7392855bd45d8aff99ff025e54b02acf4c8b7b5545626db"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "fda77dd1beaba89f669cee7138eb0e458e66a508bed7579bdbe15c1e29d54eb7"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        9,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "e56087a17e6b9d1f5729361a806e763b836edbcc687e9b5870e3ecca115df938"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        10,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_006.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7e3f86d7bfa501f5ccff34d57fc32c81de501e354749fabb821bfb6004062949"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 6,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_007.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "4c463709dbf05da8f50171471b36cece27d4768eea239d2b3a2e57d8b5f87e9c"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        10,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 7,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_008.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "74043147ab3355cfe0a79338b840c3e16338fdb67bd28e8695b47d52ebece276"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 8,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        1,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_009.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "088d2f20dc37da620cece7fa549b6131ec6bcba8144785f77a4c3ed155b29e20"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 9,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_010.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "f931348c606ec631b756245fb291339783d5939a0cd63f0faabe16e1dd5bfda0"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 10,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_21_profile_011.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "1d380a59d2edea991c3f98d8e04f771f7c49fea0095497c3385e207a3c3de28d"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 11,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_21/profile_012.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5fdf366432e5bff80afc81dd60fae3c4f01c10162e5ea5e1a938ce8967739428"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 12,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_21/profile_013.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "09dcb4edea4e68b71c8ad55e9d7979b4607518f8fde0d81474ebb3e40d6d7b9b"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 13,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "paths": [
+          "results/corrected_pair_split/c21_p014_pair12_eq10_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq11_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq12_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq13_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq14_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq4_180.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq5_180.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq6_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq7_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq8_60.json",
+          "results/corrected_pair_split/c21_p014_pair12_eq9_60.json"
+        ],
+        "reported_statuses": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "sha256": [
+          "7e9521b4497665571cb3b1ddbd68e2d68ed53fe17ba4c886ec9e5993c1e5846a",
+          "45fa0b2a6ccec0137b5babc1b133c1f2a181c3d1039927e35b909a743ca8a0da",
+          "e22fa9844c191ee13aaed274aa2b5c010b8894888067cc1f28aadc0fc8db7ad9",
+          "2cd71cba7c2a0ea22f40d56661fd653c69d12826f8be7622954e1ad0ba0b6e62",
+          "97fde17fc822abdd1db741f9e4b73f1fe3388d29d820278bfc5341328ed4c290",
+          "6b92df199755204ea89a4ca8b9072cf49cf817561293d144d76c7e2c32ea73b3",
+          "b3304abd84b7eca6ccebfbe3ae7454d98ef19c62560d43f4f78d875665cbd084",
+          "bff4e7146ba56a297f0c95bc0db659bddc1f82dda519cd550dc7f5e57ee0ffb9",
+          "8511e55cfd0533845bffb208f4387b0f948404af40ef034dbc4453a453ff5ac8",
+          "7e25878246699f9f42e58d4654509b606f6c48c3cc40323aad705543c74efdd4",
+          "57e75b45c55ed8cb4e321f37e981c76878cda80aa2fab78857d3a9838de1cb29"
+        ],
+        "split_pair": [
+          1,
+          2
+        ],
+        "split_values": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "The corrected profile was partitioned by extension multiplicity of pair {1,2}; the exact integer range 4 through 14 yields eleven formulas.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 14,
+      "rule_id": "RETAIN_EXACT_PAIR_MULTIPLICITY_PARTITION",
+      "source": "corrected_pair_split",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 21,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_21_profile_015.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "b6a5d5221001beb06427f09b5b5824424428b7b65fe04f2d71b0724a76e451d8"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        9,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "profile_id": 15,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        4
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "bc9747227930a1971a918070012427319bc0f8d597fdd00148909ad9c975078f"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        12
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "e269f06416a43d4a041bcc23edcf972f77d14de87795572f46d0298764b41219"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d8489a696c0950896474e9d04dd1a3cb23f3758e62262e1d0c3b1217154ec1ee"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2c96a2f1632cf549e8a472a6fa8a5d6d8c459895839fdc701ebed39d42c2a76c"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        10,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "bdb5e548f0a9e9da1bd3bd19cc6d511e9f579a3efa480e1f5cfd1ee3c74ea419"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2f1f59318f618b0abfda006aa3022262b6df15a058a44bb425812aab8f5eef9f"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_006.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "c04078e45ab2e1e6685c101f9b7038879a1600d4968b37477f3687d8d3209e71"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 6,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_007.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "930ea664d7f4520871dae575a3d97bad463d5241449f0096adeadf7b392b0f7f"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        11,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 7,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_22/profile_008.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "3233ebc893287658acaa75d6058069ae24efcbca5897e2fa20f4d9bc73d61e53"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 8,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_22/profile_009.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d835fbffdbbc5a2371c171df01f5b3baecebb48c2f912cd429439c125af0884b"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 9,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_010.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "64dfc9ff9658a0cc2d92db80c3b30a136776f21ad993893839e4003dd34afadf"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 10,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_22/profile_011.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "e25dcdb32ede537f80cb6f2e552665228a04f8fd724a3a86dd5c37a59d71e300"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 11,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_22_profile_012.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "db42c88366d8f94a16bd2a170c12c62e0c08fa1b9630305eb6be444fbeaef6f8"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 12,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_013.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "69e9327719c37577047796b019593aa98eba35522e04825e26baa32843939551"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 13,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_22_profile_014.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "77f97f0bd7e71517dc4f08eab22e2c61ee9aa7638118f086399127ec739875e5"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 14,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_22_profile_015.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "c1e798e0aaa3a1845b4451375341ad6d597477c2bba95d1a12a6ad846d5e17b2"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 15,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_016.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "6972e4919340a078f16fca4e5cc8602e64b7c54875dff695124938bc394ddb11"
+      },
+      "extension_degrees": [
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 16,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_22_profile_017.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "bd808bc91a62cd44bbd44625e2f2867f54687d727499339160371394d6ccdc30"
+      },
+      "extension_degrees": [
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 17,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 22,
+      "degree_profile": [
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_22/profile_018.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "fc755cd50227b1ac930920249e4811926f2cefdf0dee68236a064d0d13207388"
+      },
+      "extension_degrees": [
+        10,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "profile_id": 18,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        4,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d01e72668731f33c23ed2459f20a14055066d6c21ab8f6e3278e0c84241f80c1"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        12,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        3,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "1419da5ce1b358cf250dd94b4b8e7c8bdeb0ed6f74225d7b02bdc7aeb3bb4393"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        11,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "788dd2c77d2bb559cf43a2a315c1b34de3102f576997dd708d86c8e809d98ce3"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        4,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ade1fa9dc2d33bac94fe26772b5be44c2faf236a63027608d86e0be563975f42"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        10,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        3,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5fb58772f312bedd3ead6045c5645c408918de5b975503c6e725e1ee322f2f65"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        11,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "dbfa146d4c8ebe5f870cd5497f6f205f67fd3b82a65ecb1c01973ff0c36796f8"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        3,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_006.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "e034f39a6da7ea0ee9d0e4e4afedb8a2a1f130ba6a7c40e5bf5bb84c6186f471"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        9,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 6,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_007.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d4f36c0e19fd398e38fa4ea0dc6416d8e308444821599655f1687a5ae215f2e5"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        11,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 7,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_008.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "069c12115608054c185e16c66a2330af5c1fcf69b8585aa456ada25785b71f4b"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 8,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_009.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "6cee5b1ee46278a637347fdcbe154a1be4fd74f8ad1805d53709367f0d9bef5d"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        9,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 9,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_010.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "1d001d2906c75e4c282a6616bf361dd7ae3ea5229d22b88eb5f3899b057177df"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        11,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 10,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_011.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "6547c2ce705ef79dec18258e13d3d5ed97182ad9f7fb0baddd2ed94484c49fcf"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 11,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_012.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ac033b8fdbda116eadaf1d809094d9d74af4fe8a6430c68fdf015af5da7b8eb2"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 12,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_013.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "cd600a9fe06dfbcdb0ef7edc4a069778d2fc5d3c1c7a2d48dcbedb6b28fccb5d"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        7,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 13,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_014.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "55ae7b64887d56cacaac0f91d1357d7c5a7b7ec745c1fa2817201be3958da39c"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 14,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_015.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7940eccde566c470d3fe24f69b67c4a93827cfe143f1bbbcbcc7533f142685a3"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 15,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_016.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "e7ea44b9da2efa69a542916a2cc60c7dbcf14ad1cfcba1b652c9d2fd8ec0e6bb"
+      },
+      "extension_degrees": [
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        10,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 16,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_23_profile_017.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "b1e131ab8f8a8bc2ae28ea8cc75dcfda9e674fc8ecabfd9699c40b819404787d"
+      },
+      "extension_degrees": [
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 17,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 23,
+      "degree_profile": [
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_23/profile_018.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "809dd6adb735b7b637d63bdf3c75ba6241543f87c41530eee260b8bbc503dc62"
+      },
+      "extension_degrees": [
+        10,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9,
+        7,
+        8,
+        9,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "profile_id": 18,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        5
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "25d1b540706cd95fc39fdfa053b97e616b4b9284275fb6aab1b64b5a07788535"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        13
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        4
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "4cc344c8e584b542e2e52aa4ab0a844dc98018b9d44a80959edd1aa236baad9c"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        12
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ec3a03eb84ef196e4e0f7b7422eb3eaa03fad0396ce0f46c0d1144740ef9283b"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "83552a3ca5b0a04b7607f328fdc5f6e9b5045a0d4b718548659f69d8db7da442"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7f6233ac7f697998efa3052375931d950c622d741d3c5021d1a765b831862351"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        11,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_005.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "25179eac142d581af57fb410902c0a00cdb35851cccbbd0c22b69c49838c10e6"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        12
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 5,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_006.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "aa3122f6a3f8362a68028955c24df8295c09ddaffa76286bc09e3eecd17dcea3"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 6,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_24/profile_007.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5a60c4e620bc90e4ae10cbf214ac277dcdc2971058a1973ed4a4cb0afbfa4136"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 7,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_008.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2940df9e8ec0568a689712e911f3f5f55370af66f10a12411dd1c990d3939efb"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 8,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_009.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "4986a085a06abae98e97f182d8f0d857367a5c185a9332ecd5cb044365afa4b0"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 9,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_24/profile_010.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "40669e47822e76a8e532e1e8281332b4840f5ad10ec20ab5b72590d6b5a93ba3"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 10,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_24_profile_011.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "b0d399cae5872b2e62c95de0eea31463249f708722f23fb59065ceaff3bfc384"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 11,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_012.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "31966c1b042e39195e803f0a67fe793608b5c336d027ce6d9fd04d472d4d6fd2"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 12,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_013.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "f612edcc014db9919b055bfae129758c852186906e7044da127c9ff9988c38b4"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 13,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_014.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ca014a4719c5fe21e691790eb0642c52ba041de1e059aa2d876bdd3fe345f568"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        11,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 14,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_015.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "fee2c6764014e01e2d762ffa076e97248340cf2582f4ea790b70e95cb6a9f00d"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        11
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 15,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_24_profile_016.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "92099cdcd19605e6dd59ba5304c8226bac5e370ef69e40686bf4d0e0ba1d0bad"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 16,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        1
+      ],
+      "disposition": "RETAINED",
+      "evidence": {
+        "path": "results/corrected_pairbound/corrected180_case_24_profile_017.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "093c3610309bbd217d4800891f30e92d09e9a0ac90520a420c87d206aee63d6a"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "This profile was one of the 20 affected by the discarded pair-bound formula and was retained for a corrected native PB formula using the full pair-degree bound before subtracting the fixed link multiplicity once.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 17,
+      "rule_id": "RETAIN_CORRECTED_PAIRBOUND_FORMULA",
+      "source": "corrected_pairbound_milp",
+      "status": "FORMULAS_GENERATED"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_24/profile_018.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "f0a89d200f4076d94bc281ac2669b796034d4418ce62194fb30a35d46a35a59b"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        10
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 18,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_24/profile_019.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7ce5b1377554a5468c484e7d94b44088716a9843e508c68ec2496fbef58ef1f5"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 19,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_24/profile_020.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2f1035208536e8f0a1134a24ae41ee49523bd62e5aac652295cf42f816a51cab"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 20,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 24,
+      "degree_profile": [
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_24/profile_021.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "a20a2a6557628dbfbff5b642af8c04e02e4a38423c7e0aa48e47e357709e1345"
+      },
+      "extension_degrees": [
+        9,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        9
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "profile_id": 21,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 25,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_25/profile_000.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "33cc454ca8b5e23887a3842d2c00579beb33743fb34cf2bfc2dc74323c2b940c"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        12,
+        8,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile_id": 0,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 25,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_25/profile_001.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2483925e912fcca69ff63cc70e464391d40cfbead356a77c077b04cd8a3196b1"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        11,
+        8,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile_id": 1,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 25,
+      "degree_profile": [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles/case_25/profile_002.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "c8900ae8595024dec9b5fb5c69c08d7b0e2c6bd90f113b0966b175ae9c511db1"
+      },
+      "extension_degrees": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived base exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile_id": 2,
+      "rule_id": "HISTORICAL_BASE_MILP_INFEASIBLE",
+      "source": "initial_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 25,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_25/profile_003.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2f8eec82516d00b3e468c70ae353bd085d9a9783579bab6358979ff6991a8e13"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        8,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile_id": 3,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 25,
+      "degree_profile": [
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/degree_profiles_prove/case_25/profile_004.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "9528989b59e41be6ecd3cfc23df52735bf86dede58331f935f87af91e1dcb5e9"
+      },
+      "extension_degrees": [
+        8,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8
+      ],
+      "mathematical_reason": "The archived proof-tuned exact-degree 0-1 model reported infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile_id": 4,
+      "rule_id": "HISTORICAL_PROOF_TUNED_MILP_INFEASIBLE",
+      "source": "proof_tuned_milp",
+      "status": "SOLVER_UNSAT"
+    }
+  ],
+  "exact_minimum_set_screening": [
+    {
+      "case_id": 0,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_00.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "3c9ac0d7a5015183b7502c72c221679b833c3023557afcb9abb7d6c20e504998"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        0,
+        1,
+        6,
+        11
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 14,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 1,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_01.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "85ab0fcb5954301536f1a051d145bbb67592847b79ed6de1ca35a582c211ff35"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 19,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 2,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_02.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "10a3e8d8ec31287a185be86c61934aee1b8839bf7ca75f74ed75382678d50916"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 20,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 3,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_03.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "c6096c57b350840b3f88056e7e7d346925716b95151897f11b46a39bbbb18864"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 21,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 4,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": 22,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 5,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_05.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5bbb29e25a5d9c04b83cbc3dcf3e5159afae8c69e9a5bc0dd61ca8b533c26d71"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 23,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 6,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_06.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "9998552beff24d8f6a416c14f0d64caede026a91b38215f983024c5b0e9c40a5"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        11
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 24,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 7,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_07.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "ef03034a65050f5c705d0ae9f0b6ef1f9ba06de51e78a3185f7b780a944c9ecc"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        7,
+        11
+      ],
+      "minimum_set_size": 4,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": 25,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 8,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_08.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "442928ec99d8b6f0e1df283eed09d770b5e301be98f5d3fb9bab6f0f27a65409"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 9,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_09.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "fdf27f627ce768d2ba462866018887e3460bfab7fded229ba917d76a20be994a"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 10,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_10.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "f61ad944e531e77049c75de52601d1d21ca9813eab7ef8490a231374bcf716ca"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        10
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 11,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_11.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "d44fb6c7433487018f46440ed076655f0a7f498e186bf1e7f29c18722378a3fb"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 12,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_12.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2618894f473cae5cbec352f498d35d8e358f9b55b2f715623251350024bbed5f"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        11
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 13,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_13.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "7ee2aa490ac7c12440393741b6fdbb38e7d5c437ac0848e5bde79885859dd67c"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        9
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 14,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_14.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "2dba358c638d8b50a7541248138b0538a492de2ec907f9b5905e406b6143e25b"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10
+      ],
+      "minimum_set_size": 5,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 15,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_15.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "5870351856261b164df0dd0ca5c46dc5cbeec0ceb8515ed8371f616096c01939"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 16,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_16.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "dc1a2b7e9f26ca3dc22b3d34de21dd763091d391bb2dcce0e4db18637aa4e38a"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 17,
+      "disposition": "DISCARDED",
+      "evidence": {
+        "path": "results/exact_minset/case_17.json",
+        "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "reported_status": 2,
+        "sha256": "71091b5c00a539cbd4574e63b0849630112c20ea4fc82489c9ab203cc1a360de"
+      },
+      "mathematical_reason": "The exact-minimum-set 0-1 model fixes every point in the set to its minimum extension degree, requires every outside point to have at least one excess unit, enforces residual four-set coverage and point/pair/triple lower bounds, and requires exactly 14 extension blocks. The archived HiGHS run reported this model infeasible.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        11
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "HISTORICAL_EXACT_MINSET_MILP_INFEASIBLE",
+      "source_candidate_orbit_index": null,
+      "status": "SOLVER_UNSAT"
+    },
+    {
+      "case_id": 18,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 19,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 20,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        5,
+        7,
+        10,
+        11
+      ],
+      "minimum_set_size": 6,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 21,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "minimum_set_size": 7,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 22,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "minimum_set_size": 7,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 23,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      "minimum_set_size": 7,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 24,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "minimum_set_size": 8,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    },
+    {
+      "case_id": 25,
+      "disposition": "RETAINED",
+      "mathematical_reason": "The historical whole-case screen did not eliminate this case, so every positive integral allocation of the eight excess degree units outside the exact minimum set must be enumerated modulo its stabilizer.",
+      "minimum_set": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "minimum_set_size": 9,
+      "rule_id": "RETAIN_FOR_EXACT_DEGREE_PROFILES",
+      "source_candidate_orbit_index": null,
+      "status": "ENUMERATED"
+    }
+  ],
+  "expected_regression": {
+    "automorphism_group_order": 36,
+    "candidate_orbit_count": 26,
+    "candidate_subset_count": 495,
+    "degree_profile_orbit_count": 107,
+    "exact_minimum_set_orbit_count": 26,
+    "exact_minimum_set_orbits_by_size": {
+      "4": 8,
+      "5": 7,
+      "6": 6,
+      "7": 3,
+      "8": 1,
+      "9": 1
+    },
+    "formula_count": 30,
+    "profile_case_ids": [
+      4,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "raw_degree_profile_count": 225,
+    "raw_exact_minimum_set_count": 400,
+    "retained_candidate_orbit_indices": [
+      14,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "retained_profile_count": 20,
+    "screening_partition_70_17_20": {
+      "corrected_affected": 20,
+      "initial_milp": 70,
+      "proof_tuned_milp": 17
+    },
+    "split_case_profile": [
+      21,
+      14
+    ],
+    "split_pair": [
+      1,
+      2
+    ],
+    "split_values": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "unique_formula_profile_count": 20,
+    "whole_case_solver_unsat_count": 17
+  },
+  "formula_instances": [
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "e67a2aca6a8352d55e7b7117d3414d1df46d5aef91f53644fc458cc0c451a28d",
+      "case_id": 19,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case19_profile002",
+      "native_formula_sha256": "3aa93d66ac7f58f687e4c582eb799b4ce68bb9b2ba6bb95a8ff1126e2e62640c",
+      "profile_id": 2,
+      "published_formula_sha256": "37efa610acaaab28ecb0ae3a6a341360a894e5fa073fd88140757747802b17b9",
+      "published_proof_gzip_sha256": "18539fe936d2e75c561f521001a9eac4ca7a7d636d1eb16b6296670d51a780ad",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "3e748b0be9f3a74f11d482e84c709d50443377aabec22f87cbccb1caca8c9207",
+      "case_id": 19,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case19_profile007",
+      "native_formula_sha256": "b9d541a171126c2a6135dfcc4d0266dc674fab0e08d06cf8ccf160b003ef5efa",
+      "profile_id": 7,
+      "published_formula_sha256": "7190df3809bfbf49e2a6f607463e23c777e06f1f025f9d6bd5211926f7ef09b7",
+      "published_proof_gzip_sha256": "7dab0cf5d045284f95a0cbccc4c0002a8002fe46bbfb32bdc2e58183490f6f5a",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "24e5cfdacb5abf0d289e3157560646dde461d3faefd543aa3052bd0690b1e2a2",
+      "case_id": 19,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case19_profile011",
+      "native_formula_sha256": "52a28baed79c5df60ed6cb2ca337ccb57729741c1d9ec5dffaf2bb5a6b8b7cd2",
+      "profile_id": 11,
+      "published_formula_sha256": "eb385e465e000847ab800ab428f083b824d7886ce1930c3e9784c5630eddb4fd",
+      "published_proof_gzip_sha256": "59f8d0171a49241279d7753a7c97b5fdd116eef6f472affe362a74fe19db7e58",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "bf428e51d3b88f50dfd01d18de1e159f1bdc1ca160ef1d28a5f48ae9a1587fe4",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile011",
+      "native_formula_sha256": "546d5ca750e72c4959c498e151cbadfe696091c4dd6c400bf491cace613f5237",
+      "profile_id": 11,
+      "published_formula_sha256": "511b56c2b3c85ddf122c6c608b34b94d26a4b1428489d40cba4741aab2b42a5d",
+      "published_proof_gzip_sha256": "cd37edce01898c581b96de161d9f345a606347bbb6e6f69d1cfc3dbc949f7d11",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "31ead470351bfd784562bf3cf10ce781b20c0ca4cbc64ca05137bd6441b42f13",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile015",
+      "native_formula_sha256": "2de8af979a5cd0de2ae7a339dfb04fa1c43bcea8825756d72cd54d8afa268fd3",
+      "profile_id": 15,
+      "published_formula_sha256": "91093ab05122d05b41dad96df18120f2787212d7de15c46163b5f96e7e45778e",
+      "published_proof_gzip_sha256": "d467191e6a257cf497d353693d6a97f6653ff3cb1db48861494979a8c27d5b8e",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "206295b9b134fcae37b4cd214d468a988de49936782813e1e2d98372ee2c829d",
+      "case_id": 22,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case22_profile012",
+      "native_formula_sha256": "e15070096f60bb48f47c0a49eeb5ac66ffadf53e8524a6cd83c394330ad71dc6",
+      "profile_id": 12,
+      "published_formula_sha256": "467476051df363e267694fa23134e32515cce92c81dfd489c847f5772a789149",
+      "published_proof_gzip_sha256": "bedb1ae148f5d9979cad3c8cb5214512802856120f350eec24bb0fa859be1ece",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "f40b0c8b40e84123d5bb1e21b480d91c71a2165e8cef123a4ff2be664aac20d4",
+      "case_id": 22,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case22_profile014",
+      "native_formula_sha256": "5cdf7d8121bf0678dc2dd578fc0548fe5dea9d848b58be73e82ba146cee87329",
+      "profile_id": 14,
+      "published_formula_sha256": "9ce993054d0e1958945a365899a184087f1c46dee441cae8a11b29873fafc7d5",
+      "published_proof_gzip_sha256": "7856f21cdd05b9ce7a3ee97cbfbe07e15292d47fdfd7d4b33dc876b96fb20a71",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "32b602024499bd4c04e22e73f4394881f370a42058b445b809b58a3c93c400b9",
+      "case_id": 22,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case22_profile015",
+      "native_formula_sha256": "6cb6c9524774e542b64a76801a3b959dd43b589df87a61673ed745e8e4bcfa29",
+      "profile_id": 15,
+      "published_formula_sha256": "8bc6c63d7678c40bc91381f3c94568045f162ac5a0a347456dc8fe42814d7dee",
+      "published_proof_gzip_sha256": "5cf8c34eeedf4f20d49a2989c7ad189f677b9c67ba33f9a0d07f8a2b80ec5e78",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "c187a15f469df3c5f94329927f1ead153ed7e8e43d074e25110df62a43130eaa",
+      "case_id": 22,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case22_profile017",
+      "native_formula_sha256": "ad780eeeb2b12bbcf098f17b66977c6f9199650ef708b8ad6ca5544988c59ed1",
+      "profile_id": 17,
+      "published_formula_sha256": "7d474b842c7bbcdb31ecf9aec7d19c3dbd899472ee12cd7584cf8b9af287fbc4",
+      "published_proof_gzip_sha256": "d81e251453e203e4167263e95fe742a0e03164f54c17fa8285505ddea40d6bed",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "dd464e840298f3378f95c3db6d807119b4a4d364495dd2ca7ff57f10eae241f1",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile008",
+      "native_formula_sha256": "3e602615866ae74050d418e24b2d653abbdd1c84fbf042b50b3b9aeb84899314",
+      "profile_id": 8,
+      "published_formula_sha256": "fca6786fb7393d4d7556d360b6c98f1abb628e47f4116b54c6303ddb3c6b8238",
+      "published_proof_gzip_sha256": "ab214fc06ca8e7db16d2c943401bc59efb466cf8c9fa34c04f48a241f10039b7",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "51c939acb45e2b727031c86a9fa70289869dbd335478553886a3be055843d730",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile009",
+      "native_formula_sha256": "713f3129d7ce3e42db53586275762629302d416d3c80fb797bb0fef6689f7c65",
+      "profile_id": 9,
+      "published_formula_sha256": "7a36dafb6bff01d7df7985a0006b5955a48c58dfd2df72e1eb0b10edaed020e5",
+      "published_proof_gzip_sha256": "2b761a7ce1604ea7837cfed8191cbc3b1ab0691237fd3eb4666963475c6e8bb0",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "c1725e12f675cae9ae4c6a39da6aa1ab0693d8d1e71c5ae1df0bc212a91d5f11",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile011",
+      "native_formula_sha256": "6cb652287f2eb67a117036a3b69a2cca83e26e20b83a765ee823b30c6cdb19a1",
+      "profile_id": 11,
+      "published_formula_sha256": "bf10b3dfe5f41e760ae819b20e93ea9d2759fdf7c235ccae0a2c5b14a221f0e5",
+      "published_proof_gzip_sha256": "663f41c44c13794b3a208d4157580f676bc88b8f026cb6168ff863087dbbac4f",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "a7fd9e09a5e5c24a822fcf3d2a1d357e6d2f8413b9dbf0192f55e58e06dd0a5a",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile012",
+      "native_formula_sha256": "978597612728036882f64966a11427ea6bfff2bcbb97740f10548c31367c02e7",
+      "profile_id": 12,
+      "published_formula_sha256": "3f3403f6dd03ae9e0cd336da0ca673979aa30c0d699c2e243c0cde14bf3a64e4",
+      "published_proof_gzip_sha256": "896c5a16a8cb7e2647ccf7ea3e946a0156d6554ac14590badc968a648e96c190",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "593ba82ce36304e84306489b0f40b38489b07b0a470605271592d19edd3bb81f",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile014",
+      "native_formula_sha256": "b75449bf49715963ad74bb4bedb2085aae3056dc36a9aade8461467dfd86a7f8",
+      "profile_id": 14,
+      "published_formula_sha256": "f88b2f108e84b6ed224d5b0cca53694bbc959e55b0c7623c3bf0acb9bb861eae",
+      "published_proof_gzip_sha256": "abd8360094be7dd7b700c63dd37ee209cc02c5fd4b0e7d92bdbb209b7a4b4802",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "ee7d137e9c97d478fb384a4cfbea55fbffac0e86db0859bb876c7e3c3fa42efe",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile015",
+      "native_formula_sha256": "3bee830f3a64261eaf5c78d9f743395e81de0e220870e001e4a1e2d4125d5165",
+      "profile_id": 15,
+      "published_formula_sha256": "656019bfc6a4236aaf34ccf1a0c8037812a217306b94fe0497b40d87b3ed4afd",
+      "published_proof_gzip_sha256": "1bdcb5ce8068cc9471367af86ec08514911278ac9fcb39e165097dbf3fe6b273",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "17fa1351c77bb97f19cd94608e285cdb4b24993a957c39502bb4d42856d2fd72",
+      "case_id": 23,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case23_profile017",
+      "native_formula_sha256": "1c41bbd5c174e6fd40a3b96e1332f922ae7e8bac7c400996b6a69233c4cba278",
+      "profile_id": 17,
+      "published_formula_sha256": "cae75ee2b943bbccadc539c88517de5a19d874a72edfc21876ca8316d2640b5e",
+      "published_proof_gzip_sha256": "6a91bf7cab03562f5732e7a18ae1257bf167b3737bdd51bd4bf516a6516f2c9c",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "db61dbee7655a6a56bd0a5dfef00f68b60ee35c32418a743b16e194e1bd0e376",
+      "case_id": 24,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case24_profile011",
+      "native_formula_sha256": "31b64d9313e6fc27910c8effb8d07b87cd2e21da9af50737d511e6710147c96d",
+      "profile_id": 11,
+      "published_formula_sha256": "87f77ac8d66ac878bd5eb17b965b0febddf3d9141b53f0969060f56dc22aac59",
+      "published_proof_gzip_sha256": "11120df52f5fb4e71d43eebb153891e1cc210e0da2e1c2f837a6d62a5028b34a",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "96afa3e89f9aa025df83c261523bb73886ac271ebdb19a69f4572291056f161d",
+      "case_id": 24,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case24_profile016",
+      "native_formula_sha256": "b527e26e73628538c89be7f2e33249727e87126852c3567455587c87bc1e06a4",
+      "profile_id": 16,
+      "published_formula_sha256": "6818127211648b868d733d98e4fc0d0c87c554cf42cc9193f06b97320c691b9b",
+      "published_proof_gzip_sha256": "b4c1403b504c676e089b93ecd5973bfe538e1073876a5e6322d3072955bd1d35",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "5f16cf6e0856037a2e4b4f67909ec2aef1de0ac37d4f20c733f43e25acc1976f",
+      "case_id": 24,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case24_profile017",
+      "native_formula_sha256": "5dd9bf878a8e7b963f71c1c64319e424a24d51d9fd48aff501c62c5d555fd13b",
+      "profile_id": 17,
+      "published_formula_sha256": "35e3b11da2c2777c9cc0b8d358f0791bebcc53b829a6871da9cb7ba020bb918c",
+      "published_proof_gzip_sha256": "2b9fcd3ae679574f6c3f39ae764f8b1fce5e0f7db39629c16a0c894ffdf1a4d2",
+      "split_pair": null,
+      "split_value": null,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "e91dc033820b118ce794a17ac281c3c72d3162aa133b9cd3683d6e2f526d040f",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq4",
+      "native_formula_sha256": "90f04806d0908069615166286b9d9f7845327621c9d8c6b58ef09b030f8a89fe",
+      "profile_id": 14,
+      "published_formula_sha256": "88cc33f9487f6ffb09283cdd62b50382848cd997b80706ff6f8a9f7642d3841c",
+      "published_proof_gzip_sha256": "1aecdde436b6d52176659be27eb44ba4fe51506dc6af588b02da5a48c58cd312",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 4,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "77c21aef698ce2cf6399e381d50d4230c6a0cc35e63f91f5a8994b12c830c5b7",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq5",
+      "native_formula_sha256": "71aedc2b701c5c2c5700e71afd75db4ac7fc79edcfd5caa57d155243caad6052",
+      "profile_id": 14,
+      "published_formula_sha256": "eeb72a5359a9bd9f0350935ee98b6f40a96652679d3f48ae245baa63497b5976",
+      "published_proof_gzip_sha256": "d84bed06fe960a0134f00d65cd6d874d1e11b97bcab08d3ba85c5087a97794c1",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 5,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "e99c7b80e3f8ca840b0de3e170e9ad47f4d4e0a8ecd30e26ef950040070458b9",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq6",
+      "native_formula_sha256": "850adeb6cff900cc9d07c0a24a31389ea96c263ccff9ee12ae071423e586acea",
+      "profile_id": 14,
+      "published_formula_sha256": "6d7ed3398ae4bb9dabbb0d7752bc48645ad9cfd7be34b1aaf99637f04c4e936e",
+      "published_proof_gzip_sha256": "9d1f6edc08d3a2cb1361a7978f2124fbec7e25122b5eef1626ae535ff7762d76",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 6,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "0446c1030af5b6565c6e919f38299c9c75eac6178227179797dec1d7bfa315a8",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq7",
+      "native_formula_sha256": "3aff8baee867623f1ff7e53efcf32513858cd5eb01fffe77a1ce5c27d9a6adef",
+      "profile_id": 14,
+      "published_formula_sha256": "c4a1e954471e08d9eefef4a1a1d3e6a23d00219f7c34436c0de709ac07ea591a",
+      "published_proof_gzip_sha256": "a3f524ee06ee91223c91499d9ddb29f621740dea6e14d8da9774dfecd79aefc4",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 7,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "002e3675241ebc22579085013d1999a76bfbb758138bc8c0d26df200ba82b960",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq8",
+      "native_formula_sha256": "03bb86f9f6271dbf151771315d81db158f3203c94028d6e7b689df050f183d29",
+      "profile_id": 14,
+      "published_formula_sha256": "9c16bff148c4fd284d1f55053cf6e88854d6e7c10be3682f7210c77e05bddd6e",
+      "published_proof_gzip_sha256": "7a9651fd69e2da7d045244c77f855a7eb9f8ad5e75625893a392c474e8f703bc",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 8,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "3dae4992836b03d5fe4ced49160b830bc22f2ff831eb09e9a93117c9ac9d87cd",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq9",
+      "native_formula_sha256": "d66ba5857aa365b0f17bb0ed5c26b60806aad24f6e32423326f7f0014f58a710",
+      "profile_id": 14,
+      "published_formula_sha256": "354cd65efd4ee6a0b3e080458c678812e3920349165673fb0597bc3ff8fd5c8f",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 9,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "3b8f832fe3c2e657f8c5191c10c84f609d8f84e90d037513f4501d6e1a9ea246",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq10",
+      "native_formula_sha256": "8c45c30954281b3446219484887589eeafc35fc5c9e711b06d11a8d0a359110e",
+      "profile_id": 14,
+      "published_formula_sha256": "26b160ea69887fc215496427975dda599a0e56a76d2ba23c391233060791fc41",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 10,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "5bb51aacd15a296c64d09aa47ea7972661f4fd04956f49d9bdb32cfcb83325f6",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq11",
+      "native_formula_sha256": "56992863b84c4346c78566c498cbe9796b4d4c260226f60fbb36cbdd57752f4c",
+      "profile_id": 14,
+      "published_formula_sha256": "506e05660a93b49dcfadb9a5951936413da2d012cba8f7ebdcb28404dc49d103",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 11,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "8333fa5559561dc0aecd140718359f5bcbead4e719e4fb7fb8e54eea0218fdcf",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq12",
+      "native_formula_sha256": "acbea2817a4942b34434cdd747b29a281b725e45d8c74560c9d34c3b5b80bd38",
+      "profile_id": 14,
+      "published_formula_sha256": "39888b299df4b7cbea51544c482ed5a3c0998841458e44d773e093304cee8c07",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 12,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "f81df62a5593380cdca328480099db69b1e7210fb468abae58f4107dd01380c5",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq13",
+      "native_formula_sha256": "9c002b2b02afaa3e2064f7e111e9dc01e20c6a4b6592006e4a9404e9af2244a3",
+      "profile_id": 14,
+      "published_formula_sha256": "c133d8b80822281d9271ba25e8aa3e9fc973be2496e0c345e788732953ad6295",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 13,
+      "status": "VERIFIED_UNSAT"
+    },
+    {
+      "canonical_comparison_passed": true,
+      "canonical_formula_sha256": "597b00bae5e439fe9814f451b9f3f0d342f0ce2dbab354bac47057b1551d4209",
+      "case_id": 21,
+      "certificate_final_audit_passed": true,
+      "name": "c52_case21_profile014_pair12_eq14",
+      "native_formula_sha256": "517e57b549a0b2d359e429966b58156565ace57d9f268396b009957d5139b41c",
+      "profile_id": 14,
+      "published_formula_sha256": "14d1a3ee0fefc4931bc7e699725bf1ad1e2a9351c7d27bb8d9ff5b752485acbb",
+      "published_proof_gzip_sha256": "0ff0b407932334d8e42720f043f1c0a5dc85eb4c60c5a488843a40a4fe307599",
+      "split_pair": [
+        1,
+        2
+      ],
+      "split_value": 14,
+      "status": "VERIFIED_UNSAT"
+    }
+  ],
+  "provenance": {
+    "derivation": "Mechanically extracted from the recovered corrected checkpoint, recomputed combinatorics, recovered screening ledger, native PB bundle, and canonical formula comparison.",
+    "limitations": [
+      "The original 26 per-orbit full_minpoints result files were not recovered.",
+      "The 17 whole-case and 87 early-profile exclusions are archived HiGHS SOLVER_UNSAT reports, not VERIFIED_UNSAT certificates.",
+      "The 30 retained formula instances are independently recorded as VERIFIED_UNSAT."
+    ],
+    "source_artifacts": {
+      "canonical_formula_comparison": {
+        "path": "phase1_audit/canonical_formula_comparison.json",
+        "sha256": "20308d1dc55112a11d6cd746f2efc6eaac689d74d625f9351f5854d86141ca08"
+      },
+      "corrected_checkpoint_internal_checksums": {
+        "path": "provenance_recovery/extracted/corrected/HorizonMath_C13_7_4_class52_corrected_checkpoint/SHA256SUMS",
+        "sha256": "226898e058d781e5c81a62130476493aaef19c69825462b8412ef94bab2d9049"
+      },
+      "corrected_checkpoint_zip": {
+        "path": "provenance_recovery/HorizonMath_C13_7_4_class52_corrected_checkpoint.zip",
+        "sha256": "6a6d69fb5886c795c2ec285b6fa9558f27159201bcdb9ca9ae045f57149102e3"
+      },
+      "native_pb_manifest": {
+        "path": "audit/extracted_pb_bundle/HorizonMath_C13_7_4_class52_pb/manifest.json",
+        "sha256": "f03e795cd6638444ef9ed03ef73e057c23c130f4bf935164ab37080c5f6cd0c3"
+      },
+      "portable_source": {
+        "path": "provenance_recovery/extracted/corrected/HorizonMath_C13_7_4_class52_corrected_checkpoint/search/portable_corrected_model.py",
+        "sha256": "c858068feeb92dc1efa86c7cd1042c199f806bc634adb7873a98d1ef3d607d90"
+      },
+      "screening_ledger": {
+        "path": "provenance_recovery/extracted/corrected/HorizonMath_C13_7_4_class52_corrected_checkpoint/results/corrected_statuses.json",
+        "sha256": "fcbd6cfb2130169ea59fa3ea5c5c668918b008bbea0419f1fdcd33e6dd0082ed"
+      }
+    }
+  },
+  "schema_version": "horizonmath.recovered-screening-ledger.v1",
+  "status_assessment": {
+    "class_formally_eliminated_by_this_end_to_end_audit": false,
+    "eighty_seven_early_profile_screens": "SOLVER_UNSAT",
+    "generalized_pipeline_class_status": "FORMULAS_GENERATED",
+    "initial_four_orbit_discard_evidence": "MISSING_INDIVIDUAL_RESULT_ARTIFACTS",
+    "published_30_formula_corpus": "VERIFIED_UNSAT",
+    "reason": "The 30 retained PB formulas are formally certified, but the recovered upstream screening ledger contains solver-only infeasibility claims and the initial per-orbit result files are absent. Under the required status discipline, those rows cannot be promoted to VERIFIED_UNSAT.",
+    "seventeen_whole_case_screens": "SOLVER_UNSAT"
+  }
+}

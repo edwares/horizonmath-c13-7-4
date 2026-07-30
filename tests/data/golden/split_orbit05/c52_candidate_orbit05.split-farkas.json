@@ -1,0 +1,89 @@
+{
+  "candidate_minimum_points": [
+    0,
+    1,
+    4,
+    6
+  ],
+  "class_index": 52,
+  "formal_pruning_authorized": false,
+  "formula": {
+    "canonical_equivalent_to_source_formula": true,
+    "canonical_formula_sha256": "16ecd6c44f5647b4889562559b50921bfe8e5517800924a7fa09629840af4e65",
+    "constraint_count": 567,
+    "path": "instances/c52_candidate_orbit05/c52_candidate_orbit05.split-farkas.opb",
+    "sha256": "70e5b6faf132df347b4d3983ef1f94902c9f20e7a4d2d7ededd0b0d967623a76",
+    "variable_count": 792
+  },
+  "guardrail": "The tree and leaf arithmetic are exact, but formal pruning requires expected hash matches and a successful VeriPB run with --requireUnsat.",
+  "historical_comparison": {
+    "equal": true,
+    "fresh_exploratory_disposition": "SCREENED_OUT_SOLVER_ONLY",
+    "historical_disposition": "DISCARDED",
+    "historical_exploratory_disposition": "SCREENED_OUT_SOLVER_ONLY",
+    "interpretation": "A difference may reflect solver/version/runtime progress; it does not alter formal status."
+  },
+  "historical_disposition_differs_from_fresh_solver": false,
+  "leaf_certificates": [
+    {
+      "all_exact_checks_passed": true,
+      "clause_literal_count": 1,
+      "depth": 1,
+      "exact_margin": 1744891360777902948471112,
+      "leaf_id": 1,
+      "path": "instances/c52_candidate_orbit05/leaves/leaf_000001.json",
+      "sha256": "758d0e0d1d88bd82849c74af68818d822d6d7880feab3f48e6d898d6c6c8b874"
+    },
+    {
+      "all_exact_checks_passed": true,
+      "clause_literal_count": 1,
+      "depth": 1,
+      "exact_margin": 793913561141356047348620101,
+      "leaf_id": 2,
+      "path": "instances/c52_candidate_orbit05/leaves/leaf_000002.json",
+      "sha256": "9b1680fefcfa134b1779919d538561e18f38ab5d490633c02717468983e85d8f"
+    }
+  ],
+  "method": {
+    "id": "exact-lp-split-tree-farkas-veripb-v1",
+    "milp_status": "SOLVER_UNSAT",
+    "root_lp_status": "LP_FEASIBLE"
+  },
+  "orbit_index": 5,
+  "proof": {
+    "bytes": 55787,
+    "expected_contradiction_id": 570,
+    "format": "VeriPB pseudo-Boolean proof version 1.0",
+    "metadata": {
+      "path": "instances/c52_candidate_orbit05/c52_candidate_orbit05.split-proof-metadata.json",
+      "sha256": "0ce48f0ef3a83770ee4f3bdbe5a583da7ec836da19c53146983face7f9d05859"
+    },
+    "path": "instances/c52_candidate_orbit05/c52_candidate_orbit05.split-farkas.pbp",
+    "sha256": "c95913c838e157ef37a5101627a4ed68c3010512be8a91c509ccf3fb41cfb2ad"
+  },
+  "schema_version": "horizonmath.exact-lp-split-farkas-certificate.v1",
+  "source_formula": {
+    "canonical_formula_sha256": "16ecd6c44f5647b4889562559b50921bfe8e5517800924a7fa09629840af4e65",
+    "path": "instances/c52_candidate_orbit05.opb",
+    "path_base": "candidate_corpus_directory",
+    "sha256": "86b5bc5e332571bea95df4d4abab944787d5990b7411158f7d7b5e02f8aee8c5"
+  },
+  "status": "PROOF_GENERATED",
+  "status_ledger": {
+    "formula": "FORMULAS_GENERATED",
+    "proof": "PROOF_GENERATED",
+    "root_lp": "LP_FEASIBLE",
+    "solver": "SOLVER_UNSAT",
+    "split_tree": "ENUMERATED",
+    "verification": "NOT_STARTED"
+  },
+  "tree": {
+    "branch_count": 1,
+    "complete": true,
+    "leaf_count": 2,
+    "max_depth": 1,
+    "node_count": 3,
+    "path": "instances/c52_candidate_orbit05/c52_candidate_orbit05.split-tree.json",
+    "sha256": "98d9ecfd4062ab907a9db494c89765a97b603ebc701436c8e6e4594b0acae46f"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "branch_count": 1,
+  "candidate_minimum_points": [
+    0,
+    1,
+    4,
+    6
+  ],
+  "canonical_formula_sha256": "16ecd6c44f5647b4889562559b50921bfe8e5517800924a7fa09629840af4e65",
+  "class_index": 52,
+  "complete": true,
+  "constraints": 567,
+  "leaf_count": 2,
+  "leaves": [
+    1,
+    2
+  ],
+  "max_depth": 1,
+  "node_count": 3,
+  "nodes": [
+    {
+      "assignments": {},
+      "branch_rule": "minimum absolute distance to 1/2; smallest variable index breaks ties",
+      "branch_value": null,
+      "branch_variable": null,
+      "chosen_variable": 512,
+      "depth": 0,
+      "fractional_variable_count": 27,
+      "id": 0,
+      "lp_reported_status": 0,
+      "lp_status": "LP_FEASIBLE",
+      "parent": null,
+      "type": "BRANCH"
+    },
+    {
+      "assignments": {
+        "512": 0
+      },
+      "branch_value": 0,
+      "branch_variable": 512,
+      "depth": 1,
+      "id": 1,
+      "lp_reported_status": 2,
+      "lp_status": "SOLVER_UNSAT",
+      "parent": 0,
+      "type": "LP_INFEASIBLE_LEAF"
+    },
+    {
+      "assignments": {
+        "512": 1
+      },
+      "branch_value": 1,
+      "branch_variable": 512,
+      "depth": 1,
+      "id": 2,
+      "lp_reported_status": 2,
+      "lp_status": "SOLVER_UNSAT",
+      "parent": 0,
+      "type": "LP_INFEASIBLE_LEAF"
+    }
+  ],
+  "orbit_index": 5,
+  "proof_role": "The floating tree is not a certificate. Every listed leaf must receive an exact Farkas clause and the clauses must resolve to the empty root clause.",
+  "schema_version": "horizonmath.deterministic-lp-split-tree.v1",
+  "solve_count": 3,
+  "solver_configuration": {
+    "dual_feasibility_tolerance": 1e-10,
+    "maximum_nodes": 5000,
+    "method": "HiGHS dual simplex through scipy.optimize.linprog",
+    "node_lp_time_limit_seconds": 30.0,
+    "parallel": false,
+    "presolve": true,
+    "primal_feasibility_tolerance": 1e-10,
+    "random_seed": 0,
+    "threads": 1
+  },
+  "source_formula_sha256": "86b5bc5e332571bea95df4d4abab944787d5990b7411158f7d7b5e02f8aee8c5",
+  "variables": 792
+}

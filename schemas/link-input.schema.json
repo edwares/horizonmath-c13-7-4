@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HorizonMath labeled minimum C(12,6,3) link",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "parameters",
+    "point_labels",
+    "blocks",
+    "identity",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "horizonmath.link-input.v1"
+    },
+    "parameters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["v", "k", "t", "block_count"],
+      "properties": {
+        "v": {"const": 12},
+        "k": {"const": 6},
+        "t": {"const": 3},
+        "block_count": {"const": 15}
+      }
+    },
+    "point_labels": {
+      "description": "The exact labels used by blocks. Version 1 requires the integers 0 through 11.",
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 11
+      }
+    },
+    "blocks": {
+      "description": "A labeled link. Each block must be internally increasing; the block list must be lexicographically sorted for canonical serialization.",
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "uniqueItems": true,
+      "items": {
+        "type": "array",
+        "minItems": 6,
+        "maxItems": 6,
+        "uniqueItems": true,
+        "items": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 11
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "representative_id",
+        "class_index",
+        "numbering_source"
+      ],
+      "properties": {
+        "representative_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "class_index": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "maximum": 68
+        },
+        "numbering_source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "citation",
+            "selection"
+          ],
+          "properties": {
+            "status": {
+              "enum": ["AUDITED", "PARTIAL", "UNAVAILABLE"]
+            },
+            "citation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "selection": {
+              "type": "string",
+              "minLength": 1
+            },
+            "artifact_sha256": {
+              "type": ["string", "null"],
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_artifacts", "extraction_rule"],
+      "properties": {
+        "source_artifacts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "sha256"],
+            "properties": {
+              "name": {"type": "string", "minLength": 1},
+              "uri": {"type": ["string", "null"]},
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "extraction_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

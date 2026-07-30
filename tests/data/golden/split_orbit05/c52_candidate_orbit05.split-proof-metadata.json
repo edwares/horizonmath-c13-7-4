@@ -1,0 +1,43 @@
+{
+  "exact_tree_resolution_checks": {
+    "every_branch_has_two_children": true,
+    "every_leaf_has_exact_clause": true,
+    "root_clause_is_empty": true
+  },
+  "final_contradiction_id": 570,
+  "formula_constraint_count": 567,
+  "formula_sha256": "70e5b6faf132df347b4d3983ef1f94902c9f20e7a4d2d7ededd0b0d967623a76",
+  "leaf_clause_count": 2,
+  "leaf_records": [
+    {
+      "constraint_id": 568,
+      "depth": 1,
+      "leaf_id": 1,
+      "literal_count": 1
+    },
+    {
+      "constraint_id": 569,
+      "depth": 1,
+      "leaf_id": 2,
+      "literal_count": 1
+    }
+  ],
+  "proof_bytes": 55787,
+  "proof_line_count": 6,
+  "proof_sha256": "c95913c838e157ef37a5101627a4ed68c3010512be8a91c509ccf3fb41cfb2ad",
+  "propagation_count": 0,
+  "resolution_records": [
+    {
+      "action": "resolve",
+      "left_constraint_id": 568,
+      "node": 0,
+      "result_constraint_id": 570,
+      "result_literal_count": 0,
+      "right_constraint_id": 569,
+      "variable": 512
+    }
+  ],
+  "resolution_step_count": 1,
+  "tree_node_count": 3,
+  "tree_sha256": "98d9ecfd4062ab907a9db494c89765a97b603ebc701436c8e6e4594b0acae46f"
+}

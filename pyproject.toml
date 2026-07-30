@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "horizonlink"
+version = "0.4.0"
+description = "Deterministic link-to-native-PB pipeline for HorizonMath C(13,7,4)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+proof = [
+  "mpmath==1.3.0",
+  "numpy==2.3.5",
+  "scipy==1.17.0",
+  "sympy==1.13.3",
+]
+
+[project.scripts]
+horizonlink = "horizonlink.cli:main"
+
+[project.urls]
+Repository = "https://github.com/edwares/horizonmath-c13-7-4"
+"Class-52 certification" = "https://github.com/edwares/class52-formal-certification"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
