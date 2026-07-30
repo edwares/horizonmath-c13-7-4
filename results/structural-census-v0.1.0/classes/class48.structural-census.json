@@ -1,0 +1,1226 @@
+{
+  "automorphism_group": {
+    "algorithm": {
+      "completeness": "Every bijection preserving necessary point/pair/triple invariants is visited; every leaf is checked against the full block multiset.",
+      "id": "complete-invariant-backtracking-v1"
+    },
+    "audit_checks": {
+      "generated_group_order": 24,
+      "generators_reproduce_group": true,
+      "identity_present": true,
+      "permutations_unique": true
+    },
+    "generator_count": 4,
+    "generator_selection": "lexicographic-greedy-v1",
+    "generators": [
+      {
+        "images": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4,
+          7,
+          6,
+          9,
+          8,
+          11,
+          10
+        ],
+        "nontrivial_cycles": [
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            10,
+            11
+          ]
+        ]
+      },
+      {
+        "images": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5,
+          7,
+          6,
+          8,
+          9,
+          11,
+          10
+        ],
+        "nontrivial_cycles": [
+          [
+            2,
+            3
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            10,
+            11
+          ]
+        ]
+      },
+      {
+        "images": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          6,
+          9,
+          8,
+          10,
+          11
+        ],
+        "nontrivial_cycles": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ]
+        ]
+      },
+      {
+        "images": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          1,
+          2,
+          3
+        ],
+        "nontrivial_cycles": [
+          [
+            0,
+            4,
+            8
+          ],
+          [
+            1,
+            5,
+            9
+          ],
+          [
+            2,
+            6,
+            10
+          ],
+          [
+            3,
+            7,
+            11
+          ]
+        ]
+      }
+    ],
+    "group_sha256": "4e591d31e2b2150638aa32e562a5406b7c0684d6fd4db8c4f772a2c3faeb377b",
+    "order": 24,
+    "search_statistics": {
+      "candidate_cell_sizes": {
+        "0": 6,
+        "1": 6,
+        "10": 6,
+        "11": 6,
+        "2": 6,
+        "3": 6,
+        "4": 6,
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "complete_bijections_tested": 24,
+      "rejected_at_block_multiset_check": 0,
+      "search_nodes": 373,
+      "source_order": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9,
+        2,
+        3,
+        6,
+        7,
+        10,
+        11
+      ]
+    }
+  },
+  "candidate_minimum_point_sets": {
+    "accounting": {
+      "all_candidates_accounted_for": true,
+      "all_orbit_stabilizer_checks_pass": true,
+      "duplicate_member_count": 0,
+      "members_unique": true,
+      "unaccounted_candidates": []
+    },
+    "algorithm": "lexicographic-full-group-action-v1",
+    "interpretation": "Candidate subsets of full-degree-15 points. A hypothetical 29-block C(13,7,4) cover has total degree excess 8 above 15, so at least four of its 12 non-link points have zero excess.",
+    "member_count": 495,
+    "orbit_count": 35,
+    "orbit_sizes": [
+      3,
+      12,
+      12,
+      12,
+      12,
+      3,
+      12,
+      12,
+      12,
+      3,
+      12,
+      12,
+      12,
+      3,
+      12,
+      12,
+      12,
+      12,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      12,
+      24,
+      24,
+      24,
+      24,
+      12,
+      12,
+      12,
+      12,
+      3,
+      12
+    ],
+    "orbits": [
+      {
+        "id": "orbit000",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": 3,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit001",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit002",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit003",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit004",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit005",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "size": 3,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit006",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit007",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          8
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit008",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit009",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "size": 3,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit010",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          8
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit011",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit012",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          8,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit013",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          10,
+          11
+        ],
+        "size": 3,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit014",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit015",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit016",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          8
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit017",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit018",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit019",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit020",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          8
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit021",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          9
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit022",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          10
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit023",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          11
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit024",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit025",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit026",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit027",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          10
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit028",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          11
+        ],
+        "size": 24,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit029",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          10,
+          11
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit030",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          10,
+          11
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit031",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          7,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit032",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          10,
+          11
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit033",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "size": 3,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit034",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          10
+        ],
+        "size": 12,
+        "stabilizer_order": 2
+      }
+    ],
+    "partition_sha256": "a6d78e9bc3ce53f665568a2a034bfc45025645c98d49b4d38c6650199e31177d",
+    "representatives": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        8
+      ],
+      [
+        0,
+        1,
+        2,
+        10
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        4,
+        8
+      ],
+      [
+        0,
+        1,
+        4,
+        10
+      ],
+      [
+        0,
+        1,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        6,
+        8
+      ],
+      [
+        0,
+        1,
+        6,
+        10
+      ],
+      [
+        0,
+        1,
+        8,
+        10
+      ],
+      [
+        0,
+        1,
+        10,
+        11
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        8
+      ],
+      [
+        0,
+        2,
+        3,
+        10
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2,
+        4,
+        7
+      ],
+      [
+        0,
+        2,
+        4,
+        8
+      ],
+      [
+        0,
+        2,
+        4,
+        9
+      ],
+      [
+        0,
+        2,
+        4,
+        10
+      ],
+      [
+        0,
+        2,
+        4,
+        11
+      ],
+      [
+        0,
+        2,
+        6,
+        7
+      ],
+      [
+        0,
+        2,
+        6,
+        8
+      ],
+      [
+        0,
+        2,
+        6,
+        9
+      ],
+      [
+        0,
+        2,
+        6,
+        10
+      ],
+      [
+        0,
+        2,
+        6,
+        11
+      ],
+      [
+        0,
+        2,
+        10,
+        11
+      ],
+      [
+        0,
+        4,
+        10,
+        11
+      ],
+      [
+        0,
+        6,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        6,
+        10
+      ]
+    ],
+    "subset_size": 4,
+    "universe_count": 495
+  },
+  "catalog_comparison": {
+    "all_checks_passed": true,
+    "checks": {
+      "canonical_labeled_link_sha256_equal": true,
+      "catalog_entry_validation_passed": true,
+      "class_index_equal": true,
+      "cover_validation_passed": true,
+      "covered_four_set_count_equal": true,
+      "pair_histogram_equal": true,
+      "point_multiplicities_equal": true,
+      "residual_four_set_count_equal": true,
+      "triple_histogram_equal": true
+    }
+  },
+  "catalog_entry_index": 47,
+  "catalog_metadata": {
+    "full_completion_multiplicity": 24,
+    "full_discovery_index": 48,
+    "full_first_occurrence": 617,
+    "historical_prefix_multiplicity": 6,
+    "isomorphism_invariant_sha256": "b0802e0cc648155c7356c7f04fbf6d97791159d146a7defa298fd4e31a48e479",
+    "numbering_source": "metadata/link_classes.json representatives[47]"
+  },
+  "class_index": 48,
+  "degree_budget": {
+    "derivation": {
+      "excess": 8,
+      "extension_block_count": 14,
+      "extension_block_size": 7,
+      "extension_degree_sum": 98,
+      "minimum_extension_degree_sum": 90,
+      "minimum_point_lower_bound": 4,
+      "minimum_point_lower_bound_reason": "Every nonminimum point consumes at least one integral unit of excess, so at most `excess` points are nonminimum.",
+      "target_full_point_degree": 15
+    },
+    "link_point_degrees": [
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7
+    ],
+    "minimum_extension_degrees": [
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      8,
+      8
+    ]
+  },
+  "input": {
+    "canonical_document_sha256": "2647c0d05caf630f05ea1360ef5d0c9606a3ac9c62d40be1b1c39b48b5bd15ac",
+    "canonical_labeled_link_sha256": "6b47ebd0b176172b5717d4d4ff31c9b9414bf51defc9a1792529b9fa0aa19261",
+    "file": {
+      "bytes": 3164,
+      "path": "inputs/class48.link.json",
+      "sha256": "43678f2c471e1b58687248847506e5ba1ce4ea70bf8b188a3cbdcfbbd4e3fa37"
+    },
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'first_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[47]",
+      "status": "AUDITED"
+    },
+    "path": "inputs/class48.link.json"
+  },
+  "mathematical_validation": {
+    "checks": [
+      {
+        "expected": 12,
+        "id": "point_count",
+        "observed": 12,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "block_count",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "unique_blocks",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": [
+          6
+        ],
+        "id": "block_sizes",
+        "observed": [
+          6
+        ],
+        "passed": true
+      },
+      {
+        "expected": true,
+        "id": "block_points_in_universe",
+        "observed": true,
+        "passed": true
+      },
+      {
+        "expected": 220,
+        "id": "triple_universe_count",
+        "observed": 220,
+        "passed": true
+      },
+      {
+        "expected": 0,
+        "id": "all_triples_covered",
+        "observed": 0,
+        "passed": true
+      },
+      {
+        "expected": 90,
+        "id": "points_incidence_identity",
+        "observed": 90,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "pairs_incidence_identity",
+        "observed": 225,
+        "passed": true
+      },
+      {
+        "expected": 300,
+        "id": "triples_incidence_identity",
+        "observed": 300,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "four_sets_incidence_identity",
+        "observed": 225,
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "uncovered_triples": [],
+    "valid_15_block_C_12_6_3_cover": true
+  },
+  "multiplicities": {
+    "four_sets": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "0": 276,
+        "1": 213,
+        "2": 6
+      },
+      "subset_count": 495,
+      "subset_size": 4,
+      "table_sha256": "f1f0f4ca6b2bf574bee9c798860a41bd689ad9138c3172c4af0605cc5fb9902b",
+      "total_incidence": 225
+    },
+    "pairs": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "3": 39,
+        "4": 27
+      },
+      "subset_count": 66,
+      "subset_size": 2,
+      "table_sha256": "5132115d06409c1b217463aff19dce4525b56d0baf32a3132c546e464fac648c",
+      "total_incidence": 225
+    },
+    "point_multiplicities": [
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7
+    ],
+    "points": {
+      "expected_total_incidence": 90,
+      "histogram": {
+        "7": 6,
+        "8": 6
+      },
+      "subset_count": 12,
+      "subset_size": 1,
+      "table_sha256": "d243b4c6e766df41bcbc565d6046118e155c679d07fa52511b484f946fd8135c",
+      "total_incidence": 90
+    },
+    "residual_four_sets": {
+      "count": 276,
+      "sets_sha256": "8a7856439f142cffe31e313bdfb23e5709f447ec0015d70015cc19bbe5df000c"
+    },
+    "triples": {
+      "expected_total_incidence": 300,
+      "histogram": {
+        "1": 156,
+        "2": 48,
+        "3": 16
+      },
+      "subset_count": 220,
+      "subset_size": 3,
+      "table_sha256": "4fbdab112932e672a2f6f18e340d06acbd2fbb1d72bf3698b509ded9bcf66c5a",
+      "total_incidence": 300
+    }
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.5.0"
+  },
+  "ranking_metrics": {
+    "automorphism_group_order": 24,
+    "candidate_minimum_point_orbit_count": 35,
+    "residual_four_set_count": 276,
+    "unscreened_degree_profile_orbit_count": 3894
+  },
+  "schema_version": "horizonmath.structural-census-class.v1",
+  "scope_guardrails": {
+    "class_elimination_claimed": false,
+    "every_candidate_orbit_representative_recorded": true,
+    "formulas_generated": false,
+    "global_covering_number_claimed": false,
+    "profile_orbits_counted_by_burnside": true,
+    "profile_representatives_generated": false,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "screening_run": false,
+    "solver_run": false,
+    "structural_census_completed": true,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "automorphism_group": "ENUMERATED",
+    "candidate_minimum_point_set_orbits": "ENUMERATED",
+    "extension_degree_profiles": "NOT_STARTED",
+    "formulas": "NOT_STARTED",
+    "link": "ENUMERATED",
+    "multiplicities": "ENUMERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "screening": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "unscreened_profile_orbit_count": "ENUMERATED",
+    "verification": "NOT_STARTED"
+  },
+  "template": "first_template",
+  "unavailable_difficulty_metrics": {
+    "estimated_proof_size": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "quick_solver_runtime": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "retained_profile_count": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "root_lp_feasibility": {
+      "status": "NOT_STARTED",
+      "value": null
+    }
+  },
+  "unscreened_degree_profile_orbit_census": {
+    "algorithm": "burnside-weak-compositions-by-permutation-cycle-type-v1",
+    "burnside_audit": {
+      "all_divisibility_checks_pass": true,
+      "cycle_type_histogram": {
+        "1^12": 1,
+        "1^4*2^4": 3,
+        "1^6*2^3": 4,
+        "3^2*6^1": 8,
+        "3^4": 8
+      },
+      "fixed_profile_sum_by_minimum_set_size": {
+        "10": 1032,
+        "11": 48,
+        "4": 840,
+        "5": 6912,
+        "6": 23088,
+        "7": 32736,
+        "8": 21888,
+        "9": 6912
+      },
+      "fixed_sums_divisible_by_group_order": {
+        "10": true,
+        "11": true,
+        "4": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true,
+        "9": true
+      },
+      "orbit_counts_sum_to_total": true,
+      "raw_counts_sum_to_weak_composition_count": true
+    },
+    "group_order": 24,
+    "interpretation": "Exact symmetry-reduced count of all nonnegative integral degree-excess vectors before any screening. No profile representatives, formulas, LPs, or solver runs are generated.",
+    "point_count": 12,
+    "profile_orbit_count": 3894,
+    "profile_orbits_by_minimum_set_size": {
+      "10": 43,
+      "11": 2,
+      "4": 35,
+      "5": 288,
+      "6": 962,
+      "7": 1364,
+      "8": 912,
+      "9": 288
+    },
+    "raw_profile_count_before_symmetry": 75582,
+    "raw_profiles_by_minimum_set_size": {
+      "10": 462,
+      "11": 12,
+      "4": 495,
+      "5": 5544,
+      "6": 19404,
+      "7": 27720,
+      "8": 17325,
+      "9": 4620
+    },
+    "scope": {
+      "candidate_screening_run": false,
+      "counts_enumerated": true,
+      "formulas_generated": false,
+      "profile_representatives_generated": false,
+      "proofs_generated": false,
+      "root_lp_run": false,
+      "solver_run": false,
+      "verifier_run": false
+    },
+    "total_excess": 8
+  }
+}

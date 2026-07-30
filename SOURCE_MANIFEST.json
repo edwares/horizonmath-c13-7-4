@@ -28,14 +28,14 @@
       "sha256": "1570224de0be42b002a6ff70d6b4a57eada11cd94079de01ad313ac249d131a2"
     },
     {
-      "bytes": 5181,
+      "bytes": 6282,
       "path": "README.md",
-      "sha256": "ffb4747c6cfd1b3b9dc5ca1b8bd55273b4e7997d39d324fae192c81b647c6dfd"
+      "sha256": "f2703e7ea633324ecd274d1241fd973dff067995955c2630c4e901b051d9d553"
     },
     {
-      "bytes": 2996,
+      "bytes": 4478,
       "path": "STATUS.md",
-      "sha256": "2def3e788a876ba4adc52ab6f40248b6151b9405fe058b13bf238190a853bb31"
+      "sha256": "b2bf52e6c93d6a3aa44e9d0f596dc439d5d7f6f92d5c3dcdedbf7079d88b3bac"
     },
     {
       "bytes": 5028,
@@ -141,6 +141,11 @@
       "bytes": 177462,
       "path": "data/class52.recovered-screening-ledger.json",
       "sha256": "eaf5e8f666ec46165a446bba52f79fce9749ba43dfd82d24eff15795efcccef9"
+    },
+    {
+      "bytes": 5610,
+      "path": "docs/STRUCTURAL_CENSUS_V0.1.0.md",
+      "sha256": "8a0127b08c62f1aed9f4a7313e7e3cd3f787ddd1f8fb913158907492dee1962e"
     },
     {
       "bytes": 8800,
@@ -290,7 +295,707 @@
     {
       "bytes": 718,
       "path": "pyproject.toml",
-      "sha256": "1755f91abb52eb0d1e265433df23cd10d34a90c614a9ec688c98d6f0f5b46dd0"
+      "sha256": "38692af86658a301469656c3591f55ac0e139a360111ae36f7f920bb9c3b2dfe"
+    },
+    {
+      "bytes": 13572,
+      "path": "results/structural-census-v0.1.0/SHA256SUMS",
+      "sha256": "86ec09c20b888ceffe88c70c5f4013e5dcddda94e12d55b348a05dfc712a553e"
+    },
+    {
+      "bytes": 48031,
+      "path": "results/structural-census-v0.1.0/census.manifest.json",
+      "sha256": "6954eefecdad34d27abc4715a2b1934a18e33dae7f306e34e28e4d651cd2b18f"
+    },
+    {
+      "bytes": 43318,
+      "path": "results/structural-census-v0.1.0/classes/class01.structural-census.json",
+      "sha256": "2ce5d57ff5aa39a8300124e20321e542309ef013a3a35da1ba7acb0d287d8c61"
+    },
+    {
+      "bytes": 88669,
+      "path": "results/structural-census-v0.1.0/classes/class02.structural-census.json",
+      "sha256": "3e2e2299bc72dcbd30f382124ac6777153104732c397f872b5cd77dbe846baec"
+    },
+    {
+      "bytes": 56411,
+      "path": "results/structural-census-v0.1.0/classes/class03.structural-census.json",
+      "sha256": "d4b95b0edab4719063d95a3e76bad6aed3dcdb0c040f808675b85ca48fa497bb"
+    },
+    {
+      "bytes": 93318,
+      "path": "results/structural-census-v0.1.0/classes/class04.structural-census.json",
+      "sha256": "c960a02dc14166b6e4d5e200ecaa375a5290427622ebcb1786ee4f7ea561d502"
+    },
+    {
+      "bytes": 43303,
+      "path": "results/structural-census-v0.1.0/classes/class05.structural-census.json",
+      "sha256": "475db036db62a6b000e0d637459987fe2ac7b5d89ced00b31093448c63e9caa9"
+    },
+    {
+      "bytes": 56380,
+      "path": "results/structural-census-v0.1.0/classes/class06.structural-census.json",
+      "sha256": "3046510020f4f40eb113f128fd8ed65ebd11bb92f59dbaa5066f724a030034c2"
+    },
+    {
+      "bytes": 88654,
+      "path": "results/structural-census-v0.1.0/classes/class07.structural-census.json",
+      "sha256": "85fafc4918ab31f8842b592f2cc478f0f5a3e39b8d000c952299f482b2f0fc04"
+    },
+    {
+      "bytes": 54026,
+      "path": "results/structural-census-v0.1.0/classes/class08.structural-census.json",
+      "sha256": "9097723ab04d224a29837bde785012c7a2da2334b91c539021173b2e0934c256"
+    },
+    {
+      "bytes": 88654,
+      "path": "results/structural-census-v0.1.0/classes/class09.structural-census.json",
+      "sha256": "35a6bc999330db507461a7dcd091ae8ba0e2d2b9155d0598813621ec1f63d152"
+    },
+    {
+      "bytes": 86397,
+      "path": "results/structural-census-v0.1.0/classes/class10.structural-census.json",
+      "sha256": "265d5073be4fd6e7cf9e7d80adc12e145fb0b2580ed1dde2bbbb42275ce62c78"
+    },
+    {
+      "bytes": 156013,
+      "path": "results/structural-census-v0.1.0/classes/class11.structural-census.json",
+      "sha256": "eea5461d4d77be454c00423020737c03e8d6b6af9e74b4bc5280c5f980d4c673"
+    },
+    {
+      "bytes": 54015,
+      "path": "results/structural-census-v0.1.0/classes/class12.structural-census.json",
+      "sha256": "3f7ba5c75b13af13de998eb5735d66aede68f279be0da44d6469d63e751d0e2a"
+    },
+    {
+      "bytes": 86368,
+      "path": "results/structural-census-v0.1.0/classes/class13.structural-census.json",
+      "sha256": "70e182813fdf3008781c793332350e103ea91a47c7d95518ca61abc033e085c5"
+    },
+    {
+      "bytes": 93294,
+      "path": "results/structural-census-v0.1.0/classes/class14.structural-census.json",
+      "sha256": "304183fcedc8232eea2551daa0586a7fa926d2f5a0815a0453e9e6a3ae885ec9"
+    },
+    {
+      "bytes": 156014,
+      "path": "results/structural-census-v0.1.0/classes/class15.structural-census.json",
+      "sha256": "8ac3c00d14ceee9ff5d5fdf9c622576fa9c535b8491a4baa3e1bd21bbfaaf5d4"
+    },
+    {
+      "bytes": 93310,
+      "path": "results/structural-census-v0.1.0/classes/class16.structural-census.json",
+      "sha256": "1352044ab233bc79485d8fce89a86d57b46f467af878dd55a89bc48abc1e39db"
+    },
+    {
+      "bytes": 93310,
+      "path": "results/structural-census-v0.1.0/classes/class17.structural-census.json",
+      "sha256": "240063b7be1ff53ebe307125b4a3b1affd926d539c7c043ef164cdc189b0c096"
+    },
+    {
+      "bytes": 156013,
+      "path": "results/structural-census-v0.1.0/classes/class18.structural-census.json",
+      "sha256": "16711c196387bf264b44040432e0ad73c67b570273b06f737a05b2fca64ee57e"
+    },
+    {
+      "bytes": 155998,
+      "path": "results/structural-census-v0.1.0/classes/class19.structural-census.json",
+      "sha256": "5eea1f1faa5c138d9de7357eff16ddcb76af84478b404db7f67a5a3f4a8a89a6"
+    },
+    {
+      "bytes": 93294,
+      "path": "results/structural-census-v0.1.0/classes/class20.structural-census.json",
+      "sha256": "b9a0b94efb34aed9a06ad1a07ae40f9ca53f04e085d16ed202dbe31825adfc74"
+    },
+    {
+      "bytes": 93294,
+      "path": "results/structural-census-v0.1.0/classes/class21.structural-census.json",
+      "sha256": "511532ef3989aa9c09bf290cdbe7b9f4c057384b8beb978078671ae5cf951c80"
+    },
+    {
+      "bytes": 155997,
+      "path": "results/structural-census-v0.1.0/classes/class22.structural-census.json",
+      "sha256": "203318b7ec5d846f84c25edece43a79ffcdcee58608e8f6634000f118d38d9a4"
+    },
+    {
+      "bytes": 93278,
+      "path": "results/structural-census-v0.1.0/classes/class23.structural-census.json",
+      "sha256": "3088a8d92242b43d736300d19e75eb1d043bcfbbaaece89a95e7df0f4dd9cd6f"
+    },
+    {
+      "bytes": 156013,
+      "path": "results/structural-census-v0.1.0/classes/class24.structural-census.json",
+      "sha256": "5fc974133bb58aff45d2b0c16fdd4fe425ba7cb7463778d4daed09bb8424bd60"
+    },
+    {
+      "bytes": 156014,
+      "path": "results/structural-census-v0.1.0/classes/class25.structural-census.json",
+      "sha256": "592c8d2bcbe3ae9476ebb19a8b03e58cca8f590a2737d8495377aa5cdc39d6ab"
+    },
+    {
+      "bytes": 155998,
+      "path": "results/structural-census-v0.1.0/classes/class26.structural-census.json",
+      "sha256": "1b484a65fd1fcf5e7200537c949d11b0ccab6d16a068f6d5af22f4d322e00dc3"
+    },
+    {
+      "bytes": 155998,
+      "path": "results/structural-census-v0.1.0/classes/class27.structural-census.json",
+      "sha256": "6204c7e1625d8371898c0a0a31b2671a89a8003a34014e8d1ac1e722ffda7614"
+    },
+    {
+      "bytes": 56356,
+      "path": "results/structural-census-v0.1.0/classes/class28.structural-census.json",
+      "sha256": "2f4df69cd8cb48d1d1a8e0625d27f719bf9f1082a8ec15533538faa078fc43a0"
+    },
+    {
+      "bytes": 86314,
+      "path": "results/structural-census-v0.1.0/classes/class29.structural-census.json",
+      "sha256": "4c1228a2045555d4eab4e514b985eb02ac4b727d70b2e900ae70a3ff4f469b18"
+    },
+    {
+      "bytes": 156015,
+      "path": "results/structural-census-v0.1.0/classes/class30.structural-census.json",
+      "sha256": "07fc2e0080610b54b751ffcc5987531eda72e2f5be43ffd790d5c5a99ccf9a6d"
+    },
+    {
+      "bytes": 93279,
+      "path": "results/structural-census-v0.1.0/classes/class31.structural-census.json",
+      "sha256": "4e905957324c93d1a5e7c9fcd9328d71e9f0c6b0d4b3178062cc49d716bd4420"
+    },
+    {
+      "bytes": 93309,
+      "path": "results/structural-census-v0.1.0/classes/class32.structural-census.json",
+      "sha256": "b37a4933978b49a1d2e3e22c1486e38cab13c307ea7eef06162b963d7dd83c6d"
+    },
+    {
+      "bytes": 156015,
+      "path": "results/structural-census-v0.1.0/classes/class33.structural-census.json",
+      "sha256": "cbfa8ddc8be460a6de9a46fbc15906473f2c6a0f26cc9266f58b3d3b3f37ede0"
+    },
+    {
+      "bytes": 156030,
+      "path": "results/structural-census-v0.1.0/classes/class34.structural-census.json",
+      "sha256": "78c1e1a33ec8102ecf0769236b29592ee43664ebb5e9a87f4b4d72fc48b22ad8"
+    },
+    {
+      "bytes": 93309,
+      "path": "results/structural-census-v0.1.0/classes/class35.structural-census.json",
+      "sha256": "10ca03a2b42d510a9cf629f63c564ff2e6546a18792ee52c7295653071554776"
+    },
+    {
+      "bytes": 93309,
+      "path": "results/structural-census-v0.1.0/classes/class36.structural-census.json",
+      "sha256": "614525d71a12906f64a6a76d1a11ba41aafb6e59082e356f09da529ba6a50d68"
+    },
+    {
+      "bytes": 155999,
+      "path": "results/structural-census-v0.1.0/classes/class37.structural-census.json",
+      "sha256": "30509d5350e0b27cfbd6784e754c121d2415fe102321e84ed6833288d1ccf2ba"
+    },
+    {
+      "bytes": 156014,
+      "path": "results/structural-census-v0.1.0/classes/class38.structural-census.json",
+      "sha256": "ee951b5d94d0cbe5beb0792a7df93781c284e413a24534a67243c5e78210cece"
+    },
+    {
+      "bytes": 93293,
+      "path": "results/structural-census-v0.1.0/classes/class39.structural-census.json",
+      "sha256": "370c6e6576bbe5bfc6abc0d4a84f839034c9b498f0126aea5050b914c42467bd"
+    },
+    {
+      "bytes": 93293,
+      "path": "results/structural-census-v0.1.0/classes/class40.structural-census.json",
+      "sha256": "8d913b8b50249d2102b7772a147d9b09773de78de9de9327fd958c2639c7eb98"
+    },
+    {
+      "bytes": 93293,
+      "path": "results/structural-census-v0.1.0/classes/class41.structural-census.json",
+      "sha256": "31c1b338f9313cafc3cc38dfc97ac56ef3dc46aa4d0f599e50d4acba674e639b"
+    },
+    {
+      "bytes": 156014,
+      "path": "results/structural-census-v0.1.0/classes/class42.structural-census.json",
+      "sha256": "145c40c388ddd6e40eb3ec639e4869a3e4b6aabc844d54b6338763a4c2d33c36"
+    },
+    {
+      "bytes": 156014,
+      "path": "results/structural-census-v0.1.0/classes/class43.structural-census.json",
+      "sha256": "c6201a756ae77c55acfe3127e673908f2cd989bd78d80cc7606df6ac2acc8282"
+    },
+    {
+      "bytes": 155998,
+      "path": "results/structural-census-v0.1.0/classes/class44.structural-census.json",
+      "sha256": "5977e9f19d424d0d6ef2a537829cf354172d271275fe4316ba83f4de98d052be"
+    },
+    {
+      "bytes": 155998,
+      "path": "results/structural-census-v0.1.0/classes/class45.structural-census.json",
+      "sha256": "fa07de7f353c0c802fe632fb4fb1286b23a7113f5710e24e1b4581270f3958d1"
+    },
+    {
+      "bytes": 56286,
+      "path": "results/structural-census-v0.1.0/classes/class46.structural-census.json",
+      "sha256": "aaf6e662fb3c27817aa93ccdbe1860c720d0aaf4097f20c7dc4fba20b3d186f6"
+    },
+    {
+      "bytes": 86258,
+      "path": "results/structural-census-v0.1.0/classes/class47.structural-census.json",
+      "sha256": "1ebfb50c49bade56cb67584efd59fd9ced5a9590a3006a834b6b5a6d5c5d9570"
+    },
+    {
+      "bytes": 23425,
+      "path": "results/structural-census-v0.1.0/classes/class48.structural-census.json",
+      "sha256": "27484d48a4b82b360ade592effeb7be8f4abf16a18aebab5b60650facb692732"
+    },
+    {
+      "bytes": 88629,
+      "path": "results/structural-census-v0.1.0/classes/class49.structural-census.json",
+      "sha256": "a7685e8abdc1b5c9e96710855210e3fa90d36355f6b4c140530e14cd4c0d378d"
+    },
+    {
+      "bytes": 23407,
+      "path": "results/structural-census-v0.1.0/classes/class50.structural-census.json",
+      "sha256": "c9be0a45ed36e970f9ddc257cac932e4ec0f7b5ad57e28e6253e6960a039f313"
+    },
+    {
+      "bytes": 37212,
+      "path": "results/structural-census-v0.1.0/classes/class51.structural-census.json",
+      "sha256": "7ad735bc7cd53309019ed5d906944096e1c51eee5df8b0afda6ff643487c16d5"
+    },
+    {
+      "bytes": 20808,
+      "path": "results/structural-census-v0.1.0/classes/class52.structural-census.json",
+      "sha256": "5bc45b56f902c5b2f5a55f0499f9ca622c8377b6cd8cf5501d036612a2839a22"
+    },
+    {
+      "bytes": 93328,
+      "path": "results/structural-census-v0.1.0/classes/class53.structural-census.json",
+      "sha256": "f6dfd04c4a369d86b1cd8e6ce1db9ddd037296f9f10897d6452bf9a4c6a6b9b5"
+    },
+    {
+      "bytes": 56402,
+      "path": "results/structural-census-v0.1.0/classes/class54.structural-census.json",
+      "sha256": "10709e0e2b62265c9c0e3a53e6d2bde692da28d5b3f0cb648d99965a28c6317b"
+    },
+    {
+      "bytes": 86401,
+      "path": "results/structural-census-v0.1.0/classes/class55.structural-census.json",
+      "sha256": "af0c47b14cf6d61bc6c5a064d74735832ae2a8c9fb25e0fad13fe7562573f68c"
+    },
+    {
+      "bytes": 86355,
+      "path": "results/structural-census-v0.1.0/classes/class56.structural-census.json",
+      "sha256": "bfa5616e3eb5749f598a36905b2ba394011ec081038c11ffe73a9b2625828e2e"
+    },
+    {
+      "bytes": 56410,
+      "path": "results/structural-census-v0.1.0/classes/class57.structural-census.json",
+      "sha256": "ff66bbef91aec171caf4677213b39b4a71cf39bf7bf5adcafcf00c3cc099e959"
+    },
+    {
+      "bytes": 39425,
+      "path": "results/structural-census-v0.1.0/classes/class58.structural-census.json",
+      "sha256": "95ce7f55f94cbaca294b852d76b5a20eb7943bf724cf6f3468b47b84c1563b39"
+    },
+    {
+      "bytes": 155999,
+      "path": "results/structural-census-v0.1.0/classes/class59.structural-census.json",
+      "sha256": "8e1a78d7f22e05bdc03fa5896533b1dc1ae4cacfb5e0d09739020abdab9a259a"
+    },
+    {
+      "bytes": 156015,
+      "path": "results/structural-census-v0.1.0/classes/class60.structural-census.json",
+      "sha256": "aa8ca276331e91b5a22285294585655bb3b83b91d795aac4442d9b9d890e5e28"
+    },
+    {
+      "bytes": 155999,
+      "path": "results/structural-census-v0.1.0/classes/class61.structural-census.json",
+      "sha256": "48ec140da09cce32b27ec613678e0cbbac9361694e13740825258fddc29674bf"
+    },
+    {
+      "bytes": 86298,
+      "path": "results/structural-census-v0.1.0/classes/class62.structural-census.json",
+      "sha256": "2ca0e542dd6845625ace45c4cb9b4393563c8a6a01171145a79996b6f5d9135a"
+    },
+    {
+      "bytes": 29775,
+      "path": "results/structural-census-v0.1.0/classes/class63.structural-census.json",
+      "sha256": "e0e660d6bfd8d830a106626ffb115f55e126383b3c3b1c7fa4860b2e6ee23d73"
+    },
+    {
+      "bytes": 86274,
+      "path": "results/structural-census-v0.1.0/classes/class64.structural-census.json",
+      "sha256": "35fd41f840e8a107db2f7714f373b99bc50462daec03f33f40092ea63c983f44"
+    },
+    {
+      "bytes": 88682,
+      "path": "results/structural-census-v0.1.0/classes/class65.structural-census.json",
+      "sha256": "e21193d504bcd6dc6dd0ddf81041181ac63cd00645f221c22b2f63510c10a326"
+    },
+    {
+      "bytes": 38616,
+      "path": "results/structural-census-v0.1.0/classes/class66.structural-census.json",
+      "sha256": "1aef7b1e74fb56bf57d5b675ec3df3e012993eb2a798346d4061ea70ee72b025"
+    },
+    {
+      "bytes": 38635,
+      "path": "results/structural-census-v0.1.0/classes/class67.structural-census.json",
+      "sha256": "8d4b8730f1b81c8c2ba173fd2c23536f6a26f87bf603164a16129b4c69738c6d"
+    },
+    {
+      "bytes": 17081,
+      "path": "results/structural-census-v0.1.0/classes/class68.structural-census.json",
+      "sha256": "2ca8672ed77587b4d937c5f130f3bc1d73bcd5da9cfbba0daa0cf66fa61af7d2"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class01.link.json",
+      "sha256": "1f1e6f328359981bc7fb16c6a9d36942d8df6d9245a2235118f78c42b41c843b"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class02.link.json",
+      "sha256": "aadbfaddf35395c325318b5af6592d666e10ce26cf4200b89f5b3a8918b3897b"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class03.link.json",
+      "sha256": "970d7932c151b751b769f222062e938161c5e27cda2200beee809da07ad09f16"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class04.link.json",
+      "sha256": "472f5a4aabc1c543ecc8ee008f47d777bedb7050e8c37c8080483fe0172adc82"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class05.link.json",
+      "sha256": "e908aef4739935c4c811e3c4a6e15e3f6a8bf8ac86f99353976289edea59d56d"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class06.link.json",
+      "sha256": "dbe5654b90a8067157d4257a891eb374781c8e668610419d1ca4f0a98150b814"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class07.link.json",
+      "sha256": "2f49d22dfabfadce89e204a7adb967cdddc25de3b3c78c61fd43513bd00610a4"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class08.link.json",
+      "sha256": "2b26b48538a09aa34ef67598dff21af6300b5ec22792835d39c941b0c9753a54"
+    },
+    {
+      "bytes": 3161,
+      "path": "results/structural-census-v0.1.0/inputs/class09.link.json",
+      "sha256": "ee6eaeed46d1fa11af9c5b95bd6a47e97925c05165d79df306ca2994f06ef411"
+    },
+    {
+      "bytes": 3162,
+      "path": "results/structural-census-v0.1.0/inputs/class10.link.json",
+      "sha256": "f2f132bdefa6dfe8d8c331a50454e0877a04abcef1d00c97acf6c367ad3b0970"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class11.link.json",
+      "sha256": "b582dd32ded777a91ef6009239153a7be93869f2a742c0577502165b6f81dd6b"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class12.link.json",
+      "sha256": "43fd12555a3f093bf91807102c12caac361c477083e2ca06b354d3ff8a6a64de"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class13.link.json",
+      "sha256": "473409d802f59a64439bd85e16bfe4c76436b62ef15a01c818e04d3ddd05d1f2"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class14.link.json",
+      "sha256": "56dbd276a6777b0da3e2fc010b789ce1da0e9800b6e772f5555974aa932e9879"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class15.link.json",
+      "sha256": "5877f8b7bc510d9e53611d793ff18090b03dcde32c69fa3220f3826dbca2698d"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class16.link.json",
+      "sha256": "58f5751c6f4c661535fdcec87e7d9de36bc293e60c93311055d4295a625c8435"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class17.link.json",
+      "sha256": "88bae2c28c40ef22ccd7a557d6edce88226cced62a8a4a40fde35557350ef7c1"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class18.link.json",
+      "sha256": "210b1ee93dceba3bc76d16c3c50dce6fe846effb212668f60a85cf7a5e4a7150"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class19.link.json",
+      "sha256": "4f84c9212c251bfbd135bdd89c8d123ccdce190113ea55eceec6022ff5b38e38"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class20.link.json",
+      "sha256": "bfe43aebb9d7d6b2d1a1314882eb5e8d99dd9f0dffd2f50727115fafeb7def9e"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class21.link.json",
+      "sha256": "2a4a9765fb5f22ba9ddb5f4b56085468c95b9f6953e9ed91a24b0d2ad5a23c40"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class22.link.json",
+      "sha256": "d91113aae143d213eee21529daf104ca326c420a22947a8ce9bd81c43a915f69"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class23.link.json",
+      "sha256": "0aa123a494c44fd4a131ded08e29cc879debd7b81582a1a1a0cde14619992589"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class24.link.json",
+      "sha256": "667cc1ce22fced24f0e8374207f8579fa935a8079c8282d13d694c29e85c39ea"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class25.link.json",
+      "sha256": "4faebf900622176f22d7137771635edb9f27ce04f3972e4a042f70a959157041"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class26.link.json",
+      "sha256": "588b4e203448dd6ffaaaf4286f69499e7ecb8959fe4cad4f1eb700d797285abb"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class27.link.json",
+      "sha256": "c71024be1c940c85478bfac71994f026dceec09e5d13fa3ffb11ef6b40e79e4f"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class28.link.json",
+      "sha256": "79b6370f3b0e1aa15285c18dae3e9de55d75bc9002f7d51a80a207ec0459c8be"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class29.link.json",
+      "sha256": "6d170a8e7e064ef54741da38d5ea7c3cddb157d48b7b570cb1eaf34e5cba1f1e"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class30.link.json",
+      "sha256": "99d5de80cce4b3b720a6c089e047c5f11e20552d556709b6913a4197c7f1a6c8"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class31.link.json",
+      "sha256": "2fd5930436b2ecdd25a37f9c767c2b97846106638e5fe6f203d11165a6501df8"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class32.link.json",
+      "sha256": "d0eecec094f3ff12ee4608d68a179a72d0338a204cfbb9efc64246879746bed6"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class33.link.json",
+      "sha256": "a602f8565aa47966fb3793375c9afab5a8a00073887ffaf2c9eac2c7ad2fb52f"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class34.link.json",
+      "sha256": "5f5647cc896b7bd851c81ebd5db22cb5f9b0766c3fe9eea1ca481e865a351062"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class35.link.json",
+      "sha256": "f142a3501ed23cbe40afc0df011248f6330888db7859409609aabbc2b93e96a8"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class36.link.json",
+      "sha256": "d6c4bfbee90a98c9fb58ca4ce913fb9404b8da7fbc31fc7a005d3447e6c2c914"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class37.link.json",
+      "sha256": "b2e45c5d0131042722b5311f0f3fb211f84890dfdf91e5fea36e1d48e884cc70"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class38.link.json",
+      "sha256": "3fe89dd2bb633427276074eb6fd08ed193a0387fad9ffd4bfcf35114a6f0f1e3"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class39.link.json",
+      "sha256": "6af1aa1648c76558cea6e2c8d3ecfeac103a82b4cf22927d14b4bb17c5eeb1a4"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class40.link.json",
+      "sha256": "ff7906784c4119c2bdc2afddfba63c6334419cba65b99c3009efd0fad5e0d8a3"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class41.link.json",
+      "sha256": "112b2230182d1f88b3143949a92a12d52f677986ce7b7a897bffb1240c3c4976"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class42.link.json",
+      "sha256": "05c5fed2fbe122d6d954fdff561e1272537324415b63e57bbbf6fea0d89e6dc2"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class43.link.json",
+      "sha256": "946e96e58023430e629401374264a2e2f2d90bf7f3e5a6af8580da7071064fed"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class44.link.json",
+      "sha256": "8a35b6016c812181cc23d0773f823bd4afc854d9cfd72a8e98624b1ae31639b9"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class45.link.json",
+      "sha256": "9326cf9f6a9689598b8a5ff1f58efd3662528d6435496b14feb62461e3f42c7e"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class46.link.json",
+      "sha256": "e8fa2cd6d39d1dd0ba51bab973b348937d93f2f16e459a29fe0d7a389e1aff09"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class47.link.json",
+      "sha256": "eae006d65ac3535cdc9b87d04cfa25c22c1f541ba8e3a2701a5eb86b1dbe4965"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class48.link.json",
+      "sha256": "43678f2c471e1b58687248847506e5ba1ce4ea70bf8b188a3cbdcfbbd4e3fa37"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class49.link.json",
+      "sha256": "0de45b6738f19b35ee9203ac1a44da2dd35036b2a63e4253a8fddf28a70e3103"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class50.link.json",
+      "sha256": "8f188b0c9e67e5777fdb334158bface38620b4d0f3f1e75820372bd499086438"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class51.link.json",
+      "sha256": "449a4b3d7ac5e610993a7a58e224e3e358627d37facfa2f8bd38270365eae189"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class52.link.json",
+      "sha256": "3823916b5adcd8999864a62c09183d7a373056b304b6db8e6d0e84173c15b1fd"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class53.link.json",
+      "sha256": "dc3fe1c9a8808bafd0c6e57ca17e933801a5f845d076cedc787b9743c5af05dd"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class54.link.json",
+      "sha256": "caf2b7e720e23e6d202e806f1037e1ac1a5a7df29e0993a4a1ac0d152efefd41"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class55.link.json",
+      "sha256": "c09fa38afbca104f702f0dd7a1efd0cd434aae368182fdb635f1304767d1b042"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class56.link.json",
+      "sha256": "966371417a9c6a5b2ca9c0a0a7782fda00362c2cba5b9b7a700fd3c41f2a221b"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class57.link.json",
+      "sha256": "6085b2eccea1a66536c4035c64f11d15d3c6c9ba1050f2acef28b0718a269476"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class58.link.json",
+      "sha256": "58c7b8556ff26319588e4b48f2c4c7ab0b0ff91891ea1dc0cb82282234a0c179"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class59.link.json",
+      "sha256": "8033affe8a4c590ec3f671298fa93dacaae110140d0212c0e0ca7fc93f18f948"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class60.link.json",
+      "sha256": "7c0a1a4b84aafce59f3bc451b340b7ee227493009db21944e9d39a1b08840805"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class61.link.json",
+      "sha256": "e35df36e34b04fd2645d1a3f725c53a779138e94f7b6c92e8268062be82d3d3e"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class62.link.json",
+      "sha256": "4119dc6c6f0abdc391d1dfd4608a90504a35b5d73a6b4e14f586c93a426b2a08"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class63.link.json",
+      "sha256": "6fb89d1f401009eef899b6bd4fa61152aa9eac339982381723d6d9c4f28a25cf"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class64.link.json",
+      "sha256": "92f27771a019dff4b697a670947dbcbddc4a6fb483f502dfdcebff75f671ccec"
+    },
+    {
+      "bytes": 3164,
+      "path": "results/structural-census-v0.1.0/inputs/class65.link.json",
+      "sha256": "2a0366e1f023f6729963a124c5ac516ca9ea260ebe350e0b51416e128824fc5f"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class66.link.json",
+      "sha256": "e1fc22e1d23e401acbc425fab08a1fd534e93a790784744840f47da3ec3094ec"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class67.link.json",
+      "sha256": "fe03821b36c0c66e75d3685d253e4cc735be45a5e37a65a7e5d1a236014e497a"
+    },
+    {
+      "bytes": 3165,
+      "path": "results/structural-census-v0.1.0/inputs/class68.link.json",
+      "sha256": "91b17dfc428d1a667f46157e888ba543e02c16d03fdea19c6ff89b4f8a286d9e"
+    },
+    {
+      "bytes": 6428,
+      "path": "results/structural-census-v0.1.0/ranking.csv",
+      "sha256": "7022c39e38dddac3f286313202a3646381715cef0633c9f1e65a36c33747ad82"
+    },
+    {
+      "bytes": 53046,
+      "path": "results/structural-census-v0.1.0/ranking.json",
+      "sha256": "27a0269c4656a188f56db40aeb25f23d04c0fb9357d32851219f37e7c47dd886"
     },
     {
       "bytes": 3554,
@@ -355,7 +1060,7 @@
     {
       "bytes": 91,
       "path": "src/horizonlink/__init__.py",
-      "sha256": "2407c4f030e1e303c3b71ae75231350518ef1899b2731cc1091b2e7f7fbaa3f0"
+      "sha256": "d9e89b7a4289497dcddb4fe321f20d4b4430b5652be7257781ce298b1307167e"
     },
     {
       "bytes": 91,
@@ -378,9 +1083,14 @@
       "sha256": "8f6d6ac87d22a2df1d0d7b5dc54b331bd52daf70948141a14cbf325954c775bb"
     },
     {
-      "bytes": 20029,
+      "bytes": 37693,
+      "path": "src/horizonlink/census.py",
+      "sha256": "f089942fc2452d9a1e2fcb2edf33af82e973d6d4364dbbebfeb7973cd1032fb5"
+    },
+    {
+      "bytes": 21935,
       "path": "src/horizonlink/cli.py",
-      "sha256": "c74cca106008eb7fec38ea0685b9a172df513eb766d416b9f6b40d7f6690bff7"
+      "sha256": "25b177a90e803c0d9facb53f4fdcfe9d9e23538d3549d3c33f0c3c605fe64c64"
     },
     {
       "bytes": 26834,
@@ -418,9 +1128,9 @@
       "sha256": "ef6757a1a53df8c2031d83660b2c847538659562f442aad6e1cf3fff191c13a1"
     },
     {
-      "bytes": 16306,
+      "bytes": 22880,
       "path": "src/horizonlink/profiles.py",
-      "sha256": "e8babfb6bbd8933e640689ccf3ec4feb892fed1639ea2b83ede9e2e10e611b94"
+      "sha256": "45d208df34fa5dcb9adc69a9c9b7964e502ca056eaea85e755678676cabde1f0"
     },
     {
       "bytes": 17717,
@@ -556,6 +1266,11 @@
       "bytes": 5045,
       "path": "tests/test_split_farkas.py",
       "sha256": "07b2bdde98aac46227dc02727cac30343db65ebf0b929631dbfd43a2d60f77a8"
+    },
+    {
+      "bytes": 9191,
+      "path": "tests/test_structural_census.py",
+      "sha256": "0a3596b3a15edb0eb46102a375134ba72b097f425c0282d3226cb55b8754b8d4"
     }
   ],
   "manifest_path": "SOURCE_MANIFEST.json",
@@ -564,7 +1279,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 109,
-    "total_bytes": 2659272
+    "file_count": 252,
+    "total_bytes": 9669972
   }
 }

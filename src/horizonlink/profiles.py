@@ -21,6 +21,198 @@ from horizonlink.orbits import permute_subset
 Profile = tuple[int, ...]
 
 
+def _permutation_cycle_lengths(
+    permutation: Permutation,
+) -> tuple[int, ...]:
+    seen: set[int] = set()
+    lengths: list[int] = []
+    for start in range(len(permutation)):
+        if start in seen:
+            continue
+        point = start
+        length = 0
+        while point not in seen:
+            seen.add(point)
+            length += 1
+            point = permutation[point]
+        lengths.append(length)
+    return tuple(sorted(lengths))
+
+
+def _cycle_type_id(cycle_lengths: tuple[int, ...]) -> str:
+    counts: dict[int, int] = {}
+    for length in cycle_lengths:
+        counts[length] = counts.get(length, 0) + 1
+    return "*".join(
+        f"{length}^{counts[length]}" for length in sorted(counts)
+    )
+
+
+def _fixed_weak_profiles_by_minimum_set_size(
+    cycle_lengths: tuple[int, ...],
+    *,
+    total_excess: int,
+    point_count: int,
+) -> dict[int, int]:
+    """Count fixed weak profiles by zero-coordinate count."""
+
+    states: dict[tuple[int, int], int] = {(0, 0): 1}
+    for cycle_length in cycle_lengths:
+        updated: dict[tuple[int, int], int] = {}
+        for (current_total, support_size), count in states.items():
+            maximum_value = (
+                total_excess - current_total
+            ) // cycle_length
+            for value in range(maximum_value + 1):
+                key = (
+                    current_total + value * cycle_length,
+                    support_size + (cycle_length if value else 0),
+                )
+                updated[key] = updated.get(key, 0) + count
+        states = updated
+
+    fixed: dict[int, int] = {}
+    for (current_total, support_size), count in states.items():
+        if current_total != total_excess:
+            continue
+        minimum_set_size = point_count - support_size
+        fixed[minimum_set_size] = (
+            fixed.get(minimum_set_size, 0) + count
+        )
+    return fixed
+
+
+def compute_unscreened_degree_profile_orbit_census(
+    group: tuple[Permutation, ...],
+    *,
+    total_excess: int,
+    point_count: int,
+) -> dict[str, Any]:
+    """Count all unscreened degree-profile orbits exactly by Burnside.
+
+    A weak profile assigns nonnegative integral excess to every point. Its
+    zero coordinates are exactly the minimum-degree points. Counting weak
+    profiles of total ``total_excess`` under the full link automorphism group
+    therefore counts the complete degree-budget search space before any
+    candidate, case, LP, or solver screening.
+    """
+
+    if total_excess < 0:
+        raise ValueError("total excess must be nonnegative")
+    if point_count < 1:
+        raise ValueError("point count must be positive")
+    if not group:
+        raise ValueError("automorphism group cannot be empty")
+    if any(
+        len(permutation) != point_count
+        or set(permutation) != set(range(point_count))
+        for permutation in group
+    ):
+        raise ValueError(
+            "every group element must be a point permutation"
+        )
+
+    fixed_sums: dict[int, int] = {}
+    cycle_type_histogram: dict[str, int] = {}
+    for permutation in group:
+        cycle_lengths = _permutation_cycle_lengths(permutation)
+        cycle_type = _cycle_type_id(cycle_lengths)
+        cycle_type_histogram[cycle_type] = (
+            cycle_type_histogram.get(cycle_type, 0) + 1
+        )
+        fixed = _fixed_weak_profiles_by_minimum_set_size(
+            cycle_lengths,
+            total_excess=total_excess,
+            point_count=point_count,
+        )
+        for minimum_set_size, count in fixed.items():
+            fixed_sums[minimum_set_size] = (
+                fixed_sums.get(minimum_set_size, 0) + count
+            )
+
+    group_order = len(group)
+    divisibility = {
+        str(size): fixed_sums[size] % group_order == 0
+        for size in sorted(fixed_sums)
+    }
+    if not all(divisibility.values()):
+        raise AssertionError(
+            "Burnside fixed-profile sum is not divisible by group order"
+        )
+    orbit_counts = {
+        str(size): fixed_sums[size] // group_order
+        for size in sorted(fixed_sums)
+    }
+
+    raw_counts: dict[str, int] = {}
+    if total_excess == 0:
+        raw_counts[str(point_count)] = 1
+    else:
+        for support_size in range(
+            1, min(point_count, total_excess) + 1
+        ):
+            minimum_set_size = point_count - support_size
+            raw_counts[str(minimum_set_size)] = (
+                math.comb(point_count, support_size)
+                * math.comb(total_excess - 1, support_size - 1)
+            )
+    raw_counts = {
+        key: raw_counts[key]
+        for key in sorted(raw_counts, key=int)
+    }
+    raw_total = math.comb(
+        total_excess + point_count - 1,
+        point_count - 1,
+    )
+    profile_orbit_count = sum(orbit_counts.values())
+    return {
+        "algorithm": (
+            "burnside-weak-compositions-by-permutation-cycle-type-v1"
+        ),
+        "interpretation": (
+            "Exact symmetry-reduced count of all nonnegative integral "
+            "degree-excess vectors before any screening. No profile "
+            "representatives, formulas, LPs, or solver runs are generated."
+        ),
+        "point_count": point_count,
+        "total_excess": total_excess,
+        "group_order": group_order,
+        "raw_profile_count_before_symmetry": raw_total,
+        "raw_profiles_by_minimum_set_size": raw_counts,
+        "profile_orbit_count": profile_orbit_count,
+        "profile_orbits_by_minimum_set_size": orbit_counts,
+        "burnside_audit": {
+            "cycle_type_histogram": dict(
+                sorted(cycle_type_histogram.items())
+            ),
+            "fixed_profile_sum_by_minimum_set_size": {
+                str(size): fixed_sums[size]
+                for size in sorted(fixed_sums)
+            },
+            "fixed_sums_divisible_by_group_order": divisibility,
+            "all_divisibility_checks_pass": all(
+                divisibility.values()
+            ),
+            "raw_counts_sum_to_weak_composition_count": (
+                sum(raw_counts.values()) == raw_total
+            ),
+            "orbit_counts_sum_to_total": (
+                sum(orbit_counts.values()) == profile_orbit_count
+            ),
+        },
+        "scope": {
+            "counts_enumerated": True,
+            "profile_representatives_generated": False,
+            "candidate_screening_run": False,
+            "root_lp_run": False,
+            "solver_run": False,
+            "formulas_generated": False,
+            "proofs_generated": False,
+            "verifier_run": False,
+        },
+    }
+
+
 def degree_budget(
     point_labels: tuple[int, ...],
     link_blocks: tuple[tuple[int, ...], ...],

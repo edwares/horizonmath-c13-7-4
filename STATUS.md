@@ -48,32 +48,62 @@ published proof has not been translated into a machine-checked formal proof.
 The indices 1–68 are project-local; the paper does not individually number the
 67 Figure 1 classes.
 
+### Solver-free all-68 structural census
+
+The deterministic v0.5.0 front end has now processed every audited
+representative without generating formulas or launching LP, solver, proof, or
+verifier work. For each class it preserves:
+
+- a canonical labeled-link input and hashes;
+- validation as a 15-block \(C(12,6,3)\) cover;
+- point, pair, triple, four-set, and residual-four-set multiplicities;
+- the complete automorphism group and deterministic generators;
+- every candidate minimum-point four-set orbit representative;
+- the exact Burnside count of all unscreened degree-profile orbits;
+- a status ledger in which every unperformed downstream stage remains
+  `NOT_STARTED`.
+
+The structural ranking contains 23 tie groups. Its provisional pilot is class
+68 (easy/high symmetry), class 4 (median tie group), and class 59
+(difficult/low symmetry). This is a structural preselection only.
+
+For class 52, the census obtains group order 36, 26 candidate four-set orbits,
+and 2,578 **unscreened** degree-profile orbits. The 2,578 count and the
+historical 107 profiles are not competing results: 107 is the count after the
+historical candidate/case screening that this census deliberately does not
+run.
+
 ## Status ledger
 
 | Item | Status |
 |---|---|
 | 68-entry link catalog | `AUDITED_AGAINST_PUBLISHED_THEOREM` |
 | Project numbering map | `AUDITED` |
+| All-68 canonical link extraction | `ENUMERATED` 68/68 |
+| All-68 structural census | `ENUMERATED` 68/68 |
+| Solver-free structural ranking | `ENUMERATED`; 23 tie groups |
+| Provisional three-class pilot | Classes 68 / 4 / 59; structural preselection only |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
 | Published class-52 terminal instances | `VERIFIED_UNSAT` 30/30 |
 | Fresh class-52 candidate screens | 19 `VERIFIED_UNSAT`, 7 `TIMEOUT` |
 | Fresh whole-case exclusions | 17 `SOLVER_UNSAT` |
 | Fresh early-profile exclusions | 87 `SOLVER_UNSAT` |
-| Other 67 classes at profile depth | `NOT_STARTED` |
+| Other 67 classes at screening/profile depth | `NOT_STARTED` |
+| Other 67 classes at formula/solver/proof depth | `NOT_STARTED` |
 | Global \(C(13,7,4)=30\) claim | Not authorized |
 
 ## Next gate
 
 Before launching proof-scale work on another class:
 
-1. load the audited 68-entry numbering manifest as a first-class pipeline
-   input;
-2. run validation, multiplicities, automorphism groups, residual-four-set
-   counts, and candidate-minimum-set orbit enumeration across all 68 classes;
-3. preserve one complete manifest per class;
-4. rank the unresolved classes using only inexpensive structural and screening
-   features;
-5. select an easy, median, and difficult pilot.
+1. materialize exact profile representatives for the provisional classes 68,
+   4, and 59;
+2. run and audit every inexpensive mathematical screen, with no silent
+   disappearances;
+3. refine the provisional ranking with retained-profile and formula-size
+   metrics;
+4. inspect root LP feasibility only after formula generation is audited;
+5. authorize bounded pilot solver runs separately.
 
-No all-67 solver campaign should start before that gate passes.
+No all-67 solver campaign is authorized.

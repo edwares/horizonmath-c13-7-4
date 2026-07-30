@@ -1,0 +1,1678 @@
+{
+  "classes": [
+    {
+      "automorphism_group_order": 240,
+      "candidate_minimum_point_orbit_count": 12,
+      "class_index": 68,
+      "class_record": {
+        "bytes": 17081,
+        "path": "classes/class68.structural-census.json",
+        "sha256": "2ca8672ed77587b4d937c5f130f3bc1d73bcd5da9cfbba0daa0cf66fa61af7d2"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 1,
+      "residual_four_set_count": 285,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 1,
+      "template": "second_template",
+      "tie_group_id": "tie001",
+      "tie_group_size": 1,
+      "tie_span": [
+        1,
+        1
+      ],
+      "unscreened_degree_profile_orbit_count": 755
+    },
+    {
+      "automorphism_group_order": 36,
+      "candidate_minimum_point_orbit_count": 26,
+      "class_index": 52,
+      "class_record": {
+        "bytes": 20808,
+        "path": "classes/class52.structural-census.json",
+        "sha256": "5bc45b56f902c5b2f5a55f0499f9ca622c8377b6cd8cf5501d036612a2839a22"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 2,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 2,
+      "template": "first_template",
+      "tie_group_id": "tie002",
+      "tie_group_size": 1,
+      "tie_span": [
+        2,
+        2
+      ],
+      "unscreened_degree_profile_orbit_count": 2578
+    },
+    {
+      "automorphism_group_order": 24,
+      "candidate_minimum_point_orbit_count": 35,
+      "class_index": 48,
+      "class_record": {
+        "bytes": 23425,
+        "path": "classes/class48.structural-census.json",
+        "sha256": "27484d48a4b82b360ade592effeb7be8f4abf16a18aebab5b60650facb692732"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 3,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 3,
+      "template": "first_template",
+      "tie_group_id": "tie003",
+      "tie_group_size": 2,
+      "tie_span": [
+        3,
+        4
+      ],
+      "unscreened_degree_profile_orbit_count": 3894
+    },
+    {
+      "automorphism_group_order": 24,
+      "candidate_minimum_point_orbit_count": 35,
+      "class_index": 50,
+      "class_record": {
+        "bytes": 23407,
+        "path": "classes/class50.structural-census.json",
+        "sha256": "c9be0a45ed36e970f9ddc257cac932e4ec0f7b5ad57e28e6253e6960a039f313"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 4,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 3,
+      "template": "first_template",
+      "tie_group_id": "tie003",
+      "tie_group_size": 2,
+      "tie_span": [
+        3,
+        4
+      ],
+      "unscreened_degree_profile_orbit_count": 3894
+    },
+    {
+      "automorphism_group_order": 12,
+      "candidate_minimum_point_orbit_count": 58,
+      "class_index": 63,
+      "class_record": {
+        "bytes": 29775,
+        "path": "classes/class63.structural-census.json",
+        "sha256": "e0e660d6bfd8d830a106626ffb115f55e126383b3c3b1c7fa4860b2e6ee23d73"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 5,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 5,
+      "template": "first_template",
+      "tie_group_id": "tie004",
+      "tie_group_size": 1,
+      "tie_span": [
+        5,
+        5
+      ],
+      "unscreened_degree_profile_orbit_count": 6948
+    },
+    {
+      "automorphism_group_order": 8,
+      "candidate_minimum_point_orbit_count": 105,
+      "class_index": 1,
+      "class_record": {
+        "bytes": 43318,
+        "path": "classes/class01.structural-census.json",
+        "sha256": "2ce5d57ff5aa39a8300124e20321e542309ef013a3a35da1ba7acb0d287d8c61"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 6,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 6,
+      "template": "first_template",
+      "tie_group_id": "tie005",
+      "tie_group_size": 2,
+      "tie_span": [
+        6,
+        7
+      ],
+      "unscreened_degree_profile_orbit_count": 11682
+    },
+    {
+      "automorphism_group_order": 8,
+      "candidate_minimum_point_orbit_count": 105,
+      "class_index": 5,
+      "class_record": {
+        "bytes": 43303,
+        "path": "classes/class05.structural-census.json",
+        "sha256": "475db036db62a6b000e0d637459987fe2ac7b5d89ced00b31093448c63e9caa9"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 7,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 6,
+      "template": "first_template",
+      "tie_group_id": "tie005",
+      "tie_group_size": 2,
+      "tie_span": [
+        6,
+        7
+      ],
+      "unscreened_degree_profile_orbit_count": 11682
+    },
+    {
+      "automorphism_group_order": 6,
+      "candidate_minimum_point_orbit_count": 85,
+      "class_index": 51,
+      "class_record": {
+        "bytes": 37212,
+        "path": "classes/class51.structural-census.json",
+        "sha256": "7ad735bc7cd53309019ed5d906944096e1c51eee5df8b0afda6ff643487c16d5"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 8,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 8,
+      "template": "first_template",
+      "tie_group_id": "tie006",
+      "tie_group_size": 1,
+      "tie_span": [
+        8,
+        8
+      ],
+      "unscreened_degree_profile_orbit_count": 12618
+    },
+    {
+      "automorphism_group_order": 6,
+      "candidate_minimum_point_orbit_count": 90,
+      "class_index": 66,
+      "class_record": {
+        "bytes": 38616,
+        "path": "classes/class66.structural-census.json",
+        "sha256": "1aef7b1e74fb56bf57d5b675ec3df3e012993eb2a798346d4061ea70ee72b025"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 9,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 9,
+      "template": "first_template",
+      "tie_group_id": "tie007",
+      "tie_group_size": 2,
+      "tie_span": [
+        9,
+        10
+      ],
+      "unscreened_degree_profile_orbit_count": 12744
+    },
+    {
+      "automorphism_group_order": 6,
+      "candidate_minimum_point_orbit_count": 90,
+      "class_index": 67,
+      "class_record": {
+        "bytes": 38635,
+        "path": "classes/class67.structural-census.json",
+        "sha256": "8d4b8730f1b81c8c2ba173fd2c23536f6a26f87bf603164a16129b4c69738c6d"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 10,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 9,
+      "template": "first_template",
+      "tie_group_id": "tie007",
+      "tie_group_size": 2,
+      "tie_span": [
+        9,
+        10
+      ],
+      "unscreened_degree_profile_orbit_count": 12744
+    },
+    {
+      "automorphism_group_order": 6,
+      "candidate_minimum_point_orbit_count": 93,
+      "class_index": 58,
+      "class_record": {
+        "bytes": 39425,
+        "path": "classes/class58.structural-census.json",
+        "sha256": "95ce7f55f94cbaca294b852d76b5a20eb7943bf724cf6f3468b47b84c1563b39"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 11,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 11,
+      "template": "first_template",
+      "tie_group_id": "tie008",
+      "tie_group_size": 1,
+      "tie_span": [
+        11,
+        11
+      ],
+      "unscreened_degree_profile_orbit_count": 13206
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 143,
+      "class_index": 8,
+      "class_record": {
+        "bytes": 54026,
+        "path": "classes/class08.structural-census.json",
+        "sha256": "9097723ab04d224a29837bde785012c7a2da2334b91c539021173b2e0934c256"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 12,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 12,
+      "template": "first_template",
+      "tie_group_id": "tie009",
+      "tie_group_size": 2,
+      "tie_span": [
+        12,
+        13
+      ],
+      "unscreened_degree_profile_orbit_count": 19470
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 143,
+      "class_index": 12,
+      "class_record": {
+        "bytes": 54015,
+        "path": "classes/class12.structural-census.json",
+        "sha256": "3f7ba5c75b13af13de998eb5735d66aede68f279be0da44d6469d63e751d0e2a"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 13,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 12,
+      "template": "first_template",
+      "tie_group_id": "tie009",
+      "tie_group_size": 2,
+      "tie_span": [
+        12,
+        13
+      ],
+      "unscreened_degree_profile_orbit_count": 19470
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 3,
+      "class_record": {
+        "bytes": 56411,
+        "path": "classes/class03.structural-census.json",
+        "sha256": "d4b95b0edab4719063d95a3e76bad6aed3dcdb0c040f808675b85ca48fa497bb"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 14,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 14,
+      "template": "first_template",
+      "tie_group_id": "tie010",
+      "tie_group_size": 4,
+      "tie_span": [
+        14,
+        17
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 6,
+      "class_record": {
+        "bytes": 56380,
+        "path": "classes/class06.structural-census.json",
+        "sha256": "3046510020f4f40eb113f128fd8ed65ebd11bb92f59dbaa5066f724a030034c2"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 15,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 14,
+      "template": "first_template",
+      "tie_group_id": "tie010",
+      "tie_group_size": 4,
+      "tie_span": [
+        14,
+        17
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 28,
+      "class_record": {
+        "bytes": 56356,
+        "path": "classes/class28.structural-census.json",
+        "sha256": "2f4df69cd8cb48d1d1a8e0625d27f719bf9f1082a8ec15533538faa078fc43a0"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 16,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 14,
+      "template": "first_template",
+      "tie_group_id": "tie010",
+      "tie_group_size": 4,
+      "tie_span": [
+        14,
+        17
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 46,
+      "class_record": {
+        "bytes": 56286,
+        "path": "classes/class46.structural-census.json",
+        "sha256": "aaf6e662fb3c27817aa93ccdbe1860c720d0aaf4097f20c7dc4fba20b3d186f6"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 17,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 14,
+      "template": "first_template",
+      "tie_group_id": "tie010",
+      "tie_group_size": 4,
+      "tie_span": [
+        14,
+        17
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 54,
+      "class_record": {
+        "bytes": 56402,
+        "path": "classes/class54.structural-census.json",
+        "sha256": "10709e0e2b62265c9c0e3a53e6d2bde692da28d5b3f0cb648d99965a28c6317b"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 18,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 18,
+      "template": "first_template",
+      "tie_group_id": "tie011",
+      "tie_group_size": 2,
+      "tie_span": [
+        18,
+        19
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 4,
+      "candidate_minimum_point_orbit_count": 151,
+      "class_index": 57,
+      "class_record": {
+        "bytes": 56410,
+        "path": "classes/class57.structural-census.json",
+        "sha256": "ff66bbef91aec171caf4677213b39b4a71cf39bf7bf5adcafcf00c3cc099e959"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 19,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 18,
+      "template": "first_template",
+      "tie_group_id": "tie011",
+      "tie_group_size": 2,
+      "tie_span": [
+        18,
+        19
+      ],
+      "unscreened_degree_profile_orbit_count": 20154
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 29,
+      "class_record": {
+        "bytes": 86314,
+        "path": "classes/class29.structural-census.json",
+        "sha256": "4c1228a2045555d4eab4e514b985eb02ac4b727d70b2e900ae70a3ff4f469b18"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 20,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 20,
+      "template": "first_template",
+      "tie_group_id": "tie012",
+      "tie_group_size": 2,
+      "tie_span": [
+        20,
+        21
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 47,
+      "class_record": {
+        "bytes": 86258,
+        "path": "classes/class47.structural-census.json",
+        "sha256": "1ebfb50c49bade56cb67584efd59fd9ced5a9590a3006a834b6b5a6d5c5d9570"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 21,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 20,
+      "template": "first_template",
+      "tie_group_id": "tie012",
+      "tie_group_size": 2,
+      "tie_span": [
+        20,
+        21
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 10,
+      "class_record": {
+        "bytes": 86397,
+        "path": "classes/class10.structural-census.json",
+        "sha256": "265d5073be4fd6e7cf9e7d80adc12e145fb0b2580ed1dde2bbbb42275ce62c78"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 22,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 22,
+      "template": "first_template",
+      "tie_group_id": "tie013",
+      "tie_group_size": 2,
+      "tie_span": [
+        22,
+        23
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 13,
+      "class_record": {
+        "bytes": 86368,
+        "path": "classes/class13.structural-census.json",
+        "sha256": "70e182813fdf3008781c793332350e103ea91a47c7d95518ca61abc033e085c5"
+      },
+      "difficulty_band": "EASIER_STRUCTURAL_THIRD",
+      "ordinal_position": 23,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 22,
+      "template": "first_template",
+      "tie_group_id": "tie013",
+      "tie_group_size": 2,
+      "tie_span": [
+        22,
+        23
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 55,
+      "class_record": {
+        "bytes": 86401,
+        "path": "classes/class55.structural-census.json",
+        "sha256": "af0c47b14cf6d61bc6c5a064d74735832ae2a8c9fb25e0fad13fe7562573f68c"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 24,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 24,
+      "template": "first_template",
+      "tie_group_id": "tie014",
+      "tie_group_size": 4,
+      "tie_span": [
+        24,
+        27
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 56,
+      "class_record": {
+        "bytes": 86355,
+        "path": "classes/class56.structural-census.json",
+        "sha256": "bfa5616e3eb5749f598a36905b2ba394011ec081038c11ffe73a9b2625828e2e"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 25,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 24,
+      "template": "first_template",
+      "tie_group_id": "tie014",
+      "tie_group_size": 4,
+      "tie_span": [
+        24,
+        27
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 62,
+      "class_record": {
+        "bytes": 86298,
+        "path": "classes/class62.structural-census.json",
+        "sha256": "2ca0e542dd6845625ace45c4cb9b4393563c8a6a01171145a79996b6f5d9135a"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 26,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 24,
+      "template": "first_template",
+      "tie_group_id": "tie014",
+      "tie_group_size": 4,
+      "tie_span": [
+        24,
+        27
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 255,
+      "class_index": 64,
+      "class_record": {
+        "bytes": 86274,
+        "path": "classes/class64.structural-census.json",
+        "sha256": "35fd41f840e8a107db2f7714f373b99bc50462daec03f33f40092ea63c983f44"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 27,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 24,
+      "template": "first_template",
+      "tie_group_id": "tie014",
+      "tie_group_size": 4,
+      "tie_span": [
+        24,
+        27
+      ],
+      "unscreened_degree_profile_orbit_count": 37938
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 263,
+      "class_index": 2,
+      "class_record": {
+        "bytes": 88669,
+        "path": "classes/class02.structural-census.json",
+        "sha256": "3e2e2299bc72dcbd30f382124ac6777153104732c397f872b5cd77dbe846baec"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 28,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 28,
+      "template": "first_template",
+      "tie_group_id": "tie015",
+      "tie_group_size": 2,
+      "tie_span": [
+        28,
+        29
+      ],
+      "unscreened_degree_profile_orbit_count": 38334
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 263,
+      "class_index": 49,
+      "class_record": {
+        "bytes": 88629,
+        "path": "classes/class49.structural-census.json",
+        "sha256": "a7685e8abdc1b5c9e96710855210e3fa90d36355f6b4c140530e14cd4c0d378d"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 29,
+      "residual_four_set_count": 276,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 28,
+      "template": "first_template",
+      "tie_group_id": "tie015",
+      "tie_group_size": 2,
+      "tie_span": [
+        28,
+        29
+      ],
+      "unscreened_degree_profile_orbit_count": 38334
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 263,
+      "class_index": 7,
+      "class_record": {
+        "bytes": 88654,
+        "path": "classes/class07.structural-census.json",
+        "sha256": "85fafc4918ab31f8842b592f2cc478f0f5a3e39b8d000c952299f482b2f0fc04"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 30,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 30,
+      "template": "first_template",
+      "tie_group_id": "tie016",
+      "tie_group_size": 2,
+      "tie_span": [
+        30,
+        31
+      ],
+      "unscreened_degree_profile_orbit_count": 38334
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 263,
+      "class_index": 9,
+      "class_record": {
+        "bytes": 88654,
+        "path": "classes/class09.structural-census.json",
+        "sha256": "35a6bc999330db507461a7dcd091ae8ba0e2d2b9155d0598813621ec1f63d152"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 31,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 30,
+      "template": "first_template",
+      "tie_group_id": "tie016",
+      "tie_group_size": 2,
+      "tie_span": [
+        30,
+        31
+      ],
+      "unscreened_degree_profile_orbit_count": 38334
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 263,
+      "class_index": 65,
+      "class_record": {
+        "bytes": 88682,
+        "path": "classes/class65.structural-census.json",
+        "sha256": "e21193d504bcd6dc6dd0ddf81041181ac63cd00645f221c22b2f63510c10a326"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 32,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 32,
+      "template": "first_template",
+      "tie_group_id": "tie017",
+      "tie_group_size": 1,
+      "tie_span": [
+        32,
+        32
+      ],
+      "unscreened_degree_profile_orbit_count": 38334
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 4,
+      "class_record": {
+        "bytes": 93318,
+        "path": "classes/class04.structural-census.json",
+        "sha256": "c960a02dc14166b6e4d5e200ecaa375a5290427622ebcb1786ee4f7ea561d502"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 33,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 14,
+      "class_record": {
+        "bytes": 93294,
+        "path": "classes/class14.structural-census.json",
+        "sha256": "304183fcedc8232eea2551daa0586a7fa926d2f5a0815a0453e9e6a3ae885ec9"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 34,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 23,
+      "class_record": {
+        "bytes": 93278,
+        "path": "classes/class23.structural-census.json",
+        "sha256": "3088a8d92242b43d736300d19e75eb1d043bcfbbaaece89a95e7df0f4dd9cd6f"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 35,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 31,
+      "class_record": {
+        "bytes": 93279,
+        "path": "classes/class31.structural-census.json",
+        "sha256": "4e905957324c93d1a5e7c9fcd9328d71e9f0c6b0d4b3178062cc49d716bd4420"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 36,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 32,
+      "class_record": {
+        "bytes": 93309,
+        "path": "classes/class32.structural-census.json",
+        "sha256": "b37a4933978b49a1d2e3e22c1486e38cab13c307ea7eef06162b963d7dd83c6d"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 37,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 41,
+      "class_record": {
+        "bytes": 93293,
+        "path": "classes/class41.structural-census.json",
+        "sha256": "31c1b338f9313cafc3cc38dfc97ac56ef3dc46aa4d0f599e50d4acba674e639b"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 38,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 33,
+      "template": "first_template",
+      "tie_group_id": "tie018",
+      "tie_group_size": 6,
+      "tie_span": [
+        33,
+        38
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 16,
+      "class_record": {
+        "bytes": 93310,
+        "path": "classes/class16.structural-census.json",
+        "sha256": "1352044ab233bc79485d8fce89a86d57b46f467af878dd55a89bc48abc1e39db"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 39,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 17,
+      "class_record": {
+        "bytes": 93310,
+        "path": "classes/class17.structural-census.json",
+        "sha256": "240063b7be1ff53ebe307125b4a3b1affd926d539c7c043ef164cdc189b0c096"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 40,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 20,
+      "class_record": {
+        "bytes": 93294,
+        "path": "classes/class20.structural-census.json",
+        "sha256": "b9a0b94efb34aed9a06ad1a07ae40f9ca53f04e085d16ed202dbe31825adfc74"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 41,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 21,
+      "class_record": {
+        "bytes": 93294,
+        "path": "classes/class21.structural-census.json",
+        "sha256": "511532ef3989aa9c09bf290cdbe7b9f4c057384b8beb978078671ae5cf951c80"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 42,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 35,
+      "class_record": {
+        "bytes": 93309,
+        "path": "classes/class35.structural-census.json",
+        "sha256": "10ca03a2b42d510a9cf629f63c564ff2e6546a18792ee52c7295653071554776"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 43,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 36,
+      "class_record": {
+        "bytes": 93309,
+        "path": "classes/class36.structural-census.json",
+        "sha256": "614525d71a12906f64a6a76d1a11ba41aafb6e59082e356f09da529ba6a50d68"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 44,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 39,
+      "class_record": {
+        "bytes": 93293,
+        "path": "classes/class39.structural-census.json",
+        "sha256": "370c6e6576bbe5bfc6abc0d4a84f839034c9b498f0126aea5050b914c42467bd"
+      },
+      "difficulty_band": "MEDIAN_STRUCTURAL_THIRD",
+      "ordinal_position": 45,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 40,
+      "class_record": {
+        "bytes": 93293,
+        "path": "classes/class40.structural-census.json",
+        "sha256": "8d913b8b50249d2102b7772a147d9b09773de78de9de9327fd958c2639c7eb98"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 46,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 39,
+      "template": "first_template",
+      "tie_group_id": "tie019",
+      "tie_group_size": 8,
+      "tie_span": [
+        39,
+        46
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 2,
+      "candidate_minimum_point_orbit_count": 279,
+      "class_index": 53,
+      "class_record": {
+        "bytes": 93328,
+        "path": "classes/class53.structural-census.json",
+        "sha256": "f6dfd04c4a369d86b1cd8e6ce1db9ddd037296f9f10897d6452bf9a4c6a6b9b5"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 47,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 47,
+      "template": "first_template",
+      "tie_group_id": "tie020",
+      "tie_group_size": 1,
+      "tie_span": [
+        47,
+        47
+      ],
+      "unscreened_degree_profile_orbit_count": 39618
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 15,
+      "class_record": {
+        "bytes": 156014,
+        "path": "classes/class15.structural-census.json",
+        "sha256": "8ac3c00d14ceee9ff5d5fdf9c622576fa9c535b8491a4baa3e1bd21bbfaaf5d4"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 48,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 48,
+      "template": "first_template",
+      "tie_group_id": "tie021",
+      "tie_group_size": 5,
+      "tie_span": [
+        48,
+        52
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 19,
+      "class_record": {
+        "bytes": 155998,
+        "path": "classes/class19.structural-census.json",
+        "sha256": "5eea1f1faa5c138d9de7357eff16ddcb76af84478b404db7f67a5a3f4a8a89a6"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 49,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 48,
+      "template": "first_template",
+      "tie_group_id": "tie021",
+      "tie_group_size": 5,
+      "tie_span": [
+        48,
+        52
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 30,
+      "class_record": {
+        "bytes": 156015,
+        "path": "classes/class30.structural-census.json",
+        "sha256": "07fc2e0080610b54b751ffcc5987531eda72e2f5be43ffd790d5c5a99ccf9a6d"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 50,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 48,
+      "template": "first_template",
+      "tie_group_id": "tie021",
+      "tie_group_size": 5,
+      "tie_span": [
+        48,
+        52
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 33,
+      "class_record": {
+        "bytes": 156015,
+        "path": "classes/class33.structural-census.json",
+        "sha256": "cbfa8ddc8be460a6de9a46fbc15906473f2c6a0f26cc9266f58b3d3b3f37ede0"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 51,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 48,
+      "template": "first_template",
+      "tie_group_id": "tie021",
+      "tie_group_size": 5,
+      "tie_span": [
+        48,
+        52
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 37,
+      "class_record": {
+        "bytes": 155999,
+        "path": "classes/class37.structural-census.json",
+        "sha256": "30509d5350e0b27cfbd6784e754c121d2415fe102321e84ed6833288d1ccf2ba"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 52,
+      "residual_four_set_count": 277,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 48,
+      "template": "first_template",
+      "tie_group_id": "tie021",
+      "tie_group_size": 5,
+      "tie_span": [
+        48,
+        52
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 11,
+      "class_record": {
+        "bytes": 156013,
+        "path": "classes/class11.structural-census.json",
+        "sha256": "eea5461d4d77be454c00423020737c03e8d6b6af9e74b4bc5280c5f980d4c673"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 53,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 18,
+      "class_record": {
+        "bytes": 156013,
+        "path": "classes/class18.structural-census.json",
+        "sha256": "16711c196387bf264b44040432e0ad73c67b570273b06f737a05b2fca64ee57e"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 54,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 22,
+      "class_record": {
+        "bytes": 155997,
+        "path": "classes/class22.structural-census.json",
+        "sha256": "203318b7ec5d846f84c25edece43a79ffcdcee58608e8f6634000f118d38d9a4"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 55,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 24,
+      "class_record": {
+        "bytes": 156013,
+        "path": "classes/class24.structural-census.json",
+        "sha256": "5fc974133bb58aff45d2b0c16fdd4fe425ba7cb7463778d4daed09bb8424bd60"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 56,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 25,
+      "class_record": {
+        "bytes": 156014,
+        "path": "classes/class25.structural-census.json",
+        "sha256": "592c8d2bcbe3ae9476ebb19a8b03e58cca8f590a2737d8495377aa5cdc39d6ab"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 57,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 26,
+      "class_record": {
+        "bytes": 155998,
+        "path": "classes/class26.structural-census.json",
+        "sha256": "1b484a65fd1fcf5e7200537c949d11b0ccab6d16a068f6d5af22f4d322e00dc3"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 58,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 27,
+      "class_record": {
+        "bytes": 155998,
+        "path": "classes/class27.structural-census.json",
+        "sha256": "6204c7e1625d8371898c0a0a31b2671a89a8003a34014e8d1ac1e722ffda7614"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 59,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 34,
+      "class_record": {
+        "bytes": 156030,
+        "path": "classes/class34.structural-census.json",
+        "sha256": "78c1e1a33ec8102ecf0769236b29592ee43664ebb5e9a87f4b4d72fc48b22ad8"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 60,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 38,
+      "class_record": {
+        "bytes": 156014,
+        "path": "classes/class38.structural-census.json",
+        "sha256": "ee951b5d94d0cbe5beb0792a7df93781c284e413a24534a67243c5e78210cece"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 61,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 42,
+      "class_record": {
+        "bytes": 156014,
+        "path": "classes/class42.structural-census.json",
+        "sha256": "145c40c388ddd6e40eb3ec639e4869a3e4b6aabc844d54b6338763a4c2d33c36"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 62,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 43,
+      "class_record": {
+        "bytes": 156014,
+        "path": "classes/class43.structural-census.json",
+        "sha256": "c6201a756ae77c55acfe3127e673908f2cd989bd78d80cc7606df6ac2acc8282"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 63,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 44,
+      "class_record": {
+        "bytes": 155998,
+        "path": "classes/class44.structural-census.json",
+        "sha256": "5977e9f19d424d0d6ef2a537829cf354172d271275fe4316ba83f4de98d052be"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 64,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 45,
+      "class_record": {
+        "bytes": 155998,
+        "path": "classes/class45.structural-census.json",
+        "sha256": "fa07de7f353c0c802fe632fb4fb1286b23a7113f5710e24e1b4581270f3958d1"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 65,
+      "residual_four_set_count": 278,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 53,
+      "template": "first_template",
+      "tie_group_id": "tie022",
+      "tie_group_size": 13,
+      "tie_span": [
+        53,
+        65
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 59,
+      "class_record": {
+        "bytes": 155999,
+        "path": "classes/class59.structural-census.json",
+        "sha256": "8e1a78d7f22e05bdc03fa5896533b1dc1ae4cacfb5e0d09739020abdab9a259a"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 66,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 66,
+      "template": "first_template",
+      "tie_group_id": "tie023",
+      "tie_group_size": 3,
+      "tie_span": [
+        66,
+        68
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 60,
+      "class_record": {
+        "bytes": 156015,
+        "path": "classes/class60.structural-census.json",
+        "sha256": "aa8ca276331e91b5a22285294585655bb3b83b91d795aac4442d9b9d890e5e28"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 67,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 66,
+      "template": "first_template",
+      "tie_group_id": "tie023",
+      "tie_group_size": 3,
+      "tie_span": [
+        66,
+        68
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    },
+    {
+      "automorphism_group_order": 1,
+      "candidate_minimum_point_orbit_count": 495,
+      "class_index": 61,
+      "class_record": {
+        "bytes": 155999,
+        "path": "classes/class61.structural-census.json",
+        "sha256": "48ec140da09cce32b27ec613678e0cbbac9361694e13740825258fddc29674bf"
+      },
+      "difficulty_band": "HARDER_STRUCTURAL_THIRD",
+      "ordinal_position": 68,
+      "residual_four_set_count": 279,
+      "solver_dependent_metrics_status": "NOT_STARTED",
+      "structural_rank": 66,
+      "template": "first_template",
+      "tie_group_id": "tie023",
+      "tie_group_size": 3,
+      "tie_span": [
+        66,
+        68
+      ],
+      "unscreened_degree_profile_orbit_count": 75582
+    }
+  ],
+  "input": {
+    "class_metric_index_sha256": "56cbc28b00dc0fa4aa92f4b70e3cb882207d4552b94b2a0a2121dcac49a46700",
+    "classification_audit_sha256": "4158592d9737bb3fb1f91b65f0b9379e763b56054e1b26b5b65838af1f6476b2",
+    "numbering_manifest_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c"
+  },
+  "method": {
+    "direction": "Ordinal position 1 is structurally easiest; position 68 is structurally hardest.",
+    "id": "solver-free-lexicographic-structural-proxy-v1",
+    "limitations": [
+      "This is a structural pre-ranking, not a measured solver or proof difficulty result.",
+      "Retained-profile counts, root-LP feasibility, quick solver runtimes, and proof-size estimates remain NOT_STARTED.",
+      "Classes in the same tie group are indistinguishable under the recorded structural key."
+    ],
+    "ordered_key": [
+      {
+        "direction": "ascending",
+        "field": "unscreened_degree_profile_orbit_count",
+        "reason": "Primary exact symmetry-reduced branching proxy before screening."
+      },
+      {
+        "direction": "ascending",
+        "field": "candidate_minimum_point_orbit_count",
+        "reason": "Number of first-stage candidate cases."
+      },
+      {
+        "direction": "ascending",
+        "field": "residual_four_set_count",
+        "reason": "Coverage-row count proxy in later PB models."
+      },
+      {
+        "direction": "descending",
+        "field": "automorphism_group_order",
+        "reason": "Larger symmetry groups generally reduce distinct branches."
+      },
+      {
+        "direction": "ascending",
+        "field": "class_index",
+        "reason": "Deterministic ordering only; excluded from structural tie groups."
+      }
+    ]
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.5.0"
+  },
+  "provisional_three_class_pilot": {
+    "difficult_low_symmetry": {
+      "class_index": 59,
+      "ordinal_position": 66,
+      "reason": "Smallest class index in the hardest structural tie group.",
+      "tie_span": [
+        66,
+        68
+      ]
+    },
+    "easy_high_symmetry": {
+      "class_index": 68,
+      "ordinal_position": 1,
+      "reason": "First in the solver-free structural ranking."
+    },
+    "guardrail": "This preselection launches no formulas, LPs, solvers, proof generation, or verification.",
+    "median": {
+      "class_index": 4,
+      "ordinal_position": 33,
+      "reason": "Smallest class index in the structural tie group intersecting the catalog midpoint.",
+      "tie_span": [
+        33,
+        38
+      ]
+    },
+    "solver_runs_authorized": false,
+    "status": "STRUCTURAL_ONLY_PRESELECTION"
+  },
+  "schema_version": "horizonmath.structural-ranking.v1",
+  "scope": {
+    "pilot_solver_runs_launched": false,
+    "proof_size_estimated": false,
+    "retained_profile_counts_computed": false,
+    "root_lp_run": false,
+    "solver_run": false,
+    "structural_ranking_completed": true
+  },
+  "status": "ENUMERATED",
+  "summary": {
+    "automorphism_group_order_histogram": {
+      "1": 21,
+      "12": 1,
+      "2": 28,
+      "24": 2,
+      "240": 1,
+      "36": 1,
+      "4": 8,
+      "6": 4,
+      "8": 2
+    },
+    "candidate_orbit_count_range": [
+      12,
+      495
+    ],
+    "class_count": 68,
+    "profile_orbit_count_range": [
+      755,
+      75582
+    ],
+    "residual_four_set_count_range": [
+      276,
+      285
+    ],
+    "tie_group_count": 23
+  }
+}

@@ -12,6 +12,7 @@ from horizonlink.candidate_screening import (
     generate_candidate_screening_corpus,
 )
 from horizonlink.canonical import write_json, write_sha256_sidecar
+from horizonlink.census import CensusError, generate_structural_census
 from horizonlink.input import InputFormatError, load_link, parse_link_bytes
 from horizonlink.formulas import generate_formula_corpus
 from horizonlink.farkas import generate_root_lp_farkas_corpus
@@ -193,6 +194,47 @@ def _regress_class52(args: argparse.Namespace) -> int:
         }
     )
     return 0 if report["all_checks_passed"] else 1
+
+
+def _structural_census(args: argparse.Namespace) -> int:
+    try:
+        census, ranking = generate_structural_census(
+            args.numbering_manifest,
+            args.classification_audit,
+            args.output_directory,
+        )
+    except (
+        CensusError,
+        OSError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    pilot = ranking["provisional_three_class_pilot"]
+    _print_summary(
+        {
+            "status": census["status"],
+            "classes_enumerated": census["summary"][
+                "enumerated_class_count"
+            ],
+            "solver_run": census["scope_guardrails"]["solver_run"],
+            "ranking_status": ranking["status"],
+            "provisional_pilot": {
+                "easy_high_symmetry": pilot[
+                    "easy_high_symmetry"
+                ]["class_index"],
+                "median": pilot["median"]["class_index"],
+                "difficult_low_symmetry": pilot[
+                    "difficult_low_symmetry"
+                ]["class_index"],
+            },
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0
 
 
 def _generate_formulas(args: argparse.Namespace) -> int:
@@ -433,6 +475,30 @@ def build_parser() -> argparse.ArgumentParser:
         help="recovered screening ledger for the full 107-profile regression",
     )
     regression.set_defaults(func=_regress_class52)
+
+    census = subparsers.add_parser(
+        "structural-census",
+        help=(
+            "enumerate and structurally rank all 68 audited link classes "
+            "without formulas, LPs, solvers, or proofs"
+        ),
+    )
+    census.add_argument(
+        "--numbering-manifest",
+        type=Path,
+        required=True,
+    )
+    census.add_argument(
+        "--classification-audit",
+        type=Path,
+        required=True,
+    )
+    census.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    census.set_defaults(func=_structural_census)
 
     formulas = subparsers.add_parser(
         "generate-formulas",

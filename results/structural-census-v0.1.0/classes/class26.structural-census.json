@@ -1,0 +1,9831 @@
+{
+  "automorphism_group": {
+    "algorithm": {
+      "completeness": "Every bijection preserving necessary point/pair/triple invariants is visited; every leaf is checked against the full block multiset.",
+      "id": "complete-invariant-backtracking-v1"
+    },
+    "audit_checks": {
+      "generated_group_order": 1,
+      "generators_reproduce_group": true,
+      "identity_present": true,
+      "permutations_unique": true
+    },
+    "generator_count": 0,
+    "generator_selection": "lexicographic-greedy-v1",
+    "generators": [],
+    "group_sha256": "c9112fffad782fb7e96cf3310f08432d6b14e0f5de611639b417123244765162",
+    "order": 1,
+    "search_statistics": {
+      "candidate_cell_sizes": {
+        "0": 1,
+        "1": 6,
+        "10": 6,
+        "11": 6,
+        "2": 1,
+        "3": 6,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 6,
+        "8": 1,
+        "9": 6
+      },
+      "complete_bijections_tested": 1,
+      "rejected_at_block_multiset_check": 0,
+      "search_nodes": 13,
+      "source_order": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        1,
+        3,
+        7,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "candidate_minimum_point_sets": {
+    "accounting": {
+      "all_candidates_accounted_for": true,
+      "all_orbit_stabilizer_checks_pass": true,
+      "duplicate_member_count": 0,
+      "members_unique": true,
+      "unaccounted_candidates": []
+    },
+    "algorithm": "lexicographic-full-group-action-v1",
+    "interpretation": "Candidate subsets of full-degree-15 points. A hypothetical 29-block C(13,7,4) cover has total degree excess 8 above 15, so at least four of its 12 non-link points have zero excess.",
+    "member_count": 495,
+    "orbit_count": 495,
+    "orbit_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "orbits": [
+      {
+        "id": "orbit000",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit001",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit002",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit003",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit004",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit005",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit006",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit007",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit008",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit009",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit010",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit011",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit012",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit013",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit014",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit015",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit016",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit017",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit018",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit019",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit020",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit021",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit022",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit023",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit024",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit025",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit026",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit027",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit028",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit029",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit030",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit031",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit032",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit033",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit034",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit035",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit036",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit037",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit038",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit039",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit040",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit041",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit042",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit043",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit044",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit045",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit046",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit047",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit048",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit049",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit050",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit051",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit052",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          3,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit053",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit054",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit055",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit056",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit057",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit058",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit059",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit060",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit061",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit062",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit063",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit064",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit065",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit066",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit067",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit068",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit069",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit070",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit071",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit072",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit073",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit074",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit075",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit076",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit077",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit078",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit079",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit080",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          2,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit081",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit082",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit083",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit084",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit085",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit086",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit087",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit088",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit089",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit090",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit091",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit092",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit093",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit094",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit095",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit096",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit097",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit098",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit099",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit100",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit101",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit102",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit103",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit104",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit105",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit106",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit107",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit108",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit109",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit110",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit111",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit112",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit113",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit114",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit115",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit116",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit117",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit118",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit119",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit120",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit121",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit122",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit123",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit124",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit125",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit126",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit127",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit128",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit129",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          4,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit130",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit131",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit132",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit133",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit134",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit135",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit136",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit137",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit138",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit139",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit140",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit141",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit142",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit143",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit144",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          5,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit145",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit146",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit147",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit148",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit149",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit150",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit151",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit152",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit153",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit154",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit155",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit156",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit157",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit158",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit159",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit160",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit161",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit162",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit163",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit164",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit165",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit166",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit167",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit168",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit169",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit170",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit171",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit172",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          3,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit173",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit174",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit175",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit176",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit177",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit178",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit179",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit180",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit181",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit182",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit183",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit184",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit185",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit186",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit187",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit188",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit189",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit190",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit191",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit192",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit193",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit194",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit195",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit196",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit197",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit198",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit199",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit200",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          2,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit201",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit202",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit203",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit204",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit205",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit206",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit207",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit208",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit209",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit210",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit211",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit212",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit213",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit214",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit215",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit216",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit217",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit218",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit219",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit220",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit221",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit222",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit223",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit224",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit225",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit226",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit227",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit228",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          3,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit229",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit230",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit231",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit232",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit233",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit234",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit235",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit236",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit237",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit238",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit239",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit240",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit241",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit242",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit243",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit244",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit245",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit246",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit247",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit248",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit249",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          4,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit250",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit251",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit252",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit253",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit254",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit255",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit256",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit257",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit258",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit259",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit260",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit261",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit262",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit263",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit264",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          5,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit265",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit266",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit267",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit268",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit269",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit270",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit271",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit272",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit273",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit274",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit275",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit276",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit277",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit278",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit279",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit280",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit281",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit282",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit283",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit284",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          1,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit285",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit286",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit287",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit288",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit289",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit290",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit291",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          4,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit292",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit293",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit294",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit295",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit296",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit297",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit298",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit299",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit300",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit301",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit302",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit303",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit304",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit305",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit306",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit307",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit308",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit309",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit310",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit311",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit312",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          3,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit313",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit314",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit315",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit316",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit317",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit318",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit319",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit320",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit321",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit322",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit323",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit324",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit325",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit326",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit327",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit328",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit329",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit330",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit331",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit332",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit333",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          4,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit334",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit335",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit336",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit337",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit338",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit339",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit340",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit341",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit342",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit343",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit344",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit345",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit346",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit347",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit348",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          5,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit349",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit350",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit351",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit352",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit353",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit354",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit355",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit356",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit357",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit358",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit359",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit360",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit361",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit362",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit363",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit364",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit365",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit366",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit367",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit368",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          2,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit369",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit370",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit371",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit372",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit373",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit374",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          5,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit375",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit376",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit377",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit378",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit379",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit380",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit381",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit382",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit383",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit384",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit385",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit386",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit387",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit388",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit389",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          4,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit390",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit391",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit392",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit393",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit394",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit395",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit396",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit397",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit398",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit399",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit400",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit401",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit402",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit403",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit404",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          5,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit405",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit406",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit407",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit408",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit409",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit410",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit411",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit412",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit413",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit414",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit415",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit416",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit417",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit418",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit419",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit420",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit421",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit422",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit423",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit424",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          3,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit425",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit426",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          6,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit427",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          6,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit428",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit429",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          6,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit430",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit431",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit432",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit433",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit434",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit435",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit436",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit437",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit438",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit439",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit440",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit441",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit442",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit443",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit444",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit445",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit446",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit447",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit448",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit449",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit450",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit451",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit452",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit453",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit454",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit455",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit456",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit457",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit458",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit459",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          4,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit460",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit461",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          7,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit462",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          7,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit463",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          7,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit464",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit465",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit466",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit467",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit468",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit469",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          6,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit470",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit471",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit472",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit473",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit474",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit475",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit476",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit477",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit478",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit479",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          5,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit480",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit481",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          8,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit482",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          8,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit483",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit484",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit485",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          7,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit486",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit487",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit488",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit489",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          6,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit490",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit491",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit492",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          7,
+          8,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit493",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      },
+      {
+        "id": "orbit494",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "size": 1,
+        "stabilizer_order": 1
+      }
+    ],
+    "partition_sha256": "585830a3c6c0c136543cec29d10b1c9bce26fecfa301709152642ed7c94d825e",
+    "representatives": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        7
+      ],
+      [
+        0,
+        1,
+        2,
+        8
+      ],
+      [
+        0,
+        1,
+        2,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        10
+      ],
+      [
+        0,
+        1,
+        2,
+        11
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        3,
+        7
+      ],
+      [
+        0,
+        1,
+        3,
+        8
+      ],
+      [
+        0,
+        1,
+        3,
+        9
+      ],
+      [
+        0,
+        1,
+        3,
+        10
+      ],
+      [
+        0,
+        1,
+        3,
+        11
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        4,
+        7
+      ],
+      [
+        0,
+        1,
+        4,
+        8
+      ],
+      [
+        0,
+        1,
+        4,
+        9
+      ],
+      [
+        0,
+        1,
+        4,
+        10
+      ],
+      [
+        0,
+        1,
+        4,
+        11
+      ],
+      [
+        0,
+        1,
+        5,
+        6
+      ],
+      [
+        0,
+        1,
+        5,
+        7
+      ],
+      [
+        0,
+        1,
+        5,
+        8
+      ],
+      [
+        0,
+        1,
+        5,
+        9
+      ],
+      [
+        0,
+        1,
+        5,
+        10
+      ],
+      [
+        0,
+        1,
+        5,
+        11
+      ],
+      [
+        0,
+        1,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        6,
+        8
+      ],
+      [
+        0,
+        1,
+        6,
+        9
+      ],
+      [
+        0,
+        1,
+        6,
+        10
+      ],
+      [
+        0,
+        1,
+        6,
+        11
+      ],
+      [
+        0,
+        1,
+        7,
+        8
+      ],
+      [
+        0,
+        1,
+        7,
+        9
+      ],
+      [
+        0,
+        1,
+        7,
+        10
+      ],
+      [
+        0,
+        1,
+        7,
+        11
+      ],
+      [
+        0,
+        1,
+        8,
+        9
+      ],
+      [
+        0,
+        1,
+        8,
+        10
+      ],
+      [
+        0,
+        1,
+        8,
+        11
+      ],
+      [
+        0,
+        1,
+        9,
+        10
+      ],
+      [
+        0,
+        1,
+        9,
+        11
+      ],
+      [
+        0,
+        1,
+        10,
+        11
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        2,
+        3,
+        7
+      ],
+      [
+        0,
+        2,
+        3,
+        8
+      ],
+      [
+        0,
+        2,
+        3,
+        9
+      ],
+      [
+        0,
+        2,
+        3,
+        10
+      ],
+      [
+        0,
+        2,
+        3,
+        11
+      ],
+      [
+        0,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        2,
+        4,
+        7
+      ],
+      [
+        0,
+        2,
+        4,
+        8
+      ],
+      [
+        0,
+        2,
+        4,
+        9
+      ],
+      [
+        0,
+        2,
+        4,
+        10
+      ],
+      [
+        0,
+        2,
+        4,
+        11
+      ],
+      [
+        0,
+        2,
+        5,
+        6
+      ],
+      [
+        0,
+        2,
+        5,
+        7
+      ],
+      [
+        0,
+        2,
+        5,
+        8
+      ],
+      [
+        0,
+        2,
+        5,
+        9
+      ],
+      [
+        0,
+        2,
+        5,
+        10
+      ],
+      [
+        0,
+        2,
+        5,
+        11
+      ],
+      [
+        0,
+        2,
+        6,
+        7
+      ],
+      [
+        0,
+        2,
+        6,
+        8
+      ],
+      [
+        0,
+        2,
+        6,
+        9
+      ],
+      [
+        0,
+        2,
+        6,
+        10
+      ],
+      [
+        0,
+        2,
+        6,
+        11
+      ],
+      [
+        0,
+        2,
+        7,
+        8
+      ],
+      [
+        0,
+        2,
+        7,
+        9
+      ],
+      [
+        0,
+        2,
+        7,
+        10
+      ],
+      [
+        0,
+        2,
+        7,
+        11
+      ],
+      [
+        0,
+        2,
+        8,
+        9
+      ],
+      [
+        0,
+        2,
+        8,
+        10
+      ],
+      [
+        0,
+        2,
+        8,
+        11
+      ],
+      [
+        0,
+        2,
+        9,
+        10
+      ],
+      [
+        0,
+        2,
+        9,
+        11
+      ],
+      [
+        0,
+        2,
+        10,
+        11
+      ],
+      [
+        0,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        3,
+        4,
+        6
+      ],
+      [
+        0,
+        3,
+        4,
+        7
+      ],
+      [
+        0,
+        3,
+        4,
+        8
+      ],
+      [
+        0,
+        3,
+        4,
+        9
+      ],
+      [
+        0,
+        3,
+        4,
+        10
+      ],
+      [
+        0,
+        3,
+        4,
+        11
+      ],
+      [
+        0,
+        3,
+        5,
+        6
+      ],
+      [
+        0,
+        3,
+        5,
+        7
+      ],
+      [
+        0,
+        3,
+        5,
+        8
+      ],
+      [
+        0,
+        3,
+        5,
+        9
+      ],
+      [
+        0,
+        3,
+        5,
+        10
+      ],
+      [
+        0,
+        3,
+        5,
+        11
+      ],
+      [
+        0,
+        3,
+        6,
+        7
+      ],
+      [
+        0,
+        3,
+        6,
+        8
+      ],
+      [
+        0,
+        3,
+        6,
+        9
+      ],
+      [
+        0,
+        3,
+        6,
+        10
+      ],
+      [
+        0,
+        3,
+        6,
+        11
+      ],
+      [
+        0,
+        3,
+        7,
+        8
+      ],
+      [
+        0,
+        3,
+        7,
+        9
+      ],
+      [
+        0,
+        3,
+        7,
+        10
+      ],
+      [
+        0,
+        3,
+        7,
+        11
+      ],
+      [
+        0,
+        3,
+        8,
+        9
+      ],
+      [
+        0,
+        3,
+        8,
+        10
+      ],
+      [
+        0,
+        3,
+        8,
+        11
+      ],
+      [
+        0,
+        3,
+        9,
+        10
+      ],
+      [
+        0,
+        3,
+        9,
+        11
+      ],
+      [
+        0,
+        3,
+        10,
+        11
+      ],
+      [
+        0,
+        4,
+        5,
+        6
+      ],
+      [
+        0,
+        4,
+        5,
+        7
+      ],
+      [
+        0,
+        4,
+        5,
+        8
+      ],
+      [
+        0,
+        4,
+        5,
+        9
+      ],
+      [
+        0,
+        4,
+        5,
+        10
+      ],
+      [
+        0,
+        4,
+        5,
+        11
+      ],
+      [
+        0,
+        4,
+        6,
+        7
+      ],
+      [
+        0,
+        4,
+        6,
+        8
+      ],
+      [
+        0,
+        4,
+        6,
+        9
+      ],
+      [
+        0,
+        4,
+        6,
+        10
+      ],
+      [
+        0,
+        4,
+        6,
+        11
+      ],
+      [
+        0,
+        4,
+        7,
+        8
+      ],
+      [
+        0,
+        4,
+        7,
+        9
+      ],
+      [
+        0,
+        4,
+        7,
+        10
+      ],
+      [
+        0,
+        4,
+        7,
+        11
+      ],
+      [
+        0,
+        4,
+        8,
+        9
+      ],
+      [
+        0,
+        4,
+        8,
+        10
+      ],
+      [
+        0,
+        4,
+        8,
+        11
+      ],
+      [
+        0,
+        4,
+        9,
+        10
+      ],
+      [
+        0,
+        4,
+        9,
+        11
+      ],
+      [
+        0,
+        4,
+        10,
+        11
+      ],
+      [
+        0,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        5,
+        6,
+        8
+      ],
+      [
+        0,
+        5,
+        6,
+        9
+      ],
+      [
+        0,
+        5,
+        6,
+        10
+      ],
+      [
+        0,
+        5,
+        6,
+        11
+      ],
+      [
+        0,
+        5,
+        7,
+        8
+      ],
+      [
+        0,
+        5,
+        7,
+        9
+      ],
+      [
+        0,
+        5,
+        7,
+        10
+      ],
+      [
+        0,
+        5,
+        7,
+        11
+      ],
+      [
+        0,
+        5,
+        8,
+        9
+      ],
+      [
+        0,
+        5,
+        8,
+        10
+      ],
+      [
+        0,
+        5,
+        8,
+        11
+      ],
+      [
+        0,
+        5,
+        9,
+        10
+      ],
+      [
+        0,
+        5,
+        9,
+        11
+      ],
+      [
+        0,
+        5,
+        10,
+        11
+      ],
+      [
+        0,
+        6,
+        7,
+        8
+      ],
+      [
+        0,
+        6,
+        7,
+        9
+      ],
+      [
+        0,
+        6,
+        7,
+        10
+      ],
+      [
+        0,
+        6,
+        7,
+        11
+      ],
+      [
+        0,
+        6,
+        8,
+        9
+      ],
+      [
+        0,
+        6,
+        8,
+        10
+      ],
+      [
+        0,
+        6,
+        8,
+        11
+      ],
+      [
+        0,
+        6,
+        9,
+        10
+      ],
+      [
+        0,
+        6,
+        9,
+        11
+      ],
+      [
+        0,
+        6,
+        10,
+        11
+      ],
+      [
+        0,
+        7,
+        8,
+        9
+      ],
+      [
+        0,
+        7,
+        8,
+        10
+      ],
+      [
+        0,
+        7,
+        8,
+        11
+      ],
+      [
+        0,
+        7,
+        9,
+        10
+      ],
+      [
+        0,
+        7,
+        9,
+        11
+      ],
+      [
+        0,
+        7,
+        10,
+        11
+      ],
+      [
+        0,
+        8,
+        9,
+        10
+      ],
+      [
+        0,
+        8,
+        9,
+        11
+      ],
+      [
+        0,
+        8,
+        10,
+        11
+      ],
+      [
+        0,
+        9,
+        10,
+        11
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        1,
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        2,
+        3,
+        8
+      ],
+      [
+        1,
+        2,
+        3,
+        9
+      ],
+      [
+        1,
+        2,
+        3,
+        10
+      ],
+      [
+        1,
+        2,
+        3,
+        11
+      ],
+      [
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        4,
+        6
+      ],
+      [
+        1,
+        2,
+        4,
+        7
+      ],
+      [
+        1,
+        2,
+        4,
+        8
+      ],
+      [
+        1,
+        2,
+        4,
+        9
+      ],
+      [
+        1,
+        2,
+        4,
+        10
+      ],
+      [
+        1,
+        2,
+        4,
+        11
+      ],
+      [
+        1,
+        2,
+        5,
+        6
+      ],
+      [
+        1,
+        2,
+        5,
+        7
+      ],
+      [
+        1,
+        2,
+        5,
+        8
+      ],
+      [
+        1,
+        2,
+        5,
+        9
+      ],
+      [
+        1,
+        2,
+        5,
+        10
+      ],
+      [
+        1,
+        2,
+        5,
+        11
+      ],
+      [
+        1,
+        2,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        6,
+        8
+      ],
+      [
+        1,
+        2,
+        6,
+        9
+      ],
+      [
+        1,
+        2,
+        6,
+        10
+      ],
+      [
+        1,
+        2,
+        6,
+        11
+      ],
+      [
+        1,
+        2,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        7,
+        9
+      ],
+      [
+        1,
+        2,
+        7,
+        10
+      ],
+      [
+        1,
+        2,
+        7,
+        11
+      ],
+      [
+        1,
+        2,
+        8,
+        9
+      ],
+      [
+        1,
+        2,
+        8,
+        10
+      ],
+      [
+        1,
+        2,
+        8,
+        11
+      ],
+      [
+        1,
+        2,
+        9,
+        10
+      ],
+      [
+        1,
+        2,
+        9,
+        11
+      ],
+      [
+        1,
+        2,
+        10,
+        11
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        6
+      ],
+      [
+        1,
+        3,
+        4,
+        7
+      ],
+      [
+        1,
+        3,
+        4,
+        8
+      ],
+      [
+        1,
+        3,
+        4,
+        9
+      ],
+      [
+        1,
+        3,
+        4,
+        10
+      ],
+      [
+        1,
+        3,
+        4,
+        11
+      ],
+      [
+        1,
+        3,
+        5,
+        6
+      ],
+      [
+        1,
+        3,
+        5,
+        7
+      ],
+      [
+        1,
+        3,
+        5,
+        8
+      ],
+      [
+        1,
+        3,
+        5,
+        9
+      ],
+      [
+        1,
+        3,
+        5,
+        10
+      ],
+      [
+        1,
+        3,
+        5,
+        11
+      ],
+      [
+        1,
+        3,
+        6,
+        7
+      ],
+      [
+        1,
+        3,
+        6,
+        8
+      ],
+      [
+        1,
+        3,
+        6,
+        9
+      ],
+      [
+        1,
+        3,
+        6,
+        10
+      ],
+      [
+        1,
+        3,
+        6,
+        11
+      ],
+      [
+        1,
+        3,
+        7,
+        8
+      ],
+      [
+        1,
+        3,
+        7,
+        9
+      ],
+      [
+        1,
+        3,
+        7,
+        10
+      ],
+      [
+        1,
+        3,
+        7,
+        11
+      ],
+      [
+        1,
+        3,
+        8,
+        9
+      ],
+      [
+        1,
+        3,
+        8,
+        10
+      ],
+      [
+        1,
+        3,
+        8,
+        11
+      ],
+      [
+        1,
+        3,
+        9,
+        10
+      ],
+      [
+        1,
+        3,
+        9,
+        11
+      ],
+      [
+        1,
+        3,
+        10,
+        11
+      ],
+      [
+        1,
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        4,
+        5,
+        7
+      ],
+      [
+        1,
+        4,
+        5,
+        8
+      ],
+      [
+        1,
+        4,
+        5,
+        9
+      ],
+      [
+        1,
+        4,
+        5,
+        10
+      ],
+      [
+        1,
+        4,
+        5,
+        11
+      ],
+      [
+        1,
+        4,
+        6,
+        7
+      ],
+      [
+        1,
+        4,
+        6,
+        8
+      ],
+      [
+        1,
+        4,
+        6,
+        9
+      ],
+      [
+        1,
+        4,
+        6,
+        10
+      ],
+      [
+        1,
+        4,
+        6,
+        11
+      ],
+      [
+        1,
+        4,
+        7,
+        8
+      ],
+      [
+        1,
+        4,
+        7,
+        9
+      ],
+      [
+        1,
+        4,
+        7,
+        10
+      ],
+      [
+        1,
+        4,
+        7,
+        11
+      ],
+      [
+        1,
+        4,
+        8,
+        9
+      ],
+      [
+        1,
+        4,
+        8,
+        10
+      ],
+      [
+        1,
+        4,
+        8,
+        11
+      ],
+      [
+        1,
+        4,
+        9,
+        10
+      ],
+      [
+        1,
+        4,
+        9,
+        11
+      ],
+      [
+        1,
+        4,
+        10,
+        11
+      ],
+      [
+        1,
+        5,
+        6,
+        7
+      ],
+      [
+        1,
+        5,
+        6,
+        8
+      ],
+      [
+        1,
+        5,
+        6,
+        9
+      ],
+      [
+        1,
+        5,
+        6,
+        10
+      ],
+      [
+        1,
+        5,
+        6,
+        11
+      ],
+      [
+        1,
+        5,
+        7,
+        8
+      ],
+      [
+        1,
+        5,
+        7,
+        9
+      ],
+      [
+        1,
+        5,
+        7,
+        10
+      ],
+      [
+        1,
+        5,
+        7,
+        11
+      ],
+      [
+        1,
+        5,
+        8,
+        9
+      ],
+      [
+        1,
+        5,
+        8,
+        10
+      ],
+      [
+        1,
+        5,
+        8,
+        11
+      ],
+      [
+        1,
+        5,
+        9,
+        10
+      ],
+      [
+        1,
+        5,
+        9,
+        11
+      ],
+      [
+        1,
+        5,
+        10,
+        11
+      ],
+      [
+        1,
+        6,
+        7,
+        8
+      ],
+      [
+        1,
+        6,
+        7,
+        9
+      ],
+      [
+        1,
+        6,
+        7,
+        10
+      ],
+      [
+        1,
+        6,
+        7,
+        11
+      ],
+      [
+        1,
+        6,
+        8,
+        9
+      ],
+      [
+        1,
+        6,
+        8,
+        10
+      ],
+      [
+        1,
+        6,
+        8,
+        11
+      ],
+      [
+        1,
+        6,
+        9,
+        10
+      ],
+      [
+        1,
+        6,
+        9,
+        11
+      ],
+      [
+        1,
+        6,
+        10,
+        11
+      ],
+      [
+        1,
+        7,
+        8,
+        9
+      ],
+      [
+        1,
+        7,
+        8,
+        10
+      ],
+      [
+        1,
+        7,
+        8,
+        11
+      ],
+      [
+        1,
+        7,
+        9,
+        10
+      ],
+      [
+        1,
+        7,
+        9,
+        11
+      ],
+      [
+        1,
+        7,
+        10,
+        11
+      ],
+      [
+        1,
+        8,
+        9,
+        10
+      ],
+      [
+        1,
+        8,
+        9,
+        11
+      ],
+      [
+        1,
+        8,
+        10,
+        11
+      ],
+      [
+        1,
+        9,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        6
+      ],
+      [
+        2,
+        3,
+        4,
+        7
+      ],
+      [
+        2,
+        3,
+        4,
+        8
+      ],
+      [
+        2,
+        3,
+        4,
+        9
+      ],
+      [
+        2,
+        3,
+        4,
+        10
+      ],
+      [
+        2,
+        3,
+        4,
+        11
+      ],
+      [
+        2,
+        3,
+        5,
+        6
+      ],
+      [
+        2,
+        3,
+        5,
+        7
+      ],
+      [
+        2,
+        3,
+        5,
+        8
+      ],
+      [
+        2,
+        3,
+        5,
+        9
+      ],
+      [
+        2,
+        3,
+        5,
+        10
+      ],
+      [
+        2,
+        3,
+        5,
+        11
+      ],
+      [
+        2,
+        3,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        6,
+        8
+      ],
+      [
+        2,
+        3,
+        6,
+        9
+      ],
+      [
+        2,
+        3,
+        6,
+        10
+      ],
+      [
+        2,
+        3,
+        6,
+        11
+      ],
+      [
+        2,
+        3,
+        7,
+        8
+      ],
+      [
+        2,
+        3,
+        7,
+        9
+      ],
+      [
+        2,
+        3,
+        7,
+        10
+      ],
+      [
+        2,
+        3,
+        7,
+        11
+      ],
+      [
+        2,
+        3,
+        8,
+        9
+      ],
+      [
+        2,
+        3,
+        8,
+        10
+      ],
+      [
+        2,
+        3,
+        8,
+        11
+      ],
+      [
+        2,
+        3,
+        9,
+        10
+      ],
+      [
+        2,
+        3,
+        9,
+        11
+      ],
+      [
+        2,
+        3,
+        10,
+        11
+      ],
+      [
+        2,
+        4,
+        5,
+        6
+      ],
+      [
+        2,
+        4,
+        5,
+        7
+      ],
+      [
+        2,
+        4,
+        5,
+        8
+      ],
+      [
+        2,
+        4,
+        5,
+        9
+      ],
+      [
+        2,
+        4,
+        5,
+        10
+      ],
+      [
+        2,
+        4,
+        5,
+        11
+      ],
+      [
+        2,
+        4,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        6,
+        8
+      ],
+      [
+        2,
+        4,
+        6,
+        9
+      ],
+      [
+        2,
+        4,
+        6,
+        10
+      ],
+      [
+        2,
+        4,
+        6,
+        11
+      ],
+      [
+        2,
+        4,
+        7,
+        8
+      ],
+      [
+        2,
+        4,
+        7,
+        9
+      ],
+      [
+        2,
+        4,
+        7,
+        10
+      ],
+      [
+        2,
+        4,
+        7,
+        11
+      ],
+      [
+        2,
+        4,
+        8,
+        9
+      ],
+      [
+        2,
+        4,
+        8,
+        10
+      ],
+      [
+        2,
+        4,
+        8,
+        11
+      ],
+      [
+        2,
+        4,
+        9,
+        10
+      ],
+      [
+        2,
+        4,
+        9,
+        11
+      ],
+      [
+        2,
+        4,
+        10,
+        11
+      ],
+      [
+        2,
+        5,
+        6,
+        7
+      ],
+      [
+        2,
+        5,
+        6,
+        8
+      ],
+      [
+        2,
+        5,
+        6,
+        9
+      ],
+      [
+        2,
+        5,
+        6,
+        10
+      ],
+      [
+        2,
+        5,
+        6,
+        11
+      ],
+      [
+        2,
+        5,
+        7,
+        8
+      ],
+      [
+        2,
+        5,
+        7,
+        9
+      ],
+      [
+        2,
+        5,
+        7,
+        10
+      ],
+      [
+        2,
+        5,
+        7,
+        11
+      ],
+      [
+        2,
+        5,
+        8,
+        9
+      ],
+      [
+        2,
+        5,
+        8,
+        10
+      ],
+      [
+        2,
+        5,
+        8,
+        11
+      ],
+      [
+        2,
+        5,
+        9,
+        10
+      ],
+      [
+        2,
+        5,
+        9,
+        11
+      ],
+      [
+        2,
+        5,
+        10,
+        11
+      ],
+      [
+        2,
+        6,
+        7,
+        8
+      ],
+      [
+        2,
+        6,
+        7,
+        9
+      ],
+      [
+        2,
+        6,
+        7,
+        10
+      ],
+      [
+        2,
+        6,
+        7,
+        11
+      ],
+      [
+        2,
+        6,
+        8,
+        9
+      ],
+      [
+        2,
+        6,
+        8,
+        10
+      ],
+      [
+        2,
+        6,
+        8,
+        11
+      ],
+      [
+        2,
+        6,
+        9,
+        10
+      ],
+      [
+        2,
+        6,
+        9,
+        11
+      ],
+      [
+        2,
+        6,
+        10,
+        11
+      ],
+      [
+        2,
+        7,
+        8,
+        9
+      ],
+      [
+        2,
+        7,
+        8,
+        10
+      ],
+      [
+        2,
+        7,
+        8,
+        11
+      ],
+      [
+        2,
+        7,
+        9,
+        10
+      ],
+      [
+        2,
+        7,
+        9,
+        11
+      ],
+      [
+        2,
+        7,
+        10,
+        11
+      ],
+      [
+        2,
+        8,
+        9,
+        10
+      ],
+      [
+        2,
+        8,
+        9,
+        11
+      ],
+      [
+        2,
+        8,
+        10,
+        11
+      ],
+      [
+        2,
+        9,
+        10,
+        11
+      ],
+      [
+        3,
+        4,
+        5,
+        6
+      ],
+      [
+        3,
+        4,
+        5,
+        7
+      ],
+      [
+        3,
+        4,
+        5,
+        8
+      ],
+      [
+        3,
+        4,
+        5,
+        9
+      ],
+      [
+        3,
+        4,
+        5,
+        10
+      ],
+      [
+        3,
+        4,
+        5,
+        11
+      ],
+      [
+        3,
+        4,
+        6,
+        7
+      ],
+      [
+        3,
+        4,
+        6,
+        8
+      ],
+      [
+        3,
+        4,
+        6,
+        9
+      ],
+      [
+        3,
+        4,
+        6,
+        10
+      ],
+      [
+        3,
+        4,
+        6,
+        11
+      ],
+      [
+        3,
+        4,
+        7,
+        8
+      ],
+      [
+        3,
+        4,
+        7,
+        9
+      ],
+      [
+        3,
+        4,
+        7,
+        10
+      ],
+      [
+        3,
+        4,
+        7,
+        11
+      ],
+      [
+        3,
+        4,
+        8,
+        9
+      ],
+      [
+        3,
+        4,
+        8,
+        10
+      ],
+      [
+        3,
+        4,
+        8,
+        11
+      ],
+      [
+        3,
+        4,
+        9,
+        10
+      ],
+      [
+        3,
+        4,
+        9,
+        11
+      ],
+      [
+        3,
+        4,
+        10,
+        11
+      ],
+      [
+        3,
+        5,
+        6,
+        7
+      ],
+      [
+        3,
+        5,
+        6,
+        8
+      ],
+      [
+        3,
+        5,
+        6,
+        9
+      ],
+      [
+        3,
+        5,
+        6,
+        10
+      ],
+      [
+        3,
+        5,
+        6,
+        11
+      ],
+      [
+        3,
+        5,
+        7,
+        8
+      ],
+      [
+        3,
+        5,
+        7,
+        9
+      ],
+      [
+        3,
+        5,
+        7,
+        10
+      ],
+      [
+        3,
+        5,
+        7,
+        11
+      ],
+      [
+        3,
+        5,
+        8,
+        9
+      ],
+      [
+        3,
+        5,
+        8,
+        10
+      ],
+      [
+        3,
+        5,
+        8,
+        11
+      ],
+      [
+        3,
+        5,
+        9,
+        10
+      ],
+      [
+        3,
+        5,
+        9,
+        11
+      ],
+      [
+        3,
+        5,
+        10,
+        11
+      ],
+      [
+        3,
+        6,
+        7,
+        8
+      ],
+      [
+        3,
+        6,
+        7,
+        9
+      ],
+      [
+        3,
+        6,
+        7,
+        10
+      ],
+      [
+        3,
+        6,
+        7,
+        11
+      ],
+      [
+        3,
+        6,
+        8,
+        9
+      ],
+      [
+        3,
+        6,
+        8,
+        10
+      ],
+      [
+        3,
+        6,
+        8,
+        11
+      ],
+      [
+        3,
+        6,
+        9,
+        10
+      ],
+      [
+        3,
+        6,
+        9,
+        11
+      ],
+      [
+        3,
+        6,
+        10,
+        11
+      ],
+      [
+        3,
+        7,
+        8,
+        9
+      ],
+      [
+        3,
+        7,
+        8,
+        10
+      ],
+      [
+        3,
+        7,
+        8,
+        11
+      ],
+      [
+        3,
+        7,
+        9,
+        10
+      ],
+      [
+        3,
+        7,
+        9,
+        11
+      ],
+      [
+        3,
+        7,
+        10,
+        11
+      ],
+      [
+        3,
+        8,
+        9,
+        10
+      ],
+      [
+        3,
+        8,
+        9,
+        11
+      ],
+      [
+        3,
+        8,
+        10,
+        11
+      ],
+      [
+        3,
+        9,
+        10,
+        11
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6,
+        8
+      ],
+      [
+        4,
+        5,
+        6,
+        9
+      ],
+      [
+        4,
+        5,
+        6,
+        10
+      ],
+      [
+        4,
+        5,
+        6,
+        11
+      ],
+      [
+        4,
+        5,
+        7,
+        8
+      ],
+      [
+        4,
+        5,
+        7,
+        9
+      ],
+      [
+        4,
+        5,
+        7,
+        10
+      ],
+      [
+        4,
+        5,
+        7,
+        11
+      ],
+      [
+        4,
+        5,
+        8,
+        9
+      ],
+      [
+        4,
+        5,
+        8,
+        10
+      ],
+      [
+        4,
+        5,
+        8,
+        11
+      ],
+      [
+        4,
+        5,
+        9,
+        10
+      ],
+      [
+        4,
+        5,
+        9,
+        11
+      ],
+      [
+        4,
+        5,
+        10,
+        11
+      ],
+      [
+        4,
+        6,
+        7,
+        8
+      ],
+      [
+        4,
+        6,
+        7,
+        9
+      ],
+      [
+        4,
+        6,
+        7,
+        10
+      ],
+      [
+        4,
+        6,
+        7,
+        11
+      ],
+      [
+        4,
+        6,
+        8,
+        9
+      ],
+      [
+        4,
+        6,
+        8,
+        10
+      ],
+      [
+        4,
+        6,
+        8,
+        11
+      ],
+      [
+        4,
+        6,
+        9,
+        10
+      ],
+      [
+        4,
+        6,
+        9,
+        11
+      ],
+      [
+        4,
+        6,
+        10,
+        11
+      ],
+      [
+        4,
+        7,
+        8,
+        9
+      ],
+      [
+        4,
+        7,
+        8,
+        10
+      ],
+      [
+        4,
+        7,
+        8,
+        11
+      ],
+      [
+        4,
+        7,
+        9,
+        10
+      ],
+      [
+        4,
+        7,
+        9,
+        11
+      ],
+      [
+        4,
+        7,
+        10,
+        11
+      ],
+      [
+        4,
+        8,
+        9,
+        10
+      ],
+      [
+        4,
+        8,
+        9,
+        11
+      ],
+      [
+        4,
+        8,
+        10,
+        11
+      ],
+      [
+        4,
+        9,
+        10,
+        11
+      ],
+      [
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        5,
+        6,
+        7,
+        10
+      ],
+      [
+        5,
+        6,
+        7,
+        11
+      ],
+      [
+        5,
+        6,
+        8,
+        9
+      ],
+      [
+        5,
+        6,
+        8,
+        10
+      ],
+      [
+        5,
+        6,
+        8,
+        11
+      ],
+      [
+        5,
+        6,
+        9,
+        10
+      ],
+      [
+        5,
+        6,
+        9,
+        11
+      ],
+      [
+        5,
+        6,
+        10,
+        11
+      ],
+      [
+        5,
+        7,
+        8,
+        9
+      ],
+      [
+        5,
+        7,
+        8,
+        10
+      ],
+      [
+        5,
+        7,
+        8,
+        11
+      ],
+      [
+        5,
+        7,
+        9,
+        10
+      ],
+      [
+        5,
+        7,
+        9,
+        11
+      ],
+      [
+        5,
+        7,
+        10,
+        11
+      ],
+      [
+        5,
+        8,
+        9,
+        10
+      ],
+      [
+        5,
+        8,
+        9,
+        11
+      ],
+      [
+        5,
+        8,
+        10,
+        11
+      ],
+      [
+        5,
+        9,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        6,
+        7,
+        8,
+        10
+      ],
+      [
+        6,
+        7,
+        8,
+        11
+      ],
+      [
+        6,
+        7,
+        9,
+        10
+      ],
+      [
+        6,
+        7,
+        9,
+        11
+      ],
+      [
+        6,
+        7,
+        10,
+        11
+      ],
+      [
+        6,
+        8,
+        9,
+        10
+      ],
+      [
+        6,
+        8,
+        9,
+        11
+      ],
+      [
+        6,
+        8,
+        10,
+        11
+      ],
+      [
+        6,
+        9,
+        10,
+        11
+      ],
+      [
+        7,
+        8,
+        9,
+        10
+      ],
+      [
+        7,
+        8,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        10,
+        11
+      ],
+      [
+        7,
+        9,
+        10,
+        11
+      ],
+      [
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "subset_size": 4,
+    "universe_count": 495
+  },
+  "catalog_comparison": {
+    "all_checks_passed": true,
+    "checks": {
+      "canonical_labeled_link_sha256_equal": true,
+      "catalog_entry_validation_passed": true,
+      "class_index_equal": true,
+      "cover_validation_passed": true,
+      "covered_four_set_count_equal": true,
+      "pair_histogram_equal": true,
+      "point_multiplicities_equal": true,
+      "residual_four_set_count_equal": true,
+      "triple_histogram_equal": true
+    }
+  },
+  "catalog_entry_index": 25,
+  "catalog_metadata": {
+    "full_completion_multiplicity": 576,
+    "full_discovery_index": 26,
+    "full_first_occurrence": 101,
+    "historical_prefix_multiplicity": 62,
+    "isomorphism_invariant_sha256": "e67d7effba44c8df019cae20a45ccbbff7119838c989fc6abc7781028871d248",
+    "numbering_source": "metadata/link_classes.json representatives[25]"
+  },
+  "class_index": 26,
+  "degree_budget": {
+    "derivation": {
+      "excess": 8,
+      "extension_block_count": 14,
+      "extension_block_size": 7,
+      "extension_degree_sum": 98,
+      "minimum_extension_degree_sum": 90,
+      "minimum_point_lower_bound": 4,
+      "minimum_point_lower_bound_reason": "Every nonminimum point consumes at least one integral unit of excess, so at most `excess` points are nonminimum.",
+      "target_full_point_degree": 15
+    },
+    "link_point_degrees": [
+      8,
+      7,
+      8,
+      7,
+      8,
+      8,
+      8,
+      7,
+      8,
+      7,
+      7,
+      7
+    ],
+    "minimum_extension_degrees": [
+      7,
+      8,
+      7,
+      8,
+      7,
+      7,
+      7,
+      8,
+      7,
+      8,
+      8,
+      8
+    ]
+  },
+  "input": {
+    "canonical_document_sha256": "98476ae5f9ddc494d086a73f43a4a20ea9d53e0a5695145c18cbc96aa5694a41",
+    "canonical_labeled_link_sha256": "756c424412866befa866c259fe4e7da6595413fcd3b805f4d9d57f0c8647f3a2",
+    "file": {
+      "bytes": 3164,
+      "path": "inputs/class26.link.json",
+      "sha256": "588b4e203448dd6ffaaaf4286f69499e7ecb8959fe4cad4f1eb700d797285abb"
+    },
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'first_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[25]",
+      "status": "AUDITED"
+    },
+    "path": "inputs/class26.link.json"
+  },
+  "mathematical_validation": {
+    "checks": [
+      {
+        "expected": 12,
+        "id": "point_count",
+        "observed": 12,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "block_count",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "unique_blocks",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": [
+          6
+        ],
+        "id": "block_sizes",
+        "observed": [
+          6
+        ],
+        "passed": true
+      },
+      {
+        "expected": true,
+        "id": "block_points_in_universe",
+        "observed": true,
+        "passed": true
+      },
+      {
+        "expected": 220,
+        "id": "triple_universe_count",
+        "observed": 220,
+        "passed": true
+      },
+      {
+        "expected": 0,
+        "id": "all_triples_covered",
+        "observed": 0,
+        "passed": true
+      },
+      {
+        "expected": 90,
+        "id": "points_incidence_identity",
+        "observed": 90,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "pairs_incidence_identity",
+        "observed": 225,
+        "passed": true
+      },
+      {
+        "expected": 300,
+        "id": "triples_incidence_identity",
+        "observed": 300,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "four_sets_incidence_identity",
+        "observed": 225,
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "uncovered_triples": [],
+    "valid_15_block_C_12_6_3_cover": true
+  },
+  "multiplicities": {
+    "four_sets": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "0": 278,
+        "1": 209,
+        "2": 8
+      },
+      "subset_count": 495,
+      "subset_size": 4,
+      "table_sha256": "33345439779dea129515a077725e9fe6f42d7b47643bd7bff02024b9111c3f38",
+      "total_incidence": 225
+    },
+    "pairs": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "3": 42,
+        "4": 21,
+        "5": 3
+      },
+      "subset_count": 66,
+      "subset_size": 2,
+      "table_sha256": "0d58c99049ad52184696c6952ef6179087d89e91111d98c8e7da4461c6166c9b",
+      "total_incidence": 225
+    },
+    "point_multiplicities": [
+      8,
+      7,
+      8,
+      7,
+      8,
+      8,
+      8,
+      7,
+      8,
+      7,
+      7,
+      7
+    ],
+    "points": {
+      "expected_total_incidence": 90,
+      "histogram": {
+        "7": 6,
+        "8": 6
+      },
+      "subset_count": 12,
+      "subset_size": 1,
+      "table_sha256": "47ea42396d36783fd30ec60c5e15adf029e194b24caeab6d494862bdd8218dd9",
+      "total_incidence": 90
+    },
+    "residual_four_sets": {
+      "count": 278,
+      "sets_sha256": "05cc9406484ac579356cb9c1b5ab60765c00575dbd08ea613ae72fa461a52947"
+    },
+    "triples": {
+      "expected_total_incidence": 300,
+      "histogram": {
+        "1": 159,
+        "2": 44,
+        "3": 15,
+        "4": 2
+      },
+      "subset_count": 220,
+      "subset_size": 3,
+      "table_sha256": "609de8b9a728af27eca5c75ff37fada9d27828ed0f5f770f220454bc524fbf23",
+      "total_incidence": 300
+    }
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.5.0"
+  },
+  "ranking_metrics": {
+    "automorphism_group_order": 1,
+    "candidate_minimum_point_orbit_count": 495,
+    "residual_four_set_count": 278,
+    "unscreened_degree_profile_orbit_count": 75582
+  },
+  "schema_version": "horizonmath.structural-census-class.v1",
+  "scope_guardrails": {
+    "class_elimination_claimed": false,
+    "every_candidate_orbit_representative_recorded": true,
+    "formulas_generated": false,
+    "global_covering_number_claimed": false,
+    "profile_orbits_counted_by_burnside": true,
+    "profile_representatives_generated": false,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "screening_run": false,
+    "solver_run": false,
+    "structural_census_completed": true,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "automorphism_group": "ENUMERATED",
+    "candidate_minimum_point_set_orbits": "ENUMERATED",
+    "extension_degree_profiles": "NOT_STARTED",
+    "formulas": "NOT_STARTED",
+    "link": "ENUMERATED",
+    "multiplicities": "ENUMERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "screening": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "unscreened_profile_orbit_count": "ENUMERATED",
+    "verification": "NOT_STARTED"
+  },
+  "template": "first_template",
+  "unavailable_difficulty_metrics": {
+    "estimated_proof_size": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "quick_solver_runtime": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "retained_profile_count": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "root_lp_feasibility": {
+      "status": "NOT_STARTED",
+      "value": null
+    }
+  },
+  "unscreened_degree_profile_orbit_census": {
+    "algorithm": "burnside-weak-compositions-by-permutation-cycle-type-v1",
+    "burnside_audit": {
+      "all_divisibility_checks_pass": true,
+      "cycle_type_histogram": {
+        "1^12": 1
+      },
+      "fixed_profile_sum_by_minimum_set_size": {
+        "10": 462,
+        "11": 12,
+        "4": 495,
+        "5": 5544,
+        "6": 19404,
+        "7": 27720,
+        "8": 17325,
+        "9": 4620
+      },
+      "fixed_sums_divisible_by_group_order": {
+        "10": true,
+        "11": true,
+        "4": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true,
+        "9": true
+      },
+      "orbit_counts_sum_to_total": true,
+      "raw_counts_sum_to_weak_composition_count": true
+    },
+    "group_order": 1,
+    "interpretation": "Exact symmetry-reduced count of all nonnegative integral degree-excess vectors before any screening. No profile representatives, formulas, LPs, or solver runs are generated.",
+    "point_count": 12,
+    "profile_orbit_count": 75582,
+    "profile_orbits_by_minimum_set_size": {
+      "10": 462,
+      "11": 12,
+      "4": 495,
+      "5": 5544,
+      "6": 19404,
+      "7": 27720,
+      "8": 17325,
+      "9": 4620
+    },
+    "raw_profile_count_before_symmetry": 75582,
+    "raw_profiles_by_minimum_set_size": {
+      "10": 462,
+      "11": 12,
+      "4": 495,
+      "5": 5544,
+      "6": 19404,
+      "7": 27720,
+      "8": 17325,
+      "9": 4620
+    },
+    "scope": {
+      "candidate_screening_run": false,
+      "counts_enumerated": true,
+      "formulas_generated": false,
+      "profile_representatives_generated": false,
+      "proofs_generated": false,
+      "root_lp_run": false,
+      "solver_run": false,
+      "verifier_run": false
+    },
+    "total_excess": 8
+  }
+}

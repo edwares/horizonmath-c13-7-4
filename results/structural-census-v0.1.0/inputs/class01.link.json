@@ -1,0 +1,179 @@
+{
+  "blocks": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      4,
+      5,
+      8,
+      9
+    ],
+    [
+      0,
+      1,
+      6,
+      7,
+      10,
+      11
+    ],
+    [
+      0,
+      1,
+      8,
+      9,
+      10,
+      11
+    ],
+    [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    [
+      0,
+      2,
+      5,
+      7,
+      9,
+      11
+    ],
+    [
+      0,
+      3,
+      4,
+      7,
+      8,
+      11
+    ],
+    [
+      0,
+      3,
+      5,
+      6,
+      9,
+      10
+    ],
+    [
+      1,
+      2,
+      4,
+      7,
+      9,
+      10
+    ],
+    [
+      1,
+      2,
+      5,
+      6,
+      8,
+      11
+    ],
+    [
+      1,
+      3,
+      4,
+      6,
+      9,
+      11
+    ],
+    [
+      1,
+      3,
+      5,
+      7,
+      8,
+      10
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      10,
+      11
+    ],
+    [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "identity": {
+    "class_index": 1,
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'first_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[0]",
+      "status": "AUDITED"
+    },
+    "representative_id": "audited-catalog-class01"
+  },
+  "parameters": {
+    "block_count": 15,
+    "k": 6,
+    "t": 3,
+    "v": 12
+  },
+  "point_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "provenance": {
+    "extraction_rule": "Read entries[0].normalized_labeled_link from the audited numbering manifest without relabeling; sort points within blocks and blocks lexicographically.",
+    "notes": "The classification audit connects the project templates and 68-entry numbering map to the published exhaustive classification. The published theorem itself has not been machine-formalized.",
+    "source_artifacts": [
+      {
+        "name": "Minimum (12, 6, 3) Covers",
+        "sha256": "6da3d15935e5eb8eca9e533c60ffb08db48cb335a94f88c007bd449729f8cf79",
+        "uri": "https://www.dmgordon.org/papers/c-12-6-3.pdf"
+      },
+      {
+        "name": "catalog_audit/build/authoritative/numbering.manifest.json",
+        "sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c"
+      },
+      {
+        "name": "catalog_audit/data/catalog-input.json",
+        "sha256": "6b91c12518cb72444a0341e88d8157766b07832da5bd0c7ce39a0973c5dd53ab"
+      },
+      {
+        "name": "provenance/classification/audit/classification-provenance.audit.json",
+        "sha256": "4158592d9737bb3fb1f91b65f0b9379e763b56054e1b26b5b65838af1f6476b2"
+      }
+    ]
+  },
+  "schema_version": "horizonmath.link-input.v1"
+}

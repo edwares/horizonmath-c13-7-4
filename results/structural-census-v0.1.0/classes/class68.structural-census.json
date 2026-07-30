@@ -1,0 +1,810 @@
+{
+  "automorphism_group": {
+    "algorithm": {
+      "completeness": "Every bijection preserving necessary point/pair/triple invariants is visited; every leaf is checked against the full block multiset.",
+      "id": "complete-invariant-backtracking-v1"
+    },
+    "audit_checks": {
+      "generated_group_order": 240,
+      "generators_reproduce_group": true,
+      "identity_present": true,
+      "permutations_unique": true
+    },
+    "generator_count": 5,
+    "generator_selection": "lexicographic-greedy-v1",
+    "generators": [
+      {
+        "images": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          6,
+          7,
+          8
+        ],
+        "nontrivial_cycles": [
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            11
+          ]
+        ]
+      },
+      {
+        "images": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "nontrivial_cycles": [
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "images": [
+          0,
+          2,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          7,
+          9,
+          11,
+          10
+        ],
+        "nontrivial_cycles": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            10,
+            11
+          ]
+        ]
+      },
+      {
+        "images": [
+          0,
+          7,
+          8,
+          9,
+          4,
+          5,
+          3,
+          11,
+          10,
+          6,
+          1,
+          2
+        ],
+        "nontrivial_cycles": [
+          [
+            1,
+            7,
+            11,
+            2,
+            8,
+            10
+          ],
+          [
+            3,
+            9,
+            6
+          ]
+        ]
+      },
+      {
+        "images": [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          6,
+          8,
+          10,
+          9,
+          11
+        ],
+        "nontrivial_cycles": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            9,
+            10
+          ]
+        ]
+      }
+    ],
+    "group_sha256": "d0f7ab38bc3c7fddc16092c3b11eae08213fff8528ae81f57939a001594f1957",
+    "order": 240,
+    "search_statistics": {
+      "candidate_cell_sizes": {
+        "0": 10,
+        "1": 10,
+        "10": 10,
+        "11": 10,
+        "2": 10,
+        "3": 10,
+        "4": 2,
+        "5": 2,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10
+      },
+      "complete_bijections_tested": 240,
+      "rejected_at_block_multiset_check": 0,
+      "search_nodes": 1825,
+      "source_order": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "candidate_minimum_point_sets": {
+    "accounting": {
+      "all_candidates_accounted_for": true,
+      "all_orbit_stabilizer_checks_pass": true,
+      "duplicate_member_count": 0,
+      "members_unique": true,
+      "unaccounted_candidates": []
+    },
+    "algorithm": "lexicographic-full-group-action-v1",
+    "interpretation": "Candidate subsets of full-degree-15 points. A hypothetical 29-block C(13,7,4) cover has total degree excess 8 above 15, so at least four of its 12 non-link points have zero excess.",
+    "member_count": 495,
+    "orbit_count": 12,
+    "orbit_sizes": [
+      10,
+      20,
+      60,
+      60,
+      60,
+      60,
+      30,
+      120,
+      40,
+      15,
+      5,
+      15
+    ],
+    "orbits": [
+      {
+        "id": "orbit000",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "size": 10,
+        "stabilizer_order": 24
+      },
+      {
+        "id": "orbit001",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "size": 20,
+        "stabilizer_order": 12
+      },
+      {
+        "id": "orbit002",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "size": 60,
+        "stabilizer_order": 4
+      },
+      {
+        "id": "orbit003",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "size": 60,
+        "stabilizer_order": 4
+      },
+      {
+        "id": "orbit004",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "size": 60,
+        "stabilizer_order": 4
+      },
+      {
+        "id": "orbit005",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "size": 60,
+        "stabilizer_order": 4
+      },
+      {
+        "id": "orbit006",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "size": 30,
+        "stabilizer_order": 8
+      },
+      {
+        "id": "orbit007",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "size": 120,
+        "stabilizer_order": 2
+      },
+      {
+        "id": "orbit008",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          4,
+          8
+        ],
+        "size": 40,
+        "stabilizer_order": 6
+      },
+      {
+        "id": "orbit009",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "size": 15,
+        "stabilizer_order": 16
+      },
+      {
+        "id": "orbit010",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          1,
+          8,
+          11
+        ],
+        "size": 5,
+        "stabilizer_order": 48
+      },
+      {
+        "id": "orbit011",
+        "orbit_stabilizer_check": true,
+        "representative": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "size": 15,
+        "stabilizer_order": 16
+      }
+    ],
+    "partition_sha256": "9c433703f4d97c2d68d841f4b42e232db4631e6c4342a4a4611122ace3b70d96",
+    "representatives": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        6
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        3,
+        8
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        4,
+        8
+      ],
+      [
+        0,
+        1,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        8,
+        11
+      ],
+      [
+        0,
+        3,
+        4,
+        5
+      ]
+    ],
+    "subset_size": 4,
+    "universe_count": 495
+  },
+  "catalog_comparison": {
+    "all_checks_passed": true,
+    "checks": {
+      "canonical_labeled_link_sha256_equal": true,
+      "catalog_entry_validation_passed": true,
+      "class_index_equal": true,
+      "cover_validation_passed": true,
+      "covered_four_set_count_equal": true,
+      "pair_histogram_equal": true,
+      "point_multiplicities_equal": true,
+      "residual_four_set_count_equal": true,
+      "triple_histogram_equal": true
+    }
+  },
+  "catalog_entry_index": 67,
+  "catalog_metadata": {
+    "full_completion_multiplicity": null,
+    "full_discovery_index": null,
+    "full_first_occurrence": null,
+    "historical_prefix_multiplicity": null,
+    "isomorphism_invariant_sha256": "90158afdadcf0b0fb8038d155b7801d3da5906a4d8309161c116638cbaac8d3e",
+    "numbering_source": "metadata/link_classes.json fig6"
+  },
+  "class_index": 68,
+  "degree_budget": {
+    "derivation": {
+      "excess": 8,
+      "extension_block_count": 14,
+      "extension_block_size": 7,
+      "extension_degree_sum": 98,
+      "minimum_extension_degree_sum": 90,
+      "minimum_point_lower_bound": 4,
+      "minimum_point_lower_bound_reason": "Every nonminimum point consumes at least one integral unit of excess, so at most `excess` points are nonminimum.",
+      "target_full_point_degree": 15
+    },
+    "link_point_degrees": [
+      7,
+      7,
+      7,
+      7,
+      10,
+      10,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "minimum_extension_degrees": [
+      8,
+      8,
+      8,
+      8,
+      5,
+      5,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  "input": {
+    "canonical_document_sha256": "c5611fd1a44557bad22f0cfc3060b52dd13b701f789a55c879abc0add40138f8",
+    "canonical_labeled_link_sha256": "a66e49afc58526140a16d71c9cd89ab11add1e1e01832eecd1a6792764a28731",
+    "file": {
+      "bytes": 3165,
+      "path": "inputs/class68.link.json",
+      "sha256": "91b17dfc428d1a667f46157e888ba543e02c16d03fdea19c6ff89b4f8a286d9e"
+    },
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'second_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[67]",
+      "status": "AUDITED"
+    },
+    "path": "inputs/class68.link.json"
+  },
+  "mathematical_validation": {
+    "checks": [
+      {
+        "expected": 12,
+        "id": "point_count",
+        "observed": 12,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "block_count",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": 15,
+        "id": "unique_blocks",
+        "observed": 15,
+        "passed": true
+      },
+      {
+        "expected": [
+          6
+        ],
+        "id": "block_sizes",
+        "observed": [
+          6
+        ],
+        "passed": true
+      },
+      {
+        "expected": true,
+        "id": "block_points_in_universe",
+        "observed": true,
+        "passed": true
+      },
+      {
+        "expected": 220,
+        "id": "triple_universe_count",
+        "observed": 220,
+        "passed": true
+      },
+      {
+        "expected": 0,
+        "id": "all_triples_covered",
+        "observed": 0,
+        "passed": true
+      },
+      {
+        "expected": 90,
+        "id": "points_incidence_identity",
+        "observed": 90,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "pairs_incidence_identity",
+        "observed": 225,
+        "passed": true
+      },
+      {
+        "expected": 300,
+        "id": "triples_incidence_identity",
+        "observed": 300,
+        "passed": true
+      },
+      {
+        "expected": 225,
+        "id": "four_sets_incidence_identity",
+        "observed": 225,
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "uncovered_triples": [],
+    "valid_15_block_C_12_6_3_cover": true
+  },
+  "multiplicities": {
+    "four_sets": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "0": 285,
+        "1": 195,
+        "2": 15
+      },
+      "subset_count": 495,
+      "subset_size": 4,
+      "table_sha256": "3baccafb22e22ee74f84337d505ce1edfb912b0122e1f1587789c91264cdaece",
+      "total_incidence": 225
+    },
+    "pairs": {
+      "expected_total_incidence": 225,
+      "histogram": {
+        "10": 1,
+        "3": 45,
+        "4": 20
+      },
+      "subset_count": 66,
+      "subset_size": 2,
+      "table_sha256": "4f8ae743f1a414ec97596e242083aacd58b325e57f93793af27c9e9ba03348bd",
+      "total_incidence": 225
+    },
+    "point_multiplicities": [
+      7,
+      7,
+      7,
+      7,
+      10,
+      10,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "points": {
+      "expected_total_incidence": 90,
+      "histogram": {
+        "10": 2,
+        "7": 10
+      },
+      "subset_count": 12,
+      "subset_size": 1,
+      "table_sha256": "37fef5bd707b59ef3ae482d32b2701afb10c12e081f46add1d5f78087ae38aae",
+      "total_incidence": 90
+    },
+    "residual_four_sets": {
+      "count": 285,
+      "sets_sha256": "f5ec891301dd2bd52cf10dccf31c92f277370606cd544394ee3e5141558609b3"
+    },
+    "triples": {
+      "expected_total_incidence": 300,
+      "histogram": {
+        "1": 170,
+        "2": 30,
+        "3": 10,
+        "4": 10
+      },
+      "subset_count": 220,
+      "subset_size": 3,
+      "table_sha256": "c55cb1f607a79047387ac998e72aed5e10133706b38af5d0f85476f380ab370d",
+      "total_incidence": 300
+    }
+  },
+  "producer": {
+    "name": "horizonlink",
+    "version": "0.5.0"
+  },
+  "ranking_metrics": {
+    "automorphism_group_order": 240,
+    "candidate_minimum_point_orbit_count": 12,
+    "residual_four_set_count": 285,
+    "unscreened_degree_profile_orbit_count": 755
+  },
+  "schema_version": "horizonmath.structural-census-class.v1",
+  "scope_guardrails": {
+    "class_elimination_claimed": false,
+    "every_candidate_orbit_representative_recorded": true,
+    "formulas_generated": false,
+    "global_covering_number_claimed": false,
+    "profile_orbits_counted_by_burnside": true,
+    "profile_representatives_generated": false,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "screening_run": false,
+    "solver_run": false,
+    "structural_census_completed": true,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "automorphism_group": "ENUMERATED",
+    "candidate_minimum_point_set_orbits": "ENUMERATED",
+    "extension_degree_profiles": "NOT_STARTED",
+    "formulas": "NOT_STARTED",
+    "link": "ENUMERATED",
+    "multiplicities": "ENUMERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "screening": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "unscreened_profile_orbit_count": "ENUMERATED",
+    "verification": "NOT_STARTED"
+  },
+  "template": "second_template",
+  "unavailable_difficulty_metrics": {
+    "estimated_proof_size": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "quick_solver_runtime": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "retained_profile_count": {
+      "status": "NOT_STARTED",
+      "value": null
+    },
+    "root_lp_feasibility": {
+      "status": "NOT_STARTED",
+      "value": null
+    }
+  },
+  "unscreened_degree_profile_orbit_census": {
+    "algorithm": "burnside-weak-compositions-by-permutation-cycle-type-v1",
+    "burnside_audit": {
+      "all_divisibility_checks_pass": true,
+      "cycle_type_histogram": {
+        "1^1*2^1*3^1*6^1": 20,
+        "1^1*2^1*3^3": 20,
+        "1^10*2^1": 1,
+        "1^12": 1,
+        "1^2*2^1*4^2": 30,
+        "1^2*2^5": 15,
+        "1^2*5^2": 24,
+        "1^3*3^1*6^1": 20,
+        "1^3*3^3": 20,
+        "1^4*2^4": 25,
+        "1^6*2^3": 10,
+        "2^1*5^2": 24,
+        "2^2*4^2": 30
+      },
+      "fixed_profile_sum_by_minimum_set_size": {
+        "10": 4560,
+        "11": 480,
+        "4": 2880,
+        "5": 13440,
+        "6": 41760,
+        "7": 57840,
+        "8": 43440,
+        "9": 16800
+      },
+      "fixed_sums_divisible_by_group_order": {
+        "10": true,
+        "11": true,
+        "4": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true,
+        "9": true
+      },
+      "orbit_counts_sum_to_total": true,
+      "raw_counts_sum_to_weak_composition_count": true
+    },
+    "group_order": 240,
+    "interpretation": "Exact symmetry-reduced count of all nonnegative integral degree-excess vectors before any screening. No profile representatives, formulas, LPs, or solver runs are generated.",
+    "point_count": 12,
+    "profile_orbit_count": 755,
+    "profile_orbits_by_minimum_set_size": {
+      "10": 19,
+      "11": 2,
+      "4": 12,
+      "5": 56,
+      "6": 174,
+      "7": 241,
+      "8": 181,
+      "9": 70
+    },
+    "raw_profile_count_before_symmetry": 75582,
+    "raw_profiles_by_minimum_set_size": {
+      "10": 462,
+      "11": 12,
+      "4": 495,
+      "5": 5544,
+      "6": 19404,
+      "7": 27720,
+      "8": 17325,
+      "9": 4620
+    },
+    "scope": {
+      "candidate_screening_run": false,
+      "counts_enumerated": true,
+      "formulas_generated": false,
+      "profile_representatives_generated": false,
+      "proofs_generated": false,
+      "root_lp_run": false,
+      "solver_run": false,
+      "verifier_run": false
+    },
+    "total_excess": 8
+  }
+}
