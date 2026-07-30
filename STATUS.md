@@ -102,6 +102,25 @@ has not been shown feasible; it merely survived the implemented arithmetic
 checks. This result strengthens the case for beginning with class 68, but it is
 not a measured solver- or proof-difficulty result.
 
+### Class-68 candidate formula checkpoint
+
+The v0.7.0 pipeline has generated one native necessary-condition OPB for every
+class-68 candidate minimum-point orbit:
+
+- 12 candidate orbits;
+- 12 formulas;
+- 792 binary variables per formula;
+- 563 bounded mathematical rows and 568 serialized constraints per formula;
+- 6,816 serialized rows independently reconstructed and compared in order;
+- 12/12 native hashes and 12/12 canonical hashes distinct;
+- no direct-containment, LP, MILP, proof, or verifier run.
+
+The generator audits the complete structural-census and pilot-screening
+checkpoints before emitting a formula. Its independent audit does not import
+the production candidate-formula builder or PB module. All 12 comparisons
+pass, but no orbit is pruned: formula generation is not an infeasibility
+result.
+
 ## Status ledger
 
 | Item | Status |
@@ -115,7 +134,9 @@ not a measured solver- or proof-difficulty result.
 | Pilot exact minimum sets | `ENUMERATED` 6,008 orbits |
 | Pilot degree profiles | `ENUMERATED` 115,955 orbits |
 | Pilot direct arithmetic screening | `ENUMERATED`; 136 discarded, 115,819 retained |
-| Pilot formulas / root LP / solver / proof | `NOT_STARTED` |
+| Class-68 candidate formulas | `FORMULAS_GENERATED` 12/12; independent audit 12/12 |
+| Class-68 direct containment / root LP / solver / proof | `NOT_STARTED` |
+| Class-4 and class-59 formulas / root LP / solver / proof | `NOT_STARTED` |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
 | Published class-52 terminal instances | `VERIFIED_UNSAT` 30/30 |
@@ -130,10 +151,10 @@ not a measured solver- or proof-difficulty result.
 
 Before launching proof-scale work on another class:
 
-1. generate and audit the 12 candidate-orbit formulas for class 68 only;
-2. compare their row semantics against the generalized historical
-   candidate-screen construction;
-3. try direct containment contradictions before invoking an LP;
+1. run a deterministic direct-containment contradiction scan over the 12
+   audited class-68 candidate formulas;
+2. emit a checkable cutting-planes derivation for every direct contradiction;
+3. preserve all unresolved formulas without treating them as feasible;
 4. inspect exact root-LP feasibility only for unresolved class-68 candidate
    formulas;
 5. authorize any solver run separately and preserve its status without

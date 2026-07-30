@@ -1,0 +1,81 @@
+{
+  "candidate_minimum_points": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "candidate_orbit": {
+    "member_count": 20,
+    "orbit_stabilizer_check": true,
+    "stabilizer_order": 12
+  },
+  "class_index": 68,
+  "formal_pruning_authorized": false,
+  "formula": {
+    "bytes": 527094,
+    "canonical_formula_sha256": "ab58f796e6814d539a20c222cad2ab247a46a01f68fecaf4ac39de1bf620a9d9",
+    "matrix_rows": 563,
+    "normalized_native_row_sha256": "9483b35044d49dbaebef1f49874e3a8d293b3504d02a5edb9dddae0b0c0bc95f",
+    "opb_constraints": 568,
+    "path": "instances/c68_candidate_orbit01.opb",
+    "serialized_family_counts": {
+      "candidate_point_degree": 16,
+      "extension_block_count": 2,
+      "pair_degree_lower": 65,
+      "residual_four_coverage": 285,
+      "triple_degree_lower": 200
+    },
+    "sha256": "a927d0c231b39feaddb3799ca77334b329f861b397232fbe4fcb586ed46e28f2",
+    "variables": 792
+  },
+  "model": {
+    "link_point_degrees": [
+      7,
+      7,
+      7,
+      7,
+      10,
+      10,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "mathematical_reason": "Any 29-block extension with these candidate points at full degree 15 must satisfy residual four-set coverage, the induced point/pair/triple lower bounds, and exactly 14 extension blocks.",
+    "minimum_extension_degrees": [
+      8,
+      8,
+      8,
+      8,
+      5,
+      5,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "pair_rows": 65,
+    "point_rows": 12,
+    "residual_four_sets": 285,
+    "role": "necessary-condition candidate-orbit screen",
+    "triple_rows": 200
+  },
+  "name": "c68_candidate_orbit01",
+  "orbit_index": 1,
+  "prior_formula_comparison": {
+    "reason": "The recovered archive contains the historical generator source but no per-orbit full_minpoints formulas.",
+    "status": "NOT_AVAILABLE"
+  },
+  "status_ledger": {
+    "formula": "FORMULAS_GENERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "verification": "NOT_STARTED"
+  }
+}

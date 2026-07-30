@@ -7,9 +7,9 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from horizonlink import __version__
 from horizonlink.arithmetic_screening import (
     ArithmeticScreeningError,
+    SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION,
     generate_solver_free_profile_screening,
 )
 from horizonlink.canonical import sha256_file
@@ -96,7 +96,8 @@ class ArithmeticScreeningTests(unittest.TestCase):
             },
         }
         self.assertEqual(
-            self.manifest["producer"]["version"], __version__
+            self.manifest["producer"]["version"],
+            SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION,
         )
         self.assertEqual(self.manifest["status"], "ENUMERATED")
         self.assertEqual(

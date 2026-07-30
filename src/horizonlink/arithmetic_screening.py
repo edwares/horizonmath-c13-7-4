@@ -13,7 +13,6 @@ from collections.abc import Iterable, Iterator
 from pathlib import Path, PurePosixPath
 from typing import Any
 
-from horizonlink import __version__
 from horizonlink.canonical import (
     compact_json_bytes,
     sha256_bytes,
@@ -52,6 +51,7 @@ EXPECTED_POINT_COUNT = 12
 EXPECTED_EXTENSION_BLOCK_COUNT = 14
 EXPECTED_EXTENSION_BLOCK_SIZE = 7
 EXPECTED_EXTENSION_DEGREE_SUM = 98
+SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION = "0.6.0"
 
 
 class ArithmeticScreeningError(ValueError):
@@ -871,7 +871,7 @@ def _build_class_screening(
         "schema_version": CLASS_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "class_index": class_index,
@@ -1053,7 +1053,7 @@ def _build_ranking(
         "schema_version": RANKING_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "method": {
@@ -1246,7 +1246,7 @@ def generate_solver_free_profile_screening(
         "schema_version": GLOBAL_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": SOLVER_FREE_PROFILE_SCREENING_PRODUCER_VERSION,
         },
         "status": "ENUMERATED",
         "input": {

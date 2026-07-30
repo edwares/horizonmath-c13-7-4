@@ -19,6 +19,14 @@ Its complete release archive has SHA-256:
 
 `c4c1ddc812affd9bd05c452855bdfcd614a68906f8bf536fab8bcd4b3123ae56`
 
+The evolving repository also contains deterministic checked-in checkpoints:
+
+| Checkpoint | Integrity artifact | SHA-256 |
+|---|---|---|
+| Solver-free 68-class structural census | `results/structural-census-v0.1.0/SHA256SUMS` | `86ec09c20b888ceffe88c70c5f4013e5dcddda94e12d55b348a05dfc712a553e` |
+| Solver-free three-class pilot screening | `results/pilot-screening-v0.1.0/SHA256SUMS` | `5202b0e664e2ddef7860a488afecad623e7cca42e06d2217d4ea648d4ff9cecb` |
+| Class-68 candidate formula corpus | `results/class68-candidate-formulas-v0.1.0/SHA256SUMS` | `013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a` |
+
 The repository adapts the v0.4.0 package for source control by:
 
 - moving historical phase reports under `docs/pipeline/`;

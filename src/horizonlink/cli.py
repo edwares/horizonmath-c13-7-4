@@ -15,6 +15,10 @@ from horizonlink.arithmetic_screening import (
 from horizonlink.candidate_screening import (
     generate_candidate_screening_corpus,
 )
+from horizonlink.candidate_checkpoint import (
+    CandidateCheckpointError,
+    generate_candidate_formula_checkpoint,
+)
 from horizonlink.canonical import write_json, write_sha256_sidecar
 from horizonlink.census import CensusError, generate_structural_census
 from horizonlink.input import InputFormatError, load_link, parse_link_bytes
@@ -276,6 +280,52 @@ def _screen_profiles(args: argparse.Namespace) -> int:
             ],
             "pilot_order": [
                 row["class_index"] for row in ranking["classes"]
+            ],
+            "solver_run": manifest["scope_guardrails"][
+                "solver_run"
+            ],
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0
+
+
+def _generate_candidate_checkpoint(args: argparse.Namespace) -> int:
+    try:
+        manifest, _, audit = generate_candidate_formula_checkpoint(
+            args.structural_census_directory,
+            args.profile_screening_directory,
+            args.class_index,
+            args.output_directory,
+        )
+    except (
+        CandidateCheckpointError,
+        OSError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    _print_summary(
+        {
+            "status": manifest["status"],
+            "class_index": manifest["input"]["class_index"],
+            "candidate_orbits": manifest["summary"][
+                "candidate_orbits"
+            ],
+            "formulas_generated": manifest["summary"][
+                "formulas_generated"
+            ],
+            "independent_formula_audits_passed": manifest[
+                "summary"
+            ]["independent_formula_audits_passed"],
+            "all_rows_equal_in_order": audit["summary"][
+                "all_rows_equal_in_order"
+            ],
+            "root_lp_run": manifest["scope_guardrails"][
+                "root_lp_run"
             ],
             "solver_run": manifest["scope_guardrails"][
                 "solver_run"
@@ -576,6 +626,37 @@ def build_parser() -> argparse.ArgumentParser:
         required=True,
     )
     profile_screening.set_defaults(func=_screen_profiles)
+
+    candidate_checkpoint = subparsers.add_parser(
+        "generate-candidate-checkpoint",
+        help=(
+            "generate and independently audit one candidate-orbit OPB per "
+            "orbit from audited census and profile-screening checkpoints"
+        ),
+    )
+    candidate_checkpoint.add_argument(
+        "--structural-census-directory",
+        type=Path,
+        required=True,
+    )
+    candidate_checkpoint.add_argument(
+        "--profile-screening-directory",
+        type=Path,
+        required=True,
+    )
+    candidate_checkpoint.add_argument(
+        "--class-index",
+        type=int,
+        required=True,
+    )
+    candidate_checkpoint.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    candidate_checkpoint.set_defaults(
+        func=_generate_candidate_checkpoint
+    )
 
     formulas = subparsers.add_parser(
         "generate-formulas",
