@@ -25,12 +25,13 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Solver-free pilot screening | 115,955 profile orbits materialized across classes 68 / 4 / 59; 136 direct arithmetic contradictions discarded; 115,819 retained |
 | Refined pilot order | Class 68 / class 4 / class 59; no LP or solver metrics used |
 | Class-68 candidate formulas | 12/12 native OPBs generated; all 6,816 serialized rows independently reconstructed and matched |
+| Class-68 direct containment | 33,780 lower/upper row pairs scanned; 14,284 support containments; zero strict contradictions; all 12 formulas survive |
 | Class-52 structural regression | Group order 36, 26 four-set orbits, 107 profiles, `70 / 17 / 20`, 20 retained profiles |
 | Class-52 formula regression | 30/30 regenerated native OPBs byte-identical to the recovered formulas |
 | Published class-52 certificates | 30/30 `VERIFIED_UNSAT` with VeriPB `--requireUnsat` |
 | Fresh candidate-orbit certificates | 19 `VERIFIED_UNSAT`; 7 `TIMEOUT` |
 | Fresh downstream class-52 chain | 17 whole-case and 87 early-profile exclusions remain `SOLVER_UNSAT` only |
-| Other link classes | Class 68 has candidate formulas only; no new class has an LP, solver, proof, or verification result |
+| Other link classes | Class 68 has candidate formulas and a direct-containment scan only; no new class has an LP, solver, proof, or verification result |
 | Global covering number | Not proved; no claim that \(C(13,7,4)=30\) |
 
 The published class-52 result and the current reconstructed pipeline have
@@ -53,6 +54,8 @@ computes:
 - exact minimum-set orbits and extension-degree profiles;
 - status-complete screening ledgers;
 - corrected native OPB formulas;
+- exhaustive direct support-containment scans and short cutting-planes proofs
+  when a witness exists;
 - exact root-LP Farkas and LP split-tree/Farkas proofs;
 - canonical manifests and artifact hashes.
 
@@ -73,12 +76,14 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/structural-census-v0.1.0/` | Audited solver-free 68-class census, ranking, canonical inputs, and checksums |
 | `results/pilot-screening-v0.1.0/` | Every exact-set and profile-orbit representative for pilot classes 68 / 4 / 59, with solver-free screening decisions |
 | `results/class68-candidate-formulas-v0.1.0/` | All 12 class-68 candidate-orbit OPBs, independent ordered-row audit, manifests, and checksums |
+| `results/class68-direct-containment-v0.1.0/` | Exhaustive direct-containment results for all 12 class-68 formulas, independent audit, manifests, and checksums |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
 
-The bounded class-68 candidate corpus is checked in for exact regression.
-Larger proof corpora, solver logs, and verifier environments remain release
-artifacts rather than ordinary source files.
+The bounded class-68 candidate corpus and direct-containment checkpoint are
+checked in for exact regression. Larger proof corpora, solver logs, and
+verifier environments remain release artifacts rather than ordinary source
+files.
 
 ## Quick start
 
@@ -179,6 +184,19 @@ diff -qr \
   build/class68-candidate-formulas
 ```
 
+Reproduce the class-68 direct-containment checkpoint:
+
+```bash
+horizonlink scan-direct-containment \
+  --candidate-checkpoint-directory \
+    results/class68-candidate-formulas-v0.1.0 \
+  --output-directory build/class68-direct-containment
+
+diff -qr \
+  results/class68-direct-containment-v0.1.0 \
+  build/class68-direct-containment
+```
+
 Verify that the checked-in source tree matches its integrity manifest:
 
 ```bash
@@ -186,7 +204,8 @@ python scripts/build_source_manifest.py --check
 ```
 
 The solver-free structural and pilot-profile gates are complete. The 12
-class-68 candidate-orbit formulas are also generated and independently audited.
-The next bounded stage is a solver-free direct-containment contradiction scan
-over those formulas, followed by exact root-LP inspection only for unresolved
-class-68 orbits. No class-4 or class-59 solver campaign is authorized.
+class-68 candidate-orbit formulas are generated, independently audited, and
+exhaustively scanned for direct containment. All 12 survive that narrow screen.
+The next bounded stage is exact root-LP inspection of those 12 formulas, with
+exact Farkas certificates required for any root-LP contradiction. No MILP,
+class-4, or class-59 campaign is authorized.

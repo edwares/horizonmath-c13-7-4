@@ -138,7 +138,8 @@ diff -qr \
 This checkpoint establishes exact formula generation, not infeasibility. It
 does not eliminate any class-68 orbit or class 68 itself.
 
-The next bounded step is a solver-free direct-containment contradiction scan
-over these 12 audited formulas. Any claimed contradiction must be emitted as a
-checkable cutting-planes derivation. Exact root-LP inspection is deferred to
-the formulas that survive that scan.
+That follow-on scan is now complete; see
+[`CLASS68_DIRECT_CONTAINMENT_V0.1.0.md`](CLASS68_DIRECT_CONTAINMENT_V0.1.0.md).
+It found no direct-containment contradiction, so all 12 formulas remain
+unresolved. The next bounded step is exact root-LP inspection of those 12
+survivors.

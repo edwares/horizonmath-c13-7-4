@@ -21,6 +21,10 @@ from horizonlink.candidate_checkpoint import (
 )
 from horizonlink.canonical import write_json, write_sha256_sidecar
 from horizonlink.census import CensusError, generate_structural_census
+from horizonlink.direct_containment import (
+    DirectContainmentError,
+    generate_direct_containment_checkpoint,
+)
 from horizonlink.input import InputFormatError, load_link, parse_link_bytes
 from horizonlink.formulas import generate_formula_corpus
 from horizonlink.farkas import generate_root_lp_farkas_corpus
@@ -329,6 +333,57 @@ def _generate_candidate_checkpoint(args: argparse.Namespace) -> int:
             ],
             "solver_run": manifest["scope_guardrails"][
                 "solver_run"
+            ],
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0
+
+
+def _scan_direct_containment(args: argparse.Namespace) -> int:
+    try:
+        manifest, _, audit = generate_direct_containment_checkpoint(
+            args.candidate_checkpoint_directory,
+            args.output_directory,
+        )
+    except (
+        DirectContainmentError,
+        OSError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    _print_summary(
+        {
+            "status": manifest["status"],
+            "class_index": manifest["input"]["class_index"],
+            "candidate_orbits_scanned": manifest["summary"][
+                "candidate_orbits_scanned"
+            ],
+            "direct_contradictions_found": manifest["summary"][
+                "direct_contradictions_found"
+            ],
+            "proofs_generated": manifest["summary"][
+                "proofs_generated"
+            ],
+            "survivors": manifest["summary"]["survivors"],
+            "independent_comparisons_passed": manifest["summary"][
+                "independent_comparisons_passed"
+            ],
+            "all_scan_results_independently_recomputed": audit[
+                "summary"
+            ]["all_scan_results_equal"],
+            "root_lp_run": manifest["scope_guardrails"][
+                "root_lp_run"
+            ],
+            "solver_run": manifest["scope_guardrails"][
+                "solver_run"
+            ],
+            "verifier_run": manifest["scope_guardrails"][
+                "verifier_run"
             ],
             "output_directory": str(args.output_directory),
         }
@@ -656,6 +711,27 @@ def build_parser() -> argparse.ArgumentParser:
     )
     candidate_checkpoint.set_defaults(
         func=_generate_candidate_checkpoint
+    )
+
+    direct_containment = subparsers.add_parser(
+        "scan-direct-containment",
+        help=(
+            "exhaustively scan every audited candidate OPB for direct "
+            "lower-support/upper-support contradictions"
+        ),
+    )
+    direct_containment.add_argument(
+        "--candidate-checkpoint-directory",
+        type=Path,
+        required=True,
+    )
+    direct_containment.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    direct_containment.set_defaults(
+        func=_scan_direct_containment
     )
 
     formulas = subparsers.add_parser(

@@ -121,6 +121,32 @@ the production candidate-formula builder or PB module. All 12 comparisons
 pass, but no orbit is pruned: formula generation is not an infeasibility
 result.
 
+### Class-68 direct-containment checkpoint
+
+The v0.8.0 pipeline has exhaustively compared every serialized lower row with
+every serialized upper row in all 12 audited class-68 candidate formulas:
+
+- 563 lower rows and 5 upper rows per formula;
+- 2,815 support comparisons per formula;
+- 33,780 comparisons overall;
+- 14,284 actual lower-support/upper-support containments;
+- maximum bound gap exactly zero in every formula;
+- zero strict direct-containment contradictions;
+- zero proofs generated;
+- all 12 formulas preserved for the next stage.
+
+An independent implementation reparsed all formulas and recomputed every
+comparison, containment, and bound gap. All 12 comparisons pass. No LP, MILP,
+solver, proof verifier, class-4 run, or class-59 run occurred.
+
+The proof renderer is regression-tested against the published class-52 method:
+it finds the exact `eq9` through `eq14` threshold, selects rows 283 and 642,
+and reproduces the 57-byte four-line cutting-planes proof. Class 68 produces
+no such witness.
+
+Surviving this scan does not establish feasibility. No class-68 orbit is
+formally pruned, and class 68 is not eliminated.
+
 ## Status ledger
 
 | Item | Status |
@@ -135,7 +161,8 @@ result.
 | Pilot degree profiles | `ENUMERATED` 115,955 orbits |
 | Pilot direct arithmetic screening | `ENUMERATED`; 136 discarded, 115,819 retained |
 | Class-68 candidate formulas | `FORMULAS_GENERATED` 12/12; independent audit 12/12 |
-| Class-68 direct containment / root LP / solver / proof | `NOT_STARTED` |
+| Class-68 direct containment | `ENUMERATED`; 12/12 scanned, zero contradictions, 12 survivors |
+| Class-68 root LP / solver / proof / verification | `NOT_STARTED` |
 | Class-4 and class-59 formulas / root LP / solver / proof | `NOT_STARTED` |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
@@ -143,21 +170,23 @@ result.
 | Fresh class-52 candidate screens | 19 `VERIFIED_UNSAT`, 7 `TIMEOUT` |
 | Fresh whole-case exclusions | 17 `SOLVER_UNSAT` |
 | Fresh early-profile exclusions | 87 `SOLVER_UNSAT` |
-| Other 67 classes at screening/profile depth | `NOT_STARTED` |
-| Other 67 classes at formula/solver/proof depth | `NOT_STARTED` |
+| Non-52 classes at screening/profile depth | Classes 4, 59, and 68 `ENUMERATED`; remaining 64 `NOT_STARTED` |
+| Non-52 classes at formula depth | Class 68 `FORMULAS_GENERATED`; remaining 66 `NOT_STARTED` |
+| Non-52 classes at solver/proof depth | All 67 `NOT_STARTED` |
 | Global \(C(13,7,4)=30\) claim | Not authorized |
 
 ## Next gate
 
 Before launching proof-scale work on another class:
 
-1. run a deterministic direct-containment contradiction scan over the 12
-   audited class-68 candidate formulas;
-2. emit a checkable cutting-planes derivation for every direct contradiction;
-3. preserve all unresolved formulas without treating them as feasible;
-4. inspect exact root-LP feasibility only for unresolved class-68 candidate
+1. inspect exact root-LP feasibility for the 12 surviving class-68 candidate
    formulas;
-5. authorize any solver run separately and preserve its status without
-   promotion.
+2. emit an exact integer Farkas certificate for every root-LP contradiction;
+3. independently audit each exact weighted sum;
+4. run VeriPB with `--requireUnsat` and preserve hashes and logs before
+   promoting any such orbit to `VERIFIED_UNSAT`;
+5. preserve every root-LP-feasible formula for a separately authorized later
+   stage without calling it SAT.
 
-No class-4, class-59, or all-67 solver campaign is authorized.
+MILP, RoundingSat, class-4, class-59, and all-67 campaigns remain
+unauthorized.

@@ -1,0 +1,921 @@
+{
+  "input": {
+    "candidate_checkpoint": {
+      "all_checks_passed": true,
+      "candidate_corpus_manifest": {
+        "bytes": 144198,
+        "path": "corpus/corpus.manifest.json",
+        "sha256": "d39d08680cc5509a76299d09386a1bd9b3e74a4af185cd3801369d37ce1e6945",
+        "status": "FORMULAS_GENERATED"
+      },
+      "checkpoint_checksums": {
+        "all_recorded_hashes_match": true,
+        "directory_name": "class68-candidate-formulas-v0.1.0",
+        "every_checkpoint_file_accounted_for": true,
+        "recorded_file_count": 31,
+        "sha256sums_sha256": "013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a",
+        "status": "PASS"
+      },
+      "checks": {
+        "all_candidate_orbits_accounted_for": true,
+        "all_serialized_rows_previously_audited": true,
+        "candidate_checkpoint_schema_supported": true,
+        "candidate_checkpoint_status_formula_generated": true,
+        "candidate_corpus_schema_supported": true,
+        "candidate_corpus_status_formula_generated": true,
+        "checkpoint_checksums_passed": true,
+        "independent_formula_audit_passed": true,
+        "prior_direct_containment_not_started": true,
+        "prior_lp_solver_proof_verifier_not_started": true
+      },
+      "independent_formula_audit": {
+        "bytes": 14893,
+        "path": "independent-audit.json",
+        "sha256": "340dcac87e9e4a13df9391f580497f0e287556e95bfb6e42469043e1e96d3428",
+        "status": "PASS"
+      },
+      "phase_manifest": {
+        "bytes": 28998,
+        "path": "phase.manifest.json",
+        "sha256": "ea3d5a6a9318d6fd9ff702346b577956db42f43ea2a3e5e7d588d3438f2e2cd9"
+      }
+    },
+    "candidate_orbit_partition_sha256": "9c433703f4d97c2d68d841f4b42e232db4631e6c4342a4a4611122ace3b70d96",
+    "canonical_labeled_link_sha256": "a66e49afc58526140a16d71c9cd89ab11add1e1e01832eecd1a6792764a28731",
+    "class_index": 68,
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'second_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[67]",
+      "status": "AUDITED"
+    }
+  },
+  "instances": [
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1624,
+        "path": "instances/c68_candidate_orbit00.direct-containment.json",
+        "sha256": "9d285342d0fb5f166833aa1acd06ebaff8f789ed4dcdbd5e45edb4bdd0bf7e9e"
+      },
+      "name": "c68_candidate_orbit00",
+      "orbit_index": 0,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527094,
+        "canonical_formula_sha256": "13fd810a4441bc3f82fbb26eb7f0c6433ded466d416197e2de6fbcd2ce2539dd",
+        "constraints": 568,
+        "normalized_native_row_sha256": "84415ca64e70912eeac47fe1d4dcfd1d824cc944e7c078564fbbcdaef683eae3",
+        "path": "corpus/instances/c68_candidate_orbit00.opb",
+        "sha256": "0c64a2330b2f267d062a3d13d33fcf00b69beb8f7af6157f78d788d941862089",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1657,
+        "path": "instances/c68_candidate_orbit01.direct-containment.json",
+        "sha256": "37fa93ffa6980d65abc039ec214596f691c9cb6e7913f0c6e4d6fa7af686d92d"
+      },
+      "name": "c68_candidate_orbit01",
+      "orbit_index": 1,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 10,
+          "-3": 30,
+          "-4": 122,
+          "-5": 6,
+          "-6": 145,
+          "-7": 312,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1182,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527094,
+        "canonical_formula_sha256": "ab58f796e6814d539a20c222cad2ab247a46a01f68fecaf4ac39de1bf620a9d9",
+        "constraints": 568,
+        "normalized_native_row_sha256": "9483b35044d49dbaebef1f49874e3a8d293b3504d02a5edb9dddae0b0c0bc95f",
+        "path": "corpus/instances/c68_candidate_orbit01.opb",
+        "sha256": "a927d0c231b39feaddb3799ca77334b329f861b397232fbe4fcb586ed46e28f2",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1624,
+        "path": "instances/c68_candidate_orbit02.direct-containment.json",
+        "sha256": "60f2ac79af5d23f4ccfa2a4c8f7568c84ccc3fad7e2c2b69637103250829a135"
+      },
+      "name": "c68_candidate_orbit02",
+      "orbit_index": 2,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527111,
+        "canonical_formula_sha256": "b2806c309ffc95ffa8b612c00e57af2604a8bf4afd2e22ab6a260931ccae0c00",
+        "constraints": 568,
+        "normalized_native_row_sha256": "346e1a80a37aa2b36be6b47a0bc419b016394d1791c4cbd22cb47cf903e4f52e",
+        "path": "corpus/instances/c68_candidate_orbit02.opb",
+        "sha256": "99d24cc29c11f6797cc3cd400ae08aa9c9c07612b0afd06d6cfd64cb83a2ca3e",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1657,
+        "path": "instances/c68_candidate_orbit03.direct-containment.json",
+        "sha256": "91386a1cebc95128cf846bda4d21670b4d6a95b50a71568c9f4b13fceca38b88"
+      },
+      "name": "c68_candidate_orbit03",
+      "orbit_index": 3,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 10,
+          "-3": 30,
+          "-4": 122,
+          "-5": 6,
+          "-6": 145,
+          "-7": 312,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1182,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527137,
+        "canonical_formula_sha256": "9e6cf7c5f6feaf3e08e28844744a8b651d42d0441646029c863e3730582b5862",
+        "constraints": 568,
+        "normalized_native_row_sha256": "65f921e5d3284ea7f5d91957330fe2699ee79aee381ed10234ce542b29949b70",
+        "path": "corpus/instances/c68_candidate_orbit03.opb",
+        "sha256": "2f21eb1e877e49204a3e042031d588114456fdebaab0729c33d970e596160239",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1624,
+        "path": "instances/c68_candidate_orbit04.direct-containment.json",
+        "sha256": "53d9ab69c7070fc9e75209e3e2dbd04631f136393157b1084b798a37b0af3729"
+      },
+      "name": "c68_candidate_orbit04",
+      "orbit_index": 4,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527154,
+        "canonical_formula_sha256": "a431f493dce05b5b7a25377f1856dc16a7a63c55d928a37d1779521f28bfbf91",
+        "constraints": 568,
+        "normalized_native_row_sha256": "3701d6ae701c59e6405db3edd367ac519a086945019d510d46c7d0ef0b1f1f0b",
+        "path": "corpus/instances/c68_candidate_orbit04.opb",
+        "sha256": "31bc05d71706c9389f99dcf6bbd9856b177837f226cd79ab4c4d96d7a8eb4490",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        8
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1624,
+        "path": "instances/c68_candidate_orbit05.direct-containment.json",
+        "sha256": "f34e344639f60414a4ca8acfd0d2c472c8d21429fad19c60e24bc20e02985caf"
+      },
+      "name": "c68_candidate_orbit05",
+      "orbit_index": 5,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527160,
+        "canonical_formula_sha256": "b716ffeb251ed9c6cb4339a210af8edb22a77c1a0d164c28e4da7e4008307339",
+        "constraints": 568,
+        "normalized_native_row_sha256": "84f4af405b9e9e876c5de50069162b80f6f23deadd4450a5186454b0f345dcb1",
+        "path": "corpus/instances/c68_candidate_orbit05.opb",
+        "sha256": "0f3596ccb376ad1df6697c8062357c7adbd8132f9fc61206c19bbac748ad3899",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1657,
+        "path": "instances/c68_candidate_orbit06.direct-containment.json",
+        "sha256": "eb9b8b6caf30f45b520db4da033bdaed7f9fbac5e0362fff195651999e8c17e6"
+      },
+      "name": "c68_candidate_orbit06",
+      "orbit_index": 6,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 20,
+          "-3": 60,
+          "-4": 208,
+          "-5": 4,
+          "-6": 100,
+          "-7": 208,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1157,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527152,
+        "canonical_formula_sha256": "1268085ce729a1ec4a48cb27efe978ad48519b7571c8ec710585ac944aa7333b",
+        "constraints": 568,
+        "normalized_native_row_sha256": "fac461a510103ff091aaeeec91d11508b880787c51fb0a372d3f5a3f965e0d57",
+        "path": "corpus/instances/c68_candidate_orbit06.opb",
+        "sha256": "12bbeb7a2880ed65fac58d350c0961943116528e6d8aac6eca564b7fc872de4b",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1657,
+        "path": "instances/c68_candidate_orbit07.direct-containment.json",
+        "sha256": "caa57b024689dfbec79755f47af4324cba157435903802893c17a1f1666a2785"
+      },
+      "name": "c68_candidate_orbit07",
+      "orbit_index": 7,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 10,
+          "-3": 30,
+          "-4": 122,
+          "-5": 6,
+          "-6": 145,
+          "-7": 312,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1182,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527154,
+        "canonical_formula_sha256": "cb854b2d5124c143ac7b5da1880c8eeb7bb9a804621694c581d0d1865e2d5b97",
+        "constraints": 568,
+        "normalized_native_row_sha256": "cb7757b261b6ea5b6eb1d06c79a2613752a7d26b3e683bc4066e4a129115942c",
+        "path": "corpus/instances/c68_candidate_orbit07.opb",
+        "sha256": "3f052e674693244a08e1bd10e395fef4d54668aa4b8bca3c200b5e9890b0c73d",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1657,
+        "path": "instances/c68_candidate_orbit08.direct-containment.json",
+        "sha256": "30976404f4b1279e8110f9e4b0724c9e39a796abca1ddad5eb74485d82dc9e8a"
+      },
+      "name": "c68_candidate_orbit08",
+      "orbit_index": 8,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 10,
+          "-3": 30,
+          "-4": 122,
+          "-5": 6,
+          "-6": 145,
+          "-7": 312,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1182,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527160,
+        "canonical_formula_sha256": "759cf996305014a35d44e1be8e4b4d60b3d89a8a62d9e8a331cd3688e75488a3",
+        "constraints": 568,
+        "normalized_native_row_sha256": "6f598f98b10a13794099a8820e7235c642fcb439052ad8a437eb5f15f876809b",
+        "path": "corpus/instances/c68_candidate_orbit08.opb",
+        "sha256": "96fad168d0d1488f53ff663a6124fb8e35b50f774df5ee024205ef64e43f8739",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1624,
+        "path": "instances/c68_candidate_orbit09.direct-containment.json",
+        "sha256": "013166dde2f34e1f15d565abd2851494bf21d093f7f27931b7bd653373c0ee77"
+      },
+      "name": "c68_candidate_orbit09",
+      "orbit_index": 9,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527177,
+        "canonical_formula_sha256": "fb29dbd5b3b8919b8df99fa3c6d6da466ac1540bf40c13815fdf627039602757",
+        "constraints": 568,
+        "normalized_native_row_sha256": "d46a093e5c9e30b9b6410fec68230dbe3cbff50b6621810f8c977b2cb81b7321",
+        "path": "corpus/instances/c68_candidate_orbit09.opb",
+        "sha256": "d39c339c6ff26816ecbf280303998135675668c6de3e56ad8ff8a1cc66187b18",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        1,
+        8,
+        11
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1626,
+        "path": "instances/c68_candidate_orbit10.direct-containment.json",
+        "sha256": "e96d23bf5c137d82f86034427b677e0f163772f98da9678d078e111203115630"
+      },
+      "name": "c68_candidate_orbit10",
+      "orbit_index": 10,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-4": 36,
+          "-5": 8,
+          "-6": 190,
+          "-7": 416,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1207,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527188,
+        "canonical_formula_sha256": "252ae980df1514c4bc5a4df1102e77faeb1a0deda1f4f287c770a92c52ecfd17",
+        "constraints": 568,
+        "normalized_native_row_sha256": "d5db9e93aa4fcc292a2334a10b510e4f10126e8de4131db217ca8832e4bdd285",
+        "path": "corpus/instances/c68_candidate_orbit10.opb",
+        "sha256": "9e0a8971e7dfa62a15849851e76e631723850ad29c88b4364dedf3ffa63b67ad",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "artifacts": {
+        "proof": null,
+        "verifier_normalized_formula": null
+      },
+      "candidate_minimum_points": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "class_index": 68,
+      "formal_pruning_authorized": false,
+      "metadata": {
+        "bytes": 1658,
+        "path": "instances/c68_candidate_orbit11.direct-containment.json",
+        "sha256": "f14f8f7c30912770fb225b5c637ecc576312acdf95f5e1e8563d2bf42d1be318"
+      },
+      "name": "c68_candidate_orbit11",
+      "orbit_index": 11,
+      "result": {
+        "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+        "evidence_status": "NO_CONTRADICTION_FOUND",
+        "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+      },
+      "scan": {
+        "containment_gap_histogram": {
+          "-10": 45,
+          "-11": 20,
+          "-12": 170,
+          "-13": 315,
+          "-2": 20,
+          "-3": 60,
+          "-4": 208,
+          "-5": 4,
+          "-6": 100,
+          "-7": 208,
+          "-9": 2,
+          "0": 5
+        },
+        "contradictions_found": 0,
+        "lower_rows": 563,
+        "maximum_containment_gap": 0,
+        "row_pairs_tested": 2815,
+        "support_containments": 1157,
+        "upper_rows": 5,
+        "witnesses": []
+      },
+      "selected_witness": null,
+      "source_formula": {
+        "bytes": 527196,
+        "canonical_formula_sha256": "f1354978cd996611098449ed7d6ff08e5cc589b119bb779e27fe0a50cdcad45c",
+        "constraints": 568,
+        "normalized_native_row_sha256": "a8a6ffed0ac7f366ec9b2eaa54cb2d690c3c69b41725069f90bf4285b09710ae",
+        "path": "corpus/instances/c68_candidate_orbit11.opb",
+        "sha256": "83c73c3341bb53ce7074af7b1c80f023f9489dcb7449b87a3dedba83f1d7d93b",
+        "variables": 792
+      },
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "NOT_STARTED",
+        "solver": "NOT_STARTED",
+        "verification": "NOT_STARTED"
+      }
+    }
+  ],
+  "method": {
+    "criterion": "For every native lower row sum(S)>=L and upper row sum(T)<=U, test S subseteq T and L>U.",
+    "exhaustive_pair_order": "lower rows by one-based formula id, then upper rows by one-based formula id",
+    "id": "unit-support-direct-containment-cp-v1",
+    "proof_format": "VeriPB pseudo-Boolean proof version 1.0",
+    "proof_rule": "Normalize the upper row by sign reversal, add it to the lower row, and declare the resulting nonpositive-left, positive-right inequality contradictory.",
+    "runtime_dependencies": []
+  },
+  "producer": {
+    "command": "scan-direct-containment",
+    "package": "horizonlink",
+    "version": "0.8.0"
+  },
+  "schema_version": "horizonmath.direct-containment-scan.v1",
+  "scope_guardrails": {
+    "C_13_7_4_equals_30_claimed": false,
+    "all_candidate_orbits_accounted_for": true,
+    "class_elimination_claimed": false,
+    "direct_containment_run": true,
+    "formal_orbit_pruning_authorized": false,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "solver_run": false,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "candidate_formulas": "FORMULAS_GENERATED",
+    "direct_containment": "ENUMERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "verification": "NOT_STARTED"
+  },
+  "summary": {
+    "all_candidate_orbits_accounted_for": true,
+    "candidate_orbits_expected": 12,
+    "candidate_orbits_scanned": 12,
+    "direct_contradictions_found": 0,
+    "orbit_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "proof_orbit_indices": [],
+    "proofs_generated": 0,
+    "survivor_orbit_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "survivors": 12,
+    "total_row_pairs_tested": 33780,
+    "total_support_containments": 14284
+  }
+}

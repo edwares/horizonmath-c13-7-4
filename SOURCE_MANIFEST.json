@@ -23,19 +23,19 @@
       "sha256": "e2b6be8567c372b63e4b5bd59d82042f04aa0bf7212b8ed50c67d2772c1d2ca0"
     },
     {
-      "bytes": 2150,
+      "bytes": 2313,
       "path": "ARTIFACTS.md",
-      "sha256": "62dc8d16247a78d07b596ebb10c7d1328de630463d2ab4c8a7dc7f1c533236c0"
+      "sha256": "7e5aefece9bed181020db6e54653d2533888927151deb78076cbc0e862b7ea5a"
     },
     {
-      "bytes": 7794,
+      "bytes": 8663,
       "path": "README.md",
-      "sha256": "80bcca0de16f76c1e6d30f96857e1947773edd9eeb149d1099c1bb09818a2a36"
+      "sha256": "bfd804c5c7d91023665ef6637989d5249859d9484c9df4007c3b422948b0c149"
     },
     {
-      "bytes": 7257,
+      "bytes": 8651,
       "path": "STATUS.md",
-      "sha256": "7cd55f361457ffdb38f698938b75f20a4d6098b847094bbcae7d0ad9c14d640e"
+      "sha256": "1fa1f4046ee7d67f3ac45d3213fc71ec04d2c72d33f0477568eccfb398ed0eb1"
     },
     {
       "bytes": 5028,
@@ -143,9 +143,14 @@
       "sha256": "eaf5e8f666ec46165a446bba52f79fce9749ba43dfd82d24eff15795efcccef9"
     },
     {
-      "bytes": 5588,
+      "bytes": 5596,
       "path": "docs/CLASS68_CANDIDATE_FORMULAS_V0.1.0.md",
-      "sha256": "fac4184ecb9ac843f3c5edd7ce42d8512ce727bda812adcd1fdffc239a125e37"
+      "sha256": "13c63ec3fc7192d3d78437c691f50c3f047ae8b73d01ad2885351e3c3abfc0d0"
+    },
+    {
+      "bytes": 5497,
+      "path": "docs/CLASS68_DIRECT_CONTAINMENT_V0.1.0.md",
+      "sha256": "91b49806c34ac5296322fd49848f1542827baba1cb1b36ccd62d9098578716ec"
     },
     {
       "bytes": 6450,
@@ -305,7 +310,7 @@
     {
       "bytes": 718,
       "path": "pyproject.toml",
-      "sha256": "60fe24c27152a7de30cd19c4900f148050fa148264c0259e28451c86f2cd917f"
+      "sha256": "07423b7e529a485fd3545413ee90714d9c991908b88b17ef88c20644af00294c"
     },
     {
       "bytes": 3271,
@@ -466,6 +471,101 @@
       "bytes": 86,
       "path": "results/class68-candidate-formulas-v0.1.0/phase.manifest.json.sha256",
       "sha256": "a5bdeaa35de9afde2a3d120273cb9de0146b5630662fb0569ce4796749bcda14"
+    },
+    {
+      "bytes": 2005,
+      "path": "results/class68-direct-containment-v0.1.0/SHA256SUMS",
+      "sha256": "fe14bac9f54439a52eee055952381c26e2075081e7126a873239034699433f81"
+    },
+    {
+      "bytes": 14555,
+      "path": "results/class68-direct-containment-v0.1.0/independent-audit.json",
+      "sha256": "df713833ee5a18634f4b24c76891efee7b8620f54b83861a433ea9512a34973d"
+    },
+    {
+      "bytes": 89,
+      "path": "results/class68-direct-containment-v0.1.0/independent-audit.json.sha256",
+      "sha256": "efde64e5a137f04c0f85eed2b690265f43c4bd7d785b02d29deea2e0be389aab"
+    },
+    {
+      "bytes": 1624,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit00.direct-containment.json",
+      "sha256": "9d285342d0fb5f166833aa1acd06ebaff8f789ed4dcdbd5e45edb4bdd0bf7e9e"
+    },
+    {
+      "bytes": 1657,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit01.direct-containment.json",
+      "sha256": "37fa93ffa6980d65abc039ec214596f691c9cb6e7913f0c6e4d6fa7af686d92d"
+    },
+    {
+      "bytes": 1624,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit02.direct-containment.json",
+      "sha256": "60f2ac79af5d23f4ccfa2a4c8f7568c84ccc3fad7e2c2b69637103250829a135"
+    },
+    {
+      "bytes": 1657,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit03.direct-containment.json",
+      "sha256": "91386a1cebc95128cf846bda4d21670b4d6a95b50a71568c9f4b13fceca38b88"
+    },
+    {
+      "bytes": 1624,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit04.direct-containment.json",
+      "sha256": "53d9ab69c7070fc9e75209e3e2dbd04631f136393157b1084b798a37b0af3729"
+    },
+    {
+      "bytes": 1624,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit05.direct-containment.json",
+      "sha256": "f34e344639f60414a4ca8acfd0d2c472c8d21429fad19c60e24bc20e02985caf"
+    },
+    {
+      "bytes": 1657,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit06.direct-containment.json",
+      "sha256": "eb9b8b6caf30f45b520db4da033bdaed7f9fbac5e0362fff195651999e8c17e6"
+    },
+    {
+      "bytes": 1657,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit07.direct-containment.json",
+      "sha256": "caa57b024689dfbec79755f47af4324cba157435903802893c17a1f1666a2785"
+    },
+    {
+      "bytes": 1657,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit08.direct-containment.json",
+      "sha256": "30976404f4b1279e8110f9e4b0724c9e39a796abca1ddad5eb74485d82dc9e8a"
+    },
+    {
+      "bytes": 1624,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit09.direct-containment.json",
+      "sha256": "013166dde2f34e1f15d565abd2851494bf21d093f7f27931b7bd653373c0ee77"
+    },
+    {
+      "bytes": 1626,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit10.direct-containment.json",
+      "sha256": "e96d23bf5c137d82f86034427b677e0f163772f98da9678d078e111203115630"
+    },
+    {
+      "bytes": 1658,
+      "path": "results/class68-direct-containment-v0.1.0/instances/c68_candidate_orbit11.direct-containment.json",
+      "sha256": "f14f8f7c30912770fb225b5c637ecc576312acdf95f5e1e8563d2bf42d1be318"
+    },
+    {
+      "bytes": 4966,
+      "path": "results/class68-direct-containment-v0.1.0/phase.manifest.json",
+      "sha256": "49c3d14d2918261398fa2e683ebcb27d347af9cdceadfa5d26057d3267f2a470"
+    },
+    {
+      "bytes": 86,
+      "path": "results/class68-direct-containment-v0.1.0/phase.manifest.json.sha256",
+      "sha256": "0b6f6e7434f158fc12a7afa142b36d725a0d88ee0204d4f250a7db289cdeb2a3"
+    },
+    {
+      "bytes": 29686,
+      "path": "results/class68-direct-containment-v0.1.0/scan.manifest.json",
+      "sha256": "a8d5a2b96eb067fe2b82855876163392b1459f9945365063d7c2ac2a20b4b479"
+    },
+    {
+      "bytes": 85,
+      "path": "results/class68-direct-containment-v0.1.0/scan.manifest.json.sha256",
+      "sha256": "b41f74e7449ae15ad1c030f9a751a78f8b31ff5c78c880026941e98bc8732f75"
     },
     {
       "bytes": 1216,
@@ -1295,7 +1395,7 @@
     {
       "bytes": 91,
       "path": "src/horizonlink/__init__.py",
-      "sha256": "20f4677d5d3dfbd0e6d49b341f1e2b253ecde22bf08ec9944f6b7e9988da43a0"
+      "sha256": "42e30d037c5e3f08077441085927b4873b77e2d6f1e436697dc9c9f6fc2c62cd"
     },
     {
       "bytes": 91,
@@ -1318,9 +1418,9 @@
       "sha256": "2fe7748d492bf9215224de4f22717ea492a77da632165cbc9d4079ae13581973"
     },
     {
-      "bytes": 27265,
+      "bytes": 27415,
       "path": "src/horizonlink/candidate_checkpoint.py",
-      "sha256": "3f59ff935a5e78382f65e5f8168497778eaf7cf440a78257071dfd3506e303f8"
+      "sha256": "1effe16c9ac58617660d55defaa4c34bfe16efdaf8b4f48713e9805e65da7efa"
     },
     {
       "bytes": 10810,
@@ -1338,9 +1438,19 @@
       "sha256": "9dce6e33b1d89b41f62a9f5d054f71d102c3ef885404f52931304c27aa084fa9"
     },
     {
-      "bytes": 26624,
+      "bytes": 28962,
       "path": "src/horizonlink/cli.py",
-      "sha256": "a9126afefa2372d49024ef6fa102949a6d2125b11bc25467e30bd7cf2d570b1d"
+      "sha256": "72644cf9dd06d8351f97e37e930109ddb47f9ab533c135b87cf4c7f23874f5c6"
+    },
+    {
+      "bytes": 34163,
+      "path": "src/horizonlink/direct_containment.py",
+      "sha256": "6bc57e24a9919b317063b676f2aa742bf6183c33c896ea3420dc705bdba73f00"
+    },
+    {
+      "bytes": 28072,
+      "path": "src/horizonlink/direct_containment_audit.py",
+      "sha256": "ad1ba45b8ce4378a5e481f5611dd59cd733bbb1691f55ef1bc32906393ffe522"
     },
     {
       "bytes": 26834,
@@ -1478,9 +1588,9 @@
       "sha256": "0dda1516f5622576aad75051fbe717fb9f6f8476a8686b4909a13775f5ddbb7c"
     },
     {
-      "bytes": 11771,
+      "bytes": 11964,
       "path": "tests/test_candidate_checkpoint.py",
-      "sha256": "2fdce236f4e0c7a678df41494478ee89c4dcb245842bc4d21b69477fd2861443"
+      "sha256": "57f67c01123e5cf8aada8d1c74eeb46701d520fb813a3e89744b338f292a79cb"
     },
     {
       "bytes": 7430,
@@ -1491,6 +1601,11 @@
       "bytes": 3117,
       "path": "tests/test_class52_regression.py",
       "sha256": "ae4b3a8e10561ae1045d9b588748efde9491bfcff6873274501c46f66b7f52ee"
+    },
+    {
+      "bytes": 13543,
+      "path": "tests/test_direct_containment.py",
+      "sha256": "0516627af3bcbd42dba46b5d189d500cf0c4fcad2c7bc561517832050cdfffad"
     },
     {
       "bytes": 5364,
@@ -1539,7 +1654,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 304,
-    "total_bytes": 19370983
+    "file_count": 327,
+    "total_bytes": 19528534
   }
 }

@@ -1,0 +1,60 @@
+{
+  "artifacts": {
+    "proof": null,
+    "verifier_normalized_formula": null
+  },
+  "candidate_minimum_points": [
+    0,
+    1,
+    6,
+    7
+  ],
+  "class_index": 68,
+  "formal_pruning_authorized": false,
+  "name": "c68_candidate_orbit09",
+  "orbit_index": 9,
+  "result": {
+    "disposition": "SURVIVED_DIRECT_CONTAINMENT_SCAN",
+    "evidence_status": "NO_CONTRADICTION_FOUND",
+    "mathematical_reason": "No serialized >= row has support contained in a serialized <= row with a strictly larger right-hand side."
+  },
+  "scan": {
+    "containment_gap_histogram": {
+      "-10": 45,
+      "-11": 20,
+      "-12": 170,
+      "-13": 315,
+      "-4": 36,
+      "-5": 8,
+      "-6": 190,
+      "-7": 416,
+      "-9": 2,
+      "0": 5
+    },
+    "contradictions_found": 0,
+    "lower_rows": 563,
+    "maximum_containment_gap": 0,
+    "row_pairs_tested": 2815,
+    "support_containments": 1207,
+    "upper_rows": 5,
+    "witnesses": []
+  },
+  "selected_witness": null,
+  "source_formula": {
+    "bytes": 527177,
+    "canonical_formula_sha256": "fb29dbd5b3b8919b8df99fa3c6d6da466ac1540bf40c13815fdf627039602757",
+    "constraints": 568,
+    "normalized_native_row_sha256": "d46a093e5c9e30b9b6410fec68230dbe3cbff50b6621810f8c977b2cb81b7321",
+    "path": "corpus/instances/c68_candidate_orbit09.opb",
+    "sha256": "d39c339c6ff26816ecbf280303998135675668c6de3e56ad8ff8a1cc66187b18",
+    "variables": 792
+  },
+  "status_ledger": {
+    "direct_containment": "ENUMERATED",
+    "formula": "FORMULAS_GENERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "verification": "NOT_STARTED"
+  }
+}

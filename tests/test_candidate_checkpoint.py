@@ -6,6 +6,7 @@ import unittest
 from pathlib import Path
 
 from horizonlink.candidate_checkpoint import (
+    CANDIDATE_FORMULA_CHECKPOINT_PRODUCER_VERSION,
     CandidateCheckpointError,
     generate_candidate_formula_checkpoint,
 )
@@ -64,6 +65,10 @@ class CandidateFormulaCheckpointTests(unittest.TestCase):
 
     def test_exact_class68_counts_and_status_boundaries(self) -> None:
         self.assertEqual(self.phase["status"], "FORMULAS_GENERATED")
+        self.assertEqual(
+            self.phase["producer"]["version"],
+            CANDIDATE_FORMULA_CHECKPOINT_PRODUCER_VERSION,
+        )
         self.assertEqual(self.phase["input"]["class_index"], 68)
         self.assertEqual(
             self.phase["summary"],

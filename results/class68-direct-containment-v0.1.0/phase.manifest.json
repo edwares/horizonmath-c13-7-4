@@ -1,0 +1,141 @@
+{
+  "artifacts": {
+    "independent_audit": {
+      "bytes": 14555,
+      "path": "independent-audit.json",
+      "sha256": "df713833ee5a18634f4b24c76891efee7b8620f54b83861a433ea9512a34973d"
+    },
+    "scan_manifest": {
+      "bytes": 29686,
+      "path": "scan.manifest.json",
+      "sha256": "a8d5a2b96eb067fe2b82855876163392b1459f9945365063d7c2ac2a20b4b479"
+    }
+  },
+  "input": {
+    "candidate_checkpoint": {
+      "all_checks_passed": true,
+      "candidate_corpus_manifest": {
+        "bytes": 144198,
+        "path": "corpus/corpus.manifest.json",
+        "sha256": "d39d08680cc5509a76299d09386a1bd9b3e74a4af185cd3801369d37ce1e6945",
+        "status": "FORMULAS_GENERATED"
+      },
+      "checkpoint_checksums": {
+        "all_recorded_hashes_match": true,
+        "directory_name": "class68-candidate-formulas-v0.1.0",
+        "every_checkpoint_file_accounted_for": true,
+        "recorded_file_count": 31,
+        "sha256sums_sha256": "013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a",
+        "status": "PASS"
+      },
+      "checks": {
+        "all_candidate_orbits_accounted_for": true,
+        "all_serialized_rows_previously_audited": true,
+        "candidate_checkpoint_schema_supported": true,
+        "candidate_checkpoint_status_formula_generated": true,
+        "candidate_corpus_schema_supported": true,
+        "candidate_corpus_status_formula_generated": true,
+        "checkpoint_checksums_passed": true,
+        "independent_formula_audit_passed": true,
+        "prior_direct_containment_not_started": true,
+        "prior_lp_solver_proof_verifier_not_started": true
+      },
+      "independent_formula_audit": {
+        "bytes": 14893,
+        "path": "independent-audit.json",
+        "sha256": "340dcac87e9e4a13df9391f580497f0e287556e95bfb6e42469043e1e96d3428",
+        "status": "PASS"
+      },
+      "phase_manifest": {
+        "bytes": 28998,
+        "path": "phase.manifest.json",
+        "sha256": "ea3d5a6a9318d6fd9ff702346b577956db42f43ea2a3e5e7d588d3438f2e2cd9"
+      }
+    },
+    "candidate_orbit_partition_sha256": "9c433703f4d97c2d68d841f4b42e232db4631e6c4342a4a4611122ace3b70d96",
+    "canonical_labeled_link_sha256": "a66e49afc58526140a16d71c9cd89ab11add1e1e01832eecd1a6792764a28731",
+    "class_index": 68,
+    "numbering_source": {
+      "artifact_sha256": "2a650187b10f18a6c1526f591363eafddc5eca576313371404e665d97593c17c",
+      "citation": "Gordon, Patashnik, Petro, and Taylor, Minimum (12, 6, 3) Covers, Theorem 5.9 and remarks; catalog_audit/build/authoritative/numbering.manifest.json",
+      "notes": "The 1-through-68 labels are project-local. Classes 1-67 are the independently audited Figure 1 completion classes; class 68 is the distinct Figure 6 class. This entry is tagged 'second_template'.",
+      "selection": "catalog_audit/build/authoritative/numbering.manifest.json: entries[67]",
+      "status": "AUDITED"
+    }
+  },
+  "method": {
+    "criterion": "For every native lower row sum(S)>=L and upper row sum(T)<=U, test S subseteq T and L>U.",
+    "exhaustive_pair_order": "lower rows by one-based formula id, then upper rows by one-based formula id",
+    "id": "unit-support-direct-containment-cp-v1",
+    "proof_format": "VeriPB pseudo-Boolean proof version 1.0",
+    "proof_rule": "Normalize the upper row by sign reversal, add it to the lower row, and declare the resulting nonpositive-left, positive-right inequality contradictory.",
+    "runtime_dependencies": []
+  },
+  "producer": {
+    "command": "scan-direct-containment",
+    "package": "horizonlink",
+    "version": "0.8.0"
+  },
+  "schema_version": "horizonmath.direct-containment-checkpoint.v1",
+  "scope_guardrails": {
+    "C_13_7_4_equals_30_claimed": false,
+    "all_candidate_orbits_accounted_for": true,
+    "class_elimination_claimed": false,
+    "direct_containment_run": true,
+    "formal_orbit_pruning_authorized": false,
+    "proof_generated": false,
+    "root_lp_run": false,
+    "solver_run": false,
+    "verifier_run": false
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "candidate_formulas": "FORMULAS_GENERATED",
+    "direct_containment": "ENUMERATED",
+    "proof": "NOT_STARTED",
+    "root_lp": "NOT_STARTED",
+    "solver": "NOT_STARTED",
+    "verification": "NOT_STARTED"
+  },
+  "summary": {
+    "all_candidate_orbits_accounted_for": true,
+    "all_scan_results_independently_recomputed": true,
+    "candidate_orbits_expected": 12,
+    "candidate_orbits_scanned": 12,
+    "direct_contradictions_found": 0,
+    "independent_comparisons_passed": 12,
+    "orbit_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "proof_orbit_indices": [],
+    "proofs_generated": 0,
+    "survivor_orbit_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "survivors": 12,
+    "total_row_pairs_tested": 33780,
+    "total_support_containments": 14284
+  }
+}

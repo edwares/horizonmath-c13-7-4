@@ -6,7 +6,6 @@ import json
 from pathlib import Path, PurePosixPath
 from typing import Any
 
-from horizonlink import __version__
 from horizonlink.candidate_audit import (
     audit_candidate_formula_corpus,
 )
@@ -39,6 +38,7 @@ PROFILE_SCREENING_SCHEMA_VERSION = (
 PROFILE_SCREENING_CLASS_SCHEMA_VERSION = (
     "horizonmath.solver-free-profile-screening-class.v1"
 )
+CANDIDATE_FORMULA_CHECKPOINT_PRODUCER_VERSION = "0.7.0"
 
 
 class CandidateCheckpointError(ValueError):
@@ -248,6 +248,9 @@ def _audit_structural_input(
     class_record, class_record_sha256 = _load_json_object(class_path)
     link = load_link(input_path)
     structural = build_manifest(link, 4)
+    structural["tool"][
+        "version"
+    ] = CANDIDATE_FORMULA_CHECKPOINT_PRODUCER_VERSION
     compact_orbits = class_record.get(
         "candidate_minimum_point_sets", {}
     )
@@ -719,7 +722,7 @@ def generate_candidate_formula_checkpoint(
         "schema_version": CHECKPOINT_SCHEMA_VERSION,
         "producer": {
             "name": "horizonlink",
-            "version": __version__,
+            "version": CANDIDATE_FORMULA_CHECKPOINT_PRODUCER_VERSION,
         },
         "status": "FORMULAS_GENERATED",
         "input": {
