@@ -1,0 +1,6504 @@
+{
+  "artifacts": {
+    "proof": {
+      "bytes": 20715,
+      "format": "VeriPB pseudo-Boolean proof version 1.0",
+      "path": "instances/c68_candidate_orbit03.root-lp-farkas.pbp",
+      "requires_requireUnsat_verification": true,
+      "sha256": "c4f56f291e4423e3a71fff151af4f8145007434f3a5f8202ae96b88c503971eb"
+    },
+    "verifier_normalized_formula": {
+      "bytes": 527111,
+      "canonical_equivalent_to_source_formula": true,
+      "constraint_ids_preserved": true,
+      "path": "instances/c68_candidate_orbit03.root-lp-farkas.opb",
+      "sha256": "525ca451607e6df7923016d6a0589b542d14750fea7eb8ddeb58c32ab69f1e22"
+    }
+  },
+  "candidate_minimum_points": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "class_index": 68,
+  "exact_result": {
+    "farkas_certificate": {
+      "combined_lhs_coefficients_before_bounds": [
+        {
+          "coefficient": -132210386534958054,
+          "variable": 1
+        },
+        {
+          "coefficient": -158205929014205782,
+          "variable": 2
+        },
+        {
+          "coefficient": -131413712854555582,
+          "variable": 3
+        },
+        {
+          "coefficient": -142964700242991974,
+          "variable": 4
+        },
+        {
+          "coefficient": -154698161173323218,
+          "variable": 5
+        },
+        {
+          "coefficient": -124019328954011722,
+          "variable": 6
+        },
+        {
+          "coefficient": -19487612197170836,
+          "variable": 7
+        },
+        {
+          "coefficient": -13612390940058424,
+          "variable": 8
+        },
+        {
+          "coefficient": -22370581784399368,
+          "variable": 9
+        },
+        {
+          "coefficient": -16935351995209020,
+          "variable": 10
+        },
+        {
+          "coefficient": -21722474263743767,
+          "variable": 11
+        },
+        {
+          "coefficient": -35002257796431463,
+          "variable": 12
+        },
+        {
+          "coefficient": -40139129752580652,
+          "variable": 13
+        },
+        {
+          "coefficient": -32758314000543318,
+          "variable": 14
+        },
+        {
+          "coefficient": -19399133082011209,
+          "variable": 15
+        },
+        {
+          "coefficient": -22398625347239237,
+          "variable": 16
+        },
+        {
+          "coefficient": -29092097121003979,
+          "variable": 17
+        },
+        {
+          "coefficient": -11525624343889244,
+          "variable": 18
+        },
+        {
+          "coefficient": -21717657863864612,
+          "variable": 19
+        },
+        {
+          "coefficient": -20174603024403516,
+          "variable": 20
+        },
+        {
+          "coefficient": -26126007361465499,
+          "variable": 21
+        },
+        {
+          "coefficient": -11563577449950808,
+          "variable": 22
+        },
+        {
+          "coefficient": -11780596857839038,
+          "variable": 23
+        },
+        {
+          "coefficient": -9059222468058504,
+          "variable": 25
+        },
+        {
+          "coefficient": -3022240593651650,
+          "variable": 26
+        },
+        {
+          "coefficient": -11780596857839038,
+          "variable": 27
+        },
+        {
+          "coefficient": -9059222468058504,
+          "variable": 28
+        },
+        {
+          "coefficient": -3022240593651650,
+          "variable": 30
+        },
+        {
+          "coefficient": -2927334276126610,
+          "variable": 31
+        },
+        {
+          "coefficient": -2927334276126610,
+          "variable": 32
+        },
+        {
+          "coefficient": -11449302496196168,
+          "variable": 34
+        },
+        {
+          "coefficient": -11737827746817758,
+          "variable": 35
+        },
+        {
+          "coefficient": -11737827746817758,
+          "variable": 36
+        },
+        {
+          "coefficient": -27229035836010838,
+          "variable": 37
+        },
+        {
+          "coefficient": -1882170973169202,
+          "variable": 41
+        },
+        {
+          "coefficient": -26728319030183048,
+          "variable": 43
+        },
+        {
+          "coefficient": -1862604697794402,
+          "variable": 45
+        },
+        {
+          "coefficient": -1882170973169202,
+          "variable": 48
+        },
+        {
+          "coefficient": -26728319030183048,
+          "variable": 49
+        },
+        {
+          "coefficient": -1862604697794402,
+          "variable": 52
+        },
+        {
+          "coefficient": -26732607799633888,
+          "variable": 54
+        },
+        {
+          "coefficient": -26732607799633888,
+          "variable": 55
+        },
+        {
+          "coefficient": -27185555224066838,
+          "variable": 56
+        },
+        {
+          "coefficient": -80028545958472226,
+          "variable": 57
+        },
+        {
+          "coefficient": -61105961875365839,
+          "variable": 58
+        },
+        {
+          "coefficient": -74711154867851235,
+          "variable": 59
+        },
+        {
+          "coefficient": -104582357444201771,
+          "variable": 60
+        },
+        {
+          "coefficient": -87139869108144600,
+          "variable": 61
+        },
+        {
+          "coefficient": -80470939989107008,
+          "variable": 62
+        },
+        {
+          "coefficient": -116953200260507024,
+          "variable": 63
+        },
+        {
+          "coefficient": -82570479672088617,
+          "variable": 64
+        },
+        {
+          "coefficient": -90090524647641478,
+          "variable": 65
+        },
+        {
+          "coefficient": -79490565083862792,
+          "variable": 66
+        },
+        {
+          "coefficient": -84399234348603296,
+          "variable": 67
+        },
+        {
+          "coefficient": -26562837093401996,
+          "variable": 68
+        },
+        {
+          "coefficient": -71188434771355612,
+          "variable": 69
+        },
+        {
+          "coefficient": -72475466362047532,
+          "variable": 70
+        },
+        {
+          "coefficient": -77923352029834817,
+          "variable": 71
+        },
+        {
+          "coefficient": -22757600301613085,
+          "variable": 75
+        },
+        {
+          "coefficient": -19293660536515858,
+          "variable": 77
+        },
+        {
+          "coefficient": -35160603369072418,
+          "variable": 81
+        },
+        {
+          "coefficient": -33380100726262464,
+          "variable": 82
+        },
+        {
+          "coefficient": -32293504581527952,
+          "variable": 86
+        },
+        {
+          "coefficient": -7927646188345837,
+          "variable": 88
+        },
+        {
+          "coefficient": -31864062669787034,
+          "variable": 92
+        },
+        {
+          "coefficient": -8887649302276246,
+          "variable": 95
+        },
+        {
+          "coefficient": -13521092449073940,
+          "variable": 97
+        },
+        {
+          "coefficient": -13508048265490740,
+          "variable": 101
+        },
+        {
+          "coefficient": -13521092449073940,
+          "variable": 102
+        },
+        {
+          "coefficient": -13508048265490740,
+          "variable": 106
+        },
+        {
+          "coefficient": -8863794257450606,
+          "variable": 108
+        },
+        {
+          "coefficient": -31863726683240194,
+          "variable": 111
+        },
+        {
+          "coefficient": -32137196058549706,
+          "variable": 112
+        },
+        {
+          "coefficient": -32137196058549706,
+          "variable": 113
+        },
+        {
+          "coefficient": -57336610416338696,
+          "variable": 114
+        },
+        {
+          "coefficient": -7218586758955896,
+          "variable": 115
+        },
+        {
+          "coefficient": -16020555545248260,
+          "variable": 116
+        },
+        {
+          "coefficient": -16020555545248260,
+          "variable": 117
+        },
+        {
+          "coefficient": -16009823739663900,
+          "variable": 118
+        },
+        {
+          "coefficient": -32034678878325036,
+          "variable": 119
+        },
+        {
+          "coefficient": -37684498727239260,
+          "variable": 120
+        },
+        {
+          "coefficient": -32110969343981666,
+          "variable": 121
+        },
+        {
+          "coefficient": -16009823739663900,
+          "variable": 122
+        },
+        {
+          "coefficient": -37684498727239260,
+          "variable": 123
+        },
+        {
+          "coefficient": -32034678878325036,
+          "variable": 124
+        },
+        {
+          "coefficient": -32110969343981666,
+          "variable": 125
+        },
+        {
+          "coefficient": -57340128393123256,
+          "variable": 126
+        },
+        {
+          "coefficient": -114150108309327383,
+          "variable": 127
+        },
+        {
+          "coefficient": -93959252920709059,
+          "variable": 128
+        },
+        {
+          "coefficient": -145936999582197133,
+          "variable": 129
+        },
+        {
+          "coefficient": -142924245188840356,
+          "variable": 130
+        },
+        {
+          "coefficient": -116173251186506408,
+          "variable": 131
+        },
+        {
+          "coefficient": -120623116498311534,
+          "variable": 132
+        },
+        {
+          "coefficient": -152773931085064479,
+          "variable": 133
+        },
+        {
+          "coefficient": -138812606036861305,
+          "variable": 134
+        },
+        {
+          "coefficient": -98231866863833177,
+          "variable": 135
+        },
+        {
+          "coefficient": -110381546023676193,
+          "variable": 136
+        },
+        {
+          "coefficient": -115180935176901830,
+          "variable": 137
+        },
+        {
+          "coefficient": -54306057309812988,
+          "variable": 138
+        },
+        {
+          "coefficient": -119925971285752881,
+          "variable": 139
+        },
+        {
+          "coefficient": -104641069759266297,
+          "variable": 140
+        },
+        {
+          "coefficient": -108807671587304042,
+          "variable": 141
+        },
+        {
+          "coefficient": -3741557189479972,
+          "variable": 142
+        },
+        {
+          "coefficient": -23092712076562181,
+          "variable": 143
+        },
+        {
+          "coefficient": -12020714598334508,
+          "variable": 144
+        },
+        {
+          "coefficient": -21318684493211919,
+          "variable": 146
+        },
+        {
+          "coefficient": -5926506875118814,
+          "variable": 147
+        },
+        {
+          "coefficient": -26870128752508329,
+          "variable": 149
+        },
+        {
+          "coefficient": -28527749886464931,
+          "variable": 150
+        },
+        {
+          "coefficient": -27863121831651713,
+          "variable": 151
+        },
+        {
+          "coefficient": -37102546167204859,
+          "variable": 152
+        },
+        {
+          "coefficient": -28508289845558358,
+          "variable": 153
+        },
+        {
+          "coefficient": -22958407881162792,
+          "variable": 155
+        },
+        {
+          "coefficient": -15066700548649944,
+          "variable": 156
+        },
+        {
+          "coefficient": -6354426184545282,
+          "variable": 157
+        },
+        {
+          "coefficient": -3598845915513956,
+          "variable": 161
+        },
+        {
+          "coefficient": -1778775233768350,
+          "variable": 162
+        },
+        {
+          "coefficient": -7531990822083426,
+          "variable": 166
+        },
+        {
+          "coefficient": -10641472194704960,
+          "variable": 168
+        },
+        {
+          "coefficient": -7512424546708626,
+          "variable": 170
+        },
+        {
+          "coefficient": -7531990822083426,
+          "variable": 173
+        },
+        {
+          "coefficient": -10641472194704960,
+          "variable": 174
+        },
+        {
+          "coefficient": -7512424546708626,
+          "variable": 177
+        },
+        {
+          "coefficient": -10645760964155800,
+          "variable": 179
+        },
+        {
+          "coefficient": -10645760964155800,
+          "variable": 180
+        },
+        {
+          "coefficient": -1735294621824350,
+          "variable": 181
+        },
+        {
+          "coefficient": -5684834525296766,
+          "variable": 182
+        },
+        {
+          "coefficient": -5684834525296766,
+          "variable": 183
+        },
+        {
+          "coefficient": -36875889757055146,
+          "variable": 184
+        },
+        {
+          "coefficient": -43323654864117108,
+          "variable": 189
+        },
+        {
+          "coefficient": -24869836876180776,
+          "variable": 190
+        },
+        {
+          "coefficient": -5710646197659886,
+          "variable": 191
+        },
+        {
+          "coefficient": -24869836876180776,
+          "variable": 193
+        },
+        {
+          "coefficient": -43323654864117108,
+          "variable": 194
+        },
+        {
+          "coefficient": -5710646197659886,
+          "variable": 195
+        },
+        {
+          "coefficient": -36933679443111626,
+          "variable": 196
+        },
+        {
+          "coefficient": -77667292075692643,
+          "variable": 197
+        },
+        {
+          "coefficient": -120018200925655321,
+          "variable": 198
+        },
+        {
+          "coefficient": -93061473867665665,
+          "variable": 199
+        },
+        {
+          "coefficient": -91549213853436165,
+          "variable": 200
+        },
+        {
+          "coefficient": -93436492931303139,
+          "variable": 201
+        },
+        {
+          "coefficient": -90459853085456076,
+          "variable": 202
+        },
+        {
+          "coefficient": -39673445880728861,
+          "variable": 203
+        },
+        {
+          "coefficient": -106082704288378530,
+          "variable": 204
+        },
+        {
+          "coefficient": -102725904881664408,
+          "variable": 205
+        },
+        {
+          "coefficient": -115725487979888772,
+          "variable": 206
+        },
+        {
+          "coefficient": -163311516012743882,
+          "variable": 207
+        },
+        {
+          "coefficient": -98658130212119086,
+          "variable": 208
+        },
+        {
+          "coefficient": -71481941560280405,
+          "variable": 209
+        },
+        {
+          "coefficient": -117369028765014024,
+          "variable": 210
+        },
+        {
+          "coefficient": -150622291956200530,
+          "variable": 211
+        },
+        {
+          "coefficient": -87164782411825113,
+          "variable": 212
+        },
+        {
+          "coefficient": -85605076956004483,
+          "variable": 213
+        },
+        {
+          "coefficient": -71414303024948428,
+          "variable": 214
+        },
+        {
+          "coefficient": -44936724737727698,
+          "variable": 215
+        },
+        {
+          "coefficient": -84349173441595505,
+          "variable": 216
+        },
+        {
+          "coefficient": -30210376239352349,
+          "variable": 217
+        },
+        {
+          "coefficient": -20599683533647825,
+          "variable": 221
+        },
+        {
+          "coefficient": -6912909980054634,
+          "variable": 222
+        },
+        {
+          "coefficient": -3539172195969518,
+          "variable": 223
+        },
+        {
+          "coefficient": -3295428386918443,
+          "variable": 225
+        },
+        {
+          "coefficient": -14566609540645792,
+          "variable": 226
+        },
+        {
+          "coefficient": -34179484726853781,
+          "variable": 227
+        },
+        {
+          "coefficient": -61581502353690717,
+          "variable": 228
+        },
+        {
+          "coefficient": -23775665806313165,
+          "variable": 230
+        },
+        {
+          "coefficient": -10828120599733934,
+          "variable": 232
+        },
+        {
+          "coefficient": -10828120599733934,
+          "variable": 233
+        },
+        {
+          "coefficient": -6919510628289632,
+          "variable": 234
+        },
+        {
+          "coefficient": -10832824411389694,
+          "variable": 241
+        },
+        {
+          "coefficient": -10832824411389694,
+          "variable": 245
+        },
+        {
+          "coefficient": -6937970124451312,
+          "variable": 246
+        },
+        {
+          "coefficient": -3064424110100036,
+          "variable": 247
+        },
+        {
+          "coefficient": -21918375905344828,
+          "variable": 248
+        },
+        {
+          "coefficient": -21918375905344828,
+          "variable": 249
+        },
+        {
+          "coefficient": -3061894329041476,
+          "variable": 250
+        },
+        {
+          "coefficient": -21895173069698348,
+          "variable": 251
+        },
+        {
+          "coefficient": -21895173069698348,
+          "variable": 252
+        },
+        {
+          "coefficient": -126849423467455841,
+          "variable": 253
+        },
+        {
+          "coefficient": -121223846199254001,
+          "variable": 254
+        },
+        {
+          "coefficient": -160448940136821251,
+          "variable": 255
+        },
+        {
+          "coefficient": -126114004727849804,
+          "variable": 256
+        },
+        {
+          "coefficient": -150360215894134235,
+          "variable": 257
+        },
+        {
+          "coefficient": -110858764435339492,
+          "variable": 258
+        },
+        {
+          "coefficient": -124694655195163556,
+          "variable": 259
+        },
+        {
+          "coefficient": -104803444614763509,
+          "variable": 260
+        },
+        {
+          "coefficient": -121953859736685767,
+          "variable": 261
+        },
+        {
+          "coefficient": -128652096392568657,
+          "variable": 262
+        },
+        {
+          "coefficient": -125379219649305384,
+          "variable": 263
+        },
+        {
+          "coefficient": -113501964629400350,
+          "variable": 264
+        },
+        {
+          "coefficient": -118503396574608666,
+          "variable": 265
+        },
+        {
+          "coefficient": -119586648562585160,
+          "variable": 266
+        },
+        {
+          "coefficient": -117675491231630388,
+          "variable": 267
+        },
+        {
+          "coefficient": -26755205065271618,
+          "variable": 269
+        },
+        {
+          "coefficient": -31274771193573469,
+          "variable": 271
+        },
+        {
+          "coefficient": -35918050049440057,
+          "variable": 272
+        },
+        {
+          "coefficient": -19681311451637223,
+          "variable": 274
+        },
+        {
+          "coefficient": -31199364279631032,
+          "variable": 275
+        },
+        {
+          "coefficient": -36723902097398925,
+          "variable": 276
+        },
+        {
+          "coefficient": -27250525523432288,
+          "variable": 277
+        },
+        {
+          "coefficient": -11586061686152172,
+          "variable": 278
+        },
+        {
+          "coefficient": -2705533663577778,
+          "variable": 280
+        },
+        {
+          "coefficient": -15678591680959953,
+          "variable": 284
+        },
+        {
+          "coefficient": -5878342778870021,
+          "variable": 285
+        },
+        {
+          "coefficient": -11313889326426258,
+          "variable": 286
+        },
+        {
+          "coefficient": -23730691282760470,
+          "variable": 289
+        },
+        {
+          "coefficient": -14097765103079518,
+          "variable": 292
+        },
+        {
+          "coefficient": -23756700594268790,
+          "variable": 295
+        },
+        {
+          "coefficient": -14113872693413318,
+          "variable": 296
+        },
+        {
+          "coefficient": -190742567890574,
+          "variable": 297
+        },
+        {
+          "coefficient": -122458243223974,
+          "variable": 298
+        },
+        {
+          "coefficient": -11204476159159214,
+          "variable": 300
+        },
+        {
+          "coefficient": -11218429482810334,
+          "variable": 306
+        },
+        {
+          "coefficient": -7441393254867572,
+          "variable": 308
+        },
+        {
+          "coefficient": -4673724445944130,
+          "variable": 310
+        },
+        {
+          "coefficient": -23723757882575946,
+          "variable": 311
+        },
+        {
+          "coefficient": -2423248438428342,
+          "variable": 313
+        },
+        {
+          "coefficient": -7455643037236492,
+          "variable": 317
+        },
+        {
+          "coefficient": -2426509484324142,
+          "variable": 318
+        },
+        {
+          "coefficient": -27947688591401640,
+          "variable": 320
+        },
+        {
+          "coefficient": -4683902861921930,
+          "variable": 322
+        },
+        {
+          "coefficient": -85663793148744885,
+          "variable": 323
+        },
+        {
+          "coefficient": -104954877695257144,
+          "variable": 324
+        },
+        {
+          "coefficient": -112529784928432434,
+          "variable": 325
+        },
+        {
+          "coefficient": -146069171895882527,
+          "variable": 326
+        },
+        {
+          "coefficient": -101819510601974265,
+          "variable": 327
+        },
+        {
+          "coefficient": -112501270653481151,
+          "variable": 328
+        },
+        {
+          "coefficient": -98678739946822751,
+          "variable": 329
+        },
+        {
+          "coefficient": -113850966623774396,
+          "variable": 330
+        },
+        {
+          "coefficient": -115426570185237359,
+          "variable": 331
+        },
+        {
+          "coefficient": -158092267541951059,
+          "variable": 332
+        },
+        {
+          "coefficient": -109967140915884822,
+          "variable": 333
+        },
+        {
+          "coefficient": -88826320477047208,
+          "variable": 334
+        },
+        {
+          "coefficient": -88192705002045251,
+          "variable": 335
+        },
+        {
+          "coefficient": -87985218835582890,
+          "variable": 336
+        },
+        {
+          "coefficient": -114168367140035848,
+          "variable": 337
+        },
+        {
+          "coefficient": -110218093134999800,
+          "variable": 338
+        },
+        {
+          "coefficient": -98076256642464078,
+          "variable": 339
+        },
+        {
+          "coefficient": -78723308571612857,
+          "variable": 340
+        },
+        {
+          "coefficient": -92445668457675081,
+          "variable": 341
+        },
+        {
+          "coefficient": -87487904720669970,
+          "variable": 342
+        },
+        {
+          "coefficient": -3462688587340401,
+          "variable": 343
+        },
+        {
+          "coefficient": -16976710761125469,
+          "variable": 345
+        },
+        {
+          "coefficient": -14852273920979006,
+          "variable": 347
+        },
+        {
+          "coefficient": -53630475371647090,
+          "variable": 348
+        },
+        {
+          "coefficient": -16332777079085317,
+          "variable": 349
+        },
+        {
+          "coefficient": -33752821545112333,
+          "variable": 351
+        },
+        {
+          "coefficient": -27251985722773000,
+          "variable": 352
+        },
+        {
+          "coefficient": -7663265386364714,
+          "variable": 353
+        },
+        {
+          "coefficient": -9141216331223310,
+          "variable": 354
+        },
+        {
+          "coefficient": -14337483076925212,
+          "variable": 358
+        },
+        {
+          "coefficient": -182250934687444,
+          "variable": 359
+        },
+        {
+          "coefficient": -3770639946951822,
+          "variable": 360
+        },
+        {
+          "coefficient": -14329340344142972,
+          "variable": 367
+        },
+        {
+          "coefficient": -3360151013120928,
+          "variable": 370
+        },
+        {
+          "coefficient": -166993192678004,
+          "variable": 371
+        },
+        {
+          "coefficient": -3765185106544302,
+          "variable": 372
+        },
+        {
+          "coefficient": -6284268343329734,
+          "variable": 375
+        },
+        {
+          "coefficient": -6259800617153974,
+          "variable": 378
+        },
+        {
+          "coefficient": -93141964073884131,
+          "variable": 379
+        },
+        {
+          "coefficient": -147533524716693642,
+          "variable": 380
+        },
+        {
+          "coefficient": -125418668337591676,
+          "variable": 381
+        },
+        {
+          "coefficient": -130248483017436647,
+          "variable": 382
+        },
+        {
+          "coefficient": -146449917497146250,
+          "variable": 383
+        },
+        {
+          "coefficient": -112663859864114294,
+          "variable": 384
+        },
+        {
+          "coefficient": -103445739257232215,
+          "variable": 385
+        },
+        {
+          "coefficient": -168235297181193115,
+          "variable": 386
+        },
+        {
+          "coefficient": -161635454560133205,
+          "variable": 387
+        },
+        {
+          "coefficient": -159680308537662848,
+          "variable": 388
+        },
+        {
+          "coefficient": -129111110200395745,
+          "variable": 389
+        },
+        {
+          "coefficient": -105004236389738039,
+          "variable": 390
+        },
+        {
+          "coefficient": -75929642576465905,
+          "variable": 391
+        },
+        {
+          "coefficient": -120745120034052012,
+          "variable": 392
+        },
+        {
+          "coefficient": -105740044176893599,
+          "variable": 393
+        },
+        {
+          "coefficient": -98605470187476244,
+          "variable": 394
+        },
+        {
+          "coefficient": -119697781294484586,
+          "variable": 395
+        },
+        {
+          "coefficient": -92437980990445437,
+          "variable": 396
+        },
+        {
+          "coefficient": -88230597278822768,
+          "variable": 397
+        },
+        {
+          "coefficient": -106168360676311878,
+          "variable": 398
+        },
+        {
+          "coefficient": -26656172452617937,
+          "variable": 399
+        },
+        {
+          "coefficient": -33954002644056667,
+          "variable": 402
+        },
+        {
+          "coefficient": -20906239958419530,
+          "variable": 403
+        },
+        {
+          "coefficient": -36305321390206863,
+          "variable": 404
+        },
+        {
+          "coefficient": -32032251445447602,
+          "variable": 405
+        },
+        {
+          "coefficient": -24163974712820775,
+          "variable": 406
+        },
+        {
+          "coefficient": -16709067601097581,
+          "variable": 407
+        },
+        {
+          "coefficient": -50898542405458723,
+          "variable": 408
+        },
+        {
+          "coefficient": -28899563256376309,
+          "variable": 409
+        },
+        {
+          "coefficient": -2746071543953707,
+          "variable": 410
+        },
+        {
+          "coefficient": -8937320426816086,
+          "variable": 415
+        },
+        {
+          "coefficient": -7120360516415828,
+          "variable": 416
+        },
+        {
+          "coefficient": -21269282337785142,
+          "variable": 417
+        },
+        {
+          "coefficient": -24078920143685312,
+          "variable": 419
+        },
+        {
+          "coefficient": -8811068910954460,
+          "variable": 422
+        },
+        {
+          "coefficient": -24134614854802672,
+          "variable": 424
+        },
+        {
+          "coefficient": -8861032086861020,
+          "variable": 425
+        },
+        {
+          "coefficient": -51269609438131344,
+          "variable": 426
+        },
+        {
+          "coefficient": -8979812843034086,
+          "variable": 427
+        },
+        {
+          "coefficient": -7184237488144468,
+          "variable": 428
+        },
+        {
+          "coefficient": -20743297383259306,
+          "variable": 429
+        },
+        {
+          "coefficient": -8317592423027342,
+          "variable": 430
+        },
+        {
+          "coefficient": -43895776817292568,
+          "variable": 431
+        },
+        {
+          "coefficient": -20793972060088586,
+          "variable": 432
+        },
+        {
+          "coefficient": -8284053060086902,
+          "variable": 433
+        },
+        {
+          "coefficient": -43955226672168728,
+          "variable": 434
+        },
+        {
+          "coefficient": -129224078059580120,
+          "variable": 435
+        },
+        {
+          "coefficient": -87062863760596655,
+          "variable": 436
+        },
+        {
+          "coefficient": -88438702710804690,
+          "variable": 437
+        },
+        {
+          "coefficient": -119582841683120816,
+          "variable": 438
+        },
+        {
+          "coefficient": -134178684271422503,
+          "variable": 439
+        },
+        {
+          "coefficient": -139644598145535702,
+          "variable": 440
+        },
+        {
+          "coefficient": -115247325169664569,
+          "variable": 441
+        },
+        {
+          "coefficient": -105067601696220445,
+          "variable": 442
+        },
+        {
+          "coefficient": -102999779395016342,
+          "variable": 443
+        },
+        {
+          "coefficient": -148559149587440153,
+          "variable": 444
+        },
+        {
+          "coefficient": -124307025271525880,
+          "variable": 445
+        },
+        {
+          "coefficient": -129057334403695059,
+          "variable": 446
+        },
+        {
+          "coefficient": -69442669685241678,
+          "variable": 447
+        },
+        {
+          "coefficient": -112871686306871006,
+          "variable": 448
+        },
+        {
+          "coefficient": -84673329281747434,
+          "variable": 449
+        },
+        {
+          "coefficient": -8662439083215897,
+          "variable": 450
+        },
+        {
+          "coefficient": -9488328395186719,
+          "variable": 451
+        },
+        {
+          "coefficient": -19402701743658574,
+          "variable": 453
+        },
+        {
+          "coefficient": -6937333714302844,
+          "variable": 454
+        },
+        {
+          "coefficient": -11501317165207328,
+          "variable": 455
+        },
+        {
+          "coefficient": -8421484342630830,
+          "variable": 456
+        },
+        {
+          "coefficient": -9293841428970480,
+          "variable": 458
+        },
+        {
+          "coefficient": -8419290548119110,
+          "variable": 459
+        },
+        {
+          "coefficient": -9288742339024320,
+          "variable": 461
+        },
+        {
+          "coefficient": -130899057020037115,
+          "variable": 463
+        },
+        {
+          "coefficient": -106136268581638344,
+          "variable": 464
+        },
+        {
+          "coefficient": -102275037202856941,
+          "variable": 465
+        },
+        {
+          "coefficient": -126804729514931636,
+          "variable": 466
+        },
+        {
+          "coefficient": -120347304086192385,
+          "variable": 467
+        },
+        {
+          "coefficient": -131833301515579378,
+          "variable": 468
+        },
+        {
+          "coefficient": -129012498204774258,
+          "variable": 469
+        },
+        {
+          "coefficient": -167985915345420353,
+          "variable": 470
+        },
+        {
+          "coefficient": -136962366992610157,
+          "variable": 471
+        },
+        {
+          "coefficient": -124505614915012800,
+          "variable": 472
+        },
+        {
+          "coefficient": -164941235475023929,
+          "variable": 473
+        },
+        {
+          "coefficient": -107532610032409186,
+          "variable": 474
+        },
+        {
+          "coefficient": -131133199430800786,
+          "variable": 475
+        },
+        {
+          "coefficient": -108246958088464710,
+          "variable": 476
+        },
+        {
+          "coefficient": -127498352835158793,
+          "variable": 477
+        },
+        {
+          "coefficient": -26593639941304930,
+          "variable": 480
+        },
+        {
+          "coefficient": -31697501555794618,
+          "variable": 481
+        },
+        {
+          "coefficient": -15533461915963207,
+          "variable": 483
+        },
+        {
+          "coefficient": -39865450279251092,
+          "variable": 489
+        },
+        {
+          "coefficient": -25707662415628626,
+          "variable": 491
+        },
+        {
+          "coefficient": -16002387273572577,
+          "variable": 492
+        },
+        {
+          "coefficient": -25475763847539214,
+          "variable": 493
+        },
+        {
+          "coefficient": -31296860522851848,
+          "variable": 494
+        },
+        {
+          "coefficient": -2719151000682058,
+          "variable": 495
+        },
+        {
+          "coefficient": -12611911209105684,
+          "variable": 496
+        },
+        {
+          "coefficient": -23730691282760470,
+          "variable": 500
+        },
+        {
+          "coefficient": -122458243223974,
+          "variable": 503
+        },
+        {
+          "coefficient": -11204476159159214,
+          "variable": 504
+        },
+        {
+          "coefficient": -14097765103079518,
+          "variable": 509
+        },
+        {
+          "coefficient": -23756700594268790,
+          "variable": 511
+        },
+        {
+          "coefficient": -190742567890574,
+          "variable": 512
+        },
+        {
+          "coefficient": -14113872693413318,
+          "variable": 513
+        },
+        {
+          "coefficient": -11218429482810334,
+          "variable": 515
+        },
+        {
+          "coefficient": -7441393254867572,
+          "variable": 519
+        },
+        {
+          "coefficient": -4673724445944130,
+          "variable": 520
+        },
+        {
+          "coefficient": -23723757882575946,
+          "variable": 521
+        },
+        {
+          "coefficient": -2423248438428342,
+          "variable": 522
+        },
+        {
+          "coefficient": -2426509484324142,
+          "variable": 524
+        },
+        {
+          "coefficient": -27947688591401640,
+          "variable": 525
+        },
+        {
+          "coefficient": -7455643037236492,
+          "variable": 531
+        },
+        {
+          "coefficient": -4683902861921930,
+          "variable": 532
+        },
+        {
+          "coefficient": -95267823718397975,
+          "variable": 533
+        },
+        {
+          "coefficient": -98292587506536235,
+          "variable": 534
+        },
+        {
+          "coefficient": -118932276162055779,
+          "variable": 535
+        },
+        {
+          "coefficient": -129518763453732404,
+          "variable": 536
+        },
+        {
+          "coefficient": -107669193521818096,
+          "variable": 537
+        },
+        {
+          "coefficient": -149259442655919980,
+          "variable": 538
+        },
+        {
+          "coefficient": -83702368829443235,
+          "variable": 539
+        },
+        {
+          "coefficient": -110081741061716471,
+          "variable": 540
+        },
+        {
+          "coefficient": -93903627502135480,
+          "variable": 541
+        },
+        {
+          "coefficient": -116918497652123843,
+          "variable": 542
+        },
+        {
+          "coefficient": -112553650121817402,
+          "variable": 543
+        },
+        {
+          "coefficient": -122321318765574786,
+          "variable": 544
+        },
+        {
+          "coefficient": -82331468205158472,
+          "variable": 545
+        },
+        {
+          "coefficient": -102353728541761727,
+          "variable": 546
+        },
+        {
+          "coefficient": -126336941010515003,
+          "variable": 547
+        },
+        {
+          "coefficient": -102735839798753618,
+          "variable": 548
+        },
+        {
+          "coefficient": -139487775893263257,
+          "variable": 549
+        },
+        {
+          "coefficient": -89124926853160317,
+          "variable": 550
+        },
+        {
+          "coefficient": -97921337320821984,
+          "variable": 551
+        },
+        {
+          "coefficient": -86703985755552892,
+          "variable": 552
+        },
+        {
+          "coefficient": -31491259109625891,
+          "variable": 554
+        },
+        {
+          "coefficient": -11409850559508852,
+          "variable": 555
+        },
+        {
+          "coefficient": -23078812316886571,
+          "variable": 557
+        },
+        {
+          "coefficient": -26819455009389532,
+          "variable": 558
+        },
+        {
+          "coefficient": -48602660657269183,
+          "variable": 559
+        },
+        {
+          "coefficient": -26698937951870446,
+          "variable": 561
+        },
+        {
+          "coefficient": -21319134967965863,
+          "variable": 563
+        },
+        {
+          "coefficient": -16195099924465197,
+          "variable": 564
+        },
+        {
+          "coefficient": -10523687189809488,
+          "variable": 566
+        },
+        {
+          "coefficient": -17237728813697477,
+          "variable": 567
+        },
+        {
+          "coefficient": -182250934687444,
+          "variable": 568
+        },
+        {
+          "coefficient": -14337483076925212,
+          "variable": 569
+        },
+        {
+          "coefficient": -3770639946951822,
+          "variable": 570
+        },
+        {
+          "coefficient": -3360151013120928,
+          "variable": 575
+        },
+        {
+          "coefficient": -166993192678004,
+          "variable": 577
+        },
+        {
+          "coefficient": -14329340344142972,
+          "variable": 581
+        },
+        {
+          "coefficient": -3765185106544302,
+          "variable": 582
+        },
+        {
+          "coefficient": -6284268343329734,
+          "variable": 584
+        },
+        {
+          "coefficient": -6259800617153974,
+          "variable": 587
+        },
+        {
+          "coefficient": -93092989983214015,
+          "variable": 589
+        },
+        {
+          "coefficient": -112012217036030678,
+          "variable": 590
+        },
+        {
+          "coefficient": -129575314709734555,
+          "variable": 591
+        },
+        {
+          "coefficient": -118814397057488802,
+          "variable": 592
+        },
+        {
+          "coefficient": -101437639220222665,
+          "variable": 593
+        },
+        {
+          "coefficient": -125471588338514064,
+          "variable": 594
+        },
+        {
+          "coefficient": -71577015382018816,
+          "variable": 595
+        },
+        {
+          "coefficient": -120322891934384464,
+          "variable": 596
+        },
+        {
+          "coefficient": -104013790537117234,
+          "variable": 597
+        },
+        {
+          "coefficient": -107346599827386981,
+          "variable": 598
+        },
+        {
+          "coefficient": -113537464598406878,
+          "variable": 599
+        },
+        {
+          "coefficient": -147250597539072527,
+          "variable": 600
+        },
+        {
+          "coefficient": -86187667519279580,
+          "variable": 601
+        },
+        {
+          "coefficient": -125347358056244960,
+          "variable": 602
+        },
+        {
+          "coefficient": -116496612816911867,
+          "variable": 603
+        },
+        {
+          "coefficient": -114649994140234616,
+          "variable": 604
+        },
+        {
+          "coefficient": -128651706869646465,
+          "variable": 605
+        },
+        {
+          "coefficient": -78432195476403031,
+          "variable": 606
+        },
+        {
+          "coefficient": -94535989904112014,
+          "variable": 607
+        },
+        {
+          "coefficient": -87696175178082984,
+          "variable": 608
+        },
+        {
+          "coefficient": -24480956060309584,
+          "variable": 610
+        },
+        {
+          "coefficient": -12952682670371691,
+          "variable": 612
+        },
+        {
+          "coefficient": -21694989206206501,
+          "variable": 613
+        },
+        {
+          "coefficient": -16266957546527024,
+          "variable": 614
+        },
+        {
+          "coefficient": -26878706058723879,
+          "variable": 615
+        },
+        {
+          "coefficient": -26970485872977110,
+          "variable": 619
+        },
+        {
+          "coefficient": -7784270532970428,
+          "variable": 620
+        },
+        {
+          "coefficient": -12493106100739915,
+          "variable": 621
+        },
+        {
+          "coefficient": -10700522227638242,
+          "variable": 622
+        },
+        {
+          "coefficient": -8937320426816086,
+          "variable": 624
+        },
+        {
+          "coefficient": -7120360516415828,
+          "variable": 626
+        },
+        {
+          "coefficient": -21269282337785142,
+          "variable": 627
+        },
+        {
+          "coefficient": -24078920143685312,
+          "variable": 628
+        },
+        {
+          "coefficient": -24134614854802672,
+          "variable": 630
+        },
+        {
+          "coefficient": -51269609438131344,
+          "variable": 631
+        },
+        {
+          "coefficient": -8861032086861020,
+          "variable": 632
+        },
+        {
+          "coefficient": -8979812843034086,
+          "variable": 633
+        },
+        {
+          "coefficient": -8811068910954460,
+          "variable": 635
+        },
+        {
+          "coefficient": -7184237488144468,
+          "variable": 638
+        },
+        {
+          "coefficient": -20743297383259306,
+          "variable": 639
+        },
+        {
+          "coefficient": -43895776817292568,
+          "variable": 640
+        },
+        {
+          "coefficient": -8317592423027342,
+          "variable": 641
+        },
+        {
+          "coefficient": -20793972060088586,
+          "variable": 642
+        },
+        {
+          "coefficient": -43955226672168728,
+          "variable": 643
+        },
+        {
+          "coefficient": -8284053060086902,
+          "variable": 644
+        },
+        {
+          "coefficient": -113832907749761268,
+          "variable": 645
+        },
+        {
+          "coefficient": -130246947433205838,
+          "variable": 646
+        },
+        {
+          "coefficient": -86498745699548198,
+          "variable": 647
+        },
+        {
+          "coefficient": -103912439101766654,
+          "variable": 648
+        },
+        {
+          "coefficient": -123945856736926051,
+          "variable": 649
+        },
+        {
+          "coefficient": -107441602091189246,
+          "variable": 650
+        },
+        {
+          "coefficient": -132881373134799703,
+          "variable": 651
+        },
+        {
+          "coefficient": -67600946505116062,
+          "variable": 652
+        },
+        {
+          "coefficient": -91586016588675987,
+          "variable": 653
+        },
+        {
+          "coefficient": -89590836529911591,
+          "variable": 654
+        },
+        {
+          "coefficient": -145747704130620702,
+          "variable": 655
+        },
+        {
+          "coefficient": -141109534414695764,
+          "variable": 656
+        },
+        {
+          "coefficient": -107547762081006411,
+          "variable": 657
+        },
+        {
+          "coefficient": -124644990032883241,
+          "variable": 658
+        },
+        {
+          "coefficient": -98922592109745136,
+          "variable": 659
+        },
+        {
+          "coefficient": -25780577251240402,
+          "variable": 660
+        },
+        {
+          "coefficient": -13148788197286910,
+          "variable": 661
+        },
+        {
+          "coefficient": -13159525111498193,
+          "variable": 662
+        },
+        {
+          "coefficient": -4254384203351931,
+          "variable": 663
+        },
+        {
+          "coefficient": -37537549588716186,
+          "variable": 665
+        },
+        {
+          "coefficient": -8421484342630830,
+          "variable": 666
+        },
+        {
+          "coefficient": -9293841428970480,
+          "variable": 667
+        },
+        {
+          "coefficient": -8419290548119110,
+          "variable": 669
+        },
+        {
+          "coefficient": -9288742339024320,
+          "variable": 670
+        },
+        {
+          "coefficient": -90488142154229125,
+          "variable": 673
+        },
+        {
+          "coefficient": -104757788404652844,
+          "variable": 674
+        },
+        {
+          "coefficient": -100408880749949955,
+          "variable": 675
+        },
+        {
+          "coefficient": -159946192194317785,
+          "variable": 676
+        },
+        {
+          "coefficient": -106853822706017374,
+          "variable": 677
+        },
+        {
+          "coefficient": -100298469719331642,
+          "variable": 678
+        },
+        {
+          "coefficient": -109286678671864393,
+          "variable": 679
+        },
+        {
+          "coefficient": -100696791070339146,
+          "variable": 680
+        },
+        {
+          "coefficient": -109668219009633339,
+          "variable": 681
+        },
+        {
+          "coefficient": -99405808130692800,
+          "variable": 682
+        },
+        {
+          "coefficient": -90892677879681802,
+          "variable": 683
+        },
+        {
+          "coefficient": -99180453907055521,
+          "variable": 684
+        },
+        {
+          "coefficient": -102769208557088314,
+          "variable": 685
+        },
+        {
+          "coefficient": -89052946548049593,
+          "variable": 686
+        },
+        {
+          "coefficient": -105670418872397122,
+          "variable": 687
+        },
+        {
+          "coefficient": -95379481034611586,
+          "variable": 688
+        },
+        {
+          "coefficient": -138329636155245279,
+          "variable": 689
+        },
+        {
+          "coefficient": -106158606368646043,
+          "variable": 690
+        },
+        {
+          "coefficient": -106706721886430958,
+          "variable": 691
+        },
+        {
+          "coefficient": -82663577481843897,
+          "variable": 692
+        },
+        {
+          "coefficient": -33772564795885943,
+          "variable": 695
+        },
+        {
+          "coefficient": -38700927975661203,
+          "variable": 697
+        },
+        {
+          "coefficient": -35495595182552927,
+          "variable": 698
+        },
+        {
+          "coefficient": -31287495097569621,
+          "variable": 699
+        },
+        {
+          "coefficient": -17993538504250349,
+          "variable": 700
+        },
+        {
+          "coefficient": -10404593141994797,
+          "variable": 701
+        },
+        {
+          "coefficient": -18822425309323735,
+          "variable": 703
+        },
+        {
+          "coefficient": -12280703717888951,
+          "variable": 704
+        },
+        {
+          "coefficient": -6693266514928371,
+          "variable": 705
+        },
+        {
+          "coefficient": -23208413662601963,
+          "variable": 707
+        },
+        {
+          "coefficient": -29176299776609094,
+          "variable": 711
+        },
+        {
+          "coefficient": -11797799039809910,
+          "variable": 712
+        },
+        {
+          "coefficient": -11797799039809910,
+          "variable": 713
+        },
+        {
+          "coefficient": -11798945346852070,
+          "variable": 714
+        },
+        {
+          "coefficient": -9418124683506582,
+          "variable": 715
+        },
+        {
+          "coefficient": -3284405093162202,
+          "variable": 716
+        },
+        {
+          "coefficient": -11798945346852070,
+          "variable": 718
+        },
+        {
+          "coefficient": -3284405093162202,
+          "variable": 719
+        },
+        {
+          "coefficient": -9418124683506582,
+          "variable": 720
+        },
+        {
+          "coefficient": -32259741804587350,
+          "variable": 723
+        },
+        {
+          "coefficient": -22400358880812534,
+          "variable": 724
+        },
+        {
+          "coefficient": -22400358880812534,
+          "variable": 725
+        },
+        {
+          "coefficient": -32257350370930430,
+          "variable": 726
+        },
+        {
+          "coefficient": -22358558201602734,
+          "variable": 727
+        },
+        {
+          "coefficient": -22358558201602734,
+          "variable": 728
+        },
+        {
+          "coefficient": -95178378633175377,
+          "variable": 729
+        },
+        {
+          "coefficient": -113465209607652850,
+          "variable": 730
+        },
+        {
+          "coefficient": -128142437308854835,
+          "variable": 731
+        },
+        {
+          "coefficient": -91448492413109175,
+          "variable": 732
+        },
+        {
+          "coefficient": -131321868179812079,
+          "variable": 733
+        },
+        {
+          "coefficient": -147684650200930816,
+          "variable": 734
+        },
+        {
+          "coefficient": -139155306615295779,
+          "variable": 735
+        },
+        {
+          "coefficient": -96940863124275021,
+          "variable": 736
+        },
+        {
+          "coefficient": -127950756096355745,
+          "variable": 737
+        },
+        {
+          "coefficient": -103984905602376286,
+          "variable": 738
+        },
+        {
+          "coefficient": -109924631993247126,
+          "variable": 739
+        },
+        {
+          "coefficient": -111384881195540172,
+          "variable": 740
+        },
+        {
+          "coefficient": -94460702739489055,
+          "variable": 741
+        },
+        {
+          "coefficient": -94518186232434825,
+          "variable": 742
+        },
+        {
+          "coefficient": -114389551361231591,
+          "variable": 743
+        },
+        {
+          "coefficient": -18609150112430238,
+          "variable": 744
+        },
+        {
+          "coefficient": -21435989940171655,
+          "variable": 745
+        },
+        {
+          "coefficient": -41739783104772498,
+          "variable": 746
+        },
+        {
+          "coefficient": -20269032882828380,
+          "variable": 747
+        },
+        {
+          "coefficient": -30394975587948966,
+          "variable": 748
+        },
+        {
+          "coefficient": -21762051035428983,
+          "variable": 749
+        },
+        {
+          "coefficient": -67906725891816626,
+          "variable": 757
+        },
+        {
+          "coefficient": -65780483590178389,
+          "variable": 758
+        },
+        {
+          "coefficient": -77726008854319550,
+          "variable": 759
+        },
+        {
+          "coefficient": -74789579370975807,
+          "variable": 760
+        },
+        {
+          "coefficient": -100923970674899919,
+          "variable": 761
+        },
+        {
+          "coefficient": -95701675691668273,
+          "variable": 762
+        },
+        {
+          "coefficient": -102053621297445329,
+          "variable": 763
+        },
+        {
+          "coefficient": -67329167549279650,
+          "variable": 764
+        },
+        {
+          "coefficient": -68059506521441687,
+          "variable": 765
+        },
+        {
+          "coefficient": -79020235203792177,
+          "variable": 766
+        },
+        {
+          "coefficient": -88754756691777965,
+          "variable": 767
+        },
+        {
+          "coefficient": -70748915810783674,
+          "variable": 768
+        },
+        {
+          "coefficient": -53178138552412824,
+          "variable": 769
+        },
+        {
+          "coefficient": -57294400524200590,
+          "variable": 770
+        },
+        {
+          "coefficient": -75075470686682110,
+          "variable": 771
+        },
+        {
+          "coefficient": -32916518724543978,
+          "variable": 784
+        },
+        {
+          "coefficient": -92991267478719332,
+          "variable": 785
+        },
+        {
+          "coefficient": -93681621159730156,
+          "variable": 786
+        },
+        {
+          "coefficient": -87275676356011137,
+          "variable": 787
+        },
+        {
+          "coefficient": -89528173935574846,
+          "variable": 788
+        },
+        {
+          "coefficient": -83729320459561014,
+          "variable": 789
+        },
+        {
+          "coefficient": -100797100047941661,
+          "variable": 790
+        }
+      ],
+      "combined_rhs_after_bounds": 76622100033407382,
+      "combined_rhs_before_bounds": 76622100033407382,
+      "exact_checks": {
+        "all_bound_multipliers_strictly_positive": true,
+        "all_row_multipliers_strictly_positive": true,
+        "all_variable_coefficients_cancel": true,
+        "contradiction_rhs_strictly_positive": true
+      },
+      "lower_bound_multipliers": [
+        {
+          "multiplier": 132210386534958054,
+          "variable": 1
+        },
+        {
+          "multiplier": 158205929014205782,
+          "variable": 2
+        },
+        {
+          "multiplier": 131413712854555582,
+          "variable": 3
+        },
+        {
+          "multiplier": 142964700242991974,
+          "variable": 4
+        },
+        {
+          "multiplier": 154698161173323218,
+          "variable": 5
+        },
+        {
+          "multiplier": 124019328954011722,
+          "variable": 6
+        },
+        {
+          "multiplier": 19487612197170836,
+          "variable": 7
+        },
+        {
+          "multiplier": 13612390940058424,
+          "variable": 8
+        },
+        {
+          "multiplier": 22370581784399368,
+          "variable": 9
+        },
+        {
+          "multiplier": 16935351995209020,
+          "variable": 10
+        },
+        {
+          "multiplier": 21722474263743767,
+          "variable": 11
+        },
+        {
+          "multiplier": 35002257796431463,
+          "variable": 12
+        },
+        {
+          "multiplier": 40139129752580652,
+          "variable": 13
+        },
+        {
+          "multiplier": 32758314000543318,
+          "variable": 14
+        },
+        {
+          "multiplier": 19399133082011209,
+          "variable": 15
+        },
+        {
+          "multiplier": 22398625347239237,
+          "variable": 16
+        },
+        {
+          "multiplier": 29092097121003979,
+          "variable": 17
+        },
+        {
+          "multiplier": 11525624343889244,
+          "variable": 18
+        },
+        {
+          "multiplier": 21717657863864612,
+          "variable": 19
+        },
+        {
+          "multiplier": 20174603024403516,
+          "variable": 20
+        },
+        {
+          "multiplier": 26126007361465499,
+          "variable": 21
+        },
+        {
+          "multiplier": 11563577449950808,
+          "variable": 22
+        },
+        {
+          "multiplier": 11780596857839038,
+          "variable": 23
+        },
+        {
+          "multiplier": 9059222468058504,
+          "variable": 25
+        },
+        {
+          "multiplier": 3022240593651650,
+          "variable": 26
+        },
+        {
+          "multiplier": 11780596857839038,
+          "variable": 27
+        },
+        {
+          "multiplier": 9059222468058504,
+          "variable": 28
+        },
+        {
+          "multiplier": 3022240593651650,
+          "variable": 30
+        },
+        {
+          "multiplier": 2927334276126610,
+          "variable": 31
+        },
+        {
+          "multiplier": 2927334276126610,
+          "variable": 32
+        },
+        {
+          "multiplier": 11449302496196168,
+          "variable": 34
+        },
+        {
+          "multiplier": 11737827746817758,
+          "variable": 35
+        },
+        {
+          "multiplier": 11737827746817758,
+          "variable": 36
+        },
+        {
+          "multiplier": 27229035836010838,
+          "variable": 37
+        },
+        {
+          "multiplier": 1882170973169202,
+          "variable": 41
+        },
+        {
+          "multiplier": 26728319030183048,
+          "variable": 43
+        },
+        {
+          "multiplier": 1862604697794402,
+          "variable": 45
+        },
+        {
+          "multiplier": 1882170973169202,
+          "variable": 48
+        },
+        {
+          "multiplier": 26728319030183048,
+          "variable": 49
+        },
+        {
+          "multiplier": 1862604697794402,
+          "variable": 52
+        },
+        {
+          "multiplier": 26732607799633888,
+          "variable": 54
+        },
+        {
+          "multiplier": 26732607799633888,
+          "variable": 55
+        },
+        {
+          "multiplier": 27185555224066838,
+          "variable": 56
+        },
+        {
+          "multiplier": 80028545958472226,
+          "variable": 57
+        },
+        {
+          "multiplier": 61105961875365839,
+          "variable": 58
+        },
+        {
+          "multiplier": 74711154867851235,
+          "variable": 59
+        },
+        {
+          "multiplier": 104582357444201771,
+          "variable": 60
+        },
+        {
+          "multiplier": 87139869108144600,
+          "variable": 61
+        },
+        {
+          "multiplier": 80470939989107008,
+          "variable": 62
+        },
+        {
+          "multiplier": 116953200260507024,
+          "variable": 63
+        },
+        {
+          "multiplier": 82570479672088617,
+          "variable": 64
+        },
+        {
+          "multiplier": 90090524647641478,
+          "variable": 65
+        },
+        {
+          "multiplier": 79490565083862792,
+          "variable": 66
+        },
+        {
+          "multiplier": 84399234348603296,
+          "variable": 67
+        },
+        {
+          "multiplier": 26562837093401996,
+          "variable": 68
+        },
+        {
+          "multiplier": 71188434771355612,
+          "variable": 69
+        },
+        {
+          "multiplier": 72475466362047532,
+          "variable": 70
+        },
+        {
+          "multiplier": 77923352029834817,
+          "variable": 71
+        },
+        {
+          "multiplier": 22757600301613085,
+          "variable": 75
+        },
+        {
+          "multiplier": 19293660536515858,
+          "variable": 77
+        },
+        {
+          "multiplier": 35160603369072418,
+          "variable": 81
+        },
+        {
+          "multiplier": 33380100726262464,
+          "variable": 82
+        },
+        {
+          "multiplier": 32293504581527952,
+          "variable": 86
+        },
+        {
+          "multiplier": 7927646188345837,
+          "variable": 88
+        },
+        {
+          "multiplier": 31864062669787034,
+          "variable": 92
+        },
+        {
+          "multiplier": 8887649302276246,
+          "variable": 95
+        },
+        {
+          "multiplier": 13521092449073940,
+          "variable": 97
+        },
+        {
+          "multiplier": 13508048265490740,
+          "variable": 101
+        },
+        {
+          "multiplier": 13521092449073940,
+          "variable": 102
+        },
+        {
+          "multiplier": 13508048265490740,
+          "variable": 106
+        },
+        {
+          "multiplier": 8863794257450606,
+          "variable": 108
+        },
+        {
+          "multiplier": 31863726683240194,
+          "variable": 111
+        },
+        {
+          "multiplier": 32137196058549706,
+          "variable": 112
+        },
+        {
+          "multiplier": 32137196058549706,
+          "variable": 113
+        },
+        {
+          "multiplier": 57336610416338696,
+          "variable": 114
+        },
+        {
+          "multiplier": 7218586758955896,
+          "variable": 115
+        },
+        {
+          "multiplier": 16020555545248260,
+          "variable": 116
+        },
+        {
+          "multiplier": 16020555545248260,
+          "variable": 117
+        },
+        {
+          "multiplier": 16009823739663900,
+          "variable": 118
+        },
+        {
+          "multiplier": 32034678878325036,
+          "variable": 119
+        },
+        {
+          "multiplier": 37684498727239260,
+          "variable": 120
+        },
+        {
+          "multiplier": 32110969343981666,
+          "variable": 121
+        },
+        {
+          "multiplier": 16009823739663900,
+          "variable": 122
+        },
+        {
+          "multiplier": 37684498727239260,
+          "variable": 123
+        },
+        {
+          "multiplier": 32034678878325036,
+          "variable": 124
+        },
+        {
+          "multiplier": 32110969343981666,
+          "variable": 125
+        },
+        {
+          "multiplier": 57340128393123256,
+          "variable": 126
+        },
+        {
+          "multiplier": 114150108309327383,
+          "variable": 127
+        },
+        {
+          "multiplier": 93959252920709059,
+          "variable": 128
+        },
+        {
+          "multiplier": 145936999582197133,
+          "variable": 129
+        },
+        {
+          "multiplier": 142924245188840356,
+          "variable": 130
+        },
+        {
+          "multiplier": 116173251186506408,
+          "variable": 131
+        },
+        {
+          "multiplier": 120623116498311534,
+          "variable": 132
+        },
+        {
+          "multiplier": 152773931085064479,
+          "variable": 133
+        },
+        {
+          "multiplier": 138812606036861305,
+          "variable": 134
+        },
+        {
+          "multiplier": 98231866863833177,
+          "variable": 135
+        },
+        {
+          "multiplier": 110381546023676193,
+          "variable": 136
+        },
+        {
+          "multiplier": 115180935176901830,
+          "variable": 137
+        },
+        {
+          "multiplier": 54306057309812988,
+          "variable": 138
+        },
+        {
+          "multiplier": 119925971285752881,
+          "variable": 139
+        },
+        {
+          "multiplier": 104641069759266297,
+          "variable": 140
+        },
+        {
+          "multiplier": 108807671587304042,
+          "variable": 141
+        },
+        {
+          "multiplier": 3741557189479972,
+          "variable": 142
+        },
+        {
+          "multiplier": 23092712076562181,
+          "variable": 143
+        },
+        {
+          "multiplier": 12020714598334508,
+          "variable": 144
+        },
+        {
+          "multiplier": 21318684493211919,
+          "variable": 146
+        },
+        {
+          "multiplier": 5926506875118814,
+          "variable": 147
+        },
+        {
+          "multiplier": 26870128752508329,
+          "variable": 149
+        },
+        {
+          "multiplier": 28527749886464931,
+          "variable": 150
+        },
+        {
+          "multiplier": 27863121831651713,
+          "variable": 151
+        },
+        {
+          "multiplier": 37102546167204859,
+          "variable": 152
+        },
+        {
+          "multiplier": 28508289845558358,
+          "variable": 153
+        },
+        {
+          "multiplier": 22958407881162792,
+          "variable": 155
+        },
+        {
+          "multiplier": 15066700548649944,
+          "variable": 156
+        },
+        {
+          "multiplier": 6354426184545282,
+          "variable": 157
+        },
+        {
+          "multiplier": 3598845915513956,
+          "variable": 161
+        },
+        {
+          "multiplier": 1778775233768350,
+          "variable": 162
+        },
+        {
+          "multiplier": 7531990822083426,
+          "variable": 166
+        },
+        {
+          "multiplier": 10641472194704960,
+          "variable": 168
+        },
+        {
+          "multiplier": 7512424546708626,
+          "variable": 170
+        },
+        {
+          "multiplier": 7531990822083426,
+          "variable": 173
+        },
+        {
+          "multiplier": 10641472194704960,
+          "variable": 174
+        },
+        {
+          "multiplier": 7512424546708626,
+          "variable": 177
+        },
+        {
+          "multiplier": 10645760964155800,
+          "variable": 179
+        },
+        {
+          "multiplier": 10645760964155800,
+          "variable": 180
+        },
+        {
+          "multiplier": 1735294621824350,
+          "variable": 181
+        },
+        {
+          "multiplier": 5684834525296766,
+          "variable": 182
+        },
+        {
+          "multiplier": 5684834525296766,
+          "variable": 183
+        },
+        {
+          "multiplier": 36875889757055146,
+          "variable": 184
+        },
+        {
+          "multiplier": 43323654864117108,
+          "variable": 189
+        },
+        {
+          "multiplier": 24869836876180776,
+          "variable": 190
+        },
+        {
+          "multiplier": 5710646197659886,
+          "variable": 191
+        },
+        {
+          "multiplier": 24869836876180776,
+          "variable": 193
+        },
+        {
+          "multiplier": 43323654864117108,
+          "variable": 194
+        },
+        {
+          "multiplier": 5710646197659886,
+          "variable": 195
+        },
+        {
+          "multiplier": 36933679443111626,
+          "variable": 196
+        },
+        {
+          "multiplier": 77667292075692643,
+          "variable": 197
+        },
+        {
+          "multiplier": 120018200925655321,
+          "variable": 198
+        },
+        {
+          "multiplier": 93061473867665665,
+          "variable": 199
+        },
+        {
+          "multiplier": 91549213853436165,
+          "variable": 200
+        },
+        {
+          "multiplier": 93436492931303139,
+          "variable": 201
+        },
+        {
+          "multiplier": 90459853085456076,
+          "variable": 202
+        },
+        {
+          "multiplier": 39673445880728861,
+          "variable": 203
+        },
+        {
+          "multiplier": 106082704288378530,
+          "variable": 204
+        },
+        {
+          "multiplier": 102725904881664408,
+          "variable": 205
+        },
+        {
+          "multiplier": 115725487979888772,
+          "variable": 206
+        },
+        {
+          "multiplier": 163311516012743882,
+          "variable": 207
+        },
+        {
+          "multiplier": 98658130212119086,
+          "variable": 208
+        },
+        {
+          "multiplier": 71481941560280405,
+          "variable": 209
+        },
+        {
+          "multiplier": 117369028765014024,
+          "variable": 210
+        },
+        {
+          "multiplier": 150622291956200530,
+          "variable": 211
+        },
+        {
+          "multiplier": 87164782411825113,
+          "variable": 212
+        },
+        {
+          "multiplier": 85605076956004483,
+          "variable": 213
+        },
+        {
+          "multiplier": 71414303024948428,
+          "variable": 214
+        },
+        {
+          "multiplier": 44936724737727698,
+          "variable": 215
+        },
+        {
+          "multiplier": 84349173441595505,
+          "variable": 216
+        },
+        {
+          "multiplier": 30210376239352349,
+          "variable": 217
+        },
+        {
+          "multiplier": 20599683533647825,
+          "variable": 221
+        },
+        {
+          "multiplier": 6912909980054634,
+          "variable": 222
+        },
+        {
+          "multiplier": 3539172195969518,
+          "variable": 223
+        },
+        {
+          "multiplier": 3295428386918443,
+          "variable": 225
+        },
+        {
+          "multiplier": 14566609540645792,
+          "variable": 226
+        },
+        {
+          "multiplier": 34179484726853781,
+          "variable": 227
+        },
+        {
+          "multiplier": 61581502353690717,
+          "variable": 228
+        },
+        {
+          "multiplier": 23775665806313165,
+          "variable": 230
+        },
+        {
+          "multiplier": 10828120599733934,
+          "variable": 232
+        },
+        {
+          "multiplier": 10828120599733934,
+          "variable": 233
+        },
+        {
+          "multiplier": 6919510628289632,
+          "variable": 234
+        },
+        {
+          "multiplier": 10832824411389694,
+          "variable": 241
+        },
+        {
+          "multiplier": 10832824411389694,
+          "variable": 245
+        },
+        {
+          "multiplier": 6937970124451312,
+          "variable": 246
+        },
+        {
+          "multiplier": 3064424110100036,
+          "variable": 247
+        },
+        {
+          "multiplier": 21918375905344828,
+          "variable": 248
+        },
+        {
+          "multiplier": 21918375905344828,
+          "variable": 249
+        },
+        {
+          "multiplier": 3061894329041476,
+          "variable": 250
+        },
+        {
+          "multiplier": 21895173069698348,
+          "variable": 251
+        },
+        {
+          "multiplier": 21895173069698348,
+          "variable": 252
+        },
+        {
+          "multiplier": 126849423467455841,
+          "variable": 253
+        },
+        {
+          "multiplier": 121223846199254001,
+          "variable": 254
+        },
+        {
+          "multiplier": 160448940136821251,
+          "variable": 255
+        },
+        {
+          "multiplier": 126114004727849804,
+          "variable": 256
+        },
+        {
+          "multiplier": 150360215894134235,
+          "variable": 257
+        },
+        {
+          "multiplier": 110858764435339492,
+          "variable": 258
+        },
+        {
+          "multiplier": 124694655195163556,
+          "variable": 259
+        },
+        {
+          "multiplier": 104803444614763509,
+          "variable": 260
+        },
+        {
+          "multiplier": 121953859736685767,
+          "variable": 261
+        },
+        {
+          "multiplier": 128652096392568657,
+          "variable": 262
+        },
+        {
+          "multiplier": 125379219649305384,
+          "variable": 263
+        },
+        {
+          "multiplier": 113501964629400350,
+          "variable": 264
+        },
+        {
+          "multiplier": 118503396574608666,
+          "variable": 265
+        },
+        {
+          "multiplier": 119586648562585160,
+          "variable": 266
+        },
+        {
+          "multiplier": 117675491231630388,
+          "variable": 267
+        },
+        {
+          "multiplier": 26755205065271618,
+          "variable": 269
+        },
+        {
+          "multiplier": 31274771193573469,
+          "variable": 271
+        },
+        {
+          "multiplier": 35918050049440057,
+          "variable": 272
+        },
+        {
+          "multiplier": 19681311451637223,
+          "variable": 274
+        },
+        {
+          "multiplier": 31199364279631032,
+          "variable": 275
+        },
+        {
+          "multiplier": 36723902097398925,
+          "variable": 276
+        },
+        {
+          "multiplier": 27250525523432288,
+          "variable": 277
+        },
+        {
+          "multiplier": 11586061686152172,
+          "variable": 278
+        },
+        {
+          "multiplier": 2705533663577778,
+          "variable": 280
+        },
+        {
+          "multiplier": 15678591680959953,
+          "variable": 284
+        },
+        {
+          "multiplier": 5878342778870021,
+          "variable": 285
+        },
+        {
+          "multiplier": 11313889326426258,
+          "variable": 286
+        },
+        {
+          "multiplier": 23730691282760470,
+          "variable": 289
+        },
+        {
+          "multiplier": 14097765103079518,
+          "variable": 292
+        },
+        {
+          "multiplier": 23756700594268790,
+          "variable": 295
+        },
+        {
+          "multiplier": 14113872693413318,
+          "variable": 296
+        },
+        {
+          "multiplier": 190742567890574,
+          "variable": 297
+        },
+        {
+          "multiplier": 122458243223974,
+          "variable": 298
+        },
+        {
+          "multiplier": 11204476159159214,
+          "variable": 300
+        },
+        {
+          "multiplier": 11218429482810334,
+          "variable": 306
+        },
+        {
+          "multiplier": 7441393254867572,
+          "variable": 308
+        },
+        {
+          "multiplier": 4673724445944130,
+          "variable": 310
+        },
+        {
+          "multiplier": 23723757882575946,
+          "variable": 311
+        },
+        {
+          "multiplier": 2423248438428342,
+          "variable": 313
+        },
+        {
+          "multiplier": 7455643037236492,
+          "variable": 317
+        },
+        {
+          "multiplier": 2426509484324142,
+          "variable": 318
+        },
+        {
+          "multiplier": 27947688591401640,
+          "variable": 320
+        },
+        {
+          "multiplier": 4683902861921930,
+          "variable": 322
+        },
+        {
+          "multiplier": 85663793148744885,
+          "variable": 323
+        },
+        {
+          "multiplier": 104954877695257144,
+          "variable": 324
+        },
+        {
+          "multiplier": 112529784928432434,
+          "variable": 325
+        },
+        {
+          "multiplier": 146069171895882527,
+          "variable": 326
+        },
+        {
+          "multiplier": 101819510601974265,
+          "variable": 327
+        },
+        {
+          "multiplier": 112501270653481151,
+          "variable": 328
+        },
+        {
+          "multiplier": 98678739946822751,
+          "variable": 329
+        },
+        {
+          "multiplier": 113850966623774396,
+          "variable": 330
+        },
+        {
+          "multiplier": 115426570185237359,
+          "variable": 331
+        },
+        {
+          "multiplier": 158092267541951059,
+          "variable": 332
+        },
+        {
+          "multiplier": 109967140915884822,
+          "variable": 333
+        },
+        {
+          "multiplier": 88826320477047208,
+          "variable": 334
+        },
+        {
+          "multiplier": 88192705002045251,
+          "variable": 335
+        },
+        {
+          "multiplier": 87985218835582890,
+          "variable": 336
+        },
+        {
+          "multiplier": 114168367140035848,
+          "variable": 337
+        },
+        {
+          "multiplier": 110218093134999800,
+          "variable": 338
+        },
+        {
+          "multiplier": 98076256642464078,
+          "variable": 339
+        },
+        {
+          "multiplier": 78723308571612857,
+          "variable": 340
+        },
+        {
+          "multiplier": 92445668457675081,
+          "variable": 341
+        },
+        {
+          "multiplier": 87487904720669970,
+          "variable": 342
+        },
+        {
+          "multiplier": 3462688587340401,
+          "variable": 343
+        },
+        {
+          "multiplier": 16976710761125469,
+          "variable": 345
+        },
+        {
+          "multiplier": 14852273920979006,
+          "variable": 347
+        },
+        {
+          "multiplier": 53630475371647090,
+          "variable": 348
+        },
+        {
+          "multiplier": 16332777079085317,
+          "variable": 349
+        },
+        {
+          "multiplier": 33752821545112333,
+          "variable": 351
+        },
+        {
+          "multiplier": 27251985722773000,
+          "variable": 352
+        },
+        {
+          "multiplier": 7663265386364714,
+          "variable": 353
+        },
+        {
+          "multiplier": 9141216331223310,
+          "variable": 354
+        },
+        {
+          "multiplier": 14337483076925212,
+          "variable": 358
+        },
+        {
+          "multiplier": 182250934687444,
+          "variable": 359
+        },
+        {
+          "multiplier": 3770639946951822,
+          "variable": 360
+        },
+        {
+          "multiplier": 14329340344142972,
+          "variable": 367
+        },
+        {
+          "multiplier": 3360151013120928,
+          "variable": 370
+        },
+        {
+          "multiplier": 166993192678004,
+          "variable": 371
+        },
+        {
+          "multiplier": 3765185106544302,
+          "variable": 372
+        },
+        {
+          "multiplier": 6284268343329734,
+          "variable": 375
+        },
+        {
+          "multiplier": 6259800617153974,
+          "variable": 378
+        },
+        {
+          "multiplier": 93141964073884131,
+          "variable": 379
+        },
+        {
+          "multiplier": 147533524716693642,
+          "variable": 380
+        },
+        {
+          "multiplier": 125418668337591676,
+          "variable": 381
+        },
+        {
+          "multiplier": 130248483017436647,
+          "variable": 382
+        },
+        {
+          "multiplier": 146449917497146250,
+          "variable": 383
+        },
+        {
+          "multiplier": 112663859864114294,
+          "variable": 384
+        },
+        {
+          "multiplier": 103445739257232215,
+          "variable": 385
+        },
+        {
+          "multiplier": 168235297181193115,
+          "variable": 386
+        },
+        {
+          "multiplier": 161635454560133205,
+          "variable": 387
+        },
+        {
+          "multiplier": 159680308537662848,
+          "variable": 388
+        },
+        {
+          "multiplier": 129111110200395745,
+          "variable": 389
+        },
+        {
+          "multiplier": 105004236389738039,
+          "variable": 390
+        },
+        {
+          "multiplier": 75929642576465905,
+          "variable": 391
+        },
+        {
+          "multiplier": 120745120034052012,
+          "variable": 392
+        },
+        {
+          "multiplier": 105740044176893599,
+          "variable": 393
+        },
+        {
+          "multiplier": 98605470187476244,
+          "variable": 394
+        },
+        {
+          "multiplier": 119697781294484586,
+          "variable": 395
+        },
+        {
+          "multiplier": 92437980990445437,
+          "variable": 396
+        },
+        {
+          "multiplier": 88230597278822768,
+          "variable": 397
+        },
+        {
+          "multiplier": 106168360676311878,
+          "variable": 398
+        },
+        {
+          "multiplier": 26656172452617937,
+          "variable": 399
+        },
+        {
+          "multiplier": 33954002644056667,
+          "variable": 402
+        },
+        {
+          "multiplier": 20906239958419530,
+          "variable": 403
+        },
+        {
+          "multiplier": 36305321390206863,
+          "variable": 404
+        },
+        {
+          "multiplier": 32032251445447602,
+          "variable": 405
+        },
+        {
+          "multiplier": 24163974712820775,
+          "variable": 406
+        },
+        {
+          "multiplier": 16709067601097581,
+          "variable": 407
+        },
+        {
+          "multiplier": 50898542405458723,
+          "variable": 408
+        },
+        {
+          "multiplier": 28899563256376309,
+          "variable": 409
+        },
+        {
+          "multiplier": 2746071543953707,
+          "variable": 410
+        },
+        {
+          "multiplier": 8937320426816086,
+          "variable": 415
+        },
+        {
+          "multiplier": 7120360516415828,
+          "variable": 416
+        },
+        {
+          "multiplier": 21269282337785142,
+          "variable": 417
+        },
+        {
+          "multiplier": 24078920143685312,
+          "variable": 419
+        },
+        {
+          "multiplier": 8811068910954460,
+          "variable": 422
+        },
+        {
+          "multiplier": 24134614854802672,
+          "variable": 424
+        },
+        {
+          "multiplier": 8861032086861020,
+          "variable": 425
+        },
+        {
+          "multiplier": 51269609438131344,
+          "variable": 426
+        },
+        {
+          "multiplier": 8979812843034086,
+          "variable": 427
+        },
+        {
+          "multiplier": 7184237488144468,
+          "variable": 428
+        },
+        {
+          "multiplier": 20743297383259306,
+          "variable": 429
+        },
+        {
+          "multiplier": 8317592423027342,
+          "variable": 430
+        },
+        {
+          "multiplier": 43895776817292568,
+          "variable": 431
+        },
+        {
+          "multiplier": 20793972060088586,
+          "variable": 432
+        },
+        {
+          "multiplier": 8284053060086902,
+          "variable": 433
+        },
+        {
+          "multiplier": 43955226672168728,
+          "variable": 434
+        },
+        {
+          "multiplier": 129224078059580120,
+          "variable": 435
+        },
+        {
+          "multiplier": 87062863760596655,
+          "variable": 436
+        },
+        {
+          "multiplier": 88438702710804690,
+          "variable": 437
+        },
+        {
+          "multiplier": 119582841683120816,
+          "variable": 438
+        },
+        {
+          "multiplier": 134178684271422503,
+          "variable": 439
+        },
+        {
+          "multiplier": 139644598145535702,
+          "variable": 440
+        },
+        {
+          "multiplier": 115247325169664569,
+          "variable": 441
+        },
+        {
+          "multiplier": 105067601696220445,
+          "variable": 442
+        },
+        {
+          "multiplier": 102999779395016342,
+          "variable": 443
+        },
+        {
+          "multiplier": 148559149587440153,
+          "variable": 444
+        },
+        {
+          "multiplier": 124307025271525880,
+          "variable": 445
+        },
+        {
+          "multiplier": 129057334403695059,
+          "variable": 446
+        },
+        {
+          "multiplier": 69442669685241678,
+          "variable": 447
+        },
+        {
+          "multiplier": 112871686306871006,
+          "variable": 448
+        },
+        {
+          "multiplier": 84673329281747434,
+          "variable": 449
+        },
+        {
+          "multiplier": 8662439083215897,
+          "variable": 450
+        },
+        {
+          "multiplier": 9488328395186719,
+          "variable": 451
+        },
+        {
+          "multiplier": 19402701743658574,
+          "variable": 453
+        },
+        {
+          "multiplier": 6937333714302844,
+          "variable": 454
+        },
+        {
+          "multiplier": 11501317165207328,
+          "variable": 455
+        },
+        {
+          "multiplier": 8421484342630830,
+          "variable": 456
+        },
+        {
+          "multiplier": 9293841428970480,
+          "variable": 458
+        },
+        {
+          "multiplier": 8419290548119110,
+          "variable": 459
+        },
+        {
+          "multiplier": 9288742339024320,
+          "variable": 461
+        },
+        {
+          "multiplier": 130899057020037115,
+          "variable": 463
+        },
+        {
+          "multiplier": 106136268581638344,
+          "variable": 464
+        },
+        {
+          "multiplier": 102275037202856941,
+          "variable": 465
+        },
+        {
+          "multiplier": 126804729514931636,
+          "variable": 466
+        },
+        {
+          "multiplier": 120347304086192385,
+          "variable": 467
+        },
+        {
+          "multiplier": 131833301515579378,
+          "variable": 468
+        },
+        {
+          "multiplier": 129012498204774258,
+          "variable": 469
+        },
+        {
+          "multiplier": 167985915345420353,
+          "variable": 470
+        },
+        {
+          "multiplier": 136962366992610157,
+          "variable": 471
+        },
+        {
+          "multiplier": 124505614915012800,
+          "variable": 472
+        },
+        {
+          "multiplier": 164941235475023929,
+          "variable": 473
+        },
+        {
+          "multiplier": 107532610032409186,
+          "variable": 474
+        },
+        {
+          "multiplier": 131133199430800786,
+          "variable": 475
+        },
+        {
+          "multiplier": 108246958088464710,
+          "variable": 476
+        },
+        {
+          "multiplier": 127498352835158793,
+          "variable": 477
+        },
+        {
+          "multiplier": 26593639941304930,
+          "variable": 480
+        },
+        {
+          "multiplier": 31697501555794618,
+          "variable": 481
+        },
+        {
+          "multiplier": 15533461915963207,
+          "variable": 483
+        },
+        {
+          "multiplier": 39865450279251092,
+          "variable": 489
+        },
+        {
+          "multiplier": 25707662415628626,
+          "variable": 491
+        },
+        {
+          "multiplier": 16002387273572577,
+          "variable": 492
+        },
+        {
+          "multiplier": 25475763847539214,
+          "variable": 493
+        },
+        {
+          "multiplier": 31296860522851848,
+          "variable": 494
+        },
+        {
+          "multiplier": 2719151000682058,
+          "variable": 495
+        },
+        {
+          "multiplier": 12611911209105684,
+          "variable": 496
+        },
+        {
+          "multiplier": 23730691282760470,
+          "variable": 500
+        },
+        {
+          "multiplier": 122458243223974,
+          "variable": 503
+        },
+        {
+          "multiplier": 11204476159159214,
+          "variable": 504
+        },
+        {
+          "multiplier": 14097765103079518,
+          "variable": 509
+        },
+        {
+          "multiplier": 23756700594268790,
+          "variable": 511
+        },
+        {
+          "multiplier": 190742567890574,
+          "variable": 512
+        },
+        {
+          "multiplier": 14113872693413318,
+          "variable": 513
+        },
+        {
+          "multiplier": 11218429482810334,
+          "variable": 515
+        },
+        {
+          "multiplier": 7441393254867572,
+          "variable": 519
+        },
+        {
+          "multiplier": 4673724445944130,
+          "variable": 520
+        },
+        {
+          "multiplier": 23723757882575946,
+          "variable": 521
+        },
+        {
+          "multiplier": 2423248438428342,
+          "variable": 522
+        },
+        {
+          "multiplier": 2426509484324142,
+          "variable": 524
+        },
+        {
+          "multiplier": 27947688591401640,
+          "variable": 525
+        },
+        {
+          "multiplier": 7455643037236492,
+          "variable": 531
+        },
+        {
+          "multiplier": 4683902861921930,
+          "variable": 532
+        },
+        {
+          "multiplier": 95267823718397975,
+          "variable": 533
+        },
+        {
+          "multiplier": 98292587506536235,
+          "variable": 534
+        },
+        {
+          "multiplier": 118932276162055779,
+          "variable": 535
+        },
+        {
+          "multiplier": 129518763453732404,
+          "variable": 536
+        },
+        {
+          "multiplier": 107669193521818096,
+          "variable": 537
+        },
+        {
+          "multiplier": 149259442655919980,
+          "variable": 538
+        },
+        {
+          "multiplier": 83702368829443235,
+          "variable": 539
+        },
+        {
+          "multiplier": 110081741061716471,
+          "variable": 540
+        },
+        {
+          "multiplier": 93903627502135480,
+          "variable": 541
+        },
+        {
+          "multiplier": 116918497652123843,
+          "variable": 542
+        },
+        {
+          "multiplier": 112553650121817402,
+          "variable": 543
+        },
+        {
+          "multiplier": 122321318765574786,
+          "variable": 544
+        },
+        {
+          "multiplier": 82331468205158472,
+          "variable": 545
+        },
+        {
+          "multiplier": 102353728541761727,
+          "variable": 546
+        },
+        {
+          "multiplier": 126336941010515003,
+          "variable": 547
+        },
+        {
+          "multiplier": 102735839798753618,
+          "variable": 548
+        },
+        {
+          "multiplier": 139487775893263257,
+          "variable": 549
+        },
+        {
+          "multiplier": 89124926853160317,
+          "variable": 550
+        },
+        {
+          "multiplier": 97921337320821984,
+          "variable": 551
+        },
+        {
+          "multiplier": 86703985755552892,
+          "variable": 552
+        },
+        {
+          "multiplier": 31491259109625891,
+          "variable": 554
+        },
+        {
+          "multiplier": 11409850559508852,
+          "variable": 555
+        },
+        {
+          "multiplier": 23078812316886571,
+          "variable": 557
+        },
+        {
+          "multiplier": 26819455009389532,
+          "variable": 558
+        },
+        {
+          "multiplier": 48602660657269183,
+          "variable": 559
+        },
+        {
+          "multiplier": 26698937951870446,
+          "variable": 561
+        },
+        {
+          "multiplier": 21319134967965863,
+          "variable": 563
+        },
+        {
+          "multiplier": 16195099924465197,
+          "variable": 564
+        },
+        {
+          "multiplier": 10523687189809488,
+          "variable": 566
+        },
+        {
+          "multiplier": 17237728813697477,
+          "variable": 567
+        },
+        {
+          "multiplier": 182250934687444,
+          "variable": 568
+        },
+        {
+          "multiplier": 14337483076925212,
+          "variable": 569
+        },
+        {
+          "multiplier": 3770639946951822,
+          "variable": 570
+        },
+        {
+          "multiplier": 3360151013120928,
+          "variable": 575
+        },
+        {
+          "multiplier": 166993192678004,
+          "variable": 577
+        },
+        {
+          "multiplier": 14329340344142972,
+          "variable": 581
+        },
+        {
+          "multiplier": 3765185106544302,
+          "variable": 582
+        },
+        {
+          "multiplier": 6284268343329734,
+          "variable": 584
+        },
+        {
+          "multiplier": 6259800617153974,
+          "variable": 587
+        },
+        {
+          "multiplier": 93092989983214015,
+          "variable": 589
+        },
+        {
+          "multiplier": 112012217036030678,
+          "variable": 590
+        },
+        {
+          "multiplier": 129575314709734555,
+          "variable": 591
+        },
+        {
+          "multiplier": 118814397057488802,
+          "variable": 592
+        },
+        {
+          "multiplier": 101437639220222665,
+          "variable": 593
+        },
+        {
+          "multiplier": 125471588338514064,
+          "variable": 594
+        },
+        {
+          "multiplier": 71577015382018816,
+          "variable": 595
+        },
+        {
+          "multiplier": 120322891934384464,
+          "variable": 596
+        },
+        {
+          "multiplier": 104013790537117234,
+          "variable": 597
+        },
+        {
+          "multiplier": 107346599827386981,
+          "variable": 598
+        },
+        {
+          "multiplier": 113537464598406878,
+          "variable": 599
+        },
+        {
+          "multiplier": 147250597539072527,
+          "variable": 600
+        },
+        {
+          "multiplier": 86187667519279580,
+          "variable": 601
+        },
+        {
+          "multiplier": 125347358056244960,
+          "variable": 602
+        },
+        {
+          "multiplier": 116496612816911867,
+          "variable": 603
+        },
+        {
+          "multiplier": 114649994140234616,
+          "variable": 604
+        },
+        {
+          "multiplier": 128651706869646465,
+          "variable": 605
+        },
+        {
+          "multiplier": 78432195476403031,
+          "variable": 606
+        },
+        {
+          "multiplier": 94535989904112014,
+          "variable": 607
+        },
+        {
+          "multiplier": 87696175178082984,
+          "variable": 608
+        },
+        {
+          "multiplier": 24480956060309584,
+          "variable": 610
+        },
+        {
+          "multiplier": 12952682670371691,
+          "variable": 612
+        },
+        {
+          "multiplier": 21694989206206501,
+          "variable": 613
+        },
+        {
+          "multiplier": 16266957546527024,
+          "variable": 614
+        },
+        {
+          "multiplier": 26878706058723879,
+          "variable": 615
+        },
+        {
+          "multiplier": 26970485872977110,
+          "variable": 619
+        },
+        {
+          "multiplier": 7784270532970428,
+          "variable": 620
+        },
+        {
+          "multiplier": 12493106100739915,
+          "variable": 621
+        },
+        {
+          "multiplier": 10700522227638242,
+          "variable": 622
+        },
+        {
+          "multiplier": 8937320426816086,
+          "variable": 624
+        },
+        {
+          "multiplier": 7120360516415828,
+          "variable": 626
+        },
+        {
+          "multiplier": 21269282337785142,
+          "variable": 627
+        },
+        {
+          "multiplier": 24078920143685312,
+          "variable": 628
+        },
+        {
+          "multiplier": 24134614854802672,
+          "variable": 630
+        },
+        {
+          "multiplier": 51269609438131344,
+          "variable": 631
+        },
+        {
+          "multiplier": 8861032086861020,
+          "variable": 632
+        },
+        {
+          "multiplier": 8979812843034086,
+          "variable": 633
+        },
+        {
+          "multiplier": 8811068910954460,
+          "variable": 635
+        },
+        {
+          "multiplier": 7184237488144468,
+          "variable": 638
+        },
+        {
+          "multiplier": 20743297383259306,
+          "variable": 639
+        },
+        {
+          "multiplier": 43895776817292568,
+          "variable": 640
+        },
+        {
+          "multiplier": 8317592423027342,
+          "variable": 641
+        },
+        {
+          "multiplier": 20793972060088586,
+          "variable": 642
+        },
+        {
+          "multiplier": 43955226672168728,
+          "variable": 643
+        },
+        {
+          "multiplier": 8284053060086902,
+          "variable": 644
+        },
+        {
+          "multiplier": 113832907749761268,
+          "variable": 645
+        },
+        {
+          "multiplier": 130246947433205838,
+          "variable": 646
+        },
+        {
+          "multiplier": 86498745699548198,
+          "variable": 647
+        },
+        {
+          "multiplier": 103912439101766654,
+          "variable": 648
+        },
+        {
+          "multiplier": 123945856736926051,
+          "variable": 649
+        },
+        {
+          "multiplier": 107441602091189246,
+          "variable": 650
+        },
+        {
+          "multiplier": 132881373134799703,
+          "variable": 651
+        },
+        {
+          "multiplier": 67600946505116062,
+          "variable": 652
+        },
+        {
+          "multiplier": 91586016588675987,
+          "variable": 653
+        },
+        {
+          "multiplier": 89590836529911591,
+          "variable": 654
+        },
+        {
+          "multiplier": 145747704130620702,
+          "variable": 655
+        },
+        {
+          "multiplier": 141109534414695764,
+          "variable": 656
+        },
+        {
+          "multiplier": 107547762081006411,
+          "variable": 657
+        },
+        {
+          "multiplier": 124644990032883241,
+          "variable": 658
+        },
+        {
+          "multiplier": 98922592109745136,
+          "variable": 659
+        },
+        {
+          "multiplier": 25780577251240402,
+          "variable": 660
+        },
+        {
+          "multiplier": 13148788197286910,
+          "variable": 661
+        },
+        {
+          "multiplier": 13159525111498193,
+          "variable": 662
+        },
+        {
+          "multiplier": 4254384203351931,
+          "variable": 663
+        },
+        {
+          "multiplier": 37537549588716186,
+          "variable": 665
+        },
+        {
+          "multiplier": 8421484342630830,
+          "variable": 666
+        },
+        {
+          "multiplier": 9293841428970480,
+          "variable": 667
+        },
+        {
+          "multiplier": 8419290548119110,
+          "variable": 669
+        },
+        {
+          "multiplier": 9288742339024320,
+          "variable": 670
+        },
+        {
+          "multiplier": 90488142154229125,
+          "variable": 673
+        },
+        {
+          "multiplier": 104757788404652844,
+          "variable": 674
+        },
+        {
+          "multiplier": 100408880749949955,
+          "variable": 675
+        },
+        {
+          "multiplier": 159946192194317785,
+          "variable": 676
+        },
+        {
+          "multiplier": 106853822706017374,
+          "variable": 677
+        },
+        {
+          "multiplier": 100298469719331642,
+          "variable": 678
+        },
+        {
+          "multiplier": 109286678671864393,
+          "variable": 679
+        },
+        {
+          "multiplier": 100696791070339146,
+          "variable": 680
+        },
+        {
+          "multiplier": 109668219009633339,
+          "variable": 681
+        },
+        {
+          "multiplier": 99405808130692800,
+          "variable": 682
+        },
+        {
+          "multiplier": 90892677879681802,
+          "variable": 683
+        },
+        {
+          "multiplier": 99180453907055521,
+          "variable": 684
+        },
+        {
+          "multiplier": 102769208557088314,
+          "variable": 685
+        },
+        {
+          "multiplier": 89052946548049593,
+          "variable": 686
+        },
+        {
+          "multiplier": 105670418872397122,
+          "variable": 687
+        },
+        {
+          "multiplier": 95379481034611586,
+          "variable": 688
+        },
+        {
+          "multiplier": 138329636155245279,
+          "variable": 689
+        },
+        {
+          "multiplier": 106158606368646043,
+          "variable": 690
+        },
+        {
+          "multiplier": 106706721886430958,
+          "variable": 691
+        },
+        {
+          "multiplier": 82663577481843897,
+          "variable": 692
+        },
+        {
+          "multiplier": 33772564795885943,
+          "variable": 695
+        },
+        {
+          "multiplier": 38700927975661203,
+          "variable": 697
+        },
+        {
+          "multiplier": 35495595182552927,
+          "variable": 698
+        },
+        {
+          "multiplier": 31287495097569621,
+          "variable": 699
+        },
+        {
+          "multiplier": 17993538504250349,
+          "variable": 700
+        },
+        {
+          "multiplier": 10404593141994797,
+          "variable": 701
+        },
+        {
+          "multiplier": 18822425309323735,
+          "variable": 703
+        },
+        {
+          "multiplier": 12280703717888951,
+          "variable": 704
+        },
+        {
+          "multiplier": 6693266514928371,
+          "variable": 705
+        },
+        {
+          "multiplier": 23208413662601963,
+          "variable": 707
+        },
+        {
+          "multiplier": 29176299776609094,
+          "variable": 711
+        },
+        {
+          "multiplier": 11797799039809910,
+          "variable": 712
+        },
+        {
+          "multiplier": 11797799039809910,
+          "variable": 713
+        },
+        {
+          "multiplier": 11798945346852070,
+          "variable": 714
+        },
+        {
+          "multiplier": 9418124683506582,
+          "variable": 715
+        },
+        {
+          "multiplier": 3284405093162202,
+          "variable": 716
+        },
+        {
+          "multiplier": 11798945346852070,
+          "variable": 718
+        },
+        {
+          "multiplier": 3284405093162202,
+          "variable": 719
+        },
+        {
+          "multiplier": 9418124683506582,
+          "variable": 720
+        },
+        {
+          "multiplier": 32259741804587350,
+          "variable": 723
+        },
+        {
+          "multiplier": 22400358880812534,
+          "variable": 724
+        },
+        {
+          "multiplier": 22400358880812534,
+          "variable": 725
+        },
+        {
+          "multiplier": 32257350370930430,
+          "variable": 726
+        },
+        {
+          "multiplier": 22358558201602734,
+          "variable": 727
+        },
+        {
+          "multiplier": 22358558201602734,
+          "variable": 728
+        },
+        {
+          "multiplier": 95178378633175377,
+          "variable": 729
+        },
+        {
+          "multiplier": 113465209607652850,
+          "variable": 730
+        },
+        {
+          "multiplier": 128142437308854835,
+          "variable": 731
+        },
+        {
+          "multiplier": 91448492413109175,
+          "variable": 732
+        },
+        {
+          "multiplier": 131321868179812079,
+          "variable": 733
+        },
+        {
+          "multiplier": 147684650200930816,
+          "variable": 734
+        },
+        {
+          "multiplier": 139155306615295779,
+          "variable": 735
+        },
+        {
+          "multiplier": 96940863124275021,
+          "variable": 736
+        },
+        {
+          "multiplier": 127950756096355745,
+          "variable": 737
+        },
+        {
+          "multiplier": 103984905602376286,
+          "variable": 738
+        },
+        {
+          "multiplier": 109924631993247126,
+          "variable": 739
+        },
+        {
+          "multiplier": 111384881195540172,
+          "variable": 740
+        },
+        {
+          "multiplier": 94460702739489055,
+          "variable": 741
+        },
+        {
+          "multiplier": 94518186232434825,
+          "variable": 742
+        },
+        {
+          "multiplier": 114389551361231591,
+          "variable": 743
+        },
+        {
+          "multiplier": 18609150112430238,
+          "variable": 744
+        },
+        {
+          "multiplier": 21435989940171655,
+          "variable": 745
+        },
+        {
+          "multiplier": 41739783104772498,
+          "variable": 746
+        },
+        {
+          "multiplier": 20269032882828380,
+          "variable": 747
+        },
+        {
+          "multiplier": 30394975587948966,
+          "variable": 748
+        },
+        {
+          "multiplier": 21762051035428983,
+          "variable": 749
+        },
+        {
+          "multiplier": 67906725891816626,
+          "variable": 757
+        },
+        {
+          "multiplier": 65780483590178389,
+          "variable": 758
+        },
+        {
+          "multiplier": 77726008854319550,
+          "variable": 759
+        },
+        {
+          "multiplier": 74789579370975807,
+          "variable": 760
+        },
+        {
+          "multiplier": 100923970674899919,
+          "variable": 761
+        },
+        {
+          "multiplier": 95701675691668273,
+          "variable": 762
+        },
+        {
+          "multiplier": 102053621297445329,
+          "variable": 763
+        },
+        {
+          "multiplier": 67329167549279650,
+          "variable": 764
+        },
+        {
+          "multiplier": 68059506521441687,
+          "variable": 765
+        },
+        {
+          "multiplier": 79020235203792177,
+          "variable": 766
+        },
+        {
+          "multiplier": 88754756691777965,
+          "variable": 767
+        },
+        {
+          "multiplier": 70748915810783674,
+          "variable": 768
+        },
+        {
+          "multiplier": 53178138552412824,
+          "variable": 769
+        },
+        {
+          "multiplier": 57294400524200590,
+          "variable": 770
+        },
+        {
+          "multiplier": 75075470686682110,
+          "variable": 771
+        },
+        {
+          "multiplier": 32916518724543978,
+          "variable": 784
+        },
+        {
+          "multiplier": 92991267478719332,
+          "variable": 785
+        },
+        {
+          "multiplier": 93681621159730156,
+          "variable": 786
+        },
+        {
+          "multiplier": 87275676356011137,
+          "variable": 787
+        },
+        {
+          "multiplier": 89528173935574846,
+          "variable": 788
+        },
+        {
+          "multiplier": 83729320459561014,
+          "variable": 789
+        },
+        {
+          "multiplier": 100797100047941661,
+          "variable": 790
+        }
+      ],
+      "nullspace": {
+        "column_count": 219,
+        "equation_count": 219,
+        "free_column": 218,
+        "nonzero_equation_count": 219,
+        "nullspace_dimension": 1,
+        "rank": 218
+      },
+      "row_multipliers": [
+        {
+          "multiplier": 8139112420431795,
+          "row_id_1based": 1,
+          "row_index_0based": 0
+        },
+        {
+          "multiplier": 8139112420431795,
+          "row_id_1based": 2,
+          "row_index_0based": 1
+        },
+        {
+          "multiplier": 6098425204355644,
+          "row_id_1based": 3,
+          "row_index_0based": 2
+        },
+        {
+          "multiplier": 8139112420431795,
+          "row_id_1based": 4,
+          "row_index_0based": 3
+        },
+        {
+          "multiplier": 8139112420431795,
+          "row_id_1based": 5,
+          "row_index_0based": 4
+        },
+        {
+          "multiplier": 6116430130483364,
+          "row_id_1based": 6,
+          "row_index_0based": 5
+        },
+        {
+          "multiplier": 5184310952053930,
+          "row_id_1based": 7,
+          "row_index_0based": 6
+        },
+        {
+          "multiplier": 12995388729170710,
+          "row_id_1based": 11,
+          "row_index_0based": 10
+        },
+        {
+          "multiplier": 7605833369972010,
+          "row_id_1based": 15,
+          "row_index_0based": 14
+        },
+        {
+          "multiplier": 7589883890954370,
+          "row_id_1based": 18,
+          "row_index_0based": 17
+        },
+        {
+          "multiplier": 15111256309506966,
+          "row_id_1based": 19,
+          "row_index_0based": 18
+        },
+        {
+          "multiplier": 4421402908796544,
+          "row_id_1based": 20,
+          "row_index_0based": 19
+        },
+        {
+          "multiplier": 1602954259531910,
+          "row_id_1based": 21,
+          "row_index_0based": 20
+        },
+        {
+          "multiplier": 4421402908796544,
+          "row_id_1based": 22,
+          "row_index_0based": 21
+        },
+        {
+          "multiplier": 15111256309506966,
+          "row_id_1based": 23,
+          "row_index_0based": 22
+        },
+        {
+          "multiplier": 1602954259531910,
+          "row_id_1based": 24,
+          "row_index_0based": 23
+        },
+        {
+          "multiplier": 1598764309653670,
+          "row_id_1based": 25,
+          "row_index_0based": 24
+        },
+        {
+          "multiplier": 1598764309653670,
+          "row_id_1based": 26,
+          "row_index_0based": 25
+        },
+        {
+          "multiplier": 15115097197758893,
+          "row_id_1based": 29,
+          "row_index_0based": 28
+        },
+        {
+          "multiplier": 8428141211511363,
+          "row_id_1based": 30,
+          "row_index_0based": 29
+        },
+        {
+          "multiplier": 15090748055070253,
+          "row_id_1based": 32,
+          "row_index_0based": 31
+        },
+        {
+          "multiplier": 8475633898102923,
+          "row_id_1based": 33,
+          "row_index_0based": 32
+        },
+        {
+          "multiplier": 16273083558397014,
+          "row_id_1based": 34,
+          "row_index_0based": 33
+        },
+        {
+          "multiplier": 14889080717449081,
+          "row_id_1based": 37,
+          "row_index_0based": 36
+        },
+        {
+          "multiplier": 6629362816329300,
+          "row_id_1based": 39,
+          "row_index_0based": 38
+        },
+        {
+          "multiplier": 1896535716736898,
+          "row_id_1based": 41,
+          "row_index_0based": 40
+        },
+        {
+          "multiplier": 1909955414695978,
+          "row_id_1based": 44,
+          "row_index_0based": 43
+        },
+        {
+          "multiplier": 593029359805944,
+          "row_id_1based": 46,
+          "row_index_0based": 45
+        },
+        {
+          "multiplier": 2510854281620918,
+          "row_id_1based": 47,
+          "row_index_0based": 46
+        },
+        {
+          "multiplier": 5276266286565112,
+          "row_id_1based": 48,
+          "row_index_0based": 47
+        },
+        {
+          "multiplier": 2517633304301278,
+          "row_id_1based": 49,
+          "row_index_0based": 48
+        },
+        {
+          "multiplier": 11765160613705746,
+          "row_id_1based": 50,
+          "row_index_0based": 49
+        },
+        {
+          "multiplier": 3616796357160,
+          "row_id_1based": 51,
+          "row_index_0based": 50
+        },
+        {
+          "multiplier": 5276958023573312,
+          "row_id_1based": 52,
+          "row_index_0based": 51
+        },
+        {
+          "multiplier": 3374018930092176,
+          "row_id_1based": 54,
+          "row_index_0based": 53
+        },
+        {
+          "multiplier": 18068565131759400,
+          "row_id_1based": 55,
+          "row_index_0based": 54
+        },
+        {
+          "multiplier": 10795534485097962,
+          "row_id_1based": 57,
+          "row_index_0based": 56
+        },
+        {
+          "multiplier": 15786225554940473,
+          "row_id_1based": 58,
+          "row_index_0based": 57
+        },
+        {
+          "multiplier": 1708583039358661,
+          "row_id_1based": 59,
+          "row_index_0based": 58
+        },
+        {
+          "multiplier": 2183064419935015,
+          "row_id_1based": 60,
+          "row_index_0based": 59
+        },
+        {
+          "multiplier": 1721607459027341,
+          "row_id_1based": 61,
+          "row_index_0based": 60
+        },
+        {
+          "multiplier": 2165435008183175,
+          "row_id_1based": 62,
+          "row_index_0based": 61
+        },
+        {
+          "multiplier": 5005644588053355,
+          "row_id_1based": 63,
+          "row_index_0based": 62
+        },
+        {
+          "multiplier": 6457165677807035,
+          "row_id_1based": 64,
+          "row_index_0based": 63
+        },
+        {
+          "multiplier": 5350267663015861,
+          "row_id_1based": 65,
+          "row_index_0based": 64
+        },
+        {
+          "multiplier": 10737360307711369,
+          "row_id_1based": 66,
+          "row_index_0based": 65
+        },
+        {
+          "multiplier": 5289948195900821,
+          "row_id_1based": 67,
+          "row_index_0based": 66
+        },
+        {
+          "multiplier": 10680301886492129,
+          "row_id_1based": 68,
+          "row_index_0based": 67
+        },
+        {
+          "multiplier": 4940601545368035,
+          "row_id_1based": 69,
+          "row_index_0based": 68
+        },
+        {
+          "multiplier": 6389711437550275,
+          "row_id_1based": 70,
+          "row_index_0based": 69
+        },
+        {
+          "multiplier": 27180067616573422,
+          "row_id_1based": 71,
+          "row_index_0based": 70
+        },
+        {
+          "multiplier": 24184082130694621,
+          "row_id_1based": 74,
+          "row_index_0based": 73
+        },
+        {
+          "multiplier": 17992608317842468,
+          "row_id_1based": 75,
+          "row_index_0based": 74
+        },
+        {
+          "multiplier": 17166078645522433,
+          "row_id_1based": 77,
+          "row_index_0based": 76
+        },
+        {
+          "multiplier": 12017098531286985,
+          "row_id_1based": 78,
+          "row_index_0based": 77
+        },
+        {
+          "multiplier": 3854270295870044,
+          "row_id_1based": 79,
+          "row_index_0based": 78
+        },
+        {
+          "multiplier": 1679882538675270,
+          "row_id_1based": 81,
+          "row_index_0based": 80
+        },
+        {
+          "multiplier": 7046195270446980,
+          "row_id_1based": 84,
+          "row_index_0based": 83
+        },
+        {
+          "multiplier": 3842372419329004,
+          "row_id_1based": 85,
+          "row_index_0based": 84
+        },
+        {
+          "multiplier": 2700284480010970,
+          "row_id_1based": 87,
+          "row_index_0based": 86
+        },
+        {
+          "multiplier": 4608225226949352,
+          "row_id_1based": 89,
+          "row_index_0based": 88
+        },
+        {
+          "multiplier": 3532630351143614,
+          "row_id_1based": 90,
+          "row_index_0based": 89
+        },
+        {
+          "multiplier": 9710976229044860,
+          "row_id_1based": 91,
+          "row_index_0based": 90
+        },
+        {
+          "multiplier": 2404686407191706,
+          "row_id_1based": 92,
+          "row_index_0based": 91
+        },
+        {
+          "multiplier": 2709158477630450,
+          "row_id_1based": 93,
+          "row_index_0based": 92
+        },
+        {
+          "multiplier": 3531227113212694,
+          "row_id_1based": 94,
+          "row_index_0based": 93
+        },
+        {
+          "multiplier": 9722617174697140,
+          "row_id_1based": 96,
+          "row_index_0based": 95
+        },
+        {
+          "multiplier": 4621387994019672,
+          "row_id_1based": 97,
+          "row_index_0based": 96
+        },
+        {
+          "multiplier": 2396879660956306,
+          "row_id_1based": 98,
+          "row_index_0based": 97
+        },
+        {
+          "multiplier": 15115097197758893,
+          "row_id_1based": 99,
+          "row_index_0based": 98
+        },
+        {
+          "multiplier": 8428141211511363,
+          "row_id_1based": 101,
+          "row_index_0based": 100
+        },
+        {
+          "multiplier": 15090748055070253,
+          "row_id_1based": 102,
+          "row_index_0based": 101
+        },
+        {
+          "multiplier": 8475633898102923,
+          "row_id_1based": 104,
+          "row_index_0based": 103
+        },
+        {
+          "multiplier": 22750743756301987,
+          "row_id_1based": 106,
+          "row_index_0based": 105
+        },
+        {
+          "multiplier": 15483719512529119,
+          "row_id_1based": 107,
+          "row_index_0based": 106
+        },
+        {
+          "multiplier": 14751371739294154,
+          "row_id_1based": 109,
+          "row_index_0based": 108
+        },
+        {
+          "multiplier": 10305240097359541,
+          "row_id_1based": 110,
+          "row_index_0based": 109
+        },
+        {
+          "multiplier": 1896535716736898,
+          "row_id_1based": 111,
+          "row_index_0based": 110
+        },
+        {
+          "multiplier": 1909955414695978,
+          "row_id_1based": 114,
+          "row_index_0based": 113
+        },
+        {
+          "multiplier": 11765160613705746,
+          "row_id_1based": 117,
+          "row_index_0based": 116
+        },
+        {
+          "multiplier": 2517633304301278,
+          "row_id_1based": 118,
+          "row_index_0based": 117
+        },
+        {
+          "multiplier": 3616796357160,
+          "row_id_1based": 119,
+          "row_index_0based": 118
+        },
+        {
+          "multiplier": 2510854281620918,
+          "row_id_1based": 120,
+          "row_index_0based": 119
+        },
+        {
+          "multiplier": 593029359805944,
+          "row_id_1based": 121,
+          "row_index_0based": 120
+        },
+        {
+          "multiplier": 5276266286565112,
+          "row_id_1based": 122,
+          "row_index_0based": 121
+        },
+        {
+          "multiplier": 5276958023573312,
+          "row_id_1based": 124,
+          "row_index_0based": 123
+        },
+        {
+          "multiplier": 3374018930092176,
+          "row_id_1based": 125,
+          "row_index_0based": 124
+        },
+        {
+          "multiplier": 12639413908297710,
+          "row_id_1based": 126,
+          "row_index_0based": 125
+        },
+        {
+          "multiplier": 15033181793114780,
+          "row_id_1based": 127,
+          "row_index_0based": 126
+        },
+        {
+          "multiplier": 21555603100890466,
+          "row_id_1based": 128,
+          "row_index_0based": 127
+        },
+        {
+          "multiplier": 4242237974030891,
+          "row_id_1based": 129,
+          "row_index_0based": 128
+        },
+        {
+          "multiplier": 1708583039358661,
+          "row_id_1based": 130,
+          "row_index_0based": 129
+        },
+        {
+          "multiplier": 2183064419935015,
+          "row_id_1based": 131,
+          "row_index_0based": 130
+        },
+        {
+          "multiplier": 1721607459027341,
+          "row_id_1based": 132,
+          "row_index_0based": 131
+        },
+        {
+          "multiplier": 2165435008183175,
+          "row_id_1based": 133,
+          "row_index_0based": 132
+        },
+        {
+          "multiplier": 5005644588053355,
+          "row_id_1based": 134,
+          "row_index_0based": 133
+        },
+        {
+          "multiplier": 5289948195900821,
+          "row_id_1based": 135,
+          "row_index_0based": 134
+        },
+        {
+          "multiplier": 6457165677807035,
+          "row_id_1based": 136,
+          "row_index_0based": 135
+        },
+        {
+          "multiplier": 5350267663015861,
+          "row_id_1based": 137,
+          "row_index_0based": 136
+        },
+        {
+          "multiplier": 10737360307711369,
+          "row_id_1based": 138,
+          "row_index_0based": 137
+        },
+        {
+          "multiplier": 10680301886492129,
+          "row_id_1based": 139,
+          "row_index_0based": 138
+        },
+        {
+          "multiplier": 4940601545368035,
+          "row_id_1based": 140,
+          "row_index_0based": 139
+        },
+        {
+          "multiplier": 6389711437550275,
+          "row_id_1based": 141,
+          "row_index_0based": 140
+        },
+        {
+          "multiplier": 14389480288709710,
+          "row_id_1based": 142,
+          "row_index_0based": 141
+        },
+        {
+          "multiplier": 3164083933575641,
+          "row_id_1based": 144,
+          "row_index_0based": 143
+        },
+        {
+          "multiplier": 716826541965007,
+          "row_id_1based": 145,
+          "row_index_0based": 144
+        },
+        {
+          "multiplier": 11671335321526426,
+          "row_id_1based": 146,
+          "row_index_0based": 145
+        },
+        {
+          "multiplier": 18285797361305285,
+          "row_id_1based": 148,
+          "row_index_0based": 147
+        },
+        {
+          "multiplier": 3854270295870044,
+          "row_id_1based": 150,
+          "row_index_0based": 149
+        },
+        {
+          "multiplier": 1679882538675270,
+          "row_id_1based": 151,
+          "row_index_0based": 150
+        },
+        {
+          "multiplier": 7046195270446980,
+          "row_id_1based": 155,
+          "row_index_0based": 154
+        },
+        {
+          "multiplier": 3842372419329004,
+          "row_id_1based": 156,
+          "row_index_0based": 155
+        },
+        {
+          "multiplier": 2700284480010970,
+          "row_id_1based": 159,
+          "row_index_0based": 158
+        },
+        {
+          "multiplier": 4608225226949352,
+          "row_id_1based": 160,
+          "row_index_0based": 159
+        },
+        {
+          "multiplier": 9722617174697140,
+          "row_id_1based": 162,
+          "row_index_0based": 161
+        },
+        {
+          "multiplier": 9710976229044860,
+          "row_id_1based": 163,
+          "row_index_0based": 162
+        },
+        {
+          "multiplier": 3532630351143614,
+          "row_id_1based": 164,
+          "row_index_0based": 163
+        },
+        {
+          "multiplier": 2404686407191706,
+          "row_id_1based": 165,
+          "row_index_0based": 164
+        },
+        {
+          "multiplier": 2709158477630450,
+          "row_id_1based": 166,
+          "row_index_0based": 165
+        },
+        {
+          "multiplier": 3531227113212694,
+          "row_id_1based": 167,
+          "row_index_0based": 166
+        },
+        {
+          "multiplier": 4621387994019672,
+          "row_id_1based": 168,
+          "row_index_0based": 167
+        },
+        {
+          "multiplier": 2396879660956306,
+          "row_id_1based": 169,
+          "row_index_0based": 168
+        },
+        {
+          "multiplier": 28992566271309623,
+          "row_id_1based": 170,
+          "row_index_0based": 169
+        },
+        {
+          "multiplier": 2458067312987515,
+          "row_id_1based": 171,
+          "row_index_0based": 170
+        },
+        {
+          "multiplier": 24692775778196492,
+          "row_id_1based": 173,
+          "row_index_0based": 172
+        },
+        {
+          "multiplier": 1863144430522356,
+          "row_id_1based": 178,
+          "row_index_0based": 177
+        },
+        {
+          "multiplier": 4460618153694138,
+          "row_id_1based": 179,
+          "row_index_0based": 178
+        },
+        {
+          "multiplier": 1863144430522356,
+          "row_id_1based": 180,
+          "row_index_0based": 179
+        },
+        {
+          "multiplier": 4460618153694138,
+          "row_id_1based": 181,
+          "row_index_0based": 180
+        },
+        {
+          "multiplier": 4403342329415178,
+          "row_id_1based": 182,
+          "row_index_0based": 181
+        },
+        {
+          "multiplier": 4403342329415178,
+          "row_id_1based": 183,
+          "row_index_0based": 182
+        },
+        {
+          "multiplier": 1934353814537916,
+          "row_id_1based": 184,
+          "row_index_0based": 183
+        },
+        {
+          "multiplier": 1934353814537916,
+          "row_id_1based": 185,
+          "row_index_0based": 184
+        },
+        {
+          "multiplier": 9966377865286900,
+          "row_id_1based": 188,
+          "row_index_0based": 187
+        },
+        {
+          "multiplier": 20892039862170109,
+          "row_id_1based": 189,
+          "row_index_0based": 188
+        },
+        {
+          "multiplier": 10336246524540959,
+          "row_id_1based": 190,
+          "row_index_0based": 189
+        },
+        {
+          "multiplier": 7829891718556307,
+          "row_id_1based": 192,
+          "row_index_0based": 191
+        },
+        {
+          "multiplier": 7939171830071174,
+          "row_id_1based": 193,
+          "row_index_0based": 192
+        },
+        {
+          "multiplier": 23489852637223630,
+          "row_id_1based": 216,
+          "row_index_0based": 215
+        },
+        {
+          "multiplier": 14178287769514423,
+          "row_id_1based": 219,
+          "row_index_0based": 218
+        },
+        {
+          "multiplier": 7298885463861306,
+          "row_id_1based": 220,
+          "row_index_0based": 219
+        },
+        {
+          "multiplier": 9077652991177725,
+          "row_id_1based": 221,
+          "row_index_0based": 220
+        },
+        {
+          "multiplier": 7796369151428185,
+          "row_id_1based": 222,
+          "row_index_0based": 221
+        },
+        {
+          "multiplier": 4919872255196150,
+          "row_id_1based": 227,
+          "row_index_0based": 226
+        },
+        {
+          "multiplier": 4919872255196150,
+          "row_id_1based": 230,
+          "row_index_0based": 229
+        },
+        {
+          "multiplier": 4907085002501710,
+          "row_id_1based": 236,
+          "row_index_0based": 235
+        },
+        {
+          "multiplier": 4907085002501710,
+          "row_id_1based": 237,
+          "row_index_0based": 236
+        },
+        {
+          "multiplier": 9404191123769982,
+          "row_id_1based": 238,
+          "row_index_0based": 237
+        },
+        {
+          "multiplier": 3083165024651190,
+          "row_id_1based": 240,
+          "row_index_0based": 239
+        },
+        {
+          "multiplier": 3050554565693190,
+          "row_id_1based": 241,
+          "row_index_0based": 240
+        },
+        {
+          "multiplier": 3083165024651190,
+          "row_id_1based": 242,
+          "row_index_0based": 241
+        },
+        {
+          "multiplier": 3050554565693190,
+          "row_id_1based": 243,
+          "row_index_0based": 242
+        },
+        {
+          "multiplier": 9432058243243182,
+          "row_id_1based": 245,
+          "row_index_0based": 244
+        },
+        {
+          "multiplier": 20375987672431506,
+          "row_id_1based": 247,
+          "row_index_0based": 246
+        },
+        {
+          "multiplier": 4634527399307089,
+          "row_id_1based": 248,
+          "row_index_0based": 247
+        },
+        {
+          "multiplier": 3601959373057880,
+          "row_id_1based": 249,
+          "row_index_0based": 248
+        },
+        {
+          "multiplier": 1655020083377811,
+          "row_id_1based": 250,
+          "row_index_0based": 249
+        },
+        {
+          "multiplier": 7363435430383052,
+          "row_id_1based": 251,
+          "row_index_0based": 250
+        },
+        {
+          "multiplier": 18942729986150859,
+          "row_id_1based": 252,
+          "row_index_0based": 251
+        },
+        {
+          "multiplier": 534335558104531,
+          "row_id_1based": 253,
+          "row_index_0based": 252
+        },
+        {
+          "multiplier": 3622949314309829,
+          "row_id_1based": 255,
+          "row_index_0based": 254
+        },
+        {
+          "multiplier": 873387328528757,
+          "row_id_1based": 257,
+          "row_index_0based": 256
+        },
+        {
+          "multiplier": 45938073114856764,
+          "row_id_1based": 287,
+          "row_index_0based": 286
+        },
+        {
+          "multiplier": 45938073114856764,
+          "row_id_1based": 289,
+          "row_index_0based": 288
+        },
+        {
+          "multiplier": 64020207272245902,
+          "row_id_1based": 292,
+          "row_index_0based": 291
+        },
+        {
+          "multiplier": 243199413645943416,
+          "row_id_1based": 294,
+          "row_index_0based": 293
+        },
+        {
+          "multiplier": 6990585999097854,
+          "row_id_1based": 367,
+          "row_index_0based": 366
+        },
+        {
+          "multiplier": 44857493475889702,
+          "row_id_1based": 368,
+          "row_index_0based": 367
+        },
+        {
+          "multiplier": 18446141151761616,
+          "row_id_1based": 369,
+          "row_index_0based": 368
+        },
+        {
+          "multiplier": 29316822706752876,
+          "row_id_1based": 377,
+          "row_index_0based": 376
+        },
+        {
+          "multiplier": 7562561103317556,
+          "row_id_1based": 378,
+          "row_index_0based": 377
+        },
+        {
+          "multiplier": 6250266755922198,
+          "row_id_1based": 387,
+          "row_index_0based": 386
+        },
+        {
+          "multiplier": 6395827986361998,
+          "row_id_1based": 390,
+          "row_index_0based": 389
+        },
+        {
+          "multiplier": 485775410307726,
+          "row_id_1based": 394,
+          "row_index_0based": 393
+        },
+        {
+          "multiplier": 34888397632376503,
+          "row_id_1based": 395,
+          "row_index_0based": 394
+        },
+        {
+          "multiplier": 9279536355888081,
+          "row_id_1based": 397,
+          "row_index_0based": 396
+        },
+        {
+          "multiplier": 2479394143999162,
+          "row_id_1based": 398,
+          "row_index_0based": 397
+        },
+        {
+          "multiplier": 1197436525826594,
+          "row_id_1based": 400,
+          "row_index_0based": 399
+        },
+        {
+          "multiplier": 2469250877345342,
+          "row_id_1based": 401,
+          "row_index_0based": 400
+        },
+        {
+          "multiplier": 1198938583330114,
+          "row_id_1based": 403,
+          "row_index_0based": 402
+        },
+        {
+          "multiplier": 2474369731206022,
+          "row_id_1based": 404,
+          "row_index_0based": 403
+        },
+        {
+          "multiplier": 7306468905648668,
+          "row_id_1based": 419,
+          "row_index_0based": 418
+        },
+        {
+          "multiplier": 7562561103317556,
+          "row_id_1based": 420,
+          "row_index_0based": 419
+        },
+        {
+          "multiplier": 6250266755922198,
+          "row_id_1based": 430,
+          "row_index_0based": 429
+        },
+        {
+          "multiplier": 6395827986361998,
+          "row_id_1based": 433,
+          "row_index_0based": 432
+        },
+        {
+          "multiplier": 30188574012251089,
+          "row_id_1based": 435,
+          "row_index_0based": 434
+        },
+        {
+          "multiplier": 7704303337348871,
+          "row_id_1based": 437,
+          "row_index_0based": 436
+        },
+        {
+          "multiplier": 6918008947379740,
+          "row_id_1based": 438,
+          "row_index_0based": 437
+        },
+        {
+          "multiplier": 34994405831357608,
+          "row_id_1based": 440,
+          "row_index_0based": 439
+        },
+        {
+          "multiplier": 1197436525826594,
+          "row_id_1based": 441,
+          "row_index_0based": 440
+        },
+        {
+          "multiplier": 2469250877345342,
+          "row_id_1based": 443,
+          "row_index_0based": 442
+        },
+        {
+          "multiplier": 1198938583330114,
+          "row_id_1based": 444,
+          "row_index_0based": 443
+        },
+        {
+          "multiplier": 2474369731206022,
+          "row_id_1based": 446,
+          "row_index_0based": 445
+        },
+        {
+          "multiplier": 3656970774711122,
+          "row_id_1based": 464,
+          "row_index_0based": 463
+        },
+        {
+          "multiplier": 3439745590221802,
+          "row_id_1based": 467,
+          "row_index_0based": 466
+        },
+        {
+          "multiplier": 1149754037116997,
+          "row_id_1based": 468,
+          "row_index_0based": 467
+        },
+        {
+          "multiplier": 5588549656593459,
+          "row_id_1based": 469,
+          "row_index_0based": 468
+        },
+        {
+          "multiplier": 26449149420580670,
+          "row_id_1based": 471,
+          "row_index_0based": 470
+        },
+        {
+          "multiplier": 7389494964398980,
+          "row_id_1based": 493,
+          "row_index_0based": 492
+        },
+        {
+          "multiplier": 26469953956627528,
+          "row_id_1based": 494,
+          "row_index_0based": 493
+        },
+        {
+          "multiplier": 25241641112425515,
+          "row_id_1based": 495,
+          "row_index_0based": 494
+        },
+        {
+          "multiplier": 21116963413387786,
+          "row_id_1based": 496,
+          "row_index_0based": 495
+        },
+        {
+          "multiplier": 6680737581709100,
+          "row_id_1based": 497,
+          "row_index_0based": 496
+        },
+        {
+          "multiplier": 31391038046468433,
+          "row_id_1based": 498,
+          "row_index_0based": 497
+        },
+        {
+          "multiplier": 8718516807298582,
+          "row_id_1based": 499,
+          "row_index_0based": 498
+        },
+        {
+          "multiplier": 8718516807298582,
+          "row_id_1based": 500,
+          "row_index_0based": 499
+        },
+        {
+          "multiplier": 3766034093144432,
+          "row_id_1based": 501,
+          "row_index_0based": 500
+        },
+        {
+          "multiplier": 8703436940519822,
+          "row_id_1based": 502,
+          "row_index_0based": 501
+        },
+        {
+          "multiplier": 8703436940519822,
+          "row_id_1based": 503,
+          "row_index_0based": 502
+        },
+        {
+          "multiplier": 3828962396976112,
+          "row_id_1based": 504,
+          "row_index_0based": 503
+        },
+        {
+          "multiplier": 2908141105324338,
+          "row_id_1based": 517,
+          "row_index_0based": 516
+        },
+        {
+          "multiplier": 32407099144303422,
+          "row_id_1based": 518,
+          "row_index_0based": 517
+        },
+        {
+          "multiplier": 8908199853605704,
+          "row_id_1based": 519,
+          "row_index_0based": 518
+        },
+        {
+          "multiplier": 15403908363042995,
+          "row_id_1based": 522,
+          "row_index_0based": 521
+        },
+        {
+          "multiplier": 36249471047040726,
+          "row_id_1based": 524,
+          "row_index_0based": 523
+        },
+        {
+          "multiplier": 35052464085159450,
+          "row_id_1based": 528,
+          "row_index_0based": 527
+        },
+        {
+          "multiplier": 14198131906313012,
+          "row_id_1based": 529,
+          "row_index_0based": 528
+        },
+        {
+          "multiplier": 9388895491230538,
+          "row_id_1based": 530,
+          "row_index_0based": 529
+        },
+        {
+          "multiplier": 27078770504271917,
+          "row_id_1based": 531,
+          "row_index_0based": 530
+        }
+      ],
+      "upper_bound_multipliers": []
+    },
+    "feasible_witness": null,
+    "floating_support_discovery": {
+      "active_variables": [
+        23,
+        28,
+        32,
+        37,
+        38,
+        39,
+        41,
+        43,
+        45,
+        46,
+        49,
+        50,
+        52,
+        71,
+        72,
+        73,
+        75,
+        77,
+        78,
+        79,
+        82,
+        83,
+        84,
+        86,
+        88,
+        89,
+        90,
+        92,
+        93,
+        95,
+        97,
+        98,
+        99,
+        102,
+        103,
+        104,
+        106,
+        108,
+        109,
+        144,
+        147,
+        153,
+        157,
+        158,
+        159,
+        162,
+        163,
+        164,
+        166,
+        168,
+        170,
+        171,
+        174,
+        175,
+        177,
+        184,
+        185,
+        186,
+        187,
+        191,
+        217,
+        218,
+        219,
+        223,
+        228,
+        230,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        241,
+        242,
+        243,
+        267,
+        269,
+        272,
+        278,
+        280,
+        281,
+        282,
+        286,
+        287,
+        289,
+        290,
+        292,
+        293,
+        298,
+        300,
+        301,
+        302,
+        303,
+        304,
+        306,
+        308,
+        311,
+        313,
+        314,
+        315,
+        318,
+        320,
+        343,
+        345,
+        349,
+        354,
+        355,
+        356,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        367,
+        368,
+        372,
+        373,
+        375,
+        376,
+        399,
+        400,
+        410,
+        411,
+        412,
+        413,
+        417,
+        419,
+        420,
+        422,
+        451,
+        456,
+        459,
+        461,
+        477,
+        478,
+        481,
+        483,
+        484,
+        485,
+        486,
+        487,
+        489,
+        496,
+        497,
+        498,
+        500,
+        501,
+        504,
+        505,
+        506,
+        507,
+        509,
+        513,
+        515,
+        516,
+        517,
+        522,
+        525,
+        526,
+        527,
+        528,
+        529,
+        552,
+        555,
+        559,
+        561,
+        564,
+        570,
+        571,
+        572,
+        573,
+        575,
+        577,
+        578,
+        579,
+        582,
+        584,
+        585,
+        587,
+        608,
+        610,
+        615,
+        616,
+        617,
+        622,
+        624,
+        628,
+        633,
+        635,
+        636,
+        663,
+        667,
+        670,
+        671,
+        692,
+        693,
+        695,
+        701,
+        705,
+        707,
+        708,
+        709,
+        716,
+        720,
+        721,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        790,
+        791
+      ],
+      "floating_lower_variables": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        40,
+        42,
+        44,
+        47,
+        48,
+        51,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        74,
+        76,
+        80,
+        81,
+        85,
+        87,
+        91,
+        94,
+        96,
+        100,
+        101,
+        105,
+        107,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        145,
+        146,
+        148,
+        149,
+        150,
+        151,
+        152,
+        154,
+        155,
+        156,
+        160,
+        161,
+        165,
+        167,
+        169,
+        172,
+        173,
+        176,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        188,
+        189,
+        190,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        220,
+        221,
+        222,
+        224,
+        225,
+        226,
+        227,
+        229,
+        231,
+        232,
+        233,
+        240,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        268,
+        270,
+        271,
+        273,
+        274,
+        275,
+        276,
+        277,
+        279,
+        283,
+        284,
+        285,
+        288,
+        291,
+        294,
+        295,
+        296,
+        297,
+        299,
+        305,
+        307,
+        309,
+        310,
+        312,
+        316,
+        317,
+        319,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        344,
+        346,
+        347,
+        348,
+        350,
+        351,
+        352,
+        353,
+        357,
+        358,
+        359,
+        366,
+        369,
+        370,
+        371,
+        374,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        414,
+        415,
+        416,
+        418,
+        421,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        452,
+        453,
+        454,
+        455,
+        457,
+        458,
+        460,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        479,
+        480,
+        482,
+        488,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        499,
+        502,
+        503,
+        508,
+        510,
+        511,
+        512,
+        514,
+        518,
+        519,
+        520,
+        521,
+        523,
+        524,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        553,
+        554,
+        556,
+        557,
+        558,
+        560,
+        562,
+        563,
+        565,
+        566,
+        567,
+        568,
+        569,
+        574,
+        576,
+        580,
+        581,
+        583,
+        586,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        609,
+        611,
+        612,
+        613,
+        614,
+        618,
+        619,
+        620,
+        621,
+        623,
+        625,
+        626,
+        627,
+        629,
+        630,
+        631,
+        632,
+        634,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        664,
+        665,
+        666,
+        668,
+        669,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690,
+        691,
+        694,
+        696,
+        697,
+        698,
+        699,
+        700,
+        702,
+        703,
+        704,
+        706,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        717,
+        718,
+        719,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789
+      ],
+      "floating_upper_variables": [],
+      "formula_support_size": 219,
+      "margin": 0.0021879855587043674,
+      "reported_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "reported_status": 0,
+      "support_size": 784
+    },
+    "status": "EXACT_FARKAS_CONTRADICTION"
+  },
+  "formal_pruning_authorized": false,
+  "name": "c68_candidate_orbit03",
+  "orbit_index": 3,
+  "result": {
+    "disposition": "ROOT_LP_INFEASIBLE_PROOF_GENERATED_PENDING_VERIFICATION",
+    "mathematical_reason": "The floating root LP was reported infeasible and an exact integer Farkas weighted sum cancels every variable with a strictly positive contradiction RHS. Formal pruning still waits for VeriPB --requireUnsat verification."
+  },
+  "solver_report": {
+    "iterations": 1040,
+    "objective": "zero feasibility objective",
+    "reported_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "reported_status": 2,
+    "status": "SOLVER_UNSAT"
+  },
+  "source_formula": {
+    "bytes": 527137,
+    "canonical_formula_sha256": "9e6cf7c5f6feaf3e08e28844744a8b651d42d0441646029c863e3730582b5862",
+    "constraints": 568,
+    "normalized_native_row_sha256": "65f921e5d3284ea7f5d91957330fe2699ee79aee381ed10234ce542b29949b70",
+    "path": "corpus/instances/c68_candidate_orbit03.opb",
+    "sha256": "2f21eb1e877e49204a3e042031d588114456fdebaab0729c33d970e596160239",
+    "variables": 792
+  },
+  "status_ledger": {
+    "direct_containment": "ENUMERATED",
+    "formula": "FORMULAS_GENERATED",
+    "proof": "PROOF_GENERATED",
+    "root_lp": "SOLVER_UNSAT",
+    "solver": "SOLVER_UNSAT",
+    "verification": "NOT_STARTED"
+  }
+}

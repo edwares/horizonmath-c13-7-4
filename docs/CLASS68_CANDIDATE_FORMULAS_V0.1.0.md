@@ -138,8 +138,10 @@ diff -qr \
 This checkpoint establishes exact formula generation, not infeasibility. It
 does not eliminate any class-68 orbit or class 68 itself.
 
-That follow-on scan is now complete; see
+The direct-containment follow-on is complete; see
 [`CLASS68_DIRECT_CONTAINMENT_V0.1.0.md`](CLASS68_DIRECT_CONTAINMENT_V0.1.0.md).
-It found no direct-containment contradiction, so all 12 formulas remain
-unresolved. The next bounded step is exact root-LP inspection of those 12
-survivors.
+It found no direct-containment contradiction. The subsequent exact root-LP
+phase is also complete; see
+[`CLASS68_ROOT_LP_V0.1.0.md`](CLASS68_ROOT_LP_V0.1.0.md). Six of the 12 formulas
+are now formally pruned by verified exact Farkas proofs, while six survive the
+root LP. Class 68 remains unresolved.

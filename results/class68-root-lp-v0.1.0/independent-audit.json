@@ -1,0 +1,458 @@
+{
+  "comparisons": [
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 243,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 0,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "49e5b82395450978fed17c61dde75c708bd9c345b436c2a14639e3439aa74fbe",
+        "recomputed_combined_rhs_after_bounds": 11780942371773728456340
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 1,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 257,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 2,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "c4f56f291e4423e3a71fff151af4f8145007434f3a5f8202ae96b88c503971eb",
+        "recomputed_combined_rhs_after_bounds": 76622100033407382
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 3,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 238,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 4,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 237,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 5,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "b5990544eba145100ac9c800b50ba53cb1892c018bc44e1bfb533161a79038ab",
+        "recomputed_combined_rhs_after_bounds": 6869953424
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 6,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "3eef2714bfc1c5db4fac30aec4f4d3a272c0089d54cef040c76e20c68d6534f3",
+        "recomputed_combined_rhs_after_bounds": 550357889520752559623907270
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 7,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "8f4fb5767a21cdeba08a943a92a253d144e6962b965098c9c261a939bd3fd04a",
+        "recomputed_combined_rhs_after_bounds": 917717964005714289910560
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 8,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 237,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 9,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "no_farkas_formula_artifact": true,
+        "no_farkas_proof_artifact": true,
+        "solver_reported_feasible": true,
+        "source_formula_hash_equal": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_bounds_satisfied_exactly": true,
+          "all_formula_rows_satisfied_exactly": true,
+          "declared_variable_count_equal": true,
+          "minimum_slack_equal": true,
+          "nonzero_count_equal": true,
+          "tight_row_count_equal": true,
+          "vector_hash_equal": true
+        },
+        "exact_tight_row_count": 225,
+        "minimum_exact_slack": "0/1",
+        "passed": true,
+        "violating_row_ids_1based": []
+      },
+      "exact_status": "EXACT_LP_FEASIBLE",
+      "orbit_index": 10,
+      "passed": true
+    },
+    {
+      "checks": {
+        "candidate_points_equal": true,
+        "formal_pruning_not_authorized": true,
+        "formula_constraint_count_equal": true,
+        "formula_variable_count_equal": true,
+        "metadata_body_equal": true,
+        "metadata_hash_equal": true,
+        "normalized_formula_hash_equal": true,
+        "proof_hash_equal": true,
+        "proof_status_generated": true,
+        "solver_reported_infeasible": true,
+        "source_formula_hash_equal": true,
+        "verification_not_started": true
+      },
+      "exact_evidence_audit": {
+        "checks": {
+          "all_multipliers_strictly_positive": true,
+          "all_row_ids_valid": true,
+          "all_variable_coefficients_cancel": true,
+          "combined_rhs_matches_certificate": true,
+          "combined_rhs_strictly_positive": true,
+          "normalized_constraint_count_equal": true,
+          "normalized_rows_equal_source_row_for_row": true,
+          "normalized_variable_count_equal": true,
+          "proof_tokens_equal_certificate": true
+        },
+        "passed": true,
+        "proof_sha256": "c7b700bc19a370811630442391cc319adbd8d656871d8968da4164930de49d57",
+        "recomputed_combined_rhs_after_bounds": 1237860000
+      },
+      "exact_status": "EXACT_FARKAS_CONTRADICTION",
+      "orbit_index": 11,
+      "passed": true
+    }
+  ],
+  "input": {
+    "candidate_checkpoint_sha256sums": {
+      "all_recorded_hashes_match": true,
+      "every_checkpoint_file_accounted_for": true,
+      "recorded_files": 31,
+      "sha256sums_sha256": "013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a",
+      "status": "PASS"
+    },
+    "direct_containment_sha256sums": {
+      "all_recorded_hashes_match": true,
+      "every_checkpoint_file_accounted_for": true,
+      "recorded_files": 18,
+      "sha256sums_sha256": "fe14bac9f54439a52eee055952381c26e2075081e7126a873239034699433f81",
+      "status": "PASS"
+    },
+    "root_lp_manifest": {
+      "path": "root-lp.manifest.json",
+      "sha256": "ea9fbae84801906d6ac35f238e3f06cfb0625a123034083da39d0cded051871c"
+    }
+  },
+  "method": {
+    "arithmetic": "Python Fraction and arbitrary-precision integers",
+    "description": "Reparse each native OPB; exactly check every rational LP witness or integer Farkas weighted sum; independently normalize source rows and reconstruct every four-line proof.",
+    "imports_production_farkas_renderer": false,
+    "imports_production_opb_parser": false,
+    "imports_production_root_lp": false
+  },
+  "schema_version": "horizonmath.independent-root-lp-checkpoint-audit.v1",
+  "status": "PASS",
+  "summary": {
+    "all_exact_evidence_confirmed": true,
+    "candidate_orbits": 12,
+    "class_formally_eliminated": false,
+    "comparisons_passed": 12,
+    "exact_farkas_contradictions_confirmed": 6,
+    "exact_lp_feasible_confirmed": 6
+  },
+  "top_level_checks": {
+    "candidate_checkpoint_checksums_pass": true,
+    "candidate_phase_status_formula_generated": true,
+    "class_elimination_not_claimed": true,
+    "direct_checkpoint_checksums_pass": true,
+    "direct_phase_status_enumerated": true,
+    "direct_scan_had_no_contradictions": true,
+    "direct_survivors_equal_candidate_orbits": true,
+    "milp_not_run": true,
+    "root_manifest_candidate_phase_hash_equal": true,
+    "root_manifest_direct_phase_hash_equal": true,
+    "root_orbits_complete": true,
+    "roundingsat_not_run": true,
+    "verifier_not_run_in_math_checkpoint": true
+  }
+}
