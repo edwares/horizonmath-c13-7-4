@@ -106,6 +106,22 @@ See
 [`docs/CLASS50_FORMAL_CERTIFICATION_V0.1.0.md`](docs/CLASS50_FORMAL_CERTIFICATION_V0.1.0.md)
 for the proof and checkpoint details.
 
+### Formal class-63 elimination
+
+Class 63 is formally eliminated. Its 58 candidate minimum-point four-set
+orbits split into 42 exact root-pruned orbits and 16 retained orbits. The
+retained side expands to 53 exact minimum-set orbits and 460 exact degree
+profiles, all covered by pinned-VeriPB UNSAT proofs: 232 direct root-Farkas,
+215 integral-pair-cut/Farkas, and 13 exact split-tree/Farkas proofs.
+
+The checked-in class-level closure is
+`results/class63-formal-certification-v0.1.0/class63-formal-closure.json`,
+SHA-256
+`09be1a62500c132bd5462c8d0ab9d312bbd79e62492ced275e81e2823b346f32`.
+See
+[`docs/CLASS63_FORMAL_CERTIFICATION_V0.1.0.md`](docs/CLASS63_FORMAL_CERTIFICATION_V0.1.0.md)
+for the proof and checkpoint details.
+
 ### Classification and numbering
 
 The catalog audit enumerates all 21,952 Figure 1 completions, finds exactly 67
@@ -140,7 +156,7 @@ pilot through complete formal elimination.
 
 Classes 4 and 59 have the previously recorded solver-free exact-minimum-set and
 degree-profile screening data. They have **not** been formally eliminated.
-The other 62 currently unresolved classes have the all-68 structural census
+The other 61 currently unresolved classes have the all-68 structural census
 but no class-level formal elimination.
 
 ### Class-68 exact root-LP checkpoint and formal verification
@@ -215,6 +231,7 @@ the root-LP stage rather than as the current class-68 status.
 | Link class 68 | **`VERIFIED_UNSAT_CLASS_68` / FORMALLY ELIMINATED** |
 | Link class 48 | **`VERIFIED_UNSAT_CLASS_48` / FORMALLY ELIMINATED** |
 | Link class 50 | **`VERIFIED_UNSAT_CLASS_50` / FORMALLY ELIMINATED** |
+| Link class 63 | **`VERIFIED_UNSAT_CLASS_63` / FORMALLY ELIMINATED** |
 | Class-4 and class-59 formulas / root LP / solver / proof | `NOT_STARTED` |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
@@ -223,16 +240,16 @@ the root-LP stage rather than as the current class-68 status.
 | Fresh class-52 candidate screens | 19 `VERIFIED_UNSAT`, 7 `TIMEOUT` |
 | Fresh whole-case exclusions | 17 `SOLVER_UNSAT` |
 | Fresh early-profile exclusions | 87 `SOLVER_UNSAT` |
-| Formally eliminated link classes | **4/68: 48, 50, 52, and 68** |
-| Remaining link classes | **64** |
+| Formally eliminated link classes | **5/68: 48, 50, 52, 63, and 68** |
+| Remaining link classes | **63** |
 | Global \(C(13,7,4)=30\) claim | **Not authorized** |
 
 ## Claim boundary
 
-The project now has four fully eliminated link classes: 48, 50, 52, and 68. This is a
+The project now has five fully eliminated link classes: 48, 50, 52, 63, and 68. This is a
 strictly stronger project state than the earlier direct-containment checkpoint,
 but it is not the global covering-number theorem. A proof of
-\(C(13,7,4)=30\) still requires formal elimination of the remaining 64 link
+\(C(13,7,4)=30\) still requires formal elimination of the remaining 63 link
 classes or a stronger exhaustive argument that closes them collectively.
 
 ## Next gate

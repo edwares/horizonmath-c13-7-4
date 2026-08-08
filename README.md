@@ -6,7 +6,7 @@ code and provenance for turning a labeled minimum \(C(12,6,3)\) link into
 auditable structural data, screened cases, corrected pseudo-Boolean formulas,
 and—where available—formally verified UNSAT certificates.
 
-Four link classes are now formally eliminated:
+Five link classes are now formally eliminated:
 
 - class 48: [formal certification status](results/class48-formal-certification-v0.1.0/STATUS.md)
   and [class-level closure manifest](results/class48-formal-certification-v0.1.0/class48-formal-closure.json);
@@ -14,6 +14,8 @@ Four link classes are now formally eliminated:
   and [class-level closure manifest](results/class50-formal-certification-v0.1.0/class50-formal-closure.json);
 - class 52: [published certification repository](https://github.com/edwares/class52-formal-certification)
   and [Zenodo DOI](https://doi.org/10.5281/zenodo.21660461);
+- class 63: [formal certification status](results/class63-formal-certification-v0.1.0/STATUS.md)
+  and [class-level closure manifest](results/class63-formal-certification-v0.1.0/class63-formal-closure.json);
 - class 68: [formal certification status](results/class68-formal-certification-v0.1.0/STATUS.md)
   and [class-level closure manifest](results/class68-formal-certification-v0.1.0/class68-formal-closure.json).
 
@@ -30,6 +32,7 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Solver-free pilot screening | 115,955 profile orbits materialized across classes 68 / 4 / 59; 136 direct arithmetic contradictions discarded; 115,819 retained |
 | Class-48 formal closure | 35/35 candidate orbits formally covered; 675/675 retained degree profiles VeriPB `VERIFIED_UNSAT`; class-level status `VERIFIED_UNSAT_CLASS_48` |
 | Class-50 formal closure | 35/35 candidate orbits formally covered; 1508/1508 retained degree profiles VeriPB `VERIFIED_UNSAT`; class-level status `VERIFIED_UNSAT_CLASS_50` |
+| Class-63 formal closure | 58/58 candidate orbits formally covered; 460/460 retained degree profiles VeriPB `VERIFIED_UNSAT`; class-level status `VERIFIED_UNSAT_CLASS_63` |
 | Class-68 candidate formulas | 12/12 native OPBs generated; all 6,816 serialized rows independently reconstructed and matched |
 | Class-68 direct containment | 33,780 lower/upper row pairs scanned; 14,284 support containments; zero strict contradictions; all 12 formulas survive |
 | Class-68 exact root LP | 6 exact rational LP witnesses; 6 exact integer Farkas contradictions; independent exact audit passed 12/12 |
@@ -42,8 +45,8 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Published class-52 certificates | 30/30 `VERIFIED_UNSAT` with VeriPB `--requireUnsat` |
 | Fresh candidate-orbit certificates | 19 `VERIFIED_UNSAT`; 7 `TIMEOUT` |
 | Fresh downstream class-52 chain | 17 whole-case and 87 early-profile exclusions remain `SOLVER_UNSAT` only |
-| Formally eliminated link classes | 4/68: classes 48, 50, 52, and 68 |
-| Remaining link classes | 64 require formal elimination or a stronger collective argument |
+| Formally eliminated link classes | 5/68: classes 48, 50, 52, 63, and 68 |
+| Remaining link classes | 63 require formal elimination or a stronger collective argument |
 | Global covering number | Not proved; no claim that \(C(13,7,4)=30\) |
 
 The published class-52 result and the current reconstructed pipeline have
@@ -94,9 +97,11 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/class68-root-lp-verification-v0.1.0/` | Preserved VeriPB `--requireUnsat` results and independent verification audit for the six root-LP contradictions |
 | `results/class48-formal-certification-v0.1.0/` | Checked-in class-48 closure/status records proving exact coverage of all 35 candidate orbits |
 | `results/class50-formal-certification-v0.1.0/` | Checked-in class-50 closure/status records proving exact coverage of all 35 candidate orbits |
+| `results/class63-formal-certification-v0.1.0/` | Checked-in class-63 closure/status records proving exact coverage of all 58 candidate orbits |
 | `results/class68-formal-certification-v0.1.0/` | Checked-in class-68 closure/status records proving exact coverage of all 12 candidate orbits |
 | `docs/CLASS48_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-48 result, proof routes, verifier gate, hashes, and claim boundary |
 | `docs/CLASS50_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-50 result, proof routes, verifier gate, hashes, and claim boundary |
+| `docs/CLASS63_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-63 result, proof routes, verifier gate, hashes, and claim boundary |
 | `docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-68 result, proof routes, verifier gate, hashes, and claim boundary |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
@@ -263,9 +268,9 @@ python scripts/build_source_manifest.py --check
 Class 68 has advanced beyond the historical direct-containment checkpoint and
 is now formally eliminated: all 12 candidate orbits are covered by exact
 proofs accepted by VeriPB with `--requireUnsat`, and the class-level closure
-audit passes. Together with the class-48 and class-50 certifications and the
-separately published class-52 elimination, 4 of the 68 link classes are
-formally closed. The next research stage is to
+audit passes. Together with the class-48, class-50, and class-63
+certifications and the separately published class-52 elimination, 5 of the 68
+link classes are formally closed. The next research stage is to
 apply the audited structural ranking and reusable exact-proof machinery to the
-remaining 64 classes. The global \(C(13,7,4)=30\) claim remains unauthorized
+remaining 63 classes. The global \(C(13,7,4)=30\) claim remains unauthorized
 until the full reduction is closed.
