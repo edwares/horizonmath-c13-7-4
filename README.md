@@ -6,11 +6,12 @@ code and provenance for turning a labeled minimum \(C(12,6,3)\) link into
 auditable structural data, screened cases, corrected pseudo-Boolean formulas,
 and—where available—formally verified UNSAT certificates.
 
-The existing class-52 certification remains the authoritative completed
-result:
+Two link classes are now formally eliminated:
 
-- [GitHub certification repository](https://github.com/edwares/class52-formal-certification)
-- [Zenodo version DOI](https://doi.org/10.5281/zenodo.21660461)
+- class 52: [published certification repository](https://github.com/edwares/class52-formal-certification)
+  and [Zenodo DOI](https://doi.org/10.5281/zenodo.21660461);
+- class 68: [formal certification status](results/class68-formal-certification-v0.1.0/STATUS.md)
+  and [class-level closure manifest](results/class68-formal-certification-v0.1.0/class68-formal-closure.json).
 
 This repository does not claim that \(C(13,7,4)=30\).
 
@@ -23,17 +24,20 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Solver-free structural census | 68/68 links validated and enumerated; complete automorphism data, candidate four-set orbit representatives, and exact unscreened profile-orbit counts preserved |
 | Structural pre-ranking | 68 classes ranked in 23 structural tie groups; provisional pilot classes 68 / 4 / 59 |
 | Solver-free pilot screening | 115,955 profile orbits materialized across classes 68 / 4 / 59; 136 direct arithmetic contradictions discarded; 115,819 retained |
-| Refined pilot order | Class 68 / class 4 / class 59; no LP or solver metrics used |
 | Class-68 candidate formulas | 12/12 native OPBs generated; all 6,816 serialized rows independently reconstructed and matched |
 | Class-68 direct containment | 33,780 lower/upper row pairs scanned; 14,284 support containments; zero strict contradictions; all 12 formulas survive |
 | Class-68 exact root LP | 6 exact rational LP witnesses; 6 exact integer Farkas contradictions; independent exact audit passed 12/12 |
 | Class-68 root-LP verification | Farkas orbits 1 / 3 / 6 / 7 / 8 / 11 are `VERIFIED_UNSAT` with VeriPB `--requireUnsat`; 6/6 verification records independently audited |
+| Class-68 formal closure | 12/12 candidate orbits formally covered; class-level status `VERIFIED_UNSAT_CLASS_68` |
+| Class-68 orbit 2 | Exhaustive 155/155 profile-orbit closure; all profiles VeriPB `VERIFIED_UNSAT` |
+| Class-68 final shared residual | 13 exact pair CG cuts + 203-node / 102-leaf exact Farkas split tree; stitched proof VeriPB `VERIFIED_UNSAT` |
 | Class-52 structural regression | Group order 36, 26 four-set orbits, 107 profiles, `70 / 17 / 20`, 20 retained profiles |
 | Class-52 formula regression | 30/30 regenerated native OPBs byte-identical to the recovered formulas |
 | Published class-52 certificates | 30/30 `VERIFIED_UNSAT` with VeriPB `--requireUnsat` |
 | Fresh candidate-orbit certificates | 19 `VERIFIED_UNSAT`; 7 `TIMEOUT` |
 | Fresh downstream class-52 chain | 17 whole-case and 87 early-profile exclusions remain `SOLVER_UNSAT` only |
-| Other link classes | Class 68 has six formally pruned root-LP orbits and six exact-LP survivors; classes 4 and 59 remain at solver-free screening depth |
+| Formally eliminated link classes | 2/68: classes 52 and 68 |
+| Remaining link classes | 66 require formal elimination or a stronger collective argument |
 | Global covering number | Not proved; no claim that \(C(13,7,4)=30\) |
 
 The published class-52 result and the current reconstructed pipeline have
@@ -81,6 +85,8 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/class68-direct-containment-v0.1.0/` | Exhaustive direct-containment results for all 12 class-68 formulas, independent audit, manifests, and checksums |
 | `results/class68-root-lp-v0.1.0/` | Exact root-LP evidence for all 12 class-68 formulas, including six rational witnesses and six exact Farkas proof packages |
 | `results/class68-root-lp-verification-v0.1.0/` | Preserved VeriPB `--requireUnsat` results and independent verification audit for the six root-LP contradictions |
+| `results/class68-formal-certification-v0.1.0/` | Checked-in class-68 closure/status records proving exact coverage of all 12 candidate orbits |
+| `docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-68 result, proof routes, verifier gate, hashes, and claim boundary |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
 
@@ -235,11 +241,11 @@ Verify that the checked-in source tree matches its integrity manifest:
 python scripts/build_source_manifest.py --check
 ```
 
-The class-68 root-LP gate is complete. Six formulas have independently audited
-exact rational LP witnesses. The other six have exact integer Farkas
-contradictions and VeriPB-accepted proofs, so only orbits 1, 3, 6, 7, 8, and
-11 are formally pruned at this stage. Orbits 0, 2, 4, 5, 9, and 10 survive the
-root LP; that does not make them Boolean SAT instances. Class 68 is therefore
-not eliminated. The next bounded research stage is a separately controlled
-exact LP split-tree/Farkas attempt on those six survivors. No MILP,
-RoundingSat, class-4, or class-59 campaign is authorized.
+Class 68 has advanced beyond the historical direct-containment checkpoint and
+is now formally eliminated: all 12 candidate orbits are covered by exact
+proofs accepted by VeriPB with `--requireUnsat`, and the class-level closure
+audit passes. Together with the separately published class-52 elimination,
+2 of the 68 link classes are formally closed. The next research stage is to
+apply the audited structural ranking and reusable exact-proof machinery to the
+remaining 66 classes. The global \(C(13,7,4)=30\) claim remains unauthorized
+until the full reduction is closed.

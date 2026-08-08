@@ -21,6 +21,19 @@ Its complete release archive has SHA-256:
 
 `c4c1ddc812affd9bd05c452855bdfcd614a68906f8bf536fab8bcd4b3123ae56`
 
+The complete class-68 formal-certification checkpoint is:
+
+| Artifact | SHA-256 |
+|---|---|
+| `C13_class68_formal_checkpoint_2026-08-08.zip` | `62b5c13608a8501e508270bb563bf24c57dda7f0aa8694e7ffc8217eec3dc3fb` |
+
+The archive contains the exact OPB/PBP proof corpus, verification manifests
+and logs, audited structural provenance, the proof-generation and closure-audit
+source snapshot, and the VeriPB wheel used for final checking. The wheel
+SHA-256 is
+`3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369`.
+The archive passed a ZIP integrity test before this checkpoint was recorded.
+
 The evolving repository also contains deterministic checked-in checkpoints:
 
 | Checkpoint | Integrity artifact | SHA-256 |
@@ -31,6 +44,7 @@ The evolving repository also contains deterministic checked-in checkpoints:
 | Class-68 direct-containment scan | `results/class68-direct-containment-v0.1.0/SHA256SUMS` | `fe14bac9f54439a52eee055952381c26e2075081e7126a873239034699433f81` |
 | Class-68 exact root-LP checkpoint | `results/class68-root-lp-v0.1.0/SHA256SUMS` | `33c41b072d5a44bf7520ccea97d71785f61a2f24882f2203ab34b104168a50b9` |
 | Class-68 root-LP VeriPB verification checkpoint | `results/class68-root-lp-verification-v0.1.0/SHA256SUMS` | `be3d9f800886ca53b1f9fd9538d329476a7f1a2dd5e235f0be7884a51124aec9` |
+| Class-68 formal closure | `results/class68-formal-certification-v0.1.0/SHA256SUMS` | closure manifest `ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7` |
 
 The class-68 verification checkpoint identifies the preserved verifier build
 by these additional hashes:
@@ -49,5 +63,5 @@ The repository adapts the v0.4.0 package for source control by:
   requiring the complete generated build tree.
 
 Consequently, the repository tree is not asserted to be byte-identical to the
-three ZIP packages. The ZIP hashes identify the immutable phase checkpoints;
+immutable ZIP packages. The ZIP hashes identify the phase/formal checkpoints;
 Git commits identify the evolving source tree.
