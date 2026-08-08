@@ -74,6 +74,38 @@ See
 [`docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md`](docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md)
 for the proof-method and artifact summary.
 
+### Formal class-48 elimination
+
+Class 48 is formally eliminated. Its 35 candidate minimum-point four-set
+orbits split into 10 exact root-pruned orbits and 25 retained orbits. The
+retained side expands to 78 exact minimum-set orbits and 675 exact degree
+profiles, all covered by pinned-VeriPB UNSAT proofs: 509 direct root-Farkas,
+157 forced-pair-cut/Farkas, and 9 exact split-tree/Farkas proofs.
+
+The checked-in class-level closure is
+`results/class48-formal-certification-v0.1.0/class48-formal-closure.json`,
+SHA-256
+`8b108f154e1e7e786f7f75e2f9db154803999e01a439cb5e746548c95dea61d2`.
+See
+[`docs/CLASS48_FORMAL_CERTIFICATION_V0.1.0.md`](docs/CLASS48_FORMAL_CERTIFICATION_V0.1.0.md)
+for the proof and checkpoint details.
+
+### Formal class-50 elimination
+
+Class 50 is formally eliminated. Its 35 candidate minimum-point four-set
+orbits split into 3 exact root-pruned orbits and 32 retained orbits. The
+retained side expands to 138 exact minimum-set orbits and 1508 exact degree
+profiles, all covered by pinned-VeriPB UNSAT proofs: 1343 direct root-Farkas,
+156 forced-pair-cut/Farkas, and 9 exact split-tree/Farkas proofs.
+
+The checked-in class-level closure is
+`results/class50-formal-certification-v0.1.0/class50-formal-closure.json`,
+SHA-256
+`cdcc401a0dac72e064cd6d216676e3763c2c44eda8084da43ff4ed1c81249699`.
+See
+[`docs/CLASS50_FORMAL_CERTIFICATION_V0.1.0.md`](docs/CLASS50_FORMAL_CERTIFICATION_V0.1.0.md)
+for the proof and checkpoint details.
+
 ### Classification and numbering
 
 The catalog audit enumerates all 21,952 Figure 1 completions, finds exactly 67
@@ -108,7 +140,7 @@ pilot through complete formal elimination.
 
 Classes 4 and 59 have the previously recorded solver-free exact-minimum-set and
 degree-profile screening data. They have **not** been formally eliminated.
-The other 64 currently unresolved classes have the all-68 structural census
+The other 62 currently unresolved classes have the all-68 structural census
 but no class-level formal elimination.
 
 ### Class-68 exact root-LP checkpoint and formal verification
@@ -181,6 +213,8 @@ the root-LP stage rather than as the current class-68 status.
 | Class-68 candidate-orbit formal coverage | `VERIFIED_UNSAT` 12/12 |
 | Class-68 orbit-2 profile coverage | `VERIFIED_UNSAT` 155/155 |
 | Link class 68 | **`VERIFIED_UNSAT_CLASS_68` / FORMALLY ELIMINATED** |
+| Link class 48 | **`VERIFIED_UNSAT_CLASS_48` / FORMALLY ELIMINATED** |
+| Link class 50 | **`VERIFIED_UNSAT_CLASS_50` / FORMALLY ELIMINATED** |
 | Class-4 and class-59 formulas / root LP / solver / proof | `NOT_STARTED` |
 | Class-52 enumeration/regression | `ENUMERATED` |
 | Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
@@ -189,16 +223,16 @@ the root-LP stage rather than as the current class-68 status.
 | Fresh class-52 candidate screens | 19 `VERIFIED_UNSAT`, 7 `TIMEOUT` |
 | Fresh whole-case exclusions | 17 `SOLVER_UNSAT` |
 | Fresh early-profile exclusions | 87 `SOLVER_UNSAT` |
-| Formally eliminated link classes | **2/68: 52 and 68** |
-| Remaining link classes | **66** |
+| Formally eliminated link classes | **4/68: 48, 50, 52, and 68** |
+| Remaining link classes | **64** |
 | Global \(C(13,7,4)=30\) claim | **Not authorized** |
 
 ## Claim boundary
 
-The project now has two fully eliminated link classes: 52 and 68. This is a
+The project now has four fully eliminated link classes: 48, 50, 52, and 68. This is a
 strictly stronger project state than the earlier direct-containment checkpoint,
 but it is not the global covering-number theorem. A proof of
-\(C(13,7,4)=30\) still requires formal elimination of the remaining 66 link
+\(C(13,7,4)=30\) still requires formal elimination of the remaining 64 link
 classes or a stronger exhaustive argument that closes them collectively.
 
 ## Next gate
