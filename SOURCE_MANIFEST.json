@@ -1653,6 +1653,11 @@
       "sha256": "861f74ea45039e79e0e44226268bf12a0736cf8f12fa8f9864e4bb6385fb4065"
     },
     {
+      "bytes": 23235,
+      "path": "scripts/build_class_profile_closure_manifest.py",
+      "sha256": "c7e1d08e83ac416cbf41c0698b216644bed95fd93f82ee018d861377bc27deb9"
+    },
+    {
       "bytes": 10675,
       "path": "scripts/build_recovered_screening_ledger.py",
       "sha256": "3272610c7b0d115827c67883189ce4ed1a5c23b24dc85f0570d845ce6383ba53"
@@ -2004,7 +2009,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 397,
-    "total_bytes": 25824745
+    "file_count": 398,
+    "total_bytes": 25847980
   }
 }
