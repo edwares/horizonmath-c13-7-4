@@ -1668,6 +1668,11 @@
       "sha256": "236ad6e8acc3e8ac66b38fb3f562fe6b8106879b3e205b116c3c2b4bbc2fae8c"
     },
     {
+      "bytes": 4055,
+      "path": "scripts/merge_pair_cut_shards.py",
+      "sha256": "eb83f2c570fba7f32a10fcda087d3f33414e57b9990df9d2f75af2ec71e58eb5"
+    },
+    {
       "bytes": 2312,
       "path": "scripts/package_release.py",
       "sha256": "708150a7f2a7514104e796bdc31e80975be3ac05ee38db28280a3183045efde9"
@@ -1681,6 +1686,11 @@
       "bytes": 9931,
       "path": "scripts/run_class_profile_census.py",
       "sha256": "0384bf268b4d34bcd8d7eebc246829fabb5fa165d6aef2d35ea347fe0078ff04"
+    },
+    {
+      "bytes": 8268,
+      "path": "scripts/run_pair_integrality_cut_census.py",
+      "sha256": "b321013b24ef4231e90cae68b2c0dc498fb69c2e48578eaa06ba2d5a7373e497"
     },
     {
       "bytes": 19552,
@@ -1979,7 +1989,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 392,
-    "total_bytes": 25755742
+    "file_count": 394,
+    "total_bytes": 25768065
   }
 }
