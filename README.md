@@ -83,7 +83,8 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/pilot-screening-v0.1.0/` | Every exact-set and profile-orbit representative for pilot classes 68 / 4 / 59, with solver-free screening decisions |
 | `results/class68-candidate-formulas-v0.1.0/` | All 12 class-68 candidate-orbit OPBs, independent ordered-row audit, manifests, and checksums |
 | `results/class68-direct-containment-v0.1.0/` | Exhaustive direct-containment results for all 12 class-68 formulas, independent audit, manifests, and checksums |
-| `results/class68-root-lp-v0.1.0/` | Exact root-LP evidence for all 12 class-68 formulas, including six rational witnesses and six exact Farkas proof packages |
+| `results/class68-root-lp-v0.1.0/` | Immutable verifier-bound root-LP checkpoint used by the preserved v0.1 verification records |
+| `results/class68-root-lp-v0.2.0/` | Byte-stable regeneration fingerprint; CI regenerates the full output and requires its SHA-256 inventory plus exact evidence and OPB/PBP proof bytes to match the recorded baseline/v0.1 evidence |
 | `results/class68-root-lp-verification-v0.1.0/` | Preserved VeriPB `--requireUnsat` results and independent verification audit for the six root-LP contradictions |
 | `results/class68-formal-certification-v0.1.0/` | Checked-in class-68 closure/status records proving exact coverage of all 12 candidate orbits |
 | `docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-68 result, proof routes, verifier gate, hashes, and claim boundary |
@@ -207,7 +208,7 @@ diff -qr \
   build/class68-direct-containment
 ```
 
-Reproduce the exact class-68 root-LP checkpoint:
+Reproduce the byte-stable class-68 root-LP checkpoint:
 
 ```bash
 horizonlink scan-root-lp \
@@ -217,10 +218,18 @@ horizonlink scan-root-lp \
     results/class68-direct-containment-v0.1.0 \
   --output-directory build/class68-root-lp
 
-diff -qr \
-  results/class68-root-lp-v0.1.0 \
-  build/class68-root-lp
+diff -u \
+  results/class68-root-lp-v0.2.0/SHA256SUMS \
+  build/class68-root-lp/SHA256SUMS
 ```
+
+The preserved v0.1 checkpoint remains the input bound into the original
+VeriPB verification records. The compact v0.2 fingerprint avoids duplicating
+that corpus in source control. v0.2 changes only reproducibility metadata for
+the six Farkas cases: the raw floating HiGHS objective margin is no longer
+serialized. The regression suite requires its exact rational witnesses, exact
+integer Farkas certificates, verifier-normalized OPBs, and PBP proof bytes to
+match v0.1.
 
 Verification of the six exact Farkas proofs is a separate, fail-closed gate.
 Given the pinned VeriPB 0.3a0 wheel and its preserved build-provenance JSON:

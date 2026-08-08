@@ -2,6 +2,15 @@
 
 Status date: 2026-08-06 UTC
 
+> Reproducibility note (2026-08-08): this verifier-bound v0.1 checkpoint is
+> preserved unchanged. Its serialized raw HiGHS dual-margin diagnostics were
+> found to vary in the final floating-point bits across otherwise identical
+> GitHub Actions runs. Current regeneration therefore targets the
+> `results/class68-root-lp-v0.2.0/SHA256SUMS` fingerprint; v0.2 records an exact
+> unit-sum Farkas-ray margin instead. The regression suite also requires its
+> exact LP witnesses, exact Farkas certificates, verifier-normalized OPBs, and
+> PBP proof bytes to match v0.1.
+
 ## Result
 
 The `horizonlink` v0.9.0 pipeline inspected exactly the 12 audited class-68
@@ -32,9 +41,10 @@ unresolved.
 
 ## Exact LP evidence
 
-The floating stage is a deterministic zero-objective SciPy/HiGHS feasibility
-probe with presolve enabled, one thread, HiGHS parallelism disabled, and
-random seed zero. Floating output is not treated as a certificate.
+The floating stage is a zero-objective SciPy/HiGHS feasibility probe with
+presolve enabled, one thread, HiGHS parallelism disabled, and random seed
+zero. Floating output is not treated as a certificate. The v0.1 raw floating
+dual-margin diagnostics are not assumed to be bit-reproducible across runners.
 
 For an LP-feasible report, the implementation uses the floating solution only
 to identify zero-bound variables and tight rows. It then solves a full-rank
@@ -124,7 +134,7 @@ disappears silently.
 
 ## Reproduction
 
-Regenerate the mathematical checkpoint:
+Regenerate the byte-stable mathematical equivalent of this checkpoint:
 
 ```bash
 horizonlink scan-root-lp \
@@ -134,10 +144,16 @@ horizonlink scan-root-lp \
     results/class68-direct-containment-v0.1.0 \
   --output-directory build/class68-root-lp
 
-diff -qr \
-  results/class68-root-lp-v0.1.0 \
-  build/class68-root-lp
+diff -u \
+  results/class68-root-lp-v0.2.0/SHA256SUMS \
+  build/class68-root-lp/SHA256SUMS
 ```
+
+HEAD intentionally does not reproduce the raw floating-margin metadata bytes
+of v0.1. The regression suite instead requires the complete regenerated v0.2
+SHA-256 inventory to match byte-for-byte and separately requires its exact
+evidence and all OPB/PBP proof bytes to match the verifier-bound v0.1
+artifacts.
 
 With the pinned VeriPB wheel installed in a clean environment, regenerate the
 verification checkpoint:

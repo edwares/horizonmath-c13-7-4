@@ -23,19 +23,19 @@
       "sha256": "e2b6be8567c372b63e4b5bd59d82042f04aa0bf7212b8ed50c67d2772c1d2ca0"
     },
     {
-      "bytes": 3944,
+      "bytes": 4136,
       "path": "ARTIFACTS.md",
-      "sha256": "7866da211b75af11452dd1967adde5bdfe47d6597fb278b735086e7791c93be2"
+      "sha256": "9e75016482f6c0e8a42eba0ba6327bb917f8d055c302668ca67d01b6947d94d1"
     },
     {
-      "bytes": 11086,
+      "bytes": 11787,
       "path": "README.md",
-      "sha256": "293f7028deceb50ed7afb41b612f502d28d9f24c296942e16996ea27d85f0a83"
+      "sha256": "b8a4a19d884a55721a4c8a395692e7aa5fd4e769630a6e2ac2815944aba9a213"
     },
     {
-      "bytes": 9307,
+      "bytes": 10019,
       "path": "STATUS.md",
-      "sha256": "fceeab3f8df02f05273e49219700697ea762d2d413eafdd2725904f97cac9a6a"
+      "sha256": "361b4a3e4e61b3705fe8cdd304d384d20733fb7c4e59dedc2d71f6581528704f"
     },
     {
       "bytes": 5028,
@@ -158,9 +158,9 @@
       "sha256": "aee17ff52376854c2f48c33bfeef1ffc7bc185cc0d01686938a8ac64bfdee493"
     },
     {
-      "bytes": 7462,
+      "bytes": 8478,
       "path": "docs/CLASS68_ROOT_LP_V0.1.0.md",
-      "sha256": "f0cb8a5a079e1d9862946709264b9b6db1588e36903200b30285efb93ced86e4"
+      "sha256": "93d3c22fba76165cb15ad7991aabbf70191e614b2abedec5020b0a315d976037"
     },
     {
       "bytes": 6450,
@@ -751,6 +751,16 @@
       "bytes": 88,
       "path": "results/class68-root-lp-v0.1.0/root-lp.manifest.json.sha256",
       "sha256": "7a49fc629db311e13a9dbc74a17bf78d8214c08d79eac5ea207b153a9b2bca8e"
+    },
+    {
+      "bytes": 730,
+      "path": "results/class68-root-lp-v0.2.0/README.md",
+      "sha256": "f84864cfbb618475718cfe07b7031ec2e1277220ee8d457a0ef6fa1ead9adbcc"
+    },
+    {
+      "bytes": 3283,
+      "path": "results/class68-root-lp-v0.2.0/SHA256SUMS",
+      "sha256": "c2b1b3cc74784f4377fc877f705816cc5befcfb3c0bca6c782b3ad515438bff2"
     },
     {
       "bytes": 1907,
@@ -1778,9 +1788,9 @@
       "sha256": "212ed497d6efdbe0c0d55ac4f695316431e8f861973423a88449e5e2b9399b47"
     },
     {
-      "bytes": 29455,
+      "bytes": 30987,
       "path": "src/horizonlink/root_lp.py",
-      "sha256": "d319858dd6350d1e5ea9e0b643cec07ae8673a79b07054b4f142bb2ce4351191"
+      "sha256": "70a984199451d632c0150861caea62daa78f0b5ed523b357193f959cd74db2c0"
     },
     {
       "bytes": 22646,
@@ -1933,9 +1943,9 @@
       "sha256": "e9734e6f658e0d8da4ccf4db14cf6a8069b30f90527223faaef9f5dafd39c374"
     },
     {
-      "bytes": 9936,
+      "bytes": 12659,
       "path": "tests/test_root_lp.py",
-      "sha256": "4fbbf432046027cae3ce93a39b7f4b2f59130c43cfc498efeaba335a74d32bde"
+      "sha256": "1a93ff70c7f5a4a66fc2c9154ab80c56b6a055216d59275636e723497b3e2b80"
     },
     {
       "bytes": 1428,
@@ -1959,7 +1969,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 388,
-    "total_bytes": 25721907
+    "file_count": 390,
+    "total_bytes": 25732796
   }
 }

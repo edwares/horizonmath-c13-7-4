@@ -117,6 +117,17 @@ The v0.9.0 pipeline has run the bounded root-LP stage on exactly the 12
 class-68 candidate formulas that survived direct containment. It did not
 launch MILP, RoundingSat, class 4, or class 59.
 
+The original v0.1 mathematical checkpoint remains immutable because its six
+Farkas proofs are the exact inputs bound into the preserved VeriPB verification
+records. A compact v0.2 regeneration fingerprint fixes and guards against a
+byte-reproducibility defect in diagnostic metadata: raw HiGHS floating
+objective margins are not serialized; instead, the primitive exact Farkas ray
+is normalized to total multiplier one and its rational margin is recorded.
+CI regenerates the full v0.2 output from source and requires its complete
+SHA-256 inventory to match. The regression suite separately requires the exact
+LP witnesses, exact Farkas certificates, verifier-normalized OPBs, and PBP
+proof bytes to match v0.1.
+
 The exact evidence partitions the 12 orbits as follows:
 
 - exact rational root-LP witnesses: 0, 2, 4, 5, 9, 10;
