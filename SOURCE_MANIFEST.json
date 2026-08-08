@@ -23,19 +23,19 @@
       "sha256": "e2b6be8567c372b63e4b5bd59d82042f04aa0bf7212b8ed50c67d2772c1d2ca0"
     },
     {
-      "bytes": 2313,
+      "bytes": 3086,
       "path": "ARTIFACTS.md",
-      "sha256": "7e5aefece9bed181020db6e54653d2533888927151deb78076cbc0e862b7ea5a"
+      "sha256": "db90b2f711e0470b23832c455785838b504e06e8b65beccf41561c90b73aae4f"
     },
     {
-      "bytes": 8663,
+      "bytes": 9548,
       "path": "README.md",
-      "sha256": "bfd804c5c7d91023665ef6637989d5249859d9484c9df4007c3b422948b0c149"
+      "sha256": "01ff290438af9f337e987c24f142dddab7b4dbbf91cf54e5146db923dadce88d"
     },
     {
-      "bytes": 8651,
+      "bytes": 6304,
       "path": "STATUS.md",
-      "sha256": "1fa1f4046ee7d67f3ac45d3213fc71ec04d2c72d33f0477568eccfb398ed0eb1"
+      "sha256": "1381b97b9c630f286823c3de58c4392c7627ffcfc61f1998703fb421543d82f6"
     },
     {
       "bytes": 5028,
@@ -143,14 +143,19 @@
       "sha256": "eaf5e8f666ec46165a446bba52f79fce9749ba43dfd82d24eff15795efcccef9"
     },
     {
-      "bytes": 5596,
+      "bytes": 5763,
       "path": "docs/CLASS68_CANDIDATE_FORMULAS_V0.1.0.md",
-      "sha256": "13c63ec3fc7192d3d78437c691f50c3f047ae8b73d01ad2885351e3c3abfc0d0"
+      "sha256": "eaee6caf6b986e735f147080773157148cc7a5d9ed0c7524558a59e13c3b932a"
     },
     {
-      "bytes": 5497,
+      "bytes": 5664,
       "path": "docs/CLASS68_DIRECT_CONTAINMENT_V0.1.0.md",
-      "sha256": "91b49806c34ac5296322fd49848f1542827baba1cb1b36ccd62d9098578716ec"
+      "sha256": "33c321e0be54ce24e3c773ddb45c212326415fa81434c254a14179009e485706"
+    },
+    {
+      "bytes": 3797,
+      "path": "docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md",
+      "sha256": "aee17ff52376854c2f48c33bfeef1ffc7bc185cc0d01686938a8ac64bfdee493"
     },
     {
       "bytes": 6450,
@@ -566,6 +571,26 @@
       "bytes": 85,
       "path": "results/class68-direct-containment-v0.1.0/scan.manifest.json.sha256",
       "sha256": "b41f74e7449ae15ad1c030f9a751a78f8b31ff5c78c880026941e98bc8732f75"
+    },
+    {
+      "bytes": 261,
+      "path": "results/class68-formal-certification-v0.1.0/SHA256SUMS",
+      "sha256": "0832c5ec4730e14382293fce1317ae3e8156f50908ead60f4e81b2e6eb2089e0"
+    },
+    {
+      "bytes": 2079,
+      "path": "results/class68-formal-certification-v0.1.0/STATUS.md",
+      "sha256": "8f2266b69da47969c252e28f5796ae9d6aa413f8068aed1e93c305d077e42884"
+    },
+    {
+      "bytes": 617,
+      "path": "results/class68-formal-certification-v0.1.0/checkpoint.manifest.json",
+      "sha256": "b14ce24ee0bce17a802cc6753a2e0d541a0bffcb9240bce47520c435d2055850"
+    },
+    {
+      "bytes": 9034,
+      "path": "results/class68-formal-certification-v0.1.0/class68-formal-closure.json",
+      "sha256": "ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7"
     },
     {
       "bytes": 1216,
@@ -1654,7 +1679,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 327,
-    "total_bytes": 19528534
+    "file_count": 332,
+    "total_bytes": 19543967
   }
 }

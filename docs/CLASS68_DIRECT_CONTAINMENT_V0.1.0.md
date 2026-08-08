@@ -1,5 +1,8 @@
 # Class-68 direct-containment scan v0.1.0
 
+> Historical phase checkpoint. Class 68 was subsequently formally eliminated;
+> see [CLASS68_FORMAL_CERTIFICATION_V0.1.0.md](CLASS68_FORMAL_CERTIFICATION_V0.1.0.md).
+
 Status date: 2026-07-30 UTC
 
 ## Result

@@ -1,0 +1,353 @@
+{
+  "candidate_orbit_partition": {
+    "all_candidates_accounted_for": true,
+    "orbit_count": 12,
+    "orbit_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "partition_sha256": "9c433703f4d97c2d68d841f4b42e232db4631e6c4342a4a4611122ace3b70d96",
+    "structural_audit_passed": true
+  },
+  "class_index": 68,
+  "coverage_audit": {
+    "all_profile_covers_exact": true,
+    "covered_candidate_orbits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exact_candidate_orbit_cover": true,
+    "expected_candidate_orbits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "missing_candidate_orbits": [],
+    "orbit2": 2,
+    "profile_decomposition_orbits": [
+      0,
+      4,
+      5,
+      9,
+      10
+    ],
+    "retained_case_union_exact": true,
+    "root_direct_orbits": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      11
+    ],
+    "unexpected_candidate_orbits": []
+  },
+  "formal_elimination": {
+    "direct_root_farkas_orbits": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      11
+    ],
+    "direct_root_verification": {
+      "path": "build/class68.root-lp-six-verification-r24/verification.manifest.json",
+      "sha256": "118950df05bfff541d77cade29596a17b600279cdc20eb4a0df6c646dcbf9567"
+    },
+    "orbit2": {
+      "closure_manifest": {
+        "path": "build/class68.orbit02-formal-closure-r15.json",
+        "sha256": "d99f03344a5882186e1e56d53c01f4cc96e0a204d2f48f7eb48a00b5f81eb4cd"
+      },
+      "orbit": 2,
+      "verified_profile_count": 155
+    },
+    "profile_decomposition_orbits": [
+      0,
+      4,
+      5,
+      9,
+      10
+    ],
+    "profile_orbits": {
+      "0": {
+        "candidate_representative": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "covered_profile_count": 1,
+        "easy_verification": {
+          "path": "build/class68.orbit00-profile-cut-farkas-verification-r20/verification.manifest.json",
+          "sha256": "0c427e4b44a7628f28b9d17f2f37e8ffc37a40febd1386df7f3fa6c3e3867120",
+          "verified_profile_indices": [
+            0
+          ]
+        },
+        "exact_profile_cover": true,
+        "profile_census": {
+          "exact_minimum_case_ids": [
+            0
+          ],
+          "path": "build/class68.orbit00-profile-lp-census-r16.json",
+          "profile_count": 1,
+          "sha256": "56ab0373d47c0212b3e091c05422aa78f3a89d268588f2447ceb5d179186cd98"
+        },
+        "shared_residual_profile_index": null
+      },
+      "10": {
+        "candidate_representative": [
+          0,
+          1,
+          8,
+          11
+        ],
+        "covered_profile_count": 1,
+        "easy_verification": {
+          "path": "build/class68.orbit10-profile-cut-farkas-verification-r20/verification.manifest.json",
+          "sha256": "c161fb5f804423d78112f2162f2cd2d6364526cd399250eb0457b414a173b62f",
+          "verified_profile_indices": [
+            0
+          ]
+        },
+        "exact_profile_cover": true,
+        "profile_census": {
+          "exact_minimum_case_ids": [
+            4
+          ],
+          "path": "build/class68.orbit10-profile-lp-census-r16.json",
+          "profile_count": 1,
+          "sha256": "01af4317e7965dfb80cd1c04930ec8060e4bc77089ca2aff3a0df65b7d848913"
+        },
+        "shared_residual_profile_index": null
+      },
+      "4": {
+        "candidate_representative": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "covered_profile_count": 16,
+        "easy_verification": {
+          "path": "build/class68.orbit04-profile-cut-farkas-verification-r20/verification.manifest.json",
+          "sha256": "5bcaee3bb1802147a756a8f7a04da32f89e66bc9593a2a566eb0eeaea7a87920",
+          "verified_profile_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        "exact_profile_cover": true,
+        "profile_census": {
+          "exact_minimum_case_ids": [
+            1,
+            5,
+            6,
+            7
+          ],
+          "path": "build/class68.orbit04-profile-lp-census-r16.json",
+          "profile_count": 16,
+          "sha256": "0884d7a7dbb453f8f30ae57c0e225258cf9505ad3a3d38087ba82531d8d2b83a"
+        },
+        "shared_residual_profile_index": 15
+      },
+      "5": {
+        "candidate_representative": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "covered_profile_count": 14,
+        "easy_verification": {
+          "path": "build/class68.orbit05-profile-cut-farkas-verification-r20/verification.manifest.json",
+          "sha256": "bf656985b2e0846956f524b89b3476a0ebee67600d53eeef0d9ec7e84ab07b76",
+          "verified_profile_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        "exact_profile_cover": true,
+        "profile_census": {
+          "exact_minimum_case_ids": [
+            2,
+            5,
+            7
+          ],
+          "path": "build/class68.orbit05-profile-lp-census-r16.json",
+          "profile_count": 14,
+          "sha256": "091c5fe8954ffc69c0126f2279b7c8e6c942ed7923dc66e89ec8ab5e6579b29b"
+        },
+        "shared_residual_profile_index": 13
+      },
+      "9": {
+        "candidate_representative": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "covered_profile_count": 14,
+        "easy_verification": {
+          "path": "build/class68.orbit09-profile-cut-farkas-verification-r20/verification.manifest.json",
+          "sha256": "3e8f0685b21199ca4060b5917357fb49c69c813b1b96b8d9b63e18b77c65b8d8",
+          "verified_profile_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        "exact_profile_cover": true,
+        "profile_census": {
+          "exact_minimum_case_ids": [
+            3,
+            5,
+            7
+          ],
+          "path": "build/class68.orbit09-profile-lp-census-r16.json",
+          "profile_count": 14,
+          "sha256": "cd49f796100d451978e55b68ec3959c4c469ba9a4c28a81511a95167320e7984"
+        },
+        "shared_residual_profile_index": 13
+      }
+    },
+    "retained_exact_minimum_set_case_count": 8,
+    "retained_exact_minimum_set_case_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "shared_residual": {
+      "canonical_formula_sha256": "1c5d7b88906c89280e3bdbce4c74fbafacf1d350bf2e5cf5c7d7c7d2fbc057b0",
+      "cut_count": 13,
+      "extension_degrees": [
+        8,
+        8,
+        9,
+        8,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        9,
+        8
+      ],
+      "profile_occurrences": [
+        {
+          "profile_index": 15,
+          "target_orbit": 4
+        },
+        {
+          "profile_index": 13,
+          "target_orbit": 5
+        },
+        {
+          "profile_index": 13,
+          "target_orbit": 9
+        }
+      ],
+      "proof_manifest": {
+        "path": "build/class68.shared-profile-residual-r19/corpus.manifest.json",
+        "sha256": "b19f8b07e7ddf2d1463319a7cc1182ce11ea582506534ad0e8876aa6cef72c65"
+      },
+      "verification_manifest": {
+        "path": "build/class68.shared-profile-residual-verification-r25/verification.manifest.json",
+        "sha256": "83ac19c23919f83f87817d1f3120cc164ae5462bfe15e2c2315431f9df3cb2c5"
+      },
+      "verified_tree": {
+        "leaves": 102,
+        "max_depth": 39,
+        "nodes": 203,
+        "path": "instances/c68_case007_profile007/c68_case007_profile007.split-tree.json",
+        "sha256": "80b9114b0c2cb019a5017f84fabc5cb1004310e4a4bc0a3599b6944ae3f056a7"
+      }
+    }
+  },
+  "logical_scope": {
+    "C_13_7_4_equals_30_claimed": false,
+    "class68_formally_eliminated": true,
+    "reason": "Every candidate minimum-point 4-set belongs to one of the 12 structural orbits. Six are directly VeriPB-refuted, orbit 2 is independently closed, and after removing those seven, the exact-minimum-set/profile partition for the five retained orbits is exhaustively covered by VeriPB-verified proofs."
+  },
+  "schema_version": "horizonmath.class68-formal-closure.v1",
+  "status": "VERIFIED_UNSAT_CLASS_68",
+  "structural_manifest": {
+    "path": "build/all68-structural-census/manifests/class_68.manifest.json",
+    "sha256": "df68bbfe81fd67b2f87a325012dcb32413d928f2808883056c59d27dc13bf893"
+  },
+  "verifier": {
+    "required_flag": "--requireUnsat",
+    "wheel_sha256": "3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369"
+  }
+}

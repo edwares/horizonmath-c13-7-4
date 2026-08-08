@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "bytes": 57326730,
+    "filename": "C13_class68_formal_checkpoint_2026-08-08.zip",
+    "sha256": "62b5c13608a8501e508270bb563bf24c57dda7f0aa8694e7ffc8217eec3dc3fb"
+  },
+  "class_index": 68,
+  "closure_manifest": {
+    "path": "class68-formal-closure.json",
+    "sha256": "ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7"
+  },
+  "schema_version": "horizonmath.formal-checkpoint-reference.v1",
+  "status": "VERIFIED_UNSAT_CLASS_68",
+  "verifier": {
+    "required_flag": "--requireUnsat",
+    "wheel_sha256": "3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369"
+  }
+}
