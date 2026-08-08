@@ -81,8 +81,13 @@ def main() -> None:
     import scipy.sparse
 
     structural = _load_json(args.structural_manifest)
-    if structural.get("status") != "ENUMERATED":
-        raise ValueError("structural manifest must have status ENUMERATED")
+    if structural.get("status") not in {"ENUMERATED", "FORMULAS_GENERATED"}:
+        raise ValueError(
+            "structural manifest must be at the ENUMERATED or "
+            "FORMULAS_GENERATED checkpoint"
+        )
+    if not structural.get("structural_audit", {}).get("all_checks_passed"):
+        raise ValueError("structural audit must pass before profile census")
     normalized = structural["input"]["normalized_document"]
     point_labels = tuple(int(value) for value in normalized["point_labels"])
     link_blocks = tuple(

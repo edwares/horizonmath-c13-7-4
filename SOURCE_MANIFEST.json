@@ -1678,9 +1678,9 @@
       "sha256": "3be123af46d2d2d03c8dfeb1c469d43edb7d6ce9c546f3ae58fdfec761c21606"
     },
     {
-      "bytes": 9682,
+      "bytes": 9931,
       "path": "scripts/run_class_profile_census.py",
-      "sha256": "cb67422915a65936b8da8d2600b50ccf62e84ccd7b260bf2bb452fc58c4bd99b"
+      "sha256": "0384bf268b4d34bcd8d7eebc246829fabb5fa165d6aef2d35ea347fe0078ff04"
     },
     {
       "bytes": 19552,
@@ -1980,6 +1980,6 @@
   "status": "AUDITED_CHECKPOINT",
   "summary": {
     "file_count": 392,
-    "total_bytes": 25755493
+    "total_bytes": 25755742
   }
 }
