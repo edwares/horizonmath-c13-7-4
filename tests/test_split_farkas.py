@@ -8,7 +8,10 @@ from pathlib import Path
 
 from horizonlink.input import load_link
 from horizonlink.manifest import build_manifest
-from horizonlink.split_farkas import generate_lp_split_farkas_corpus
+from horizonlink.split_farkas import (
+    _primitive_integer_sparse_nullspace,
+    generate_lp_split_farkas_corpus,
+)
 from tests.fixture_support import build_candidate_fixture
 
 
@@ -17,6 +20,28 @@ CLASS52 = ROOT / "data" / "class52.link.json"
 PRESERVED = ROOT / "tests" / "data" / "golden" / "split_orbit05"
 SCIPY_AVAILABLE = importlib.util.find_spec("scipy") is not None
 SYMPY_AVAILABLE = importlib.util.find_spec("sympy") is not None
+
+
+class PrimitiveSparseNullspaceTests(unittest.TestCase):
+    def test_positive_one_dimensional_ray_is_exact_and_primitive(self) -> None:
+        result = _primitive_integer_sparse_nullspace(
+            [{0: 1, 1: -1}, {1: 1, 2: -1}], 3
+        )
+        self.assertIsNotNone(result)
+        assert result is not None
+        self.assertEqual(result["integers"], [1, 1, 1])
+        self.assertEqual(result["rank"], 2)
+        self.assertEqual(result["nullspace_dimension"], 1)
+
+    def test_non_one_dimensional_nullspace_is_rejected(self) -> None:
+        self.assertIsNone(
+            _primitive_integer_sparse_nullspace([{0: 1, 1: -1}], 3)
+        )
+
+    def test_non_positive_null_ray_is_rejected(self) -> None:
+        self.assertIsNone(
+            _primitive_integer_sparse_nullspace([{0: 1, 1: 1}], 2)
+        )
 
 
 @unittest.skipUnless(

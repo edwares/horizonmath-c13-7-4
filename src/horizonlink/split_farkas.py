@@ -13,6 +13,7 @@ import math
 import os
 import platform
 import sys
+import time
 import warnings
 import zipfile
 from fractions import Fraction
@@ -98,7 +99,7 @@ def _solve_node_lp(
         bounds[variable] = (float(value), float(value))
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
-        return scipy_optimize.linprog(
+        result = scipy_optimize.linprog(
             numpy_module.zeros(variable_count, dtype=float),
             A_ub=-matrix,
             b_ub=-rhs,
@@ -114,6 +115,22 @@ def _solve_node_lp(
                 "random_seed": 0,
             },
         )
+        if int(result.status) not in {0, 2}:
+            result = scipy_optimize.linprog(
+                numpy_module.zeros(variable_count, dtype=float),
+                A_ub=-matrix,
+                b_ub=-rhs,
+                bounds=bounds,
+                method="highs",
+                options={
+                    "presolve": True,
+                    "time_limit": time_limit,
+                    "threads": 1,
+                    "parallel": False,
+                    "random_seed": 0,
+                },
+            )
+        return result
 
 
 def _assignment_document(assignments: dict[int, int]) -> dict[str, int]:
@@ -285,7 +302,11 @@ def _leaf_dual_alternative(
     numpy_module: Any,
     scipy_optimize: Any,
     scipy_sparse: Any,
+    *,
+    support_threshold: float = 1e-9,
 ) -> dict[str, Any]:
+    if support_threshold <= 0:
+        raise ValueError("leaf Farkas support threshold must be positive")
     matrix_rows: list[int] = []
     matrix_columns: list[int] = []
     matrix_values: list[float] = []
@@ -363,7 +384,7 @@ def _leaf_dual_alternative(
             "leaf Farkas support LP failed: "
             f"status={result.status}, message={result.message}"
         )
-    support = numpy_module.flatnonzero(result.x > 1e-9).tolist()
+    support = numpy_module.flatnonzero(result.x > support_threshold).tolist()
     margin = float(rhs_vector @ result.x)
     if margin <= 1e-10:
         raise ValueError("floating leaf Farkas alternative has no margin")
@@ -378,6 +399,7 @@ def _leaf_dual_alternative(
         "reported_status": int(result.status),
         "reported_message": str(result.message),
         "support_size": len(support),
+        "support_threshold": support_threshold,
     }
 
 
@@ -498,6 +520,11 @@ def _positive_integer_nullspace(
                 ),
                 "denominator_limit": denominator_limit,
             }
+    integer_sparse = _primitive_integer_sparse_nullspace(
+        equations, column_count
+    )
+    if integer_sparse is not None:
+        return integer_sparse
     fallback = _one_dimensional_integer_nullspace(
         equations, column_count
     )
@@ -506,6 +533,127 @@ def _positive_integer_nullspace(
         "reconstruction attempts"
     )
     return fallback
+
+
+def _primitive_integer_sparse_nullspace(
+    equations: list[dict[int, int]], column_count: int
+) -> dict[str, Any] | None:
+    """Compute a positive null ray with fraction-free sparse elimination.
+
+    Forward elimination keeps primitive integer row representatives, avoiding
+    the Fraction growth that dominates the large split-tree leaves.  The final
+    triangular back-substitution is exact, and the resulting primitive vector
+    is checked against every original equation before it is returned.
+    """
+
+    started = time.monotonic()
+    matrix = [dict(row) for row in equations if row]
+    row_count = len(matrix)
+    pivot_row = 0
+    pivot_columns: list[int] = []
+    for column in range(column_count):
+        candidate = next(
+            (
+                row_index
+                for row_index in range(pivot_row, row_count)
+                if matrix[row_index].get(column, 0)
+            ),
+            None,
+        )
+        if candidate is None:
+            continue
+        matrix[pivot_row], matrix[candidate] = (
+            matrix[candidate],
+            matrix[pivot_row],
+        )
+        pivot = matrix[pivot_row]
+        pivot_value = pivot[column]
+        for row_index in range(pivot_row + 1, row_count):
+            factor = matrix[row_index].get(column, 0)
+            if not factor:
+                continue
+            row = matrix[row_index]
+            reduced: dict[int, int] = {}
+            common_divisor = 0
+            for index in set(row) | set(pivot):
+                if index < column:
+                    continue
+                replacement = (
+                    pivot_value * row.get(index, 0)
+                    - factor * pivot.get(index, 0)
+                )
+                if replacement:
+                    reduced[index] = replacement
+                    common_divisor = math.gcd(
+                        common_divisor, abs(replacement)
+                    )
+            if common_divisor > 1:
+                reduced = {
+                    index: value // common_divisor
+                    for index, value in reduced.items()
+                }
+            matrix[row_index] = reduced
+        pivot_columns.append(column)
+        pivot_row += 1
+        if pivot_row == row_count:
+            break
+
+    free_columns = sorted(set(range(column_count)) - set(pivot_columns))
+    if len(free_columns) != 1:
+        return None
+    vector = [Fraction(0) for _ in range(column_count)]
+    vector[free_columns[0]] = Fraction(1)
+    for row_index in range(len(pivot_columns) - 1, -1, -1):
+        column = pivot_columns[row_index]
+        row = matrix[row_index]
+        vector[column] = -sum(
+            value * vector[index]
+            for index, value in row.items()
+            if index != column
+        ) / Fraction(row[column])
+
+    common_denominator = 1
+    for value in vector:
+        common_denominator = math.lcm(
+            common_denominator, value.denominator
+        )
+    integers = [
+        int(value * common_denominator) for value in vector
+    ]
+    if all(value < 0 for value in integers):
+        integers = [-value for value in integers]
+    common_divisor = 0
+    for value in integers:
+        common_divisor = math.gcd(common_divisor, abs(value))
+    if common_divisor == 0:
+        return None
+    integers = [value // common_divisor for value in integers]
+    if not all(value > 0 for value in integers):
+        return None
+    if not all(
+        sum(
+            coefficient * integers[column]
+            for column, coefficient in equation.items()
+        )
+        == 0
+        for equation in equations
+    ):
+        raise AssertionError(
+            "primitive-integer sparse nullspace failed exact equations"
+        )
+    return {
+        "integers": integers,
+        "equation_count": len(equations),
+        "nonzero_equation_count": len(equations),
+        "column_count": column_count,
+        "rank": column_count - 1,
+        "nullspace_dimension": 1,
+        "engine": (
+            "exact primitive-integer sparse elimination with Fraction "
+            "back-substitution"
+        ),
+        "seconds": time.monotonic() - started,
+    }
 
 
 def _exact_leaf_certificate(

@@ -40,6 +40,7 @@ def _dual_alternative(
     numpy_module: Any,
     scipy_optimize: Any,
     scipy_sparse: Any,
+    support_threshold: float = 1e-9,
 ) -> dict[str, Any]:
     """Find a sparse floating support for an exact Farkas alternative."""
 
@@ -114,7 +115,7 @@ def _dual_alternative(
             "Farkas alternative LP failed: "
             f"{result.status}: {result.message}"
         )
-    support = numpy_module.flatnonzero(result.x > 1e-9).tolist()
+    support = numpy_module.flatnonzero(result.x > support_threshold).tolist()
     formula_columns = [
         column_index
         for column_index in support
@@ -154,6 +155,7 @@ def _dual_alternative(
         "margin": margin,
         "support_size": len(support),
         "formula_support_size": len(formula_columns),
+        "support_threshold": support_threshold,
     }
 
 
@@ -412,16 +414,21 @@ def _render_verifier_opb(
     *,
     variable_count: int,
     class_index: int,
-    orbit_index: int,
+    orbit_index: int | None,
 ) -> bytes:
     """Render the all->= OPB syntax accepted by the bundled VeriPB release."""
 
-    lines = [
-        f"* #variable= {variable_count} #constraint= {len(rows)}",
-        (
+    scope_comment = (
+        f"* class {class_index} degree-profile proof"
+        if orbit_index is None
+        else (
             f"* class {class_index} candidate-minimum-point orbit "
             f"{orbit_index}"
-        ),
+        )
+    )
+    lines = [
+        f"* #variable= {variable_count} #constraint= {len(rows)}",
+        scope_comment,
         (
             "* verifier-normalized from the native screen; row order and "
             "constraint ids preserved"
@@ -561,16 +568,40 @@ def generate_root_lp_farkas_corpus(
                 f"canonical formula hash mismatch for orbit {orbit_index}"
             )
 
-        alternative = _dual_alternative(
-            built["rows"],
-            built["metadata"]["variables"],
-            numpy,
-            scipy.optimize,
-            scipy.sparse,
-        )
-        exact = _exact_certificate(
-            built["rows"], built["metadata"]["variables"], alternative
-        )
+        reconstruction_errors = []
+        alternative = None
+        exact = None
+        for support_threshold in (1e-9, 1e-10, 1e-11, 1e-12, 1e-13):
+            candidate_alternative = _dual_alternative(
+                built["rows"],
+                built["metadata"]["variables"],
+                numpy,
+                scipy.optimize,
+                scipy.sparse,
+                support_threshold=support_threshold,
+            )
+            try:
+                candidate_exact = _exact_certificate(
+                    built["rows"],
+                    built["metadata"]["variables"],
+                    candidate_alternative,
+                )
+            except ValueError as exc:
+                reconstruction_errors.append(
+                    {
+                        "support_threshold": support_threshold,
+                        "error": str(exc),
+                    }
+                )
+                continue
+            alternative = candidate_alternative
+            exact = candidate_exact
+            break
+        if alternative is None or exact is None:
+            raise ValueError(
+                f"exact Farkas reconstruction failed for orbit {orbit_index}: "
+                f"{reconstruction_errors}"
+            )
         if not all(exact["exact_checks"].values()):
             raise AssertionError("exact Farkas checks did not all pass")
 
@@ -630,8 +661,10 @@ def generate_root_lp_farkas_corpus(
                     "floating_lower_variables",
                     "floating_upper_variables",
                     "active_variables",
+                    "support_threshold",
                 )
-            },
+            }
+            | {"threshold_retry_count": len(reconstruction_errors)},
             "exact_certificate": exact,
             "proof": {
                 "path": proof_path.relative_to(
