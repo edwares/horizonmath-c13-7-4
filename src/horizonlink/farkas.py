@@ -414,16 +414,21 @@ def _render_verifier_opb(
     *,
     variable_count: int,
     class_index: int,
-    orbit_index: int,
+    orbit_index: int | None,
 ) -> bytes:
     """Render the all->= OPB syntax accepted by the bundled VeriPB release."""
 
-    lines = [
-        f"* #variable= {variable_count} #constraint= {len(rows)}",
-        (
+    scope_comment = (
+        f"* class {class_index} degree-profile proof"
+        if orbit_index is None
+        else (
             f"* class {class_index} candidate-minimum-point orbit "
             f"{orbit_index}"
-        ),
+        )
+    )
+    lines = [
+        f"* #variable= {variable_count} #constraint= {len(rows)}",
+        scope_comment,
         (
             "* verifier-normalized from the native screen; row order and "
             "constraint ids preserved"

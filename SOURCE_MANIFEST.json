@@ -1668,6 +1668,16 @@
       "sha256": "236ad6e8acc3e8ac66b38fb3f562fe6b8106879b3e205b116c3c2b4bbc2fae8c"
     },
     {
+      "bytes": 16204,
+      "path": "scripts/generate_profile_cut_farkas_corpus.py",
+      "sha256": "3a0d04a493bd979a0c512d69bd2029d442eda328cd9096bd4883a4337f2e5897"
+    },
+    {
+      "bytes": 33826,
+      "path": "scripts/generate_residual_pair_split_farkas.py",
+      "sha256": "64b93f49fb0f64fc820e757609fa93407b407590ec73ace42d0f2661cf3f25af"
+    },
+    {
       "bytes": 4055,
       "path": "scripts/merge_pair_cut_shards.py",
       "sha256": "eb83f2c570fba7f32a10fcda087d3f33414e57b9990df9d2f75af2ec71e58eb5"
@@ -1696,6 +1706,11 @@
       "bytes": 19552,
       "path": "scripts/verify_farkas_corpus.py",
       "sha256": "bcc7f440e18553f1f7f4e07dd756248362e54e7d400c1de9f7ea937c479fd88e"
+    },
+    {
+      "bytes": 6503,
+      "path": "scripts/verify_profile_cut_farkas_corpus.py",
+      "sha256": "b2607dd067ad5c3c617a2edc831ef87d7848f30888c3f83312231d7d80b2f5d9"
     },
     {
       "bytes": 5906,
@@ -1763,9 +1778,9 @@
       "sha256": "ad1ba45b8ce4378a5e481f5611dd59cd733bbb1691f55ef1bc32906393ffe522"
     },
     {
-      "bytes": 27982,
+      "bytes": 28129,
       "path": "src/horizonlink/farkas.py",
-      "sha256": "841f7bfe6a0790a98a458b251545ee4db99cc04166e5e8e35a2e6a54fba5b128"
+      "sha256": "d0d5b74bae7ff57ae5c67201fc98e0d8d39613311c79b2942d81feeb59fb8fd1"
     },
     {
       "bytes": 10398,
@@ -1989,7 +2004,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 394,
-    "total_bytes": 25768065
+    "file_count": 397,
+    "total_bytes": 25824745
   }
 }
