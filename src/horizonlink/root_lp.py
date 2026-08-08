@@ -357,6 +357,58 @@ def _as_pb_rows(rows: tuple[Any, ...]) -> tuple[PBRow, ...]:
     )
 
 
+def _exact_unit_sum_farkas_margin(certificate: dict[str, Any]) -> Fraction:
+    """Normalize the exact primitive Farkas ray to total multiplier one.
+
+    HiGHS returns a floating dual ray whose objective margin is useful while
+    discovering a support, but the final few bits of that diagnostic can vary
+    across otherwise identical runs.  Once the primitive integer certificate
+    has been reconstructed, its unit-sum margin is exact and deterministic.
+    """
+
+    total_multiplier = sum(
+        int(item["multiplier"])
+        for key in (
+            "row_multipliers",
+            "lower_bound_multipliers",
+            "upper_bound_multipliers",
+        )
+        for item in certificate[key]
+    )
+    combined_rhs = int(certificate["combined_rhs_after_bounds"])
+    if total_multiplier <= 0 or combined_rhs <= 0:
+        raise RootLPError("exact Farkas ray cannot be unit-sum normalized")
+    return Fraction(combined_rhs, total_multiplier)
+
+
+def _stable_farkas_support_metadata(
+    alternative: dict[str, Any],
+    certificate: dict[str, Any],
+) -> dict[str, Any]:
+    """Return support-discovery metadata without raw floating diagnostics."""
+
+    return {
+        key: alternative[key]
+        for key in (
+            "reported_status",
+            "reported_message",
+            "support_size",
+            "formula_support_size",
+            "floating_lower_variables",
+            "floating_upper_variables",
+            "active_variables",
+        )
+    } | {
+        "exact_unit_sum_margin": _fraction_text(
+            _exact_unit_sum_farkas_margin(certificate)
+        ),
+        "margin_serialization": (
+            "exact primitive Farkas ray normalized to total multiplier one; "
+            "raw HiGHS floating margin intentionally omitted"
+        ),
+    }
+
+
 def generate_root_lp_checkpoint(
     candidate_checkpoint_directory: Path,
     direct_containment_directory: Path,
@@ -526,19 +578,9 @@ def generate_root_lp_checkpoint(
                 "status": "EXACT_FARKAS_CONTRADICTION",
                 "feasible_witness": None,
                 "farkas_certificate": exact,
-                "floating_support_discovery": {
-                    key: alternative[key]
-                    for key in (
-                        "reported_status",
-                        "reported_message",
-                        "margin",
-                        "support_size",
-                        "formula_support_size",
-                        "floating_lower_variables",
-                        "floating_upper_variables",
-                        "active_variables",
-                    )
-                },
+                "floating_support_discovery": _stable_farkas_support_metadata(
+                    alternative, exact
+                ),
             }
             disposition = "ROOT_LP_INFEASIBLE_PROOF_GENERATED_PENDING_VERIFICATION"
             proof_status = "PROOF_GENERATED"
@@ -635,7 +677,7 @@ def generate_root_lp_checkpoint(
             **input_audit,
         },
         "method": {
-            "id": "root-lp-exact-evidence-v1",
+            "id": "root-lp-exact-evidence-v2",
             "floating_solver": "SciPy linprog / HiGHS, zero objective",
             "floating_solver_options": {
                 "time_limit_seconds_per_orbit": root_lp_time_limit,
@@ -652,7 +694,9 @@ def generate_root_lp_checkpoint(
             "infeasible_evidence": (
                 "Use a floating dual support only to select rows; derive a "
                 "primitive positive integer Farkas combination and recompute "
-                "all coefficients and the contradiction RHS exactly."
+                "all coefficients and the contradiction RHS exactly. Persist "
+                "only the exact unit-sum ray margin, not the raw floating "
+                "HiGHS objective margin."
             ),
             "proof_format": "VeriPB pseudo-Boolean proof version 1.0",
             "proof_verification_deferred": True,
@@ -746,4 +790,3 @@ def generate_root_lp_checkpoint(
     write_sha256_sidecar(phase_path)
     _write_checksums(output_directory)
     return phase, root_manifest, audit
-

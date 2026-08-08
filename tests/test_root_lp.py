@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import tempfile
 import unittest
+from fractions import Fraction
 from pathlib import Path
 
 from horizonlink.canonical import sha256_file
@@ -12,7 +13,8 @@ from horizonlink.root_lp import RootLPError, generate_root_lp_checkpoint
 ROOT = Path(__file__).resolve().parents[1]
 CANDIDATE = ROOT / "results" / "class68-candidate-formulas-v0.1.0"
 DIRECT = ROOT / "results" / "class68-direct-containment-v0.1.0"
-CHECKPOINT = ROOT / "results" / "class68-root-lp-v0.1.0"
+CHECKPOINT_FINGERPRINT = ROOT / "results" / "class68-root-lp-v0.2.0"
+VERIFIED_CHECKPOINT = ROOT / "results" / "class68-root-lp-v0.1.0"
 VERIFICATION = ROOT / "results" / "class68-root-lp-verification-v0.1.0"
 
 
@@ -98,19 +100,75 @@ class RootLPCheckpointTests(unittest.TestCase):
         self.assertFalse(self.audit["method"]["imports_production_opb_parser"])
         self.assertFalse(self.audit["method"]["imports_production_farkas_renderer"])
 
-    def test_checked_in_checkpoint_is_byte_identical(self) -> None:
-        self.assertEqual(_files(self.generated), _files(CHECKPOINT))
+    def test_generated_checkpoint_matches_checked_in_byte_fingerprint(self) -> None:
+        self.assertEqual(
+            (self.generated / "SHA256SUMS").read_bytes(),
+            (CHECKPOINT_FINGERPRINT / "SHA256SUMS").read_bytes(),
+        )
+
+    def test_farkas_metadata_uses_exact_deterministic_margin(self) -> None:
+        for record in self.root_manifest["instances"]:
+            if record["exact_result"]["status"] != "EXACT_FARKAS_CONTRADICTION":
+                continue
+            exact = record["exact_result"]["farkas_certificate"]
+            discovery = record["exact_result"]["floating_support_discovery"]
+            self.assertNotIn("margin", discovery)
+            total_multiplier = sum(
+                int(item["multiplier"])
+                for key in (
+                    "row_multipliers",
+                    "lower_bound_multipliers",
+                    "upper_bound_multipliers",
+                )
+                for item in exact[key]
+            )
+            self.assertEqual(
+                Fraction(discovery["exact_unit_sum_margin"]),
+                Fraction(int(exact["combined_rhs_after_bounds"]), total_multiplier),
+            )
+
+    def test_v02_exact_evidence_and_proof_bytes_match_verified_v01(self) -> None:
+        old_manifest = json.loads(
+            (VERIFIED_CHECKPOINT / "root-lp.manifest.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        old_records = {
+            int(record["orbit_index"]): record
+            for record in old_manifest["instances"]
+        }
+        for record in self.root_manifest["instances"]:
+            old = old_records[int(record["orbit_index"])]
+            self.assertEqual(
+                record["exact_result"].get("feasible_witness"),
+                old["exact_result"].get("feasible_witness"),
+            )
+            self.assertEqual(
+                record["exact_result"].get("farkas_certificate"),
+                old["exact_result"].get("farkas_certificate"),
+            )
+            for artifact in ("verifier_normalized_formula", "proof"):
+                current_artifact = record["artifacts"][artifact]
+                old_artifact = old["artifacts"][artifact]
+                if current_artifact is None:
+                    self.assertIsNone(old_artifact)
+                    continue
+                self.assertEqual(current_artifact["sha256"], old_artifact["sha256"])
+                self.assertEqual(
+                    (self.generated / current_artifact["path"]).read_bytes(),
+                    (VERIFIED_CHECKPOINT / old_artifact["path"]).read_bytes(),
+                )
 
     def test_checksum_manifest_covers_every_output(self) -> None:
-        rows = _checksum_rows(CHECKPOINT)
+        rows = _checksum_rows(CHECKPOINT_FINGERPRINT)
         observed = sorted(
-            path.relative_to(CHECKPOINT).as_posix()
-            for path in CHECKPOINT.rglob("*")
+            path.relative_to(self.generated).as_posix()
+            for path in self.generated.rglob("*")
             if path.is_file() and path.name != "SHA256SUMS"
         )
         self.assertEqual(sorted(rows), observed)
         for relative, expected in rows.items():
-            self.assertEqual(sha256_file(CHECKPOINT / relative), expected)
+            self.assertEqual(sha256_file(self.generated / relative), expected)
 
     def test_nonempty_output_is_rejected_without_deletion(self) -> None:
         with tempfile.TemporaryDirectory(prefix="horizon-root-lp-nonempty-") as tmp:
@@ -137,7 +195,9 @@ class RootLPVerificationArtifactTests(unittest.TestCase):
             (VERIFICATION / "independent-audit.json").read_text(encoding="utf-8")
         )
         cls.root = json.loads(
-            (CHECKPOINT / "root-lp.manifest.json").read_text(encoding="utf-8")
+            (VERIFIED_CHECKPOINT / "root-lp.manifest.json").read_text(
+                encoding="utf-8"
+            )
         )
 
     def test_six_proofs_are_verified_and_only_those_orbits_are_pruned(self) -> None:
@@ -160,8 +220,11 @@ class RootLPVerificationArtifactTests(unittest.TestCase):
         for record in self.verification["instances"]:
             orbit = int(record["orbit_index"])
             source = root_records[orbit]
-            formula = CHECKPOINT / source["artifacts"]["verifier_normalized_formula"]["path"]
-            proof = CHECKPOINT / source["artifacts"]["proof"]["path"]
+            formula = (
+                VERIFIED_CHECKPOINT
+                / source["artifacts"]["verifier_normalized_formula"]["path"]
+            )
+            proof = VERIFIED_CHECKPOINT / source["artifacts"]["proof"]["path"]
             self.assertEqual(sha256_file(formula), record["formula"]["expected_sha256"])
             self.assertEqual(sha256_file(proof), record["proof"]["expected_sha256"])
             self.assertTrue(all(record["prechecks"].values()))

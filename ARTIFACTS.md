@@ -42,7 +42,8 @@ The evolving repository also contains deterministic checked-in checkpoints:
 | Solver-free three-class pilot screening | `results/pilot-screening-v0.1.0/SHA256SUMS` | `5202b0e664e2ddef7860a488afecad623e7cca42e06d2217d4ea648d4ff9cecb` |
 | Class-68 candidate formula corpus | `results/class68-candidate-formulas-v0.1.0/SHA256SUMS` | `013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a` |
 | Class-68 direct-containment scan | `results/class68-direct-containment-v0.1.0/SHA256SUMS` | `fe14bac9f54439a52eee055952381c26e2075081e7126a873239034699433f81` |
-| Class-68 exact root-LP checkpoint | `results/class68-root-lp-v0.1.0/SHA256SUMS` | `33c41b072d5a44bf7520ccea97d71785f61a2f24882f2203ab34b104168a50b9` |
+| Class-68 verifier-bound root-LP checkpoint v0.1 | `results/class68-root-lp-v0.1.0/SHA256SUMS` | `33c41b072d5a44bf7520ccea97d71785f61a2f24882f2203ab34b104168a50b9` |
+| Class-68 byte-stable root-LP regeneration fingerprint v0.2 | `results/class68-root-lp-v0.2.0/SHA256SUMS` | `c2b1b3cc74784f4377fc877f705816cc5befcfb3c0bca6c782b3ad515438bff2` |
 | Class-68 root-LP VeriPB verification checkpoint | `results/class68-root-lp-verification-v0.1.0/SHA256SUMS` | `be3d9f800886ca53b1f9fd9538d329476a7f1a2dd5e235f0be7884a51124aec9` |
 | Class-68 formal closure | `results/class68-formal-certification-v0.1.0/SHA256SUMS` | closure manifest `ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7` |
 
