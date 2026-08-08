@@ -1,0 +1,14 @@
+orbit_index: 1
+logical_command_json: ["veripb","--requireUnsat","instances/c68_candidate_orbit01.root-lp-farkas.opb","instances/c68_candidate_orbit01.root-lp-farkas.pbp"]
+used_require_unsat: true
+expected_formula_sha256: e69a5aa8404cee9142c8eb27921311e2f6c9afbfb2e13e475c1f1650765ac9e0
+actual_formula_sha256: e69a5aa8404cee9142c8eb27921311e2f6c9afbfb2e13e475c1f1650765ac9e0
+expected_proof_sha256: 49e5b82395450978fed17c61dde75c708bd9c345b436c2a14639e3439aa74fbe
+actual_proof_sha256: 49e5b82395450978fed17c61dde75c708bd9c345b436c2a14639e3439aa74fbe
+exit_code: 0
+timed_out: false
+reported_success: true
+stdout:
+Verification succeeded.
+stderr:
+

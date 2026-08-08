@@ -26,6 +26,8 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Solver-free pilot screening | 115,955 profile orbits materialized across classes 68 / 4 / 59; 136 direct arithmetic contradictions discarded; 115,819 retained |
 | Class-68 candidate formulas | 12/12 native OPBs generated; all 6,816 serialized rows independently reconstructed and matched |
 | Class-68 direct containment | 33,780 lower/upper row pairs scanned; 14,284 support containments; zero strict contradictions; all 12 formulas survive |
+| Class-68 exact root LP | 6 exact rational LP witnesses; 6 exact integer Farkas contradictions; independent exact audit passed 12/12 |
+| Class-68 root-LP verification | Farkas orbits 1 / 3 / 6 / 7 / 8 / 11 are `VERIFIED_UNSAT` with VeriPB `--requireUnsat`; 6/6 verification records independently audited |
 | Class-68 formal closure | 12/12 candidate orbits formally covered; class-level status `VERIFIED_UNSAT_CLASS_68` |
 | Class-68 orbit 2 | Exhaustive 155/155 profile-orbit closure; all profiles VeriPB `VERIFIED_UNSAT` |
 | Class-68 final shared residual | 13 exact pair CG cuts + 203-node / 102-leaf exact Farkas split tree; stitched proof VeriPB `VERIFIED_UNSAT` |
@@ -81,15 +83,17 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/pilot-screening-v0.1.0/` | Every exact-set and profile-orbit representative for pilot classes 68 / 4 / 59, with solver-free screening decisions |
 | `results/class68-candidate-formulas-v0.1.0/` | All 12 class-68 candidate-orbit OPBs, independent ordered-row audit, manifests, and checksums |
 | `results/class68-direct-containment-v0.1.0/` | Exhaustive direct-containment results for all 12 class-68 formulas, independent audit, manifests, and checksums |
+| `results/class68-root-lp-v0.1.0/` | Exact root-LP evidence for all 12 class-68 formulas, including six rational witnesses and six exact Farkas proof packages |
+| `results/class68-root-lp-verification-v0.1.0/` | Preserved VeriPB `--requireUnsat` results and independent verification audit for the six root-LP contradictions |
 | `results/class68-formal-certification-v0.1.0/` | Checked-in class-68 closure/status records proving exact coverage of all 12 candidate orbits |
 | `docs/CLASS68_FORMAL_CERTIFICATION_V0.1.0.md` | Formal class-68 result, proof routes, verifier gate, hashes, and claim boundary |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
 
-The bounded class-68 candidate corpus and direct-containment checkpoint are
-checked in for exact regression. Larger proof corpora, solver logs, and
-verifier environments remain release artifacts rather than ordinary source
-files.
+The bounded class-68 candidate, direct-containment, root-LP, and root-LP
+verification checkpoints are checked in for exact regression. The pinned
+VeriPB build environment itself remains provenance input rather than ordinary
+source.
 
 ## Quick start
 
@@ -201,6 +205,34 @@ horizonlink scan-direct-containment \
 diff -qr \
   results/class68-direct-containment-v0.1.0 \
   build/class68-direct-containment
+```
+
+Reproduce the exact class-68 root-LP checkpoint:
+
+```bash
+horizonlink scan-root-lp \
+  --candidate-checkpoint-directory \
+    results/class68-candidate-formulas-v0.1.0 \
+  --direct-containment-directory \
+    results/class68-direct-containment-v0.1.0 \
+  --output-directory build/class68-root-lp
+
+diff -qr \
+  results/class68-root-lp-v0.1.0 \
+  build/class68-root-lp
+```
+
+Verification of the six exact Farkas proofs is a separate, fail-closed gate.
+Given the pinned VeriPB 0.3a0 wheel and its preserved build-provenance JSON:
+
+```bash
+horizonlink verify-root-lp \
+  --root-lp-directory results/class68-root-lp-v0.1.0 \
+  --verifier /path/to/venv/bin/veripb \
+  --verifier-python /path/to/venv/bin/python \
+  --verifier-wheel /path/to/veripb-0.3a0-cp312-cp312-linux_x86_64.whl \
+  --verifier-build-provenance /path/to/build.provenance.json \
+  --output-directory build/class68-root-lp-verification
 ```
 
 Verify that the checked-in source tree matches its integrity manifest:

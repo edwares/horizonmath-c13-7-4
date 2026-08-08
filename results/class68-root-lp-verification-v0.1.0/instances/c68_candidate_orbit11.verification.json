@@ -1,0 +1,48 @@
+{
+  "candidate_minimum_points": [
+    0,
+    3,
+    4,
+    5
+  ],
+  "class_index": 68,
+  "formal_pruning_authorized": true,
+  "formula": {
+    "actual_sha256": "03585e01cafe40a8fa726e128c0b372a3f37ca2a767e43344aeeef11b5de5d19",
+    "expected_sha256": "03585e01cafe40a8fa726e128c0b372a3f37ca2a767e43344aeeef11b5de5d19",
+    "path": "instances/c68_candidate_orbit11.root-lp-farkas.opb"
+  },
+  "orbit_index": 11,
+  "prechecks": {
+    "exact_result_is_farkas_contradiction": true,
+    "formula_hash_matches_expected": true,
+    "prior_verification_not_started": true,
+    "proof_hash_matches_expected": true,
+    "proof_status_is_generated": true,
+    "root_independent_audit_passed": true
+  },
+  "proof": {
+    "actual_sha256": "c7b700bc19a370811630442391cc319adbd8d656871d8968da4164930de49d57",
+    "expected_sha256": "c7b700bc19a370811630442391cc319adbd8d656871d8968da4164930de49d57",
+    "path": "instances/c68_candidate_orbit11.root-lp-farkas.pbp"
+  },
+  "status": "VERIFIED_UNSAT",
+  "status_ledger": {
+    "direct_containment": "ENUMERATED",
+    "formula": "FORMULAS_GENERATED",
+    "proof": "PROOF_GENERATED",
+    "root_lp": "SOLVER_UNSAT",
+    "verification": "VERIFIED_UNSAT"
+  },
+  "verification_checks": {
+    "used_require_unsat": true,
+    "verifier_did_not_timeout": true,
+    "verifier_exit_code_zero": true,
+    "verifier_reported_success": true
+  },
+  "verification_log": {
+    "bytes": 643,
+    "path": "instances/c68_candidate_orbit11.veripb.log",
+    "sha256": "8c34069e8454d0490a9f160f31a077aeaa2c96a808f77b69887ec4d7d7849e5b"
+  }
+}

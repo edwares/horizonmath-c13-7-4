@@ -1,8 +1,10 @@
 # Immutable checkpoint artifacts
 
-The source tree is derived from the following audited packages. Bulky
-formulas, proofs, verifier builds, logs, and completion ledgers remain in their
-immutable packages rather than being duplicated as ordinary Git source.
+The source tree is derived from the following audited packages. Historical
+bulky corpora and verifier build environments remain in their immutable
+packages rather than being duplicated wholesale as ordinary Git source. The
+later bounded class-68 checkpoints listed below deliberately check in their
+own formulas, exact proofs, manifests, and verification logs for regression.
 
 | Artifact | SHA-256 |
 |---|---|
@@ -40,7 +42,17 @@ The evolving repository also contains deterministic checked-in checkpoints:
 | Solver-free three-class pilot screening | `results/pilot-screening-v0.1.0/SHA256SUMS` | `5202b0e664e2ddef7860a488afecad623e7cca42e06d2217d4ea648d4ff9cecb` |
 | Class-68 candidate formula corpus | `results/class68-candidate-formulas-v0.1.0/SHA256SUMS` | `013581a5b4a289030194d9d63b21d212be42c637728fd74d330fc55f7af97b1a` |
 | Class-68 direct-containment scan | `results/class68-direct-containment-v0.1.0/SHA256SUMS` | `fe14bac9f54439a52eee055952381c26e2075081e7126a873239034699433f81` |
+| Class-68 exact root-LP checkpoint | `results/class68-root-lp-v0.1.0/SHA256SUMS` | `33c41b072d5a44bf7520ccea97d71785f61a2f24882f2203ab34b104168a50b9` |
+| Class-68 root-LP VeriPB verification checkpoint | `results/class68-root-lp-verification-v0.1.0/SHA256SUMS` | `be3d9f800886ca53b1f9fd9538d329476a7f1a2dd5e235f0be7884a51124aec9` |
 | Class-68 formal closure | `results/class68-formal-certification-v0.1.0/SHA256SUMS` | closure manifest `ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7` |
+
+The class-68 verification checkpoint identifies the preserved verifier build
+by these additional hashes:
+
+| Verifier provenance input | SHA-256 |
+|---|---|
+| `veripb-0.3a0-cp312-cp312-linux_x86_64.whl` | `3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369` |
+| `build.provenance.json` | `b829e64b9b6c0872bd6dc2e8cb89702ac8c29ec9c6697637d7d97aa8854d2f99` |
 
 The repository adapts the v0.4.0 package for source control by:
 

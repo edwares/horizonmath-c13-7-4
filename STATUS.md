@@ -111,6 +111,44 @@ degree-profile screening data. They have **not** been formally eliminated.
 The other 64 currently unresolved classes have the all-68 structural census
 but no class-level formal elimination.
 
+### Class-68 exact root-LP checkpoint and formal verification
+
+The v0.9.0 pipeline has run the bounded root-LP stage on exactly the 12
+class-68 candidate formulas that survived direct containment. It did not
+launch MILP, RoundingSat, class 4, or class 59.
+
+The exact evidence partitions the 12 orbits as follows:
+
+- exact rational root-LP witnesses: 0, 2, 4, 5, 9, 10;
+- exact integer Farkas contradictions: 1, 3, 6, 7, 8, 11.
+
+For each LP-feasible case, floating HiGHS output was used only to select a
+candidate active system. The pipeline then solved that system with exact
+rational arithmetic and checked all 568 serialized constraints and all
+variable bounds exactly. These witnesses establish feasibility only of the
+continuous relaxation; they are not Boolean assignments and do not establish
+`SAT`.
+
+For each root-LP-infeasible case, the pipeline converted the exact serialized
+rows to a primitive positive integer Farkas combination. An independent
+implementation reparsed the native OPB, reconstructed the normalized proof
+formula, and recomputed the complete weighted sum with arbitrary-precision
+integers. The independent exact-evidence audit passed 12/12 cases: six exact
+LP witnesses and six exact Farkas contradictions.
+
+All six Farkas proofs were then checked with the pinned VeriPB 0.3a0 build.
+Every invocation used `--requireUnsat`; every expected formula and proof hash
+matched; all six verifier runs exited successfully and reported
+`Verification succeeded.`; and all logs were preserved. A separate audit of
+the verification artifacts, commands, hashes, exit codes, logs, wheel, and
+build provenance passed 6/6.
+
+At this intermediate checkpoint, only class-68 orbits 1, 3, 6, 7, 8, and 11
+were `VERIFIED_UNSAT` and formally pruned; orbits 0, 2, 4, 5, 9, and 10 were
+still unresolved. Those six survivors were subsequently closed by the formal
+proof routes described above, so this section is retained as provenance for
+the root-LP stage rather than as the current class-68 status.
+
 ## Status ledger
 
 | Item | Status |
@@ -120,13 +158,26 @@ but no class-level formal elimination.
 | All-68 canonical link extraction | `ENUMERATED` 68/68 |
 | All-68 structural census | `ENUMERATED` 68/68 |
 | Solver-free structural ranking | `ENUMERATED`; 23 tie groups |
-| Published class-52 terminal instances | `VERIFIED_UNSAT` 30/30 |
-| Link class 52 | **FORMALLY ELIMINATED** |
+| Provisional three-class pilot | Classes 68 / 4 / 59; structural preselection only |
+| Pilot exact minimum sets | `ENUMERATED` 6,008 orbits |
+| Pilot degree profiles | `ENUMERATED` 115,955 orbits |
+| Pilot direct arithmetic screening | `ENUMERATED`; 136 discarded, 115,819 retained |
 | Class-68 candidate formulas | `FORMULAS_GENERATED` 12/12; independent audit 12/12 |
 | Class-68 direct containment | Historical gate complete; 12/12 survived |
+| Class-68 root LP | `ENUMERATED` 12/12; 6 exact rational LP witnesses, 6 exact Farkas contradictions |
+| Class-68 root-LP verification | `VERIFIED_UNSAT` 6/6 proofs; orbits 1 / 3 / 6 / 7 / 8 / 11 formally pruned at that gate |
+| Class-68 root-LP survivors | Orbits 0 / 2 / 4 / 5 / 9 / 10 at the intermediate checkpoint; all subsequently closed |
 | Class-68 candidate-orbit formal coverage | `VERIFIED_UNSAT` 12/12 |
 | Class-68 orbit-2 profile coverage | `VERIFIED_UNSAT` 155/155 |
 | Link class 68 | **`VERIFIED_UNSAT_CLASS_68` / FORMALLY ELIMINATED** |
+| Class-4 and class-59 formulas / root LP / solver / proof | `NOT_STARTED` |
+| Class-52 enumeration/regression | `ENUMERATED` |
+| Class-52 corrected formulas | `FORMULAS_GENERATED` 30/30 |
+| Published class-52 terminal instances | `VERIFIED_UNSAT` 30/30 |
+| Link class 52 | **FORMALLY ELIMINATED** |
+| Fresh class-52 candidate screens | 19 `VERIFIED_UNSAT`, 7 `TIMEOUT` |
+| Fresh whole-case exclusions | 17 `SOLVER_UNSAT` |
+| Fresh early-profile exclusions | 87 `SOLVER_UNSAT` |
 | Formally eliminated link classes | **2/68: 52 and 68** |
 | Remaining link classes | **66** |
 | Global \(C(13,7,4)=30\) claim | **Not authorized** |
