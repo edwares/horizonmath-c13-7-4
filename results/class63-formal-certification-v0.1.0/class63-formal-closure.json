@@ -1,0 +1,961 @@
+{
+  "candidate_orbit_partition": {
+    "exact_candidate_orbit_cover": true,
+    "orbit_count": 58,
+    "partition_sha256": "c347cfe05c6c1d97383d8e38c0f1e909e2286236eb210ce11943312decd78333",
+    "retained_orbits": [
+      17,
+      18,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      40,
+      41,
+      55,
+      56,
+      57
+    ],
+    "verified_root_pruned_orbits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ]
+  },
+  "class_index": 63,
+  "coverage_audit": {
+    "all_checks_passed": true,
+    "candidate_orbits_exact": true,
+    "degree_profiles_recomputed": true,
+    "exact_minimum_sets_recomputed": true,
+    "profile_proofs_exact": true
+  },
+  "exact_minimum_sets": {
+    "accounting": {
+      "all_orbit_stabilizer_checks_pass": true,
+      "all_surviving_sets_accounted_for": true,
+      "case_ids_consecutive": true
+    },
+    "orbit_count": 53,
+    "partition_sha256": "a096339a22e8097c2dee43586cde10b0dbbc091de4ff9353df2262b6a07dff9b",
+    "raw_surviving_set_count": 382
+  },
+  "inputs": {
+    "cut_census": {
+      "path": "build/class63-recovery/pair-cuts/refined.json",
+      "sha256": "b7b03d2052d67ff9449091f01b720fbd111a1135a078bd473c2ce92fd8bee4e6"
+    },
+    "profile_census": {
+      "path": "build/class63-recovery/profile-census.json",
+      "sha256": "0d5ba1b4889692e293dac6d10096e9b3c2ef75fdc3187397789ae47bc0d94033"
+    },
+    "structural_manifest": {
+      "path": "build/class63-recovery/analysis.manifest.json",
+      "sha256": "ec042a907eac7cdf78651efd3901c0d6d113637241fb87c527a5fbfc296099da"
+    }
+  },
+  "logical_scope": {
+    "C_13_7_4_equals_30_claimed": false,
+    "class_formally_eliminated": true,
+    "reason": "The verified root proofs eliminate the pruned candidate 4-set orbits; the retained candidate orbits are independently re-expanded into exact minimum-set and degree-profile orbits, and every resulting profile has an exact pinned-VeriPB UNSAT proof."
+  },
+  "profile_cover": {
+    "exact_cover": true,
+    "method_counts": {
+      "DIRECT_ROOT_LP_FARKAS": 232,
+      "INTEGRALITY_PAIR_CUTS_THEN_ROOT_LP_FARKAS": 215,
+      "ONE_SIDED_PAIR_CG_THEN_EXACT_LP_SPLIT_FARKAS": 13
+    },
+    "profile_count": 460,
+    "sources": [
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard0/corpus.manifest.json",
+          "sha256": "87ab05f313a1b3cbd2ce7c687e5fa07861c2f1f6a7dd2dc9304ce25f25240b51"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard0/verification.manifest.json",
+          "sha256": "d3ef21637a5512dd64832a108382f64083e670dea1fe6edfb2f2bb11d29fc905"
+        },
+        "verified_indices": [
+          0,
+          9,
+          18,
+          27,
+          36,
+          45,
+          54,
+          63,
+          72,
+          81,
+          90,
+          99,
+          108,
+          117,
+          126,
+          135,
+          144,
+          153,
+          162,
+          171,
+          180,
+          189,
+          198,
+          207,
+          216,
+          225,
+          234,
+          243,
+          252,
+          261,
+          270,
+          279,
+          288,
+          298,
+          307,
+          316,
+          326,
+          336,
+          345,
+          355,
+          364,
+          373,
+          382,
+          392,
+          401,
+          411,
+          420,
+          432,
+          441,
+          453
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard1/corpus.manifest.json",
+          "sha256": "6d3bea1ebfd50563a9099498cbd1f798ff344a0cc0b82c6b2f4584955bd64945"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard1/verification.manifest.json",
+          "sha256": "49a72a576fa1b36d08539c965c69e30ee68d0792d9aa6a29c8de05d7cbecd704"
+        },
+        "verified_indices": [
+          1,
+          10,
+          19,
+          28,
+          37,
+          46,
+          55,
+          64,
+          73,
+          82,
+          91,
+          100,
+          109,
+          118,
+          127,
+          136,
+          145,
+          154,
+          163,
+          172,
+          181,
+          190,
+          199,
+          208,
+          217,
+          226,
+          235,
+          244,
+          253,
+          262,
+          271,
+          280,
+          289,
+          299,
+          308,
+          318,
+          327,
+          337,
+          346,
+          356,
+          365,
+          374,
+          383,
+          393,
+          402,
+          412,
+          421,
+          433,
+          442,
+          454
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard2/corpus.manifest.json",
+          "sha256": "32cf5827ec799cfae8ede6f86c007feefc1045b31cf226bef0f5fb733da0f588"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard2/verification.manifest.json",
+          "sha256": "365b6d8a251238e78845494f45036f996efcda88207f7229ede2ca9e33f9cdbc"
+        },
+        "verified_indices": [
+          2,
+          11,
+          20,
+          29,
+          38,
+          47,
+          56,
+          65,
+          74,
+          83,
+          92,
+          101,
+          110,
+          119,
+          128,
+          137,
+          146,
+          155,
+          164,
+          173,
+          182,
+          191,
+          200,
+          209,
+          218,
+          227,
+          236,
+          245,
+          254,
+          263,
+          272,
+          281,
+          290,
+          300,
+          309,
+          319,
+          328,
+          338,
+          347,
+          357,
+          366,
+          375,
+          385,
+          394,
+          403,
+          413,
+          422,
+          434,
+          443,
+          455
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard3/corpus.manifest.json",
+          "sha256": "ec3806f301b1c7f1c218c7325aad0fa9ee64a2a39d1eabe801b192364267a322"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard3/verification.manifest.json",
+          "sha256": "0baa4e0b2f3df09879d2201363b28a238597775d88f7d97a4b9ad6f62a8816dd"
+        },
+        "verified_indices": [
+          3,
+          12,
+          21,
+          30,
+          39,
+          48,
+          57,
+          66,
+          75,
+          84,
+          93,
+          102,
+          111,
+          120,
+          129,
+          138,
+          147,
+          156,
+          165,
+          174,
+          183,
+          192,
+          201,
+          210,
+          219,
+          228,
+          237,
+          246,
+          255,
+          264,
+          273,
+          282,
+          291,
+          301,
+          310,
+          320,
+          329,
+          339,
+          348,
+          358,
+          367,
+          376,
+          386,
+          395,
+          404,
+          414,
+          423,
+          435,
+          444,
+          456
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard4/corpus.manifest.json",
+          "sha256": "e7711c5e1bd4b6f29b60c667020c1e4342318779d3d7412b9457c696c1ff2a16"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard4/verification.manifest.json",
+          "sha256": "69cbc2d2a7bf1195482d178fe02542ed10aa57819f55f26d7d8d8871fae70ba3"
+        },
+        "verified_indices": [
+          4,
+          13,
+          22,
+          31,
+          40,
+          49,
+          58,
+          67,
+          76,
+          85,
+          94,
+          103,
+          112,
+          121,
+          130,
+          139,
+          148,
+          157,
+          166,
+          175,
+          184,
+          193,
+          202,
+          211,
+          220,
+          229,
+          238,
+          247,
+          256,
+          265,
+          274,
+          283,
+          292,
+          302,
+          311,
+          321,
+          330,
+          340,
+          349,
+          359,
+          368,
+          377,
+          387,
+          396,
+          405,
+          415,
+          424,
+          436,
+          445,
+          457
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard5/corpus.manifest.json",
+          "sha256": "44004774c3d1078b399638b751ac22e5e1d44dec32f2b795e9de8f21701ccd85"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard5/verification.manifest.json",
+          "sha256": "3fe0b02a38c8e57999d7182c084aa1725af1a536b9e8687d4b81075a1f76239c"
+        },
+        "verified_indices": [
+          5,
+          14,
+          23,
+          32,
+          41,
+          50,
+          59,
+          68,
+          77,
+          86,
+          95,
+          104,
+          113,
+          122,
+          131,
+          140,
+          149,
+          158,
+          167,
+          176,
+          185,
+          194,
+          203,
+          212,
+          221,
+          230,
+          239,
+          248,
+          257,
+          266,
+          275,
+          284,
+          294,
+          303,
+          312,
+          322,
+          331,
+          341,
+          350,
+          360,
+          369,
+          378,
+          388,
+          397,
+          406,
+          416,
+          425,
+          437,
+          446,
+          458
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard6/corpus.manifest.json",
+          "sha256": "ff44deea1739c0f6fdf0fde7ee0c9ff6cf43fe8f4abac56eb114c916390eeb8d"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard6/verification.manifest.json",
+          "sha256": "c34f066dbeb92e396ab765e52ae01653e200fd636e39ddd548f7c388a0e8481e"
+        },
+        "verified_indices": [
+          6,
+          15,
+          24,
+          33,
+          42,
+          51,
+          60,
+          69,
+          78,
+          87,
+          96,
+          105,
+          114,
+          123,
+          132,
+          141,
+          150,
+          159,
+          168,
+          177,
+          186,
+          195,
+          204,
+          213,
+          222,
+          231,
+          240,
+          249,
+          258,
+          267,
+          276,
+          285,
+          295,
+          304,
+          313,
+          323,
+          332,
+          342,
+          351,
+          361,
+          370,
+          379,
+          389,
+          398,
+          408,
+          417,
+          426,
+          438,
+          447
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard7/corpus.manifest.json",
+          "sha256": "e09fdfd9486b7c5f17d2f326fad08d0d31c9c4397995f8d6eaacd47b2ef77dcf"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard7/verification.manifest.json",
+          "sha256": "38c9dc412c8a3ff0d762a1b95d33650c8f6e659fbe67b60377b5b684de7acc4c"
+        },
+        "verified_indices": [
+          7,
+          16,
+          25,
+          34,
+          43,
+          52,
+          61,
+          70,
+          79,
+          88,
+          97,
+          106,
+          115,
+          124,
+          133,
+          142,
+          151,
+          160,
+          169,
+          178,
+          187,
+          196,
+          205,
+          214,
+          223,
+          232,
+          241,
+          250,
+          259,
+          268,
+          277,
+          286,
+          296,
+          305,
+          314,
+          324,
+          333,
+          343,
+          352,
+          362,
+          371,
+          380,
+          390,
+          399,
+          409,
+          418,
+          429,
+          439,
+          448
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/easy-proofs-v2/shard8/corpus.manifest.json",
+          "sha256": "a9e630ceddbcd9318b7ca11c653e04eacbb0f58e05c1f6f47d34894113588856"
+        },
+        "schema_version": "horizonmath.profile-cut-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/easy-verification-v2/shard8/verification.manifest.json",
+          "sha256": "abbeb6a790d04baf46bba45ed19cc8369a1a4ca50089237909e21d7658a008d5"
+        },
+        "verified_indices": [
+          8,
+          17,
+          26,
+          35,
+          44,
+          53,
+          62,
+          71,
+          80,
+          89,
+          98,
+          107,
+          116,
+          125,
+          134,
+          143,
+          152,
+          161,
+          170,
+          179,
+          188,
+          197,
+          206,
+          215,
+          224,
+          233,
+          242,
+          251,
+          260,
+          269,
+          278,
+          287,
+          297,
+          306,
+          315,
+          325,
+          335,
+          344,
+          354,
+          363,
+          372,
+          381,
+          391,
+          400,
+          410,
+          419,
+          431,
+          440,
+          451
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0293/corpus.manifest.json",
+          "sha256": "bddb2ea92b59ec63a494aacd48e880ccfbb04504239155d7616acca740627791"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0293/verification.manifest.json",
+          "sha256": "8f0020c4bbd3518980c0ec64230bef803d8fa0c3bed6f5657eed545c15c364ac"
+        },
+        "verified_indices": [
+          293
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0317/corpus.manifest.json",
+          "sha256": "e11593c5cb8fa8d7556149c2181ac576e0324e1a2cd244468ec89ceef49ae0ac"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0317/verification.manifest.json",
+          "sha256": "be1b8c7b113de79778421c43e09dc55adcc7867002d7f5f88bb3c4127f2b57eb"
+        },
+        "verified_indices": [
+          317
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0334/corpus.manifest.json",
+          "sha256": "5049355d1ab8244f270f9627fa46dcdbabeb5e072a458cabfb6cc7ad72af98ec"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0334/verification.manifest.json",
+          "sha256": "8593be794a477dbcfd54f2bef40873daef721e8e94aaaccc9877f36b424b9996"
+        },
+        "verified_indices": [
+          334
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0353/corpus.manifest.json",
+          "sha256": "9201eb2918cd44039925b5bc7b3705513b3fe73f085b1871e4bf83d1d52430a5"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0353/verification.manifest.json",
+          "sha256": "94ee700cc117a6add7be72628420f8174eaaeece06d4562997bd4dc611f90041"
+        },
+        "verified_indices": [
+          353
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0384/corpus.manifest.json",
+          "sha256": "9fa78a6f3e39b3bed26d5236307b22ab9f0df3e75818b8962335e886739d5168"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0384/verification.manifest.json",
+          "sha256": "aa69573f23a88c03c63a6074b6a597e87fed6284df6fa6e4849c9ac33defa346"
+        },
+        "verified_indices": [
+          384
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0407/corpus.manifest.json",
+          "sha256": "e5cec027b5992c225e4589bdcb4668806e4012acb48273e236dd75836b038092"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0407/verification.manifest.json",
+          "sha256": "91fb92d015865718f51a3964fc3d8ea074e9c1865d5c1f1e9d1ceed05b968bea"
+        },
+        "verified_indices": [
+          407
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0427/corpus.manifest.json",
+          "sha256": "63f09f571a4917bacf50f4d5254fca29a6677a59882caec0ead3e3b0b79265b0"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0427/verification.manifest.json",
+          "sha256": "3ca8f847412725d4872b44c0659a27ae466cd2e53683b0c9575a4a8bdc13b061"
+        },
+        "verified_indices": [
+          427
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0428/corpus.manifest.json",
+          "sha256": "76e7680c3a5547f9d7e004fc657ad952c9d4ef666bc91788371a3ebbd0718866"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0428/verification.manifest.json",
+          "sha256": "b30ae3a2f0d2aeab9123e9aa75ba656797832c4cdd7ed02a85fd2f0114399add"
+        },
+        "verified_indices": [
+          428
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0430/corpus.manifest.json",
+          "sha256": "ec26a296cdfda945894385d61abed09033c77e70f00bee35e7af6c14e69b89ac"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0430/verification.manifest.json",
+          "sha256": "4ae6098ca2483c4e5c4e61e094052e22cafd3924198c915f0c11cfe2e03e69e8"
+        },
+        "verified_indices": [
+          430
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0449/corpus.manifest.json",
+          "sha256": "e4ca598d4b025e6ca254142b8850f30888b4238b3cf19d099923dc4b64dfe2c1"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0449/verification.manifest.json",
+          "sha256": "2e637ab20eba0434c2dd88ea5fd0b4db59aec4d713d1598c6153e19e0d45c12a"
+        },
+        "verified_indices": [
+          449
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0450/corpus.manifest.json",
+          "sha256": "bdef9309ce8faaf17d284dacaf2744c467e3eb722e660daa73a48714ac808be9"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0450/verification.manifest.json",
+          "sha256": "ba7a45818be37594f0b137e1ad4a1e8b2a92ace408ab5d6465f12c9f5e7a3633"
+        },
+        "verified_indices": [
+          450
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0452/corpus.manifest.json",
+          "sha256": "8aa9d90c354e34e419f0c104a2c23f3aeb69753bf4cbd293b387b2c07e3e291b"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0452/verification.manifest.json",
+          "sha256": "0b0e642b4b3f07dd771a2387f1c48028245bf98649a028160b6df4715a26d606"
+        },
+        "verified_indices": [
+          452
+        ]
+      },
+      {
+        "proof_manifest": {
+          "path": "build/class63-recovery/hard/idx0459/corpus.manifest.json",
+          "sha256": "534f4308eba6f5cb1eefbfd99dbda83140da58600da465ff274fe52d8aaffe78"
+        },
+        "schema_version": "horizonmath.residual-pair-split-farkas-corpus.v1",
+        "verification_manifest": {
+          "path": "build/class63-recovery/hard-verification/idx0459/verification.manifest.json",
+          "sha256": "63852965431253770621e9d662b9f0f5979a7538df48828dfe688ea1080e1bd5"
+        },
+        "verified_indices": [
+          459
+        ]
+      }
+    ],
+    "split_trees": {
+      "293": {
+        "cut_count": 0,
+        "leaves": 144,
+        "nodes": 287,
+        "sha256": "649205000d7d6c9b1ff82be71c67c0184dfa1ed57f1558be258ed3f87eb829b6"
+      },
+      "317": {
+        "cut_count": 1,
+        "leaves": 147,
+        "nodes": 293,
+        "sha256": "ac47a74dd25ad6eac3b6ad37f22ac05bdcd3e3c8c583190f095da6571e1aa73d"
+      },
+      "334": {
+        "cut_count": 2,
+        "leaves": 132,
+        "nodes": 263,
+        "sha256": "6750309257e6d513041997744691b56e3d85f2638f475b2d3824a9700451a60a"
+      },
+      "353": {
+        "cut_count": 0,
+        "leaves": 153,
+        "nodes": 305,
+        "sha256": "543cdcdff53253fa5be3a97e98db1d91a4890475fe46b682634adfa1179e4190"
+      },
+      "384": {
+        "cut_count": 1,
+        "leaves": 160,
+        "nodes": 319,
+        "sha256": "282c3b1598632a893cfc6dd7815adf43cacd583075a1a2a28416af99b6d0e74b"
+      },
+      "407": {
+        "cut_count": 2,
+        "leaves": 163,
+        "nodes": 325,
+        "sha256": "53d06c7fb6fd8040dad6f9f04c41752c24cca0b47d613771da79e332482094ab"
+      },
+      "427": {
+        "cut_count": 2,
+        "leaves": 27,
+        "nodes": 53,
+        "sha256": "2f61ace36514c0d7d4381216b742f4f8767a2e5889b83558ff21fd77688b06a5"
+      },
+      "428": {
+        "cut_count": 0,
+        "leaves": 91,
+        "nodes": 181,
+        "sha256": "23cd392a22effaafbde0bbf89cae22adbf6077e54be53de1415e3095e215ec53"
+      },
+      "430": {
+        "cut_count": 0,
+        "leaves": 88,
+        "nodes": 175,
+        "sha256": "a995073c41844afe3b49fb0a8288187dbb3b94eafd4d7467aead7e3d8fe85286"
+      },
+      "449": {
+        "cut_count": 5,
+        "leaves": 28,
+        "nodes": 55,
+        "sha256": "17e54e952372170f82e033146d3180e83f42b13cdc683d611046c5360a763ce2"
+      },
+      "450": {
+        "cut_count": 0,
+        "leaves": 91,
+        "nodes": 181,
+        "sha256": "7f3eb7d0cee236d152ec7968f3d3ec41b97594068030b2180fb370f98162f37b"
+      },
+      "452": {
+        "cut_count": 1,
+        "leaves": 93,
+        "nodes": 185,
+        "sha256": "518b05fbe81b3b797a460d45583145b31049e70ecc8f2fbfd672ac473d16047c"
+      },
+      "459": {
+        "cut_count": 0,
+        "leaves": 78,
+        "nodes": 155,
+        "sha256": "8a7f8023b05c6f5c21132cc6ecd055bfb3fe80bc5df2fa5e61de00977aadbcd1"
+      }
+    },
+    "verified_indices_sha256": "7aedf442f41e8a278d71ec4116a1302bf46af9e20e67f1ba79d4f5673e6069b2",
+    "verified_profile_count": 460
+  },
+  "root_verification": {
+    "farkas_manifest": {
+      "path": "build/class63-recovery/root-farkas/farkas_corpus.manifest.json",
+      "sha256": "e4a3ec80b87828ef4953fd1a5f7362d28c9cb0f48e3d72be64efe67e9ffa9a0c"
+    },
+    "verification_manifest": {
+      "path": "build/class63-recovery/root-verification/verification.manifest.json",
+      "sha256": "aed36cdcbdfa4784af669acfdc26b4c6d04a2ad4d47d67e40895a4898f833d47"
+    }
+  },
+  "schema_version": "horizonmath.class-profile-formal-closure.v1",
+  "status": "VERIFIED_UNSAT_CLASS_63",
+  "verifier": {
+    "required_flag": "--requireUnsat",
+    "wheel_sha256": "3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369"
+  }
+}

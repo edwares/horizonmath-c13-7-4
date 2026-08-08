@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "bytes": 155828006,
+    "filename": "C13_class63_formal_checkpoint_2026-08-08.zip",
+    "sha256": "91ea983c43f801802dc225a3491bf7a41397e7eb2686175c55776234f9f207e2"
+  },
+  "class_index": 63,
+  "closure_manifest": {
+    "path": "class63-formal-closure.json",
+    "sha256": "09be1a62500c132bd5462c8d0ab9d312bbd79e62492ced275e81e2823b346f32"
+  },
+  "proof_partition": {
+    "direct_root_farkas": 232,
+    "integrality_pair_cuts_then_root_farkas": 215,
+    "split_tree_farkas": 13,
+    "verified_profiles": 460
+  },
+  "refined_pair_cut_census_sha256": "b7b03d2052d67ff9449091f01b720fbd111a1135a078bd473c2ce92fd8bee4e6",
+  "schema_version": "horizonmath.formal-checkpoint-reference.v1",
+  "source_snapshot": {
+    "included_in_archive": [
+      "src/",
+      "scripts/",
+      "tests/",
+      "pyproject.toml"
+    ],
+    "unit_tests": "98 passed, 0 failed, 4 skipped (optional SymPy-dependent split-Farkas fixture)"
+  },
+  "status": "VERIFIED_UNSAT_CLASS_63",
+  "verifier": {
+    "required_flag": "--requireUnsat",
+    "wheel_sha256": "3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369"
+  }
+}

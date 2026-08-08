@@ -34,6 +34,19 @@ SHA-256 is
 `3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369`.
 The archive passed a ZIP integrity test before this checkpoint was recorded.
 
+The complete class-63 formal-certification checkpoint is:
+
+| Artifact | SHA-256 |
+|---|---|
+| `C13_class63_formal_checkpoint_2026-08-08.zip` | `91ea983c43f801802dc225a3491bf7a41397e7eb2686175c55776234f9f207e2` |
+
+It contains the structural/root evidence, refined pair-cut census, all 460
+profile proofs and verification records used by the final closure, the proof
+source snapshot, and the pinned VeriPB wheel. The archive passed a ZIP
+integrity test before this checkpoint was recorded. The class-level closure
+manifest has SHA-256
+`09be1a62500c132bd5462c8d0ab9d312bbd79e62492ced275e81e2823b346f32`.
+
 The evolving repository also contains deterministic checked-in checkpoints:
 
 | Checkpoint | Integrity artifact | SHA-256 |
@@ -46,6 +59,7 @@ The evolving repository also contains deterministic checked-in checkpoints:
 | Class-68 byte-stable root-LP regeneration fingerprint v0.2 | `results/class68-root-lp-v0.2.0/SHA256SUMS` | `c2b1b3cc74784f4377fc877f705816cc5befcfb3c0bca6c782b3ad515438bff2` |
 | Class-68 root-LP VeriPB verification checkpoint | `results/class68-root-lp-verification-v0.1.0/SHA256SUMS` | `be3d9f800886ca53b1f9fd9538d329476a7f1a2dd5e235f0be7884a51124aec9` |
 | Class-68 formal closure | `results/class68-formal-certification-v0.1.0/SHA256SUMS` | closure manifest `ed2b3532c4e0f337fc3afcad05711135d175c639bd007414c8c638073c3a76d7` |
+| Class-63 formal closure | `results/class63-formal-certification-v0.1.0/SHA256SUMS` | closure manifest `09be1a62500c132bd5462c8d0ab9d312bbd79e62492ced275e81e2823b346f32` |
 
 The class-68 verification checkpoint identifies the preserved verifier build
 by these additional hashes:
