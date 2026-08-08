@@ -1678,9 +1678,19 @@
       "sha256": "3be123af46d2d2d03c8dfeb1c469d43edb7d6ce9c546f3ae58fdfec761c21606"
     },
     {
+      "bytes": 9682,
+      "path": "scripts/run_class_profile_census.py",
+      "sha256": "cb67422915a65936b8da8d2600b50ccf62e84ccd7b260bf2bb452fc58c4bd99b"
+    },
+    {
       "bytes": 19552,
       "path": "scripts/verify_farkas_corpus.py",
       "sha256": "bcc7f440e18553f1f7f4e07dd756248362e54e7d400c1de9f7ea937c479fd88e"
+    },
+    {
+      "bytes": 5906,
+      "path": "scripts/verify_root_lp_farkas_simple.py",
+      "sha256": "21d417180dea2f411f7546fc5121567d41fb9fcf9e8a3314a4dcdefd4034d07d"
     },
     {
       "bytes": 91,
@@ -1743,9 +1753,9 @@
       "sha256": "ad1ba45b8ce4378a5e481f5611dd59cd733bbb1691f55ef1bc32906393ffe522"
     },
     {
-      "bytes": 26834,
+      "bytes": 27982,
       "path": "src/horizonlink/farkas.py",
-      "sha256": "9bce67bc354340db3980b7b71eee887cf1b1b38f684e04650010712f6fe84fa1"
+      "sha256": "841f7bfe6a0790a98a458b251545ee4db99cc04166e5e8e35a2e6a54fba5b128"
     },
     {
       "bytes": 10398,
@@ -1818,9 +1828,9 @@
       "sha256": "b7eb04d8dcd2ee984cd76b2713eb9dae1a59a551c2d8c4ad62ddf4711d1706ef"
     },
     {
-      "bytes": 50278,
+      "bytes": 55368,
       "path": "src/horizonlink/split_farkas.py",
-      "sha256": "43b990e12a572bccd8f18a6be67c5f86b2a0db717f38e19065679350f96a539c"
+      "sha256": "3e0fedb78950b06a143ce776a515ff297ea31f0ebe8c735a329ed75ef3f6cc3a"
     },
     {
       "bytes": 2439,
@@ -1953,9 +1963,9 @@
       "sha256": "495b5dd2d437c3faf49ee068df569b5730b1de52717cce6ae6f3c17442e99680"
     },
     {
-      "bytes": 5045,
+      "bytes": 5916,
       "path": "tests/test_split_farkas.py",
-      "sha256": "07b2bdde98aac46227dc02727cac30343db65ebf0b929631dbfd43a2d60f77a8"
+      "sha256": "74a84d8740768a92e90be7d8d93344b9f0f8023a8ce3a131f2608455cd71e6bf"
     },
     {
       "bytes": 9324,
@@ -1969,7 +1979,7 @@
   "schema_version": "horizonmath.source-tree-manifest.v1",
   "status": "AUDITED_CHECKPOINT",
   "summary": {
-    "file_count": 390,
-    "total_bytes": 25732796
+    "file_count": 392,
+    "total_bytes": 25755493
   }
 }
