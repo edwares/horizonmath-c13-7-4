@@ -27,7 +27,6 @@ from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
 
-from horizonlink import __version__
 from horizonlink.canonical import (
     sha256_bytes,
     sha256_file,
@@ -49,6 +48,7 @@ INPUT_CHECKPOINT_SCHEMA_VERSION = (
 INPUT_CORPUS_SCHEMA_VERSION = (
     "horizonmath.candidate-screening-pb-corpus.v1"
 )
+DIRECT_CONTAINMENT_CHECKPOINT_PRODUCER_VERSION = "0.8.0"
 HEADER_RE = re.compile(
     r"^\* #variable= (?P<variables>[0-9]+) "
     r"#constraint= (?P<constraints>[0-9]+)$"
@@ -877,7 +877,7 @@ def generate_direct_containment_checkpoint(
         ),
         "producer": {
             "package": "horizonlink",
-            "version": __version__,
+            "version": DIRECT_CONTAINMENT_CHECKPOINT_PRODUCER_VERSION,
             "command": "scan-direct-containment",
         },
         "input": {

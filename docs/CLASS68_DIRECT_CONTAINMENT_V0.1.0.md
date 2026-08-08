@@ -159,7 +159,9 @@ diff -qr \
 This phase establishes only that the 12 candidate formulas have no
 single-lower-row/single-upper-row direct-containment contradiction.
 
-The next bounded step is exact root-LP inspection of these 12 surviving
-formulas. Any root-LP-infeasible formula must receive an exact integer Farkas
-certificate and a preserved VeriPB `--requireUnsat` verification before its
-orbit may be treated as formally pruned. MILP and RoundingSat remain deferred.
+That exact root-LP follow-on is now complete; see
+[`CLASS68_ROOT_LP_V0.1.0.md`](CLASS68_ROOT_LP_V0.1.0.md). Six formulas have
+exact rational LP witnesses and six have exact integer Farkas contradictions.
+The latter six received preserved VeriPB `--requireUnsat` verification and are
+formally pruned. MILP and RoundingSat remain deferred, and class 68 is not
+eliminated.

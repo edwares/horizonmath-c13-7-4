@@ -26,12 +26,14 @@ This repository does not claim that \(C(13,7,4)=30\).
 | Refined pilot order | Class 68 / class 4 / class 59; no LP or solver metrics used |
 | Class-68 candidate formulas | 12/12 native OPBs generated; all 6,816 serialized rows independently reconstructed and matched |
 | Class-68 direct containment | 33,780 lower/upper row pairs scanned; 14,284 support containments; zero strict contradictions; all 12 formulas survive |
+| Class-68 exact root LP | 6 exact rational LP witnesses; 6 exact integer Farkas contradictions; independent exact audit passed 12/12 |
+| Class-68 root-LP verification | Farkas orbits 1 / 3 / 6 / 7 / 8 / 11 are `VERIFIED_UNSAT` with VeriPB `--requireUnsat`; 6/6 verification records independently audited |
 | Class-52 structural regression | Group order 36, 26 four-set orbits, 107 profiles, `70 / 17 / 20`, 20 retained profiles |
 | Class-52 formula regression | 30/30 regenerated native OPBs byte-identical to the recovered formulas |
 | Published class-52 certificates | 30/30 `VERIFIED_UNSAT` with VeriPB `--requireUnsat` |
 | Fresh candidate-orbit certificates | 19 `VERIFIED_UNSAT`; 7 `TIMEOUT` |
 | Fresh downstream class-52 chain | 17 whole-case and 87 early-profile exclusions remain `SOLVER_UNSAT` only |
-| Other link classes | Class 68 has candidate formulas and a direct-containment scan only; no new class has an LP, solver, proof, or verification result |
+| Other link classes | Class 68 has six formally pruned root-LP orbits and six exact-LP survivors; classes 4 and 59 remain at solver-free screening depth |
 | Global covering number | Not proved; no claim that \(C(13,7,4)=30\) |
 
 The published class-52 result and the current reconstructed pipeline have
@@ -77,13 +79,15 @@ No case is silently discarded, and `SOLVER_UNSAT` is never treated as
 | `results/pilot-screening-v0.1.0/` | Every exact-set and profile-orbit representative for pilot classes 68 / 4 / 59, with solver-free screening decisions |
 | `results/class68-candidate-formulas-v0.1.0/` | All 12 class-68 candidate-orbit OPBs, independent ordered-row audit, manifests, and checksums |
 | `results/class68-direct-containment-v0.1.0/` | Exhaustive direct-containment results for all 12 class-68 formulas, independent audit, manifests, and checksums |
+| `results/class68-root-lp-v0.1.0/` | Exact root-LP evidence for all 12 class-68 formulas, including six rational witnesses and six exact Farkas proof packages |
+| `results/class68-root-lp-verification-v0.1.0/` | Preserved VeriPB `--requireUnsat` results and independent verification audit for the six root-LP contradictions |
 | `ARTIFACTS.md` | Hashes and roles of the immutable checkpoint packages |
 | `SOURCE_MANIFEST.json` | Deterministic SHA-256 inventory of the source checkpoint |
 
-The bounded class-68 candidate corpus and direct-containment checkpoint are
-checked in for exact regression. Larger proof corpora, solver logs, and
-verifier environments remain release artifacts rather than ordinary source
-files.
+The bounded class-68 candidate, direct-containment, root-LP, and root-LP
+verification checkpoints are checked in for exact regression. The pinned
+VeriPB build environment itself remains provenance input rather than ordinary
+source.
 
 ## Quick start
 
@@ -197,15 +201,45 @@ diff -qr \
   build/class68-direct-containment
 ```
 
+Reproduce the exact class-68 root-LP checkpoint:
+
+```bash
+horizonlink scan-root-lp \
+  --candidate-checkpoint-directory \
+    results/class68-candidate-formulas-v0.1.0 \
+  --direct-containment-directory \
+    results/class68-direct-containment-v0.1.0 \
+  --output-directory build/class68-root-lp
+
+diff -qr \
+  results/class68-root-lp-v0.1.0 \
+  build/class68-root-lp
+```
+
+Verification of the six exact Farkas proofs is a separate, fail-closed gate.
+Given the pinned VeriPB 0.3a0 wheel and its preserved build-provenance JSON:
+
+```bash
+horizonlink verify-root-lp \
+  --root-lp-directory results/class68-root-lp-v0.1.0 \
+  --verifier /path/to/venv/bin/veripb \
+  --verifier-python /path/to/venv/bin/python \
+  --verifier-wheel /path/to/veripb-0.3a0-cp312-cp312-linux_x86_64.whl \
+  --verifier-build-provenance /path/to/build.provenance.json \
+  --output-directory build/class68-root-lp-verification
+```
+
 Verify that the checked-in source tree matches its integrity manifest:
 
 ```bash
 python scripts/build_source_manifest.py --check
 ```
 
-The solver-free structural and pilot-profile gates are complete. The 12
-class-68 candidate-orbit formulas are generated, independently audited, and
-exhaustively scanned for direct containment. All 12 survive that narrow screen.
-The next bounded stage is exact root-LP inspection of those 12 formulas, with
-exact Farkas certificates required for any root-LP contradiction. No MILP,
-class-4, or class-59 campaign is authorized.
+The class-68 root-LP gate is complete. Six formulas have independently audited
+exact rational LP witnesses. The other six have exact integer Farkas
+contradictions and VeriPB-accepted proofs, so only orbits 1, 3, 6, 7, 8, and
+11 are formally pruned at this stage. Orbits 0, 2, 4, 5, 9, and 10 survive the
+root LP; that does not make them Boolean SAT instances. Class 68 is therefore
+not eliminated. The next bounded research stage is a separately controlled
+exact LP split-tree/Farkas attempt on those six survivors. No MILP,
+RoundingSat, class-4, or class-59 campaign is authorized.

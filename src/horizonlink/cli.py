@@ -30,6 +30,11 @@ from horizonlink.formulas import generate_formula_corpus
 from horizonlink.farkas import generate_root_lp_farkas_corpus
 from horizonlink.manifest import build_format_error_manifest, build_manifest
 from horizonlink.regression import run_class52_regression
+from horizonlink.root_lp import RootLPError, generate_root_lp_checkpoint
+from horizonlink.root_lp_verification import (
+    RootLPVerificationError,
+    verify_root_lp_checkpoint,
+)
 from horizonlink.screening import (
     ScreeningLedgerError,
     extend_manifest_with_screening,
@@ -391,6 +396,100 @@ def _scan_direct_containment(args: argparse.Namespace) -> int:
     return 0
 
 
+def _scan_root_lp(args: argparse.Namespace) -> int:
+    try:
+        manifest, _, audit = generate_root_lp_checkpoint(
+            args.candidate_checkpoint_directory,
+            args.direct_containment_directory,
+            args.output_directory,
+            root_lp_time_limit=args.root_lp_time_limit,
+        )
+    except (
+        RootLPError,
+        OSError,
+        RuntimeError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    _print_summary(
+        {
+            "status": manifest["status"],
+            "class_index": manifest["input"]["class_index"],
+            "candidate_orbits_scanned": manifest["summary"][
+                "candidate_orbits_scanned"
+            ],
+            "exact_lp_feasible": manifest["summary"][
+                "exact_lp_feasible"
+            ],
+            "exact_farkas_contradictions": manifest["summary"][
+                "exact_farkas_contradictions"
+            ],
+            "proofs_generated": manifest["summary"]["proofs_generated"],
+            "proofs_verified": manifest["summary"]["proofs_verified"],
+            "formal_orbits_pruned": manifest["summary"][
+                "formal_orbits_pruned"
+            ],
+            "independent_comparisons_passed": audit["summary"][
+                "comparisons_passed"
+            ],
+            "milp_run": manifest["scope_guardrails"]["milp_run"],
+            "roundingsat_run": manifest["scope_guardrails"][
+                "roundingsat_run"
+            ],
+            "verifier_run": manifest["scope_guardrails"][
+                "verifier_run"
+            ],
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0
+
+
+def _verify_root_lp(args: argparse.Namespace) -> int:
+    try:
+        phase, verification, audit = verify_root_lp_checkpoint(
+            args.root_lp_directory,
+            args.verifier,
+            args.verifier_python,
+            args.verifier_wheel,
+            args.verifier_build_provenance,
+            args.output_directory,
+            timeout_seconds=args.timeout_seconds,
+        )
+    except (
+        RootLPVerificationError,
+        OSError,
+        KeyError,
+        TypeError,
+        ValueError,
+    ) as exc:
+        _print_summary({"status": "ERROR", "message": str(exc)})
+        return 2
+
+    _print_summary(
+        {
+            "status": phase["status"],
+            "verification_status": verification["status"],
+            "proofs_submitted": verification["summary"]["proofs_submitted"],
+            "verified_unsat": verification["summary"]["verified_unsat"],
+            "formal_orbits_pruned": phase["summary"]["formal_orbits_pruned"],
+            "survivor_orbit_indices": phase["summary"]["survivor_orbit_indices"],
+            "independent_verification_records_passed": audit["summary"][
+                "records_passing"
+            ],
+            "class_formally_eliminated": phase["summary"][
+                "class_formally_eliminated"
+            ],
+            "output_directory": str(args.output_directory),
+        }
+    )
+    return 0 if phase["status"] == "ENUMERATED" else 1
+
+
 def _generate_formulas(args: argparse.Namespace) -> int:
     try:
         link = load_link(args.input)
@@ -733,6 +832,75 @@ def build_parser() -> argparse.ArgumentParser:
     direct_containment.set_defaults(
         func=_scan_direct_containment
     )
+
+    root_lp = subparsers.add_parser(
+        "scan-root-lp",
+        help=(
+            "run root-LP-only screening for every direct-containment "
+            "survivor and emit exact rational or Farkas evidence"
+        ),
+    )
+    root_lp.add_argument(
+        "--candidate-checkpoint-directory",
+        type=Path,
+        required=True,
+    )
+    root_lp.add_argument(
+        "--direct-containment-directory",
+        type=Path,
+        required=True,
+    )
+    root_lp.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    root_lp.add_argument(
+        "--root-lp-time-limit",
+        type=float,
+        default=30.0,
+    )
+    root_lp.set_defaults(func=_scan_root_lp)
+
+    root_lp_verify = subparsers.add_parser(
+        "verify-root-lp",
+        help=(
+            "verify every exact root-LP Farkas proof with VeriPB "
+            "--requireUnsat and preserve hashes and logs"
+        ),
+    )
+    root_lp_verify.add_argument(
+        "--root-lp-directory",
+        type=Path,
+        required=True,
+    )
+    root_lp_verify.add_argument("--verifier", type=Path, required=True)
+    root_lp_verify.add_argument(
+        "--verifier-python",
+        type=Path,
+        required=True,
+    )
+    root_lp_verify.add_argument(
+        "--verifier-wheel",
+        type=Path,
+        required=True,
+    )
+    root_lp_verify.add_argument(
+        "--verifier-build-provenance",
+        type=Path,
+        required=True,
+    )
+    root_lp_verify.add_argument(
+        "--output-directory",
+        type=Path,
+        required=True,
+    )
+    root_lp_verify.add_argument(
+        "--timeout-seconds",
+        type=float,
+        default=60.0,
+    )
+    root_lp_verify.set_defaults(func=_verify_root_lp)
 
     formulas = subparsers.add_parser(
         "generate-formulas",

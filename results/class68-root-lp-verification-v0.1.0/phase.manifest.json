@@ -1,0 +1,334 @@
+{
+  "artifacts": {
+    "independent_audit": {
+      "bytes": 7167,
+      "path": "independent-audit.json",
+      "sha256": "79a3e6db1272e03f7669e73af4546df001ed2188b29601acbe1956877f8a344a"
+    },
+    "verification_manifest": {
+      "bytes": 13932,
+      "path": "verification.manifest.json",
+      "sha256": "5d117e361cf277c3102c55507d3c902f8197ba31fe58822ad546007ef60ac995"
+    }
+  },
+  "input": {
+    "class_index": 68,
+    "proof_orbit_indices": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      11
+    ],
+    "root_lp_independent_audit_sha256": "97d053f58ef2f269e4109f8cbbbee69584219cddae80611fbce2cb8267ed67da",
+    "root_lp_manifest_sha256": "ea9fbae84801906d6ac35f238e3f06cfb0625a123034083da39d0cded051871c",
+    "root_lp_phase_manifest_sha256": "2f6df256d087a71dabaaccd892e2d15470f0934273e36cefb7d0e727939e2a06",
+    "root_lp_sha256sums_sha256": "33c41b072d5a44bf7520ccea97d71785f61a2f24882f2203ab34b104168a50b9"
+  },
+  "instances": [
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 0,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 1,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 2,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 3,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 4,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        3,
+        8
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 5,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 6,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 7,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 8,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 9,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        1,
+        8,
+        11
+      ],
+      "exact_root_lp_status": "EXACT_LP_FEASIBLE",
+      "formal_disposition": "SURVIVES_ROOT_LP",
+      "formal_pruning_authorized": false,
+      "orbit_index": 10,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "NOT_STARTED",
+        "root_lp": "LP_FEASIBLE",
+        "verification": "NOT_STARTED"
+      }
+    },
+    {
+      "candidate_minimum_points": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "exact_root_lp_status": "EXACT_FARKAS_CONTRADICTION",
+      "formal_disposition": "FORMALLY_PRUNED_ROOT_LP",
+      "formal_pruning_authorized": true,
+      "orbit_index": 11,
+      "status_ledger": {
+        "direct_containment": "ENUMERATED",
+        "formula": "FORMULAS_GENERATED",
+        "proof": "PROOF_GENERATED",
+        "root_lp": "SOLVER_UNSAT",
+        "verification": "VERIFIED_UNSAT"
+      }
+    }
+  ],
+  "producer": {
+    "command": "verify-root-lp",
+    "package": "horizonlink",
+    "version": "0.9.0"
+  },
+  "schema_version": "horizonmath.root-lp-verification-checkpoint.v1",
+  "scope_guardrails": {
+    "C_13_7_4_equals_30_claimed": false,
+    "all_candidate_orbits_accounted_for": true,
+    "all_verifier_runs_used_requireUnsat": true,
+    "class_elimination_claimed": false,
+    "formal_orbit_pruning_authorized_only_for_verified_unsat": true,
+    "milp_run": false,
+    "root_lp_run": true,
+    "roundingsat_run": false,
+    "verifier_run": true
+  },
+  "status": "ENUMERATED",
+  "status_ledger": {
+    "candidate_formulas": "FORMULAS_GENERATED",
+    "class": "ENUMERATED",
+    "direct_containment": "ENUMERATED",
+    "proof": "PROOF_GENERATED",
+    "root_lp": "ENUMERATED",
+    "verification": "VERIFIED_UNSAT"
+  },
+  "summary": {
+    "candidate_orbits_accounted_for": 12,
+    "class_formally_eliminated": false,
+    "exact_farkas_proofs_verified": 6,
+    "exact_lp_feasible_survivors": 6,
+    "formal_orbits_pruned": 6,
+    "formally_pruned_orbit_indices": [
+      1,
+      3,
+      6,
+      7,
+      8,
+      11
+    ],
+    "independent_verification_audit_records_passed": 6,
+    "survivor_orbit_indices": [
+      0,
+      2,
+      4,
+      5,
+      9,
+      10
+    ]
+  },
+  "verifier": {
+    "build_provenance": {
+      "immutable_source_sha256": "c4c1ddc812affd9bd05c452855bdfcd614a68906f8bf536fab8bcd4b3123ae56",
+      "name": "build.provenance.json",
+      "sha256": "b829e64b9b6c0872bd6dc2e8cb89702ac8c29ec9c6697637d7d97aa8854d2f99"
+    },
+    "executable": {
+      "name": "veripb",
+      "sha256": "8dea913b0d733caace759f85c0f18c6bd4ac1180fee322ba5414f738db209112"
+    },
+    "installed_wheel_audit": {
+      "all_recorded_files_match": true,
+      "installed_record_tree_sha256": "a13ea536342510b0c80a387eefd6ed3fcb4cbb8404813373d3ee0b5178252610",
+      "matched_files": 31,
+      "recorded_files": 31,
+      "reported_version": "0.3a0"
+    },
+    "name": "VeriPB",
+    "reported_package_version": "0.3a0",
+    "required_flag": "--requireUnsat",
+    "wheel": {
+      "name": "veripb-0.3a0-cp312-cp312-linux_x86_64.whl",
+      "sha256": "3844f3b416c870f6ef96fc737125e4ec97b6cfd1c4d1726a2bc158626c77b369"
+    }
+  }
+}
